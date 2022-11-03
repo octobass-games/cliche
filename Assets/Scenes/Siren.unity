@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 1744942330}
   - component: {fileID: 1744942331}
   m_Layer: 0
-  m_Name: grass-generator
+  m_Name: wave-generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
