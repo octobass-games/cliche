@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Judge : MonoBehaviour
@@ -16,44 +14,50 @@ public class Judge : MonoBehaviour
     public AudioClip OkaySound;
     public AudioClip MissSound;
 
+    public Conductor MusicConductor;
+
     private float TotalScore = 0;
 
-    public void Score(float distanceFromCentre)
+    public void PassJudgement()
     {
-        if (IsPerfect(distanceFromCentre))
+        float distanceFromNextNote = MusicConductor.GetDistanceFromNextNote();
+
+        if (IsPerfect(distanceFromNextNote))
         {
-            TotalScore += PerfectScore;
-            ScoreSounder.PlayOneShot(PerfectSound);
+            Score(PerfectScore, PerfectSound);
         }
-        else if (IsGood(distanceFromCentre))
+        else if (IsGood(distanceFromNextNote))
         {
-            TotalScore += GoodScore;
-            ScoreSounder.PlayOneShot(GoodSound);
+            Score(GoodScore, GoodSound);
         }
-        else if (IsOkay(distanceFromCentre))
+        else if (IsOkay(distanceFromNextNote))
         {
-            TotalScore += OkayScore;
-            ScoreSounder.PlayOneShot(OkaySound);
+            Score(OkayScore, OkaySound);
         }
         else
         {
-            TotalScore += MissScore;
-            ScoreSounder.PlayOneShot(MissSound);
+            Score(MissScore, MissSound);
         }
     }
 
-    private bool IsPerfect(float distanceFromCentre)
+    private void Score(int points, AudioClip clip)
     {
-        return distanceFromCentre < 0.5;
+        TotalScore += points;
+        Debug.Log("Points: " + points + ", Total score: " + TotalScore);
     }
 
-    private bool IsGood(float distanceFromCentre)
+    private bool IsPerfect(float distanceFromNextNote)
     {
-        return distanceFromCentre < 0.75;
+        return distanceFromNextNote < 0.5;
     }
 
-    private bool IsOkay(float distanceFromCentre)
+    private bool IsGood(float distanceFromNextNote)
     {
-        return distanceFromCentre <= 1;
+        return distanceFromNextNote < 0.75;
+    }
+
+    private bool IsOkay(float distanceFromNextNote)
+    {
+        return distanceFromNextNote <= 1;
     }
 }

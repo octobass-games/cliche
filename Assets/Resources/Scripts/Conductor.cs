@@ -34,4 +34,9 @@ public class Conductor : MonoBehaviour
             note.transform.position = note.transform.position + displacement;
         }
     }
+
+    public float GetDistanceFromNextNote()
+    {
+        return 0f;
+    }
 }
