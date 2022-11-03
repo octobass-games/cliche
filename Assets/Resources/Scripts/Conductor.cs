@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
+    public GameObject NotePrefab;
     public int BPM;
+
     public float[] BeatLocations = { 1, 2, 3 };
 
     private const int BeatLength = 100;
@@ -15,7 +17,7 @@ public class Conductor : MonoBehaviour
         {
             float beatLocation = BeatLocations[i] * BeatLength;
 
-            GameObject beat = new GameObject();
+            GameObject beat = Instantiate(NotePrefab);
             beat.transform.position = new Vector3(beatLocation, 0, 0);
 
             Beats.Add(beat);
