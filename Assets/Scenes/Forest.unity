@@ -748,6 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f3dfb8d1d1eaf48acd41d34f45b990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerJudge: {fileID: 1983643123}
 --- !u!114 &1035850145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,6 +1050,7 @@ MonoBehaviour:
   GoodSound: {fileID: 0}
   OkaySound: {fileID: 0}
   MissSound: {fileID: 0}
+  MusicConductor: {fileID: 514769449}
 --- !u!4 &1983643124
 Transform:
   m_ObjectHideFlags: 0
