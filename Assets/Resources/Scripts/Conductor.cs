@@ -7,8 +7,9 @@ public class Conductor : MonoBehaviour
     public GameObject NotePrefab;
     public float[] NoteTimes = { 1, 2, 3 };
 
-    private float BeatsPerSecond = 100;
-    private List<GameObject> Notes = new();
+    public float BeatsPerSecond;
+    private List<Note> Notes = new();
+    public List<Target> Targets;
 
     void Start()
     {
@@ -21,23 +22,24 @@ public class Conductor : MonoBehaviour
         MoveNotes();
     }
 
-    public float GetDistanceFromNextNote()
+    public (float, Note) GetDistanceFromNextNote(NoteType noteType)
     {
-        return 0f;
+        Target target = Targets.Find(t => t.NoteType == noteType);
+        return target.Hit();
     }
 
     private void CreateNotes()
     {
         for (int i = 0; i < NoteTimes.Length; i++)
         {
-            float noteLocation = NoteTimes[i] * BeatsPerSecond;
+            float noteLocation = NoteTimes[i] * 100;
 
             GameObject note = Instantiate(NotePrefab);
 
             note.transform.SetParent(transform);
-            note.transform.position = new Vector3(noteLocation, 0, 0);
+            note.transform.position = new Vector3(noteLocation, transform.position.y, 0);
 
-            Notes.Add(note);
+            Notes.Add(note.GetComponent<Note>());
         }
     }
 
@@ -45,10 +47,17 @@ public class Conductor : MonoBehaviour
     {
         for (int i = 0; i < NoteTimes.Length; i++)
         {
-            GameObject note = Notes[i];
+            Note note = Notes[i];
 
-            Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
-            note.transform.position = note.transform.position + displacement;
+            if (note.transform.position.x < -100 && !note.success)
+            {
+                // note should be removed somehow
+                
+            }else
+            {
+                Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
+                note.transform.position = note.transform.position + displacement;
+            }
         }
     }
 }

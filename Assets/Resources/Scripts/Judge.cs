@@ -18,25 +18,30 @@ public class Judge : MonoBehaviour
 
     private float TotalScore = 0;
 
-    public void PassJudgement()
+    public void PassJudgement(NoteType noteType)
     {
-        float distanceFromNextNote = Conductor.GetDistanceFromNextNote();
+        var (distanceFromNextNote, note) = Conductor.GetDistanceFromNextNote(noteType);
+
+        if (note == null)
+        {
+            // no hit do target miss
+            return;
+        }
 
         if (IsPerfect(distanceFromNextNote))
         {
             Score(PerfectScore, PerfectSound);
+            note.SetPerfectCollided();
         }
         else if (IsGood(distanceFromNextNote))
         {
             Score(GoodScore, GoodSound);
+            note.SetGoodCollided();
         }
         else if (IsOkay(distanceFromNextNote))
         {
             Score(OkayScore, OkaySound);
-        }
-        else
-        {
-            Score(MissScore, MissSound);
+            note.SetOkayCollided();
         }
     }
 

@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started) { 
             Debug.Log("Up pressed");
-            PlayerJudge.PassJudgement();
+            PlayerJudge.PassJudgement(NoteType.UP);
         }
     }
 
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             Debug.Log("Right pressed");
-            PlayerJudge.PassJudgement();
+            PlayerJudge.PassJudgement(NoteType.RIGHT);
         }
     }
 
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             Debug.Log("Down pressed");
-            PlayerJudge.PassJudgement();
+            PlayerJudge.PassJudgement(NoteType.DOWN);
         }
     }
 
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             Debug.Log("Left pressed");
-            PlayerJudge.PassJudgement();
+            PlayerJudge.PassJudgement(NoteType.LEFT);
         }
     }
 }
