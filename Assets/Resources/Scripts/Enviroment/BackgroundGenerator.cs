@@ -33,7 +33,9 @@ public class BackgroundGenerator : MonoBehaviour
     Tile AddTile(int position, Tile prevTile)
     {
         GameObject tileGO = new GameObject("Tile");
-        tileGO.AddComponent<SpriteRenderer>().sprite = Sprites.PickRandom();
+        SpriteRenderer sprite = tileGO.AddComponent<SpriteRenderer>();
+        sprite.sprite = Sprites.PickRandom();
+        sprite.sortingLayerName = "Overlay";
         tileGO.transform.position = new Vector2(position, transform.position.y);
         tileGO.transform.SetParent(transform);
         Tile tile = tileGO.AddComponent<Tile>();
