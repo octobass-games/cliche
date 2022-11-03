@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 0.3921569, g: 0.7725491, b: 0.8431373, a: 0.2509804}
@@ -154,8 +154,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 0.8313726, g: 0.5921569, b: 0.18431373, a: 0.24705882}
@@ -275,8 +275,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 0.5019608, g: 0.33333334, b: 0.73333335, a: 0.2509804}
@@ -359,8 +359,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -1530394118, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.62352943}
@@ -443,8 +443,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 0.8078432, g: 0.2627451, b: 0.57254905, a: 0.2509804}
@@ -527,8 +527,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 0.30215383, g: 0.38244542, b: 0.6603774, a: 0.39607844}
