@@ -4,34 +4,34 @@ using UnityEngine;
 public class Conductor : MonoBehaviour
 {
     public GameObject NotePrefab;
-    public int BPM;
-
-    public float[] BeatLocations = { 1, 2, 3 };
+    public float[] NoteTimes = { 1, 2, 3 };
 
     private const int BeatLength = 100;
-    private List<GameObject> Beats = new();
+    private List<GameObject> Notes = new();
 
     void Start()
     {
-        for (int i = 0; i < BeatLocations.Length; i++)
+        for (int i = 0; i < NoteTimes.Length; i++)
         {
-            float beatLocation = BeatLocations[i] * BeatLength;
+            float noteLocation = NoteTimes[i] * BeatLength;
 
-            GameObject beat = Instantiate(NotePrefab);
-            beat.transform.position = new Vector3(beatLocation, 0, 0);
+            GameObject note = Instantiate(NotePrefab);
 
-            Beats.Add(beat);
+            note.transform.SetParent(transform);
+            note.transform.position = new Vector3(noteLocation, 0, 0);
+
+            Notes.Add(note);
         }
     }
 
     void Update()
     {
-        for (int i = 0; i < BeatLocations.Length; i++)
+        for (int i = 0; i < NoteTimes.Length; i++)
         {
-            GameObject beat = Beats[i];
+            GameObject note = Notes[i];
 
             Vector3 displacement = BeatLength * Vector3.left * Time.deltaTime;
-            beat.transform.position = beat.transform.position + displacement;
+            note.transform.position = note.transform.position + displacement;
         }
     }
 }
