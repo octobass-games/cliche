@@ -25,4 +25,9 @@ public class Target : MonoBehaviour
 
         return float.PositiveInfinity;
     }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        
+    }
 }

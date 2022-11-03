@@ -14,13 +14,13 @@ public class Judge : MonoBehaviour
     public AudioClip OkaySound;
     public AudioClip MissSound;
 
-    public Conductor MusicConductor;
+    public Conductor Conductor;
 
     private float TotalScore = 0;
 
     public void PassJudgement()
     {
-        float distanceFromNextNote = MusicConductor.GetDistanceFromNextNote();
+        float distanceFromNextNote = Conductor.GetDistanceFromNextNote();
 
         if (IsPerfect(distanceFromNextNote))
         {
@@ -40,10 +40,10 @@ public class Judge : MonoBehaviour
         }
     }
 
-    private void Score(int points, AudioClip clip)
+    private void Score(int score, AudioClip clip)
     {
-        TotalScore += points;
-        Debug.Log("Points: " + points + ", Total score: " + TotalScore);
+        TotalScore += score;
+        Debug.Log("Score: " + score + ", Total score: " + TotalScore);
     }
 
     private bool IsPerfect(float distanceFromNextNote)
