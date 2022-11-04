@@ -15,7 +15,7 @@ public class TrackLoader : MonoBehaviour
         List<NoteDescription> noteDescriptions = ParseTrackFile();
         List<GameObject> notes = ParseNoteDescriptions(noteDescriptions);
 
-        Conductor.Start(notes);
+        Conductor.StartPlaying(notes);
     }
 
     private List<NoteDescription> ParseTrackFile()

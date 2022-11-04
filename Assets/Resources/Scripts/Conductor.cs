@@ -14,7 +14,7 @@ public class Conductor : MonoBehaviour
         MoveNotes();
     }
 
-    public void Start(List<GameObject> notes)
+    public void StartPlaying(List<GameObject> notes)
     {
         Notes = notes;
     }
