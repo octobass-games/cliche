@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Target : MonoBehaviour
 {
-    public NoteType NoteType;
     public Conductor Conductor;
     public SpriteRenderer InnerRenderer;
 

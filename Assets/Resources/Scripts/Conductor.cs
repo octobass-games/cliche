@@ -10,7 +10,6 @@ public class Conductor : MonoBehaviour
 
     public float BeatsPerSecond;
     private List<Note> Notes = new();
-    public List<Target> Targets;
 
     void Start()
     {
