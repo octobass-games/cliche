@@ -590,6 +590,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: main-character-animation_22
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b77ed267758df4bb6ca0ae161994a5
+      internalID: -1276617549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_23
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331a435f48f472f44af8d1feeb7a65bc
+      internalID: 47961609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_24
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f24f83b164c7a4798fa381733c488f
+      internalID: -791213786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c9ed948d26b9d4ca38ecda246852a4
+      internalID: -1449530298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_26
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5740c82bd5cccd545813848d1fcee74d
+      internalID: -206615020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_27
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df18ede3cdc037e4384df598cfa6a79f
+      internalID: 296529190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -603,14 +729,19 @@ TextureImporter:
     nameFileIdTable:
       main-character-animation_21: -973646761
       main-character-animation_20: -1022675910
+      main-character-animation_24: -791213786
       main-character-animation_10: 1259160210
       main-character-animation_3: -1462012810
+      main-character-animation_23: 47961609
       main-character-animation_5: -1136078007
       main-character-animation_17: 1056992056
+      main-character-animation_22: -1276617549
       main-character-animation_6: 689678322
       main-character-animation_18: -352055075
       main-character-animation_19: -1108698732
+      main-character-animation_26: -206615020
       main-character-animation_14: -774899177
+      main-character-animation_25: -1449530298
       main-character-animation_0: 395020085
       main-character-animation_11: -1048210824
       main-character-animation_8: 1282715746
@@ -623,6 +754,7 @@ TextureImporter:
       main-character-animation_12: 408909946
       main-character-animation_13: 1823200449
       main-character-animation_4: -1064523303
+      main-character-animation_27: 296529190
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
