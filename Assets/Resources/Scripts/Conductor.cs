@@ -4,9 +4,10 @@ using UnityEngine;
 public class Conductor : MonoBehaviour
 {
     public GameObject NotePrefab;
-    public float[] NoteTimes = { 1, 2, 3 };
+    public NoteType2[] NoteTimes = { new NoteType2(NoteType.UP, 1), new NoteType2(NoteType.RIGHT, 2), new NoteType2(NoteType.DOWN, 3), new NoteType2(NoteType.LEFT, 4) };
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
+    public TrackHighway TrackHighway;
 
     public float BeatsPerSecond;
     private List<Note> Notes = new();
@@ -50,15 +51,17 @@ public class Conductor : MonoBehaviour
     {
         for (int i = 0; i < NoteTimes.Length; i++)
         {
-            float noteLocation = NoteTimes[i] * 100;
+            NoteType2 noteLocation = NoteTimes[i];
 
             GameObject note = Instantiate(NotePrefab);
-
-            note.transform.SetParent(transform);
-            note.transform.position = new Vector3(noteLocation, transform.position.y, 0);
+            Note noteComponent = note.GetComponent<Note>();
+            noteComponent.InitialX = noteLocation.Time * 100;
+            noteComponent.NoteType = noteLocation.Type;
 
             Notes.Add(note.GetComponent<Note>());
         }
+
+        TrackHighway.PlaceNotes(Notes);
     }
 
     private void MoveNotes()

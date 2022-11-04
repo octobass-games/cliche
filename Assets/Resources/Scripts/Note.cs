@@ -2,8 +2,10 @@
 
 public class Note : MonoBehaviour
 {
+    public NoteType NoteType;
     public Animator animator;
     public SpriteRenderer sprite;
+    public float InitialX;
 
     public void SetPerfectCollided()
     {
