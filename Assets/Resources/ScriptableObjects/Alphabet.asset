@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb36c700151269244ab61f963e264ccf, type: 3}
+  m_Name: Alphabet
+  m_EditorClassIdentifier: 
+  A: {fileID: -625489364, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  B: {fileID: -322738047, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  C: {fileID: 1355382067, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  D: {fileID: -1977041243, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  E: {fileID: -656598741, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  F: {fileID: 4433552, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  G: {fileID: 17029075, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  H: {fileID: 341080994, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  I: {fileID: -1069994044, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  J: {fileID: -588112643, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  K: {fileID: -1449796475, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  L: {fileID: -1705631329, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  M: {fileID: -1664637751, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  N: {fileID: -1979135207, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  O: {fileID: -168879023, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  P: {fileID: -738193679, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Q: {fileID: -305159218, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  R: {fileID: 1688531280, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  S: {fileID: -717689130, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  T: {fileID: 1590017865, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  U: {fileID: -14888421, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  V: {fileID: -1226363571, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  W: {fileID: -1965560774, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  X: {fileID: 1787619298, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Y: {fileID: 560626292, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Z: {fileID: -83354498, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  One: {fileID: 474819504, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Two: {fileID: 1094418254, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Three: {fileID: -1866676228, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Four: {fileID: 454785382, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Five: {fileID: 1074776768, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Six: {fileID: 1837591003, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Seven: {fileID: -1950841112, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Eight: {fileID: 1590701810, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Nine: {fileID: -349853780, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Zero: {fileID: -135435116, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  ExclamationMark: {fileID: -87249001, guid: a59796674eeb169488182297ca42e8c6, type: 3}

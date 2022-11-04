@@ -1,0 +1,105 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TextRenderer : MonoBehaviour
+{
+
+    public AlphaNumericContainer alphabet;
+    public string Layer = "Text";
+
+    public GameObject MakeWord(string word, Vector2 Position)
+    {
+        var sprites = GetSpritesForWord(word);
+
+        GameObject parent = new GameObject();
+
+        for (int i = 0; i < sprites.Count; i++)
+        {
+            Sprite sprite = sprites[i ];
+            Sprite prevSprite = i == 0 ? null : sprites[i - 1];
+
+            GameObject child = new GameObject();
+
+            SpriteRenderer renderer = child.AddComponent<SpriteRenderer>();
+
+            renderer.sprite = sprite;
+            renderer.sortingLayerName = Layer;
+            parent.transform.SetParent(child.transform);
+
+            child.transform.localPosition = new Vector2(0, 0);
+
+            var prevChild = parent.transform.GetChild(i - 1);
+
+            if (prevSprite != null)
+            {
+                child.transform.localPosition = new Vector2(prevChild.localPosition.x + prevSprite.bounds.size.x, 0);
+            }
+        }
+
+        return parent;
+
+    }
+
+    private List<Sprite> GetSpritesForWord(string word)
+    {
+        List<Sprite> sprites = new List<Sprite>();
+        foreach (char c in word)
+        {
+            var sprite = GetSpriteForCharacter(c);
+
+            if (sprite != null)
+            {
+                sprites.Add(sprite);
+            }
+        }
+
+
+        return sprites;
+    }
+
+    private Sprite GetSpriteForCharacter(char character)
+    {
+        switch (character)
+        {
+            case 'a': return alphabet.A;
+            case 'b': return alphabet.B;
+            case 'c': return alphabet.C;
+            case 'd': return alphabet.D;
+            case 'e': return alphabet.E;
+            case 'f': return alphabet.F;
+            case 'g': return alphabet.G;
+            case 'h': return alphabet.H;
+            case 'i': return alphabet.I;
+            case 'j': return alphabet.J;
+            case 'k': return alphabet.K;
+            case 'l': return alphabet.L;
+            case 'm': return alphabet.M;
+            case 'n': return alphabet.N;
+            case 'o': return alphabet.O;
+            case 'p': return alphabet.P;
+            case 'q': return alphabet.Q;
+            case 'r': return alphabet.R;
+            case 's': return alphabet.S;
+            case 't': return alphabet.T;
+            case 'u': return alphabet.U;
+            case 'v': return alphabet.V;
+            case 'w': return alphabet.W;
+            case 'x': return alphabet.X;
+            case 'y': return alphabet.Y;
+            case 'z': return alphabet.Z;
+            case '1': return alphabet.One;
+            case '2': return alphabet.Two;
+            case '3': return alphabet.Three;
+            case '4': return alphabet.Four;
+            case '5': return alphabet.Five;
+            case '6': return alphabet.Six;
+            case '7': return alphabet.Seven;
+            case '8': return alphabet.Eight;
+            case '9': return alphabet.Nine;
+            case '0': return alphabet.Zero;
+            case '!': return alphabet.ExclamationMark;
+        }
+        return null;
+    }
+}
