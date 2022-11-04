@@ -24,7 +24,7 @@ public class CharacterAnimatorController : MonoBehaviour
 
     public void RandomDance()
     {
-        int danceN = Random.Range(1, 5);
+        int danceN = Random.Range(1, 6);
         Animator.SetInteger("Dance", danceN);
     }
 }

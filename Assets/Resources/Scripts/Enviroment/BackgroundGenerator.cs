@@ -9,6 +9,7 @@ public class BackgroundGenerator : MonoBehaviour
     public int CanvasWidth = 480;
     private int tileWidth = 10;
     private int tilesPerPage = 0;
+    public string Layer = "Overlay";
 
     private List<Tile> tiles = new List<Tile>();
 
@@ -35,7 +36,7 @@ public class BackgroundGenerator : MonoBehaviour
         GameObject tileGO = new GameObject("Tile");
         SpriteRenderer sprite = tileGO.AddComponent<SpriteRenderer>();
         sprite.sprite = Sprites.PickRandom();
-        sprite.sortingLayerName = "Overlay";
+        sprite.sortingLayerName = Layer;
         tileGO.transform.position = new Vector2(position, transform.position.y);
         tileGO.transform.SetParent(transform);
         Tile tile = tileGO.AddComponent<Tile>();
