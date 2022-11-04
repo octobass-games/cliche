@@ -20,19 +20,22 @@ public class Target : MonoBehaviour
         Collider = GetComponent<BoxCollider2D>();
     }
 
-    public (float, Note) Hit()
+    public TargetStrikeResult GetTargetStrikeResult()
     {
         Array.Clear(OverlappingColliders, 0, 1);
+
         int overlappingColliderCount = Collider.OverlapCollider(ContactFilter, OverlappingColliders);
 
         if (overlappingColliderCount > 0)
         {
             Collider2D noteCollider = OverlappingColliders[0];
 
-            return (Mathf.Abs((noteCollider.bounds.center - Collider.bounds.center).x), noteCollider.GetComponent<Note>());
+            float distanceFromCentre = Mathf.Abs((noteCollider.bounds.center - Collider.bounds.center).x);
+           
+            return new TargetStrikeResult(distanceFromCentre, noteCollider.gameObject);
         }
 
-        return (float.PositiveInfinity, null);
+        return new TargetStrikeResult(0f, null);
     }
 
     public void OnStrike(InputAction.CallbackContext context)
@@ -40,6 +43,10 @@ public class Target : MonoBehaviour
         if (context.started)
         {
             StartCoroutine(HighlightIndicator());
+
+            TargetStrikeResult result = GetTargetStrikeResult();
+
+            Conductor.PlayedNote(result);
         }
     }
 

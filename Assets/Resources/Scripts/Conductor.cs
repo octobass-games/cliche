@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
-    public int BeatsPerMinute;
     public GameObject NotePrefab;
     public float[] NoteTimes = { 1, 2, 3 };
 
@@ -13,7 +12,6 @@ public class Conductor : MonoBehaviour
 
     void Start()
     {
-        // BeatsPerSecond = 60 / BeatsPerMinute;
         CreateNotes();
     }
 
@@ -22,10 +20,15 @@ public class Conductor : MonoBehaviour
         MoveNotes();
     }
 
-    public (float, Note) GetDistanceFromNextNote(NoteType noteType)
+    public void PlayedNote(TargetStrikeResult targetStrikeResult)
     {
-        Target target = Targets.Find(t => t.NoteType == noteType);
-        return target.Hit();
+        if (targetStrikeResult.Note == null)
+        {
+            MissedNote();
+        } else
+        {
+            Debug.Log("Note played correctly");
+        }
     }
 
     public void MissedNote()
@@ -55,16 +58,8 @@ public class Conductor : MonoBehaviour
         for (int i = 0; i < Notes.Count; i++)
         {
             Note note = Notes[i];
-
-            if (note.transform.position.x < -100 && !note.success)
-            {
-                // note should be removed somehow
-                
-            }else
-            {
-                Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
-                note.transform.position = note.transform.position + displacement;
-            }
+            Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
+            note.transform.position = note.transform.position + displacement;
         }
     }
 }
