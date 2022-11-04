@@ -445,7 +445,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 135
+  orthographic size: 0
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -933,6 +933,14 @@ PrefabInstance:
       propertyPath: NoteType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3245828828321408759, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 514769449}
+    - target: {fileID: 3245828828321408759, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: InnerRenderer
+      value: 
+      objectReference: {fileID: 1621357523}
     - target: {fileID: 3476292403262770966, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -991,6 +999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+--- !u!212 &1621357523 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3476292402838883624, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+  m_PrefabInstance: {fileID: 1621357522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1744942329
 GameObject:
   m_ObjectHideFlags: 0

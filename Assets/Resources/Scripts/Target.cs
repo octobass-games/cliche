@@ -1,13 +1,19 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class Target : MonoBehaviour
 {
+    public NoteType NoteType;
+    public Conductor Conductor;
+    public SpriteRenderer InnerRenderer;
+
     private BoxCollider2D Collider;
     private Collider2D[] OverlappingColliders = new Collider2D[1];
     private ContactFilter2D ContactFilter = new ContactFilter2D().NoFilter();
-    public NoteType NoteType;
+    private bool IsHighlighted = false;
 
     private void Awake()
     {
@@ -29,8 +35,35 @@ public class Target : MonoBehaviour
         return (float.PositiveInfinity, null);
     }
 
+    public void OnStrike(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            StartCoroutine(HighlightIndicator());
+        }
+    }
+
     void OnTriggerExit2D(Collider2D collider)
     {
-        
+        Debug.Log("Missed note");
+        Conductor.MissedNote();
+    }
+
+    private IEnumerator HighlightIndicator()
+    {
+        if (!IsHighlighted)
+        {
+            Debug.Log("Highlighting indicator");
+            Color originalColor = InnerRenderer.color;
+
+            InnerRenderer.color = Color.white;
+            IsHighlighted = true;
+
+            yield return new WaitForSeconds(0.1f);
+
+            Debug.Log("Unhighlighting indicator");
+            InnerRenderer.color = originalColor;
+            IsHighlighted = false;
+        }
     }
 }

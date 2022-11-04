@@ -7,10 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnUp(InputAction.CallbackContext context)
     {
-        if (context.started) { 
-            Debug.Log("Up pressed");
-            PlayerJudge.PassJudgement(NoteType.UP);
-        }
+
     }
 
     public void OnRight(InputAction.CallbackContext context)

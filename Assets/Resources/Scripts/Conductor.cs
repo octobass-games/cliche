@@ -28,6 +28,13 @@ public class Conductor : MonoBehaviour
         return target.Hit();
     }
 
+    public void MissedNote()
+    {
+        GameObject note = Notes[0].gameObject;
+        Notes.RemoveAt(0);
+        Destroy(note);
+    }
+
     private void CreateNotes()
     {
         for (int i = 0; i < NoteTimes.Length; i++)
@@ -45,7 +52,7 @@ public class Conductor : MonoBehaviour
 
     private void MoveNotes()
     {
-        for (int i = 0; i < NoteTimes.Length; i++)
+        for (int i = 0; i < Notes.Count; i++)
         {
             Note note = Notes[i];
 
