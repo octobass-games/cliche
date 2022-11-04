@@ -10,6 +10,8 @@ public class BackgroundGenerator : MonoBehaviour
     private int tileWidth = 10;
     private int tilesPerPage = 0;
     public string Layer = "Overlay";
+    public Color Colour = Color.white;
+    public bool RandomOpacity = false;
 
     private List<Tile> tiles = new List<Tile>();
 
@@ -36,6 +38,9 @@ public class BackgroundGenerator : MonoBehaviour
         GameObject tileGO = new GameObject("Tile");
         SpriteRenderer sprite = tileGO.AddComponent<SpriteRenderer>();
         sprite.sprite = Sprites.PickRandom();
+        sprite.color = Colour;
+
+        SetOpacity(sprite);
         sprite.sortingLayerName = Layer;
         tileGO.transform.position = new Vector2(position, transform.position.y);
         tileGO.transform.SetParent(transform);
@@ -47,8 +52,18 @@ public class BackgroundGenerator : MonoBehaviour
 
     void ResetTile(Tile tile)
     {
-        tile.GetComponent<SpriteRenderer>().sprite = Sprites.PickRandom();
+        var renderer = tile.GetComponent<SpriteRenderer>();
+        renderer.sprite = Sprites.PickRandom();
+        SetOpacity(renderer);
         tile.transform.position = new Vector2(tile.PrevTileRightX(), transform.position.y);
+    }
+
+    private void SetOpacity(SpriteRenderer sprite)
+    {
+        if (RandomOpacity)
+        {
+            sprite.color = new Color(Colour.r, Colour.g, Colour.b, Random.Range(0.2f, 1f));
+        }
     }
 
     void Update()
