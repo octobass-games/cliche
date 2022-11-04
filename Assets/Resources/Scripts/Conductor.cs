@@ -3,23 +3,20 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
-    public GameObject NotePrefab;
-    public NoteType2[] NoteTimes = { new NoteType2(NoteType.UP, 1), new NoteType2(NoteType.RIGHT, 2), new NoteType2(NoteType.DOWN, 3), new NoteType2(NoteType.LEFT, 4) };
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
-    public TrackHighway TrackHighway;
 
     public float BeatsPerSecond;
-    private List<Note> Notes = new();
-
-    void Start()
-    {
-        CreateNotes();
-    }
+    private List<GameObject> Notes = new();
 
     void Update()
     {
         MoveNotes();
+    }
+
+    public void Start(List<GameObject> notes)
+    {
+        Notes = notes;
     }
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
@@ -47,28 +44,11 @@ public class Conductor : MonoBehaviour
         Destroy(note);
     }
 
-    private void CreateNotes()
-    {
-        for (int i = 0; i < NoteTimes.Length; i++)
-        {
-            NoteType2 noteLocation = NoteTimes[i];
-
-            GameObject note = Instantiate(NotePrefab);
-            Note noteComponent = note.GetComponent<Note>();
-            noteComponent.InitialX = noteLocation.Time * 100;
-            noteComponent.NoteType = noteLocation.Type;
-
-            Notes.Add(note.GetComponent<Note>());
-        }
-
-        TrackHighway.PlaceNotes(Notes);
-    }
-
     private void MoveNotes()
     {
         for (int i = 0; i < Notes.Count; i++)
         {
-            Note note = Notes[i];
+            GameObject note = Notes[i];
             Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
             note.transform.position = note.transform.position + displacement;
         }

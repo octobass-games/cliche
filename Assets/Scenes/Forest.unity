@@ -337,10 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NotePrefab: {fileID: 7567762595777165622, guid: 68e2a5e2532bc7f4495ab4e42b0c4a9f, type: 3}
   CharacterAnimatorController: {fileID: 504019082}
   Judge: {fileID: 1983643123}
-  TrackHighway: {fileID: 1659665136}
   BeatsPerSecond: 10
 --- !u!4 &514769450
 Transform:
@@ -751,6 +749,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &776854395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776854397}
+  - component: {fileID: 776854396}
+  m_Layer: 0
+  m_Name: Track loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &776854396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776854395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e54f8d33b4329e4cb5821870d52a9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpNotePrefab: {fileID: 7567762595777165622, guid: 3d2d8ba61e8ce164c84e55ba166a826d, type: 3}
+  RightNotePrefab: {fileID: 7567762595777165622, guid: 5355ce471ff174b4dbf97d8f90c0d8ff, type: 3}
+  DownNotePrefab: {fileID: 7567762595777165622, guid: f38fd112afac6f94f8826242d4d81537, type: 3}
+  LeftNotePrefab: {fileID: 7567762595777165622, guid: 68e2a5e2532bc7f4495ab4e42b0c4a9f, type: 3}
+  Conductor: {fileID: 514769449}
+--- !u!4 &776854397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776854395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 179.97186, y: 65.87669, z: -0.32323837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1005164634 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1675613525, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
@@ -1069,10 +1116,10 @@ MonoBehaviour:
   RightYCoord: 96
   DownYCoord: 79
   LeftYCoord: 62
-  UpSprite: {fileID: -80684752, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
-  RightSprite: {fileID: 211760925, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
-  DownSprite: {fileID: 1538193131, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
-  LeftSprite: {fileID: 1932232025, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  UpSprite: {fileID: -1150031941, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  RightSprite: {fileID: 1864380601, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  DownSprite: {fileID: 1324558975, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  LeftSprite: {fileID: -1628620956, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
 --- !u!4 &1659665137
 Transform:
   m_ObjectHideFlags: 0

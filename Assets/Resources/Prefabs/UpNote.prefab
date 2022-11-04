@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1976579585292646532}
   - component: {fileID: 7500971088529379000}
   m_Layer: 0
-  m_Name: Arrow
+  m_Name: UpNote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7567762595777165622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 67, y: 62, z: 0.9464713}
+  m_LocalPosition: {x: 67, y: 113, z: 0.9464713}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94,9 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94107b52027aa9148890fc1c1cdb5bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NoteType: 0
   animator: {fileID: 7567762597009558498}
   sprite: {fileID: 7567762597009558499}
-  success: 0
+  InitialX: 0
 --- !u!1 &7567762597009558500
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +172,7 @@ SpriteRenderer:
   m_SortingLayerID: 1132920521
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1628620956, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  m_Sprite: {fileID: -1150031941, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
