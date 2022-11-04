@@ -31,10 +31,4 @@ public class Note : MonoBehaviour
         sprite.color = Color.green;
 
     }
-
-
-    private void OnMissed()
-    {
-        Destroy(gameObject);
-    }
 }
