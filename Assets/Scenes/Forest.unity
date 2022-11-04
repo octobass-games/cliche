@@ -1065,10 +1065,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94a7939100c3eb8419903588456ea6aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UpYCoord: 26
-  RightYCoord: 9
-  DownYCoord: -8
-  LeftYCoord: -25
+  UpYCoord: 113
+  RightYCoord: 96
+  DownYCoord: 79
+  LeftYCoord: 62
+  UpSprite: {fileID: -80684752, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  RightSprite: {fileID: 211760925, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  DownSprite: {fileID: 1538193131, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+  LeftSprite: {fileID: 1932232025, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
 --- !u!4 &1659665137
 Transform:
   m_ObjectHideFlags: 0
