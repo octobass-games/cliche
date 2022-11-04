@@ -6,6 +6,7 @@ public class Conductor : MonoBehaviour
     public GameObject NotePrefab;
     public float[] NoteTimes = { 1, 2, 3 };
     public CharacterAnimatorController CharacterAnimatorController;
+    public Judge Judge;
 
     public float BeatsPerSecond;
     private List<Note> Notes = new();
@@ -30,6 +31,7 @@ public class Conductor : MonoBehaviour
         else
         {
             CharacterAnimatorController.RandomDance();
+            Judge.PassJudgement(targetStrikeResult);
         }
     }
 

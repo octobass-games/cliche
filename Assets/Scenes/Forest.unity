@@ -346,6 +346,7 @@ MonoBehaviour:
   - 5
   - 6
   CharacterAnimatorController: {fileID: 504019082}
+  Judge: {fileID: 1983643123}
   BeatsPerSecond: 10
   Targets:
   - {fileID: 528127806}
