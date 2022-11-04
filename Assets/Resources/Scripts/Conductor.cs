@@ -5,6 +5,8 @@ public class Conductor : MonoBehaviour
 {
     public GameObject NotePrefab;
     public float[] NoteTimes = { 1, 2, 3 };
+    public CharacterAnimatorController CharacterAnimatorController;
+    public Judge Judge;
 
     public float BeatsPerSecond;
     private List<Note> Notes = new();
@@ -24,14 +26,21 @@ public class Conductor : MonoBehaviour
     {
         if (targetStrikeResult.Note == null)
         {
-            MissedNote();
-        } else
+            Debug.Log("Uh oh!");
+        }
+        else
         {
-            Debug.Log("Note played correctly");
+            CharacterAnimatorController.RandomDance();
+            Judge.PassJudgement(targetStrikeResult);
         }
     }
 
     public void MissedNote()
+    {
+        RemoveNote();
+    }
+
+    private void RemoveNote()
     {
         GameObject note = Notes[0].gameObject;
         Notes.RemoveAt(0);

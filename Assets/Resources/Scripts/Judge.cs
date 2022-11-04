@@ -18,31 +18,25 @@ public class Judge : MonoBehaviour
 
     private float TotalScore = 0;
 
-    public void PassJudgement(NoteType noteType)
+    public void PassJudgement(TargetStrikeResult targetStrikeResult)
     {
-        GameObject note = null;
-        var distanceFromNextNote = 0f;
+        var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
+        var note = targetStrikeResult.Note.GetComponent<Note>();
 
-        if (note == null)
-        {
-            // no hit do target miss
-            return;
-        }
-
-        if (IsPerfect(distanceFromNextNote))
+        if (IsPerfect(distanceFromCentre))
         {
             Score(PerfectScore, PerfectSound);
-            //note.SetPerfectCollided();
+            note.SetPerfectCollided();
         }
-        else if (IsGood(distanceFromNextNote))
+        else if (IsGood(distanceFromCentre))
         {
             Score(GoodScore, GoodSound);
-            //note.SetGoodCollided();
+            note.SetGoodCollided();
         }
-        else if (IsOkay(distanceFromNextNote))
+        else if (IsOkay(distanceFromCentre))
         {
             Score(OkayScore, OkaySound);
-           //note.SetOkayCollided();
+            note.SetOkayCollided();
         }
     }
 

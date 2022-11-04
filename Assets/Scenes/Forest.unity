@@ -297,6 +297,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
+--- !u!114 &504019082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1357637064, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
+  m_PrefabInstance: {fileID: 504019081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e18f652a5d011c4b9a98a99acbe6595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &514769448
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BeatsPerMinute: 0
   NotePrefab: {fileID: 7567762595777165622, guid: 68e2a5e2532bc7f4495ab4e42b0c4a9f, type: 3}
   NoteTimes:
   - 1
@@ -335,6 +345,8 @@ MonoBehaviour:
   - 4
   - 5
   - 6
+  CharacterAnimatorController: {fileID: 504019082}
+  Judge: {fileID: 1983643123}
   BeatsPerSecond: 10
   Targets:
   - {fileID: 528127806}
@@ -445,7 +457,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 0
+  orthographic size: 140.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -750,6 +762,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &1005164634 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1675613525, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+  m_PrefabInstance: {fileID: 1621357522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1035850143
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,27 +777,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1035850146}
   - component: {fileID: 1035850145}
-  - component: {fileID: 1035850144}
   m_Layer: 0
-  m_Name: Player controller
+  m_Name: Player input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1035850144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035850143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46f3dfb8d1d1eaf48acd41d34f45b990, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerJudge: {fileID: 1983643123}
 --- !u!114 &1035850145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,9 +811,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1035850144}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnUp
+      - m_Target: {fileID: 528127806}
+        m_TargetAssemblyTypeName: Target, Assembly-CSharp
+        m_MethodName: OnStrike
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -824,9 +827,9 @@ MonoBehaviour:
     m_ActionName: Player controls/Up[/Keyboard/upArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1035850144}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnRight
+      - m_Target: {fileID: 730835808}
+        m_TargetAssemblyTypeName: Target, Assembly-CSharp
+        m_MethodName: OnStrike
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -840,9 +843,9 @@ MonoBehaviour:
     m_ActionName: Player controls/Right[/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1035850144}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnDown
+      - m_Target: {fileID: 1875820433}
+        m_TargetAssemblyTypeName: Target, Assembly-CSharp
+        m_MethodName: OnStrike
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -856,9 +859,9 @@ MonoBehaviour:
     m_ActionName: Player controls/Down[/Keyboard/downArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1035850144}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnLeft
+      - m_Target: {fileID: 2044601706}
+        m_TargetAssemblyTypeName: Target, Assembly-CSharp
+        m_MethodName: OnStrike
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -913,6 +916,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.047044754
       objectReference: {fileID: 0}
+    - target: {fileID: 1675613525, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1875820432, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
       propertyPath: m_Size.x
       value: 31.79948
@@ -933,6 +940,14 @@ PrefabInstance:
       propertyPath: NoteType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2603821004266540357, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 514769449}
+    - target: {fileID: 2603821004266540357, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: InnerRenderer
+      value: 
+      objectReference: {fileID: 1875820436}
     - target: {fileID: 3245828828321408759, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
       propertyPath: Conductor
       value: 
@@ -941,6 +956,18 @@ PrefabInstance:
       propertyPath: InnerRenderer
       value: 
       objectReference: {fileID: 1621357523}
+    - target: {fileID: 3476292402838883620, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476292402838883622, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476292402838883624, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3476292403262770966, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -993,10 +1020,26 @@ PrefabInstance:
       propertyPath: NoteType
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5217659682895222964, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 514769449}
+    - target: {fileID: 5217659682895222964, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: InnerRenderer
+      value: 
+      objectReference: {fileID: 1005164634}
     - target: {fileID: 7830298204676859619, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
       propertyPath: NoteType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7830298204676859619, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 514769449}
+    - target: {fileID: 7830298204676859619, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+      propertyPath: InnerRenderer
+      value: 
+      objectReference: {fileID: 2044601709}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
 --- !u!212 &1621357523 stripped
@@ -1072,6 +1115,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &1875820436 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3476292402838883622, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+  m_PrefabInstance: {fileID: 1621357522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1983643121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,3 +1370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &2044601709 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3476292402838883620, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
+  m_PrefabInstance: {fileID: 1621357522}
+  m_PrefabAsset: {fileID: 0}
