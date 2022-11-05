@@ -716,6 +716,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: main-character-animation_28
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc7c51d65500de42a39fbe7914145df
+      internalID: -34898437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_29
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde6332cc53f3734c9f140a16eee25f2
+      internalID: -1919148107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-animation_30
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba78cc8b82311f479549104db82f618
+      internalID: 2079554538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -732,6 +795,7 @@ TextureImporter:
       main-character-animation_24: -791213786
       main-character-animation_10: 1259160210
       main-character-animation_3: -1462012810
+      main-character-animation_28: -34898437
       main-character-animation_23: 47961609
       main-character-animation_5: -1136078007
       main-character-animation_17: 1056992056
@@ -754,6 +818,8 @@ TextureImporter:
       main-character-animation_12: 408909946
       main-character-animation_13: 1823200449
       main-character-animation_4: -1064523303
+      main-character-animation_29: -1919148107
+      main-character-animation_30: 2079554538
       main-character-animation_27: 296529190
   spritePackingTag: 
   pSDRemoveMatte: 0
