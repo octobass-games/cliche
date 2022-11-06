@@ -3,10 +3,7 @@ using UnityEngine;
 
 public class TrackLoader : MonoBehaviour
 {
-    public GameObject UpNotePrefab;
-    public GameObject RightNotePrefab;
-    public GameObject DownNotePrefab;
-    public GameObject LeftNotePrefab;
+    public NoteFactory NoteFactory;
 
     public Conductor Conductor;
 
@@ -21,10 +18,11 @@ public class TrackLoader : MonoBehaviour
     private List<NoteDescription> ParseTrackFile()
     {
         return new List<NoteDescription> {
-            new NoteDescription("up", 1),
-            new NoteDescription("right", 2),
-            new NoteDescription("down", 3),
-            new NoteDescription("left", 4)
+            new NoteDescription("tap", "up", 1, null),
+            new NoteDescription("tap", "right", 2, null),
+            new NoteDescription("tap", "down", 3, null),
+            new NoteDescription("tap", "left", 4, null),
+            new NoteDescription("chord", null, 5, new() { "up", "right", "left" })
         };
     }
 
@@ -35,31 +33,12 @@ public class TrackLoader : MonoBehaviour
         for (int i = 0; i < noteDescriptions.Count; i++)
         {
             NoteDescription noteDescription = noteDescriptions[i];
-            GameObject prefabForNoteDescription = GetPrefabByNoteName(noteDescription.Name);
-
-            GameObject note = Instantiate(prefabForNoteDescription);
+            GameObject note = NoteFactory.CreateNote(noteDescription);
             note.transform.position = new Vector3(noteDescription.Time * 100, note.transform.position.y, note.transform.position.z);
 
             notes.Add(note);
         }
 
         return notes;
-    }
-
-    private GameObject GetPrefabByNoteName(string noteName)
-    {
-        switch (noteName)
-        {
-            case "up":
-                return UpNotePrefab;
-            case "right":
-                return RightNotePrefab;
-            case "down":
-                return DownNotePrefab;
-            case "left":
-                return LeftNotePrefab;
-            default:
-                throw new System.Exception("Illegal note type: " + noteName);
-        }
     }
 }
