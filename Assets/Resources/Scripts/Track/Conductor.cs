@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
+    public GameObject Track;
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
 
@@ -18,6 +19,8 @@ public class Conductor : MonoBehaviour
     {
         Notes = notes;
         Velocity = trackVelocity;
+
+        notes.ForEach(note => note.transform.SetParent(Track.transform));
     }
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
@@ -59,11 +62,7 @@ public class Conductor : MonoBehaviour
 
     private void MoveNotes()
     {
-        for (int i = 0; i < Notes.Count; i++)
-        {
-            GameObject note = Notes[i];
-            Vector3 displacement = Velocity * Vector3.left * Time.deltaTime;
-            note.transform.position = note.transform.position + displacement;
-        }
+        Vector3 displacement = Velocity * Vector3.left * Time.deltaTime;
+        Track.transform.position = Track.transform.position + displacement;
     }
 }
