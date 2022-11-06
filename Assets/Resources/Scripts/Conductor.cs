@@ -37,8 +37,20 @@ public class Conductor : MonoBehaviour
         }
         else
         {
-            CharacterAnimatorController.RandomDance();
-            Judge.PassJudgement(targetStrikeResult);
+            ChordNote chordNote = targetStrikeResult.Note.GetComponent<ChordNote>();
+
+            if (chordNote != null)
+            {
+                if (chordNote.IsFinished())
+                {
+                    Debug.Log("chord finished");
+                }
+            }
+            else
+            {
+                CharacterAnimatorController.RandomDance();
+                Judge.PassJudgement(targetStrikeResult);
+            }
         }
     }
 
