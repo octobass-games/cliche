@@ -22,7 +22,7 @@ public class TrackLoader : MonoBehaviour
         float beatsPerSecond = BeatsPerMinute / 60f;
         float secondsPerBeat = 1 / beatsPerSecond;
 
-        return DistancePerBeat * secondsPerBeat;
+        return DistancePerBeat / secondsPerBeat;
     }
 
     private List<GameObject> ParseTrackFile()
