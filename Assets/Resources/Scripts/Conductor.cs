@@ -3,11 +3,21 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
+    public float BeatsPerMinute;
+    public float DistancePerBeat;
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
 
-    public float BeatsPerSecond;
     private List<GameObject> Notes = new();
+    private float Velocity = 0;
+
+    private void Start()
+    {
+        float BeatsPerSecond = BeatsPerMinute / 60;
+        float SecondsPerBeat = 1 / BeatsPerSecond;
+
+        Velocity = DistancePerBeat / SecondsPerBeat;
+    }
 
     void Update()
     {
@@ -49,7 +59,7 @@ public class Conductor : MonoBehaviour
         for (int i = 0; i < Notes.Count; i++)
         {
             GameObject note = Notes[i];
-            Vector3 displacement = BeatsPerSecond * Vector3.left * Time.deltaTime;
+            Vector3 displacement = Velocity * Vector3.left * Time.deltaTime;
             note.transform.position = note.transform.position + displacement;
         }
     }

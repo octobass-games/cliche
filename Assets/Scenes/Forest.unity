@@ -337,9 +337,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BeatsPerMinute: 120
+  DistancePerBeat: 100
   CharacterAnimatorController: {fileID: 504019082}
   Judge: {fileID: 1983643123}
-  BeatsPerSecond: 10
 --- !u!4 &514769450
 Transform:
   m_ObjectHideFlags: 0
@@ -444,7 +445,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 120
+  orthographic size: 140.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
