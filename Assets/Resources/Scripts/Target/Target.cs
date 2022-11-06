@@ -30,8 +30,9 @@ public class Target : MonoBehaviour
             Collider2D noteCollider = OverlappingColliders[0];
 
             float distanceFromCentre = Mathf.Abs((noteCollider.bounds.center - Collider.bounds.center).x);
+            noteCollider.GetComponent<TapNote>().Play();
            
-            return new TargetStrikeResult(distanceFromCentre, noteCollider.gameObject);
+            return new TargetStrikeResult(distanceFromCentre, noteCollider.gameObject.transform.parent.gameObject);
         }
 
         return new TargetStrikeResult(0f, null);
