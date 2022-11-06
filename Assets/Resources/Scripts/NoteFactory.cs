@@ -14,14 +14,20 @@ public class NoteFactory : MonoBehaviour
 
     public GameObject CreateNote(NoteDescription noteDescription)
     {
+        GameObject note;
+
         if (noteDescription.Type == "tap")
         {
-            return CreateTapNote(noteDescription);
+            note = CreateTapNote(noteDescription);
         }
         else
         {
-            return CreateChordNote(noteDescription);
+            note = CreateChordNote(noteDescription);
         }
+        
+        note.transform.position = new Vector3(noteDescription.Time * 100, note.transform.position.y, note.transform.position.z);
+
+        return note;
     }
 
     private GameObject CreateTapNote(NoteDescription noteDescription)

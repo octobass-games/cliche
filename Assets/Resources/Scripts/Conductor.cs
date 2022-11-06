@@ -3,30 +3,21 @@ using UnityEngine;
 
 public class Conductor : MonoBehaviour
 {
-    public float BeatsPerMinute;
-    public float DistancePerBeat;
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
 
     private List<GameObject> Notes = new();
     private float Velocity = 0;
 
-    private void Start()
-    {
-        float BeatsPerSecond = BeatsPerMinute / 60;
-        float SecondsPerBeat = 1 / BeatsPerSecond;
-
-        Velocity = DistancePerBeat / SecondsPerBeat;
-    }
-
     void Update()
     {
         MoveNotes();
     }
 
-    public void StartPlaying(List<GameObject> notes)
+    public void StartPlaying(List<GameObject> notes, float trackVelocity)
     {
         Notes = notes;
+        Velocity = trackVelocity;
     }
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
