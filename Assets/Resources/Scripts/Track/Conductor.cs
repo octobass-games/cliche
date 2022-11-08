@@ -6,9 +6,10 @@ public class Conductor : MonoBehaviour
     public GameObject Track;
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
+    public int Combo;
 
-    private List<GameObject> Notes = new();
-    private float Velocity = 0;
+    public List<GameObject> Notes = new();
+    public float Velocity = 0;
 
     void Update()
     {
@@ -37,19 +38,28 @@ public class Conductor : MonoBehaviour
             {
                 if (chordNote.IsFinished())
                 {
-                    Debug.Log("chord finished");
+                    HitNote(targetStrikeResult);
                 }
             }
             else
             {
-                CharacterAnimatorController.RandomDance();
-                Judge.PassJudgement(targetStrikeResult);
+                HitNote(targetStrikeResult);
             }
         }
     }
 
+    private void HitNote(TargetStrikeResult targetStrikeResult)
+    {
+        Combo += 1;
+        Debug.Log("Current combo: " + Combo);
+        CharacterAnimatorController.RandomDance();
+        Judge.PassJudgement(targetStrikeResult);
+        RemoveNote();
+    }
+
     public void MissedNote()
     {
+        Combo = 0;
         RemoveNote();
     }
 

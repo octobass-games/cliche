@@ -52,8 +52,11 @@ public class Target : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        Debug.Log("Missed note");
-        Conductor.MissedNote();
+        if (!collider.gameObject.GetComponent<TapNote>().Played)
+        {
+            Debug.Log("Missed note");
+            Conductor.MissedNote();
+        }
     }
 
     private IEnumerator HighlightIndicator()

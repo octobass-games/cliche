@@ -337,10 +337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BeatsPerMinute: 30
-  DistancePerBeat: 100
+  Track: {fileID: 1452761252}
   CharacterAnimatorController: {fileID: 504019082}
   Judge: {fileID: 1983643123}
+  Combo: 0
+  Velocity: 0
 --- !u!4 &514769450
 Transform:
   m_ObjectHideFlags: 0
@@ -445,7 +446,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 120
+  orthographic size: 140.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -779,6 +780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e54f8d33b4329e4cb5821870d52a9f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BeatsPerMinute: 10
+  DistancePerBeat: 100
   NoteFactory: {fileID: 1666059852}
   Conductor: {fileID: 514769449}
 --- !u!4 &776854397
@@ -926,6 +929,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1452761252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452761253}
+  m_Layer: 0
+  m_Name: Track
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452761253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452761252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 195.02272, y: 128.94199, z: 1.9377478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1621357522
 PrefabInstance:

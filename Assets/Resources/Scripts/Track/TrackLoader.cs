@@ -28,8 +28,8 @@ public class TrackLoader : MonoBehaviour
     private List<GameObject> ParseTrackFile()
     {
         List<NoteDescription> noteDescriptions = new() {
-            new NoteDescription("tap", "up", 1.5f, null),
-            new NoteDescription("tap", "right", 2, null),
+            new NoteDescription("tap", "up", 2.5f, null),
+            new NoteDescription("tap", "right", 2.8f, null),
             new NoteDescription("tap", "down", 3, null),
             new NoteDescription("tap", "left", 4, null),
             new NoteDescription("chord", null, 5, new() { "up", "right", "left" })
