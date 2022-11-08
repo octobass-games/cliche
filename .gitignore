@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Fmod log file
+fmod_editor.log
+
+# User layout settings
+UserSettings/Layouts/
