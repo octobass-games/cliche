@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NoteType: 0
+  Conductor: {fileID: 0}
+  InnerRenderer: {fileID: 0}
 --- !u!212 &3476292402838883624
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -171,7 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NoteType: 0
+  Conductor: {fileID: 0}
+  InnerRenderer: {fileID: 0}
 --- !u!212 &1675613525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -296,7 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NoteType: 0
+  Conductor: {fileID: 0}
+  InnerRenderer: {fileID: 0}
 --- !u!212 &3476292402838883622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -421,7 +424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4837ba90c130ee4ebfe3133e56d8411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NoteType: 0
+  Conductor: {fileID: 0}
+  InnerRenderer: {fileID: 0}
 --- !u!212 &3476292402838883620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -511,7 +515,7 @@ GameObject:
   - component: {fileID: 3476292402122380408}
   - component: {fileID: 3476292402122380409}
   m_Layer: 0
-  m_Name: ui_18 (2)
+  m_Name: right-bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -595,7 +599,7 @@ GameObject:
   - component: {fileID: 3476292403021413557}
   - component: {fileID: 3476292403021413554}
   m_Layer: 0
-  m_Name: ui_18 (4)
+  m_Name: left-bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,6 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3476292403262770966}
+  - component: {fileID: 3476292402838883616}
   m_Layer: 0
   m_Name: BARS
   m_TagString: Untagged
@@ -705,6 +710,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3476292402838883616
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3476292403262770969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90673ba6b89139c47ba05de52904a55b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3476292403285838886
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +741,7 @@ GameObject:
   - component: {fileID: 3476292403285838887}
   - component: {fileID: 3476292403285838884}
   m_Layer: 0
-  m_Name: ui_18 (1)
+  m_Name: up-bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -888,7 +913,7 @@ GameObject:
   - component: {fileID: 3476292404018170566}
   - component: {fileID: 3476292404018170567}
   m_Layer: 0
-  m_Name: ui_18 (3)
+  m_Name: down-bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -972,7 +997,7 @@ GameObject:
   - component: {fileID: 3476292404114900060}
   - component: {fileID: 3476292404114900061}
   m_Layer: 0
-  m_Name: ui_18
+  m_Name: vertical-bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
