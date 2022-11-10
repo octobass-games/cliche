@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class TrackLoader : MonoBehaviour
@@ -7,6 +8,7 @@ public class TrackLoader : MonoBehaviour
     public int DistancePerBeat;
     public NoteFactory NoteFactory;
     public Conductor Conductor;
+    public string PathToMusicChart;
 
     void Start()
     {
@@ -27,15 +29,24 @@ public class TrackLoader : MonoBehaviour
 
     private List<GameObject> ParseTrackFile()
     {
-        List<NoteDescription> noteDescriptions = new() {
+        TextAsset textAsset = Resources.Load<TextAsset>(PathToMusicChart);
+
+        Debug.Log(textAsset.text);
+
+        var noteDescriptions = JsonUtility.FromJson<NoteDescriptions>(textAsset.text);
+
+        Debug.Log(noteDescriptions);
+        Debug.Log(noteDescriptions.Descriptions);
+
+ /*       List<NoteDescription> noteDescriptions = new() {
             new NoteDescription("tap", "up", 2.5f, null),
             new NoteDescription("tap", "right", 2.8f, null),
             new NoteDescription("tap", "down", 3, null),
             new NoteDescription("tap", "left", 4, null),
             new NoteDescription("chord", null, 5, new() { "up", "right", "left" })
-        };
+        };*/
         
-        return ParseNoteDescriptions(noteDescriptions);
+        return ParseNoteDescriptions(noteDescriptions.Descriptions);
     }
 
     private List<GameObject> ParseNoteDescriptions(List<NoteDescription> noteDescriptions)
