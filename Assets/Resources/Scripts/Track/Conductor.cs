@@ -50,11 +50,18 @@ public class Conductor : MonoBehaviour
 
     private void HitNote(TargetStrikeResult targetStrikeResult)
     {
-        Combo += 1;
-        Debug.Log("Current combo: " + Combo);
-        CharacterAnimatorController.RandomDance();
-        Judge.PassJudgement(targetStrikeResult);
-        RemoveNote();
+        bool hit = Judge.PassJudgement(targetStrikeResult);
+        if (hit)
+        {
+            Combo += 1;
+            Debug.Log("Current combo: " + Combo);
+            CharacterAnimatorController.RandomDance();
+            RemoveNote();
+        }else
+        {
+            Combo = 0;
+        }
+
     }
 
     public void MissedNote()

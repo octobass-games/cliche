@@ -16,28 +16,38 @@ public class Judge : MonoBehaviour
 
     public Conductor Conductor;
 
+    public WordPopup WordPopup;
+
     private float TotalScore = 0;
 
-    public void PassJudgement(TargetStrikeResult targetStrikeResult)
+    public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {
         var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
+        Debug.Log("distanceFromCentre "+ distanceFromCentre);
         var note = targetStrikeResult.Note.GetComponentInChildren<Note>();
 
         if (IsPerfect(distanceFromCentre))
         {
             Score(PerfectScore, PerfectSound);
+            WordPopup.Perfect();
             note.SetPerfectCollided();
+            return true;
         }
         else if (IsGood(distanceFromCentre))
         {
             Score(GoodScore, GoodSound);
+            WordPopup.Good();
             note.SetGoodCollided();
+            return true;
         }
         else if (IsOkay(distanceFromCentre))
         {
             Score(OkayScore, OkaySound);
+            WordPopup.Okay();
             note.SetOkayCollided();
+            return true;
         }
+        return false;
     }
 
     private void Score(int score, AudioClip clip)
@@ -48,16 +58,16 @@ public class Judge : MonoBehaviour
 
     private bool IsPerfect(float distanceFromNextNote)
     {
-        return distanceFromNextNote < 0.5;
+        return distanceFromNextNote < 3;
     }
 
     private bool IsGood(float distanceFromNextNote)
     {
-        return distanceFromNextNote < 0.75;
+        return distanceFromNextNote < 5;
     }
 
     private bool IsOkay(float distanceFromNextNote)
     {
-        return distanceFromNextNote <= 1;
+        return distanceFromNextNote <= 10;
     }
 }

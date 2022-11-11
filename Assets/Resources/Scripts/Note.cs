@@ -9,17 +9,20 @@ public class Note : MonoBehaviour
 
     public void SetPerfectCollided()
     {
-        sprite.color = Color.green;
+        sprite.color = new Color(0.24f, 0.76f, 0.25f);
+        animator.SetTrigger("connect");
     }
 
     public void SetGoodCollided()
     {
-        sprite.color = Color.green;
+        sprite.color = new Color(0.8f, 1, 0.2f);
+        animator.SetTrigger("connect");
 
     }
 
     public void SetOkayCollided()
     {
-        sprite.color = Color.green;
+        sprite.color = new Color(1, 0.8f, 0);
+        animator.SetTrigger("connect");
     }
 }

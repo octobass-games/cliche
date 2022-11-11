@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TextRenderer : MonoBehaviour
 {
-
+    public List<Color> colours;
     public AlphaNumericContainer alphabet;
     public string Layer = "Text";
 
-    public GameObject MakeWord(string word, Vector2 Position)
+    public GameObject MakeWord(string word)
     {
         var sprites = GetSpritesForWord(word);
 
@@ -16,7 +16,7 @@ public class TextRenderer : MonoBehaviour
 
         for (int i = 0; i < sprites.Count; i++)
         {
-            Sprite sprite = sprites[i ];
+            Sprite sprite = sprites[i];
             Sprite prevSprite = i == 0 ? null : sprites[i - 1];
 
             GameObject child = new GameObject();
@@ -24,17 +24,20 @@ public class TextRenderer : MonoBehaviour
             SpriteRenderer renderer = child.AddComponent<SpriteRenderer>();
 
             renderer.sprite = sprite;
+            renderer.color = colours.PickRandom();
             renderer.sortingLayerName = Layer;
-            parent.transform.SetParent(child.transform);
+            child.transform.SetParent(parent.transform);
 
             child.transform.localPosition = new Vector2(0, 0);
+            if (i != 0) {
+                var prevChild = parent.transform.GetChild(i - 1);
 
-            var prevChild = parent.transform.GetChild(i - 1);
-
-            if (prevSprite != null)
-            {
-                child.transform.localPosition = new Vector2(prevChild.localPosition.x + prevSprite.bounds.size.x, 0);
+                if (prevSprite != null)
+                {
+                    child.transform.localPosition = new Vector2(prevChild.localPosition.x + prevSprite.bounds.size.x + 2, 0);
+                }
             }
+         
         }
 
         return parent;
@@ -44,7 +47,7 @@ public class TextRenderer : MonoBehaviour
     private List<Sprite> GetSpritesForWord(string word)
     {
         List<Sprite> sprites = new List<Sprite>();
-        foreach (char c in word)
+        foreach (char c in word.ToLower())
         {
             var sprite = GetSpriteForCharacter(c);
 
