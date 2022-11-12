@@ -18,7 +18,10 @@ public class CharacterAnimatorController : MonoBehaviour
 
     public void ResetAnimator()
     {
-        Animator.SetInteger("Dance", 0);
+        if (Animator != null)
+        {
+            Animator.SetInteger("Dance", 0);
+        }
     }
 
 
