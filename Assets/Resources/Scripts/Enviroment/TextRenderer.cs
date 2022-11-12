@@ -8,23 +8,32 @@ public class TextRenderer : MonoBehaviour
     public AlphaNumericContainer alphabet;
     public string Layer = "Text";
 
-    public GameObject MakeWord(string word)
+    public GameObject MakeWord(string word, GameObject prefab)
     {
         var sprites = GetSpritesForWord(word);
 
         GameObject parent = new GameObject();
-
+        Color color = colours.PickRandom(); 
         for (int i = 0; i < sprites.Count; i++)
         {
             Sprite sprite = sprites[i];
             Sprite prevSprite = i == 0 ? null : sprites[i - 1];
+            SpriteRenderer renderer;
 
-            GameObject child = new GameObject();
-
-            SpriteRenderer renderer = child.AddComponent<SpriteRenderer>();
+            GameObject child;
+            if (prefab == null)
+            {
+                child = new GameObject();
+                renderer = child.AddComponent<SpriteRenderer>();
+            }
+            else
+            {
+                child = Instantiate(prefab);
+                renderer = child.GetComponent<SpriteRenderer>();
+            }
 
             renderer.sprite = sprite;
-            renderer.color = colours.PickRandom();
+            renderer.color = color;
             renderer.sortingLayerName = Layer;
             child.transform.SetParent(parent.transform);
 

@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class WordPopup : MonoBehaviour
 {
     public TextRenderer TextRenderer;
+    public GameObject LetterPrefab;
 
 
     public void Perfect()
@@ -23,9 +25,10 @@ public class WordPopup : MonoBehaviour
 
     private void MakeWord(string text)
     {
-        GameObject gm =TextRenderer.MakeWord(text);
+        GameObject gm =TextRenderer.MakeWord(text, LetterPrefab);
         var screenSize = ScreenSize();
         gm.transform.position = new Vector2(Random.Range(0, screenSize.x - 20), Random.Range(0, screenSize.y-20));
+        StartCoroutine(DestroyWordAfterTime(gm));
     }
 
     private Vector2 ScreenSize()
@@ -34,6 +37,13 @@ public class WordPopup : MonoBehaviour
         float width = height * Screen.width / Screen.height;
 
         return new Vector2(width, height);
+    }
+
+
+    IEnumerator DestroyWordAfterTime(GameObject go)
+    {
+        yield return new WaitForSeconds(2);
+        Destroy(go);
     }
 
 

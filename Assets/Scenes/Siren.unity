@@ -6390,6 +6390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextRenderer: {fileID: 1090320392}
+  LetterPrefab: {fileID: 359949091917470930, guid: 9e09f849468a22a409aa6d2aa57529be, type: 3}
 --- !u!1 &1091262889
 GameObject:
   m_ObjectHideFlags: 0
