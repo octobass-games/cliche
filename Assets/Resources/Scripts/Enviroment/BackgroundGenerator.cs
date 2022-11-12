@@ -6,7 +6,6 @@ public class BackgroundGenerator : MonoBehaviour
     public List<Sprite> Sprites;
     public float Speed = 1;
 
-    public int CanvasWidth = 480;
     private int tileWidth = 10;
     private int tilesPerPage = 0;
     public string Layer = "Overlay";
@@ -16,12 +15,21 @@ public class BackgroundGenerator : MonoBehaviour
 
     private List<Tile> tiles = new List<Tile>();
 
-    private int getEndPosition() => CanvasWidth;
+    private int getEndPosition() => Mathf.RoundToInt(ScreenSize().x) + calcTileWidth();
 
+    private int calcTileWidth() => Mathf.RoundToInt(Sprites[0].bounds.size.x);
+
+    private Vector2 ScreenSize()
+    {
+        float height = UnityEngine.Camera.main.orthographicSize * 2.0f;
+        float width = height * Screen.width / Screen.height;
+
+        return new Vector2(width, height);
+    }
 
     void Start()
     {
-        tileWidth = Mathf.RoundToInt(Sprites[0].bounds.size.x);
+        tileWidth = calcTileWidth();
         tilesPerPage = Mathf.RoundToInt(getEndPosition() / tileWidth) + 2 ; // extra tiles to handle edge of page
         for (int i = 0; i < tilesPerPage; i++)
         {
