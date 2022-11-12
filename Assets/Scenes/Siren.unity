@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10172470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10172471}
+  m_Layer: 0
+  m_Name: StartLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10172471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10172470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &25177828
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,11 +281,12 @@ MonoBehaviour:
   - {fileID: 762126911, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
   - {fileID: -186267678, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
   - {fileID: -379870887, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
-  Speed: 10
+  Speed: 100
   CanvasWidth: 480
   Layer: Background
   Colour: {r: 0.022304658, g: 0.009077956, b: 0.03773582, a: 1}
   RandomOpacity: 1
+  sortingOrder: 0
 --- !u!212 &219203344 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3476292402838883622, guid: 5845872e756fc9f4594b8b87d21c2d15, type: 3}
@@ -404,6 +436,7 @@ MonoBehaviour:
   Layer: Overlay
   Colour: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
   RandomOpacity: 0
+  sortingOrder: 0
 --- !u!1 &312203374
 GameObject:
   m_ObjectHideFlags: 0
@@ -6445,6 +6478,7 @@ MonoBehaviour:
   Layer: Background
   Colour: {r: 0.018689917, g: 0.0416033, b: 0.11320752, a: 1}
   RandomOpacity: 1
+  sortingOrder: -1
 --- !u!1 &1100685991
 GameObject:
   m_ObjectHideFlags: 0
@@ -6796,6 +6830,7 @@ MonoBehaviour:
   OkaySound: {fileID: 0}
   MissSound: {fileID: 0}
   Conductor: {fileID: 510649380}
+  Enemy: {fileID: 496323352}
   WordPopup: {fileID: 1090320394}
 --- !u!4 &1666133634
 Transform:
@@ -6872,6 +6907,7 @@ MonoBehaviour:
   Layer: PlayerOverlay
   Colour: {r: 1, g: 1, b: 1, a: 1}
   RandomOpacity: 0
+  sortingOrder: 0
 --- !u!1 &1826739274
 GameObject:
   m_ObjectHideFlags: 0

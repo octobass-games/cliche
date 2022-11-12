@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Judge : MonoBehaviour
@@ -15,6 +16,7 @@ public class Judge : MonoBehaviour
     public AudioClip MissSound;
 
     public Conductor Conductor;
+    public Animator Enemy;
 
     public WordPopup WordPopup;
 
@@ -54,6 +56,7 @@ public class Judge : MonoBehaviour
     {
         TotalScore += score;
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
+        StartCoroutine(EnemyHitAfterTime());
     }
 
     private bool IsPerfect(float distanceFromNextNote)
@@ -69,5 +72,13 @@ public class Judge : MonoBehaviour
     private bool IsOkay(float distanceFromNextNote)
     {
         return distanceFromNextNote <= 10;
+    }
+
+
+    IEnumerator EnemyHitAfterTime()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Enemy.SetTrigger("hit");
+
     }
 }

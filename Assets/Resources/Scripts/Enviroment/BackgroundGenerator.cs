@@ -12,6 +12,7 @@ public class BackgroundGenerator : MonoBehaviour
     public string Layer = "Overlay";
     public Color Colour = Color.white;
     public bool RandomOpacity = false;
+    public int sortingOrder = 0;
 
     private List<Tile> tiles = new List<Tile>();
 
@@ -42,6 +43,7 @@ public class BackgroundGenerator : MonoBehaviour
 
         SetOpacity(sprite);
         sprite.sortingLayerName = Layer;
+        sprite.sortingOrder = sortingOrder;
         tileGO.transform.position = new Vector2(position, transform.position.y);
         tileGO.transform.SetParent(transform);
         Tile tile = tileGO.AddComponent<Tile>();
