@@ -1,29 +1,31 @@
-using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class Conductor : MonoBehaviour
 {
+    public string PathToSheetMusic;
     public GameObject Track;
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
     public int Combo;
 
-    public FMODUnity.StudioEventEmitter EventEmitter;
+    private StudioEventEmitter MusicEventEmitter;
+    private SheetMusic SheetMusic;
 
-    public List<GameObject> Notes = new();
-    public float Velocity = 0;
+    private int CurrentPlaybackPosition;
+    private int PreviousPlaybackPosition;
+
+    private void Start()
+    {
+        MusicEventEmitter = GetComponent<StudioEventEmitter>();
+        SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic);
+        SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
+        MusicEventEmitter.Play();
+    }
 
     void Update()
     {
-        MoveNotes();
-    }
-
-    public void StartPlaying(List<GameObject> notes, float trackVelocity)
-    {
-        Notes = notes;
-        Velocity = trackVelocity;
-
-        notes.ForEach(note => note.transform.SetParent(Track.transform));
+        MoveTrack();
     }
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
@@ -74,26 +76,19 @@ public class Conductor : MonoBehaviour
 
     private void RemoveNote()
     {
-        GameObject note = Notes[0].gameObject;
-        Notes.RemoveAt(0);
+        GameObject note = SheetMusic.Notes[0].gameObject;
+        SheetMusic.Notes.RemoveAt(0);
         Destroy(note);
     }
 
-    private int position;
-    private int lastPosition;
-
-    private void MoveNotes()
+    private void MoveTrack()
     {
-        EventEmitter.EventInstance.getTimelinePosition(out position);
+        MusicEventEmitter.EventInstance.getTimelinePosition(out CurrentPlaybackPosition);
 
-        Debug.Log("last position: " + lastPosition);
-        Debug.Log("position: " + position);
-
-        float delta = (position - lastPosition) / 1000f;
-
-        Debug.Log("delta: " + delta);
-        Vector3 displacement = 100 * Vector3.left * delta;
-        lastPosition = position;
+        float playbackPositionDeltaInSeconds = (CurrentPlaybackPosition - PreviousPlaybackPosition) / 1000f;
+        Vector3 displacement = 100 * Vector3.left * playbackPositionDeltaInSeconds;
         Track.transform.position = Track.transform.position + displacement;
+
+        PreviousPlaybackPosition = CurrentPlaybackPosition;
     }
 }
