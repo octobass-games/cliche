@@ -8,6 +8,8 @@ public class Conductor : MonoBehaviour
     public Judge Judge;
     public int Combo;
 
+    public FMODUnity.StudioEventEmitter EventEmitter;
+
     public List<GameObject> Notes = new();
     public float Velocity = 0;
 
@@ -77,9 +79,21 @@ public class Conductor : MonoBehaviour
         Destroy(note);
     }
 
+    private int position;
+    private int lastPosition;
+
     private void MoveNotes()
     {
-        Vector3 displacement = 100 * Vector3.left * Time.deltaTime;
+        EventEmitter.EventInstance.getTimelinePosition(out position);
+
+        Debug.Log("last position: " + lastPosition);
+        Debug.Log("position: " + position);
+
+        float delta = (position - lastPosition) / 1000f;
+
+        Debug.Log("delta: " + delta);
+        Vector3 displacement = 100 * Vector3.left * delta;
+        lastPosition = position;
         Track.transform.position = Track.transform.position + displacement;
     }
 }
