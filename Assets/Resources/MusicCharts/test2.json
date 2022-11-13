@@ -1,0 +1,2500 @@
+{
+  "Descriptions": [
+    {
+      "Type": "tap",
+      "Time": 0,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 1.7999999999999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 3.5999999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 5.3999999999999995,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 7.199999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 9,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 10.799999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 14.399999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 14.7,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 15,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 15.299999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 15.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 15.899999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 16.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 16.5,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 16.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.099999999999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.7,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 18,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 18.9,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 19.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 20.1,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 20.400000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 20.7,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 21.599999999999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 22.5,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 22.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23.1,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23.7,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 24,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 24.299999999999997,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 24.599999999999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 24.9,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 25.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 25.5,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 25.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 26.099999999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 26.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 26.7,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 26.999999999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 27.299999999999997,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 27.599999999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 27.9,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 28.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 28.5,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 28.799999999999997,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 28.949999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.099999999999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.699999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.999999999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 30.15,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 30.299999999999997,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 30.599999999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 30.749999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 30.9,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 31.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 31.349999999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 31.499999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 31.649999999999995,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 31.799999999999997,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.099999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.25,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.55,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.699999999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.3,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.599999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.9,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 34.199999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 34.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 35.099999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 35.699999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 35.849999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 35.99999999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 36.3,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 36.599999999999994,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 36.9,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 37.49999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 37.65,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 37.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 38.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 38.55,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 38.699999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 38.849999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 38.99999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 39.3,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 39.599999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 41.39999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 41.99999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.3,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.449999999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.599999999999994,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 43.199999999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 43.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 44.099999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 44.24999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 44.39999999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 44.99999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 45.599999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 45.89999999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 46.05,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 46.199999999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 46.49999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 46.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 48.599999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 48.74999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 48.89999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 49.199999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 49.49999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 49.64999999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 49.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.099999999999994,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.25,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.39999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.55,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.699999999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 50.849999999999994,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 51,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 51.14999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 51.3,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 51.89999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.05,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.199999999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.349999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.5,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.64999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.949999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 53.099999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 53.25,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 53.39999999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 53.699999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 54,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 55.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 56.39999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 56.699999999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 56.849999999999994,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 57,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 57.599999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 58.199999999999996,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 58.5,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 58.64999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 58.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 59.39999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 60,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 60.3,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 60.449999999999996,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 60.599999999999994,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 60.89999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 61.199999999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 62.99999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 63.599999999999994,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 64.19999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 64.49999999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 64.79999999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 65.1,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 65.69999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 66.3,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 66.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 66.89999999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 67.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 67.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.7,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.30000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.9,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 70.50000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 70.80000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 71.10000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 71.40000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 71.70000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.00000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.60000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.90000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 73.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 73.50000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 73.80000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 74.10000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 74.70000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.00000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.30000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.60000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.90000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 76.20000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 76.50000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 76.80000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.10000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.40000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.70000000000005,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.00000000000004,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.30000000000004,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.60000000000005,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.90000000000005,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.20000000000005,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.50000000000004,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.80000000000005,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.95000000000006,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 80.10000000000005,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 80.25000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 80.40000000000005,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 81.00000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 81.30000000000005,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 81.60000000000005,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 81.90000000000006,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.05000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.20000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.35000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.50000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.10000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.40000000000006,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.70000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.00000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.15000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.30000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.45000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.60000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.20000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.35000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.50000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.65000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.80000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.95000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.10000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.25000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.40000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.55000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.70000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.30000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.45000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.60000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.75000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.90000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 88.05000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 88.20000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 89.40000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 90.6000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 91.80000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.40000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 93.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 94.20000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 95.40000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 95.70000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 96.90000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.20000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.80000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 99.30000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 99.60000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 100.20000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 100.80000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 101.10000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 101.40000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 102.60000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 103.80000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 105.00000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 105.30000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 106.20000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 106.50000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 106.80000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.40000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 108.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 108.60000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.20000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.80000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110.40000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110.70000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 111.00000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 111.90000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.20000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 113.40000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 114.60000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 114.90000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 116.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 116.40000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 117.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.50000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.80000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 119.40000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.00000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.30000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.60000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 121.80000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 123.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 124.20000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 124.50000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 125.40000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 125.70000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 126.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 126.60000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 127.20000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 127.80000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 128.4000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 129.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 129.60000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 129.9000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 130.20000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.10000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.4000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.70000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.30000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.60000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 133.50000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 133.80000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 134.4000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 135.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 135.30000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 135.60000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 136.20000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 136.50000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 137.4000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 137.70000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 138.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 138.60000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 138.75000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 138.9000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.20000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.50000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.80000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.30000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.60000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.9000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 142.20000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 143.10000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 143.4000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 143.70000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.30000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.60000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.75000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.9000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 145.05000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 145.20000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 145.80000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.10000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.4000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.70000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.00000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.9000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 148.20000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 148.80000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 149.10000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 149.4000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.30000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.60000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.75000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.75000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.35000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.35000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.50000000000009,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.50000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.80000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.80000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 152.70000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 153.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 153.00000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 153.30000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 153.60000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.20000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.50000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.80000000000007,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.80000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.4000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.4000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.70000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156.60000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156.60000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156.9000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.2000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.2000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.80000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.9500000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 158.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 158.4000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 158.7000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 159.00000000000009,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 160.2000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 160.35000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 160.35000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 160.9500000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 160.9500000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 161.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 161.10000000000008,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 161.4000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 161.4000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 162.30000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 162.60000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 162.9000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.05000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.2000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.50000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.80000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.9500000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 164.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 164.25000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 164.4000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.00000000000009,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.30000000000007,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.30000000000007,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.60000000000008,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.9000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.2000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 167.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 167.10000000000008,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 167.4000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.00000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.30000000000007,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.60000000000008,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.50000000000009,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.80000000000007,
+      "Name": "left",
+      "Names": []
+    }
+  ]
+}
