@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638033481819933688
+  lastModified: 638039361182015231
   FileSizes:
   - Name: Desktop
-    Value: 914
+    Value: 970
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -67,6 +67,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 109373
+--- !u!114 &-2835432441905381980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Forest/Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Forest/Forest
+  Guid:
+    Data1: -57284747
+    Data2: 1275221685
+    Data3: 184073375
+    Data4: -84383198
+  Banks:
+  - {fileID: -1872034626936257865}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 173521
 --- !u!114 &-1872034626936257865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,10 +109,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638037880846727938
+  lastModified: 638039361182618464
   FileSizes:
   - Name: Desktop
-    Value: 4821824
+    Value: 7017952
   Exists: 1
 --- !u!114 &-1667667468706315206
 MonoBehaviour:
@@ -134,12 +161,13 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -1667667468706315206}
   - {fileID: -4412664947452459255}
+  - {fileID: -2835432441905381980}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638037880846727938
+  cacheTime: 638039361182618464
   cacheVersion: 131593
 --- !u!114 &4029448791280017305
 MonoBehaviour:

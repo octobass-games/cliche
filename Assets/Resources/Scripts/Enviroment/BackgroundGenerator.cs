@@ -9,9 +9,11 @@ public class BackgroundGenerator : MonoBehaviour
     private int tileWidth = 10;
     private int tilesPerPage = 0;
     public string Layer = "Overlay";
-    public Color Colour = Color.white;
+    public List<Color> Colours;
     public bool RandomOpacity = false;
     public int sortingOrder = 0;
+    public bool Sporadic = false;
+    public float Scale = 1;
 
     private List<Tile> tiles = new List<Tile>();
 
@@ -29,12 +31,37 @@ public class BackgroundGenerator : MonoBehaviour
 
     void Start()
     {
+        if (!Sporadic)
+        {
+            RenderContinuosly();
+        }else
+        {
+            RenderSporadicly();
+        }
+    }
+
+    private void RenderContinuosly()
+    {
         tileWidth = calcTileWidth();
-        tilesPerPage = Mathf.RoundToInt(getEndPosition() / tileWidth) + 2 ; // extra tiles to handle edge of page
+        tilesPerPage = Mathf.RoundToInt(getEndPosition() / tileWidth) + 2; // extra tiles to handle edge of page
         for (int i = 0; i < tilesPerPage; i++)
         {
             Tile prevTile = i == 0 ? null : tiles[i - 1];
-            Tile tile = AddTile(tileWidth * i, prevTile);
+            Tile tile = AddTile(tileWidth * i, prevTile, true);
+            tiles.Add(tile);
+        }
+
+        tiles[0].PrevTile = tiles[tiles.Count - 1];
+        tiles.ForEach(t => t.Start());
+    }
+    private void RenderSporadicly()
+    {
+        tileWidth = calcTileWidth() + Random.Range(100, 300);
+        tilesPerPage = Mathf.RoundToInt(getEndPosition() / tileWidth) + 2; // extra tiles to handle edge of page
+        for (int i = 0; i < tilesPerPage; i++)
+        {
+            Tile prevTile = i == 0 ? null : tiles[i - 1];
+            Tile tile = AddTile(tileWidth * i, prevTile, false);
             tiles.Add(tile);
         }
 
@@ -42,37 +69,39 @@ public class BackgroundGenerator : MonoBehaviour
         tiles.ForEach(t => t.Start());
     }
 
-    Tile AddTile(int position, Tile prevTile)
+    Tile AddTile(int position, Tile prevTile, bool considerPrevTile)
     {
         GameObject tileGO = new GameObject("Tile");
         SpriteRenderer sprite = tileGO.AddComponent<SpriteRenderer>();
         sprite.sprite = Sprites.PickRandom();
-        sprite.color = Colour;
+        sprite.color = Colours.PickRandom();
 
         SetOpacity(sprite);
         sprite.sortingLayerName = Layer;
         sprite.sortingOrder = sortingOrder;
         tileGO.transform.position = new Vector2(position, transform.position.y);
         tileGO.transform.SetParent(transform);
+        tileGO.transform.localScale = new Vector2(Scale, Scale);
         Tile tile = tileGO.AddComponent<Tile>();
-        tile.Initialise(() => ResetTile(tile), tileWidth, Speed, prevTile);
+        tile.Initialise(() => ResetTile(tile, considerPrevTile), tileWidth, Speed, prevTile);
         return tile;
     }
 
 
-    void ResetTile(Tile tile)
+    void ResetTile(Tile tile, bool considerPrevTile)
     {
         var renderer = tile.GetComponent<SpriteRenderer>();
         renderer.sprite = Sprites.PickRandom();
         SetOpacity(renderer);
-        tile.transform.position = new Vector2(tile.PrevTileRightX(), transform.position.y);
+        var x = considerPrevTile ? tile.PrevTileRightX() : getEndPosition();
+        tile.transform.position = new Vector2(x, transform.position.y);
     }
 
     private void SetOpacity(SpriteRenderer sprite)
     {
         if (RandomOpacity)
         {
-            sprite.color = new Color(Colour.r, Colour.g, Colour.b, Random.Range(0.2f, 1f));
+            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, Random.Range(0.2f, 1f));
         }
     }
 
