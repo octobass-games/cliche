@@ -152,7 +152,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &25177828
 GameObject:
@@ -183,7 +183,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42795651
 GameObject:
@@ -6407,6 +6407,9 @@ GameObject:
   m_Component:
   - component: {fileID: 510649381}
   - component: {fileID: 510649380}
+  - component: {fileID: 510649382}
+  - component: {fileID: 510649384}
+  - component: {fileID: 510649383}
   m_Layer: 0
   m_Name: Conductor
   m_TagString: Untagged
@@ -6426,13 +6429,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PathToSheetMusic: MusicCharts/test2
   Track: {fileID: 25177828}
   CharacterAnimatorController: {fileID: 1625213760}
   Judge: {fileID: 1666133633}
   Combo: 0
-  EventEmitter: {fileID: 652892283}
-  Notes: []
-  Velocity: 0
 --- !u!4 &510649381
 Transform:
   m_ObjectHideFlags: 0
@@ -6446,8 +6447,69 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &510649382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510649379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1763359203
+      Data2: 1246412955
+      Data3: -207647330
+      Data4: -143835681
+    Path: event:/Music/Siren Song/Siren Song
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &510649383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510649379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773691603efbfee4985a1ea06da77ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TapNotePrefab: {fileID: 484862162625377708, guid: c6e31156b15e86148b03a15bb178e7d2, type: 3}
+  ChordNotePrefab: {fileID: 1245597535903313424, guid: 86bba143388578740aca4103e47aa89e, type: 3}
+  UpNotePrefab: {fileID: 7567762595777165622, guid: 3d2d8ba61e8ce164c84e55ba166a826d, type: 3}
+  RightNotePrefab: {fileID: 7567762595777165622, guid: 5355ce471ff174b4dbf97d8f90c0d8ff, type: 3}
+  DownNotePrefab: {fileID: 7567762595777165622, guid: f38fd112afac6f94f8826242d4d81537, type: 3}
+  LeftNotePrefab: {fileID: 7567762595777165622, guid: 68e2a5e2532bc7f4495ab4e42b0c4a9f, type: 3}
+--- !u!114 &510649384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510649379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e54f8d33b4329e4cb5821870d52a9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoteFactory: {fileID: 510649383}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6980,68 +7042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653bbb0d1b775e24ab4a6d6b4b4c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &652892282
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 652892284}
-  - component: {fileID: 652892283}
-  m_Layer: 0
-  m_Name: Siren Song Emitter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &652892283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652892282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -1763359203
-      Data2: 1246412955
-      Data3: -207647330
-      Data4: -143835681
-    Path: event:/Music/Siren Song/Siren Song
-  Event: 
-  PlayEvent: 1
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
---- !u!4 &652892284
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652892282}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.85672, y: 43.047943, z: -154.39206}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &661494306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7352,7 +7352,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &739732625
 GameObject:
@@ -7568,37 +7568,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &862601556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 862601557}
-  m_Layer: 0
-  m_Name: Music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &862601557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862601556}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66, y: 58.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &879401540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7829,7 +7798,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1090320394
 MonoBehaviour:
@@ -8077,7 +8046,7 @@ Transform:
   - {fileID: 645790880}
   - {fileID: 879401541}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230664898
 GameObject:
@@ -9016,7 +8985,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1744942329
 GameObject:
@@ -9405,74 +9374,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6217418635957295152, guid: 49c308ce0ce9abf4bb5c0b6506df0892, type: 3}
   m_PrefabInstance: {fileID: 2009823858}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2055742527
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2055742530}
-  - component: {fileID: 2055742529}
-  - component: {fileID: 2055742528}
-  m_Layer: 0
-  m_Name: Track loader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2055742528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055742527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 773691603efbfee4985a1ea06da77ff5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TapNotePrefab: {fileID: 484862162625377708, guid: c6e31156b15e86148b03a15bb178e7d2, type: 3}
-  ChordNotePrefab: {fileID: 1245597535903313424, guid: 86bba143388578740aca4103e47aa89e, type: 3}
-  UpNotePrefab: {fileID: 7567762595777165622, guid: 3d2d8ba61e8ce164c84e55ba166a826d, type: 3}
-  RightNotePrefab: {fileID: 7567762595777165622, guid: 5355ce471ff174b4dbf97d8f90c0d8ff, type: 3}
-  DownNotePrefab: {fileID: 7567762595777165622, guid: f38fd112afac6f94f8826242d4d81537, type: 3}
-  LeftNotePrefab: {fileID: 7567762595777165622, guid: 68e2a5e2532bc7f4495ab4e42b0c4a9f, type: 3}
---- !u!114 &2055742529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055742527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e54f8d33b4329e4cb5821870d52a9f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BeatsPerMinute: 100
-  DistancePerBeat: 75
-  NoteFactory: {fileID: 2055742528}
-  Conductor: {fileID: 510649380}
-  PathToMusicChart: MusicCharts/test2
---- !u!4 &2055742530
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055742527}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 192.97243, y: 132.32713, z: 1.9377478}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3476292402838883614
 PrefabInstance:
   m_ObjectHideFlags: 0
