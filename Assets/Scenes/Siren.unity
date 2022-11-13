@@ -6326,6 +6326,7 @@ MonoBehaviour:
   CharacterAnimatorController: {fileID: 1625213760}
   Judge: {fileID: 1666133633}
   Combo: 0
+  EventEmitter: {fileID: 652892283}
   Notes: []
   Velocity: 0
 --- !u!4 &510649381
