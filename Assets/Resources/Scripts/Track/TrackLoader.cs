@@ -24,6 +24,10 @@ public class TrackLoader : MonoBehaviour
         float beatsPerSecond = BeatsPerMinute / 60f;
         float secondsPerBeat = 1 / beatsPerSecond;
 
+        Debug.Log(beatsPerSecond);
+        Debug.Log(secondsPerBeat);
+        Debug.Log(DistancePerBeat / secondsPerBeat);
+
         return DistancePerBeat / secondsPerBeat;
     }
 

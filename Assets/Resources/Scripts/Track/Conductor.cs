@@ -67,7 +67,7 @@ public class Conductor : MonoBehaviour
     public void MissedNote()
     {
         Combo = 0;
-        RemoveNote();
+       /* RemoveNote();*/
     }
 
     private void RemoveNote()
@@ -79,7 +79,7 @@ public class Conductor : MonoBehaviour
 
     private void MoveNotes()
     {
-        Vector3 displacement = Velocity * Vector3.left * Time.deltaTime;
+        Vector3 displacement = 100 * Vector3.left * Time.deltaTime;
         Track.transform.position = Track.transform.position + displacement;
     }
 }
