@@ -151,14 +151,14 @@
 		<relationship name="modulators">
 			<destination>{f612fb28-f3ca-4f7c-8182-d7d00c90e923}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{40a75cbe-36ba-4596-b40e-f14971237ce7}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{725c7010-abfb-492e-9c9e-83e1d9cfd53c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b3ff7b39-cacd-422a-b3cb-554638a2cb14}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="name">
 			<value>Lead right</value>
 		</property>
@@ -190,6 +190,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{12b27df5-0712-4ecc-bfa2-c02972873720}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Lead wrong</value>
 		</property>
@@ -221,28 +224,20 @@
 			<value>volume</value>
 		</property>
 		<property name="initialValue">
-			<value>-10.7999992</value>
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>596.15387</value>
 		</property>
 		<property name="attackShape">
 			<value>-1.00000048</value>
 		</property>
 		<property name="releaseTime">
-			<value>0</value>
+			<value>269.230774</value>
 		</property>
 		<property name="finalValue">
-			<value>-80</value>
+			<value>-76.1481476</value>
 		</property>
-	</object>
-	<object class="ParameterCondition" id="{40a75cbe-36ba-4596-b40e-f14971237ce7}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{0a697167-f579-4f43-8ae9-d5c7bd280e28}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{337ad25e-fe5a-449d-a23d-7f6f643ad1b7}">
 		<relationship name="effects">
@@ -255,10 +250,13 @@
 			<value>volume</value>
 		</property>
 		<property name="initialValue">
-			<value>-11.3777771</value>
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>12.820549</value>
 		</property>
 		<property name="attackShape">
-			<value>-1.00000048</value>
+			<value>-0.433650255</value>
 		</property>
 		<property name="releaseTime">
 			<value>12.820549</value>
