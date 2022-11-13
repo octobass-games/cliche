@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638033481819923708
+  lastModified: 638039560005818101
   FileSizes:
   - Name: Desktop
-    Value: 1012
+    Value: 1194
   Exists: 1
 --- !u!114 &-6352269599283032409
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638039361182015231
+  lastModified: 638039560005828089
   FileSizes:
   - Name: Desktop
-    Value: 970
+    Value: 1020
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -109,10 +109,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638039361182618464
+  lastModified: 638039560006785523
   FileSizes:
   - Name: Desktop
-    Value: 7017952
+    Value: 11096960
   Exists: 1
 --- !u!114 &-1667667468706315206
 MonoBehaviour:
@@ -137,7 +137,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 1003424410829780291}
   MinDistance: 0
   MaxDistance: 0
   Length: 176200
@@ -162,13 +163,38 @@ MonoBehaviour:
   - {fileID: -1667667468706315206}
   - {fileID: -4412664947452459255}
   - {fileID: -2835432441905381980}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 5159652581195031266}
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638039361182618464
+  cacheTime: 638039560006785523
   cacheVersion: 131593
+--- !u!114 &1003424410829780291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Siren Song/Correct
+  m_EditorClassIdentifier: 
+  Name: Correct
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 533779799
+    data2: 2106554445
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4029448791280017305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,4 +214,28 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1374720
+  Exists: 1
+--- !u!114 &5159652581195031266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Correct
+  m_EditorClassIdentifier: 
+  Name: Correct
+  StudioPath: parameter:/Correct
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 533779799
+    data2: 2106554445
+  Type: 1
+  IsGlobal: 1
+  Labels: []
   Exists: 1
