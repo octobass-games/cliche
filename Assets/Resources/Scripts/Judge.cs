@@ -22,6 +22,8 @@ public class Judge : MonoBehaviour
 
     private float TotalScore = 0;
 
+    public EffectCreator EffectCreator;
+
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {
         var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
@@ -33,6 +35,7 @@ public class Judge : MonoBehaviour
             Score(PerfectScore, PerfectSound);
             WordPopup.Perfect();
             note.SetPerfectCollided();
+            EffectCreator.MakeEffect();
             return true;
         }
         else if (IsGood(distanceFromCentre))
@@ -40,6 +43,7 @@ public class Judge : MonoBehaviour
             Score(GoodScore, GoodSound);
             WordPopup.Good();
             note.SetGoodCollided();
+            EffectCreator.MakeEffect();
             return true;
         }
         else if (IsOkay(distanceFromCentre))
@@ -47,6 +51,7 @@ public class Judge : MonoBehaviour
             Score(OkayScore, OkaySound);
             WordPopup.Okay();
             note.SetOkayCollided();
+            EffectCreator.MakeEffect();
             return true;
         }
         return false;
