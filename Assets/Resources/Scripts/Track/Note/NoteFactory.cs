@@ -25,7 +25,7 @@ public class NoteFactory : MonoBehaviour
             note = CreateChordNote(noteDescription);
         }
         
-        note.transform.position = new Vector3(noteDescription.Time * 100 + 128 + 67, note.transform.position.y, note.transform.position.z);
+        note.transform.position = new Vector3(noteDescription.Time * 100 + 128 + 66, note.transform.position.y, note.transform.position.z);
 
         return note;
     }
