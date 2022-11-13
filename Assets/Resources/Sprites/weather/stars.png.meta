@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15c32f0dd135e7040bfd85561fd88133
+guid: 4e2e0d8ee760bcc4c9bfab006e0bc988
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,54 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Collection of Clouds_0
+      name: stars_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 168
-        width: 54
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03f650d21716086408855319c74777bc
-      internalID: -714022571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collection of Clouds_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 174
-        width: 40
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98a66b9c3bcdf7847b579903178033c0
-      internalID: -1647184236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collection of Clouds_2
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 135
-        width: 54
+        x: 0
+        y: 0
+        width: 20
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bee559d4a7f49c8449ed09e6f684c2f5
-      internalID: 300075694
+      spriteID: bba36ea5b10b22846b62451a1e4c681c
+      internalID: 750530139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Collection of Clouds_3
+      name: stars_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 134
-        width: 54
-        height: 26
+        x: 20
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b196f8a7418f04488d75d0b9c2728f7
-      internalID: -1534831109
+      spriteID: b1542abb494cc844c85305c4a81c62d8
+      internalID: 950116589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Collection of Clouds_4
+      name: stars_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 112
-        width: 26
-        height: 12
+        x: 40
+        y: 0
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +185,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd3b4559336a2a4da74c1785f02ecdb
-      internalID: 999421787
+      spriteID: 971c97f2e2ed57a43b7e79b47ee5202d
+      internalID: -423044629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae7c8972dd1b94bae4658d4b1798be
+      internalID: 103024359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7181e84fc496a4fa916a687d9501ef
+      internalID: 505418445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d6f2e90ae45cf45b3e5c5a08d059f4
+      internalID: 612511794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a097d02ccb7539468ccb34c7f09cd3f
+      internalID: 180139138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa54ea970ba8ae458022fee47055bcd
+      internalID: 1869739800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44551bdf7e335d54cb89613cca38f013
+      internalID: -2024261661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6672efddf045464a9b0d6dc4c7d39ed
+      internalID: 2088076776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee3874113410e149a573ca12109afdc
+      internalID: -340495940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d31ea2da18d04da37767ccf58b58e
+      internalID: -309101253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stars_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f45d4a0f784c054ea36329311170cdb
+      internalID: 543766783
       vertices: []
       indices: 
       edges: []
@@ -244,11 +412,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Collection of Clouds_3: -1534831109
-      Collection of Clouds_4: 999421787
-      Collection of Clouds_2: 300075694
-      Collection of Clouds_0: -714022571
-      Collection of Clouds_1: -1647184236
+      stars_5: 612511794
+      stars_7: 1869739800
+      stars_12: 543766783
+      stars_6: 180139138
+      stars_8: -2024261661
+      stars_1: 950116589
+      stars_0: 750530139
+      stars_9: 2088076776
+      stars_4: 505418445
+      stars_10: -340495940
+      stars_2: -423044629
+      stars_11: -309101253
+      stars_3: 103024359
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15c32f0dd135e7040bfd85561fd88133
+guid: 225072a2ee2db6c488d69b6ee5824a4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Collection of Clouds_0
+      name: siren-sky_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 168
-        width: 54
-        height: 26
+        x: 0
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03f650d21716086408855319c74777bc
-      internalID: -714022571
+      spriteID: bc9397d58918a2747b7cb957d3274e73
+      internalID: 1936142225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Collection of Clouds_1
+      name: siren-sky_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 174
-        width: 40
-        height: 18
+        x: 480
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,71 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a66b9c3bcdf7847b579903178033c0
-      internalID: -1647184236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collection of Clouds_2
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 135
-        width: 54
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bee559d4a7f49c8449ed09e6f684c2f5
-      internalID: 300075694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collection of Clouds_3
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 134
-        width: 54
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b196f8a7418f04488d75d0b9c2728f7
-      internalID: -1534831109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collection of Clouds_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 112
-        width: 26
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cd3b4559336a2a4da74c1785f02ecdb
-      internalID: 999421787
+      spriteID: e1d658bc968aa3543b75851f1a61253f
+      internalID: 1985827953
       vertices: []
       indices: 
       edges: []
@@ -244,11 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Collection of Clouds_3: -1534831109
-      Collection of Clouds_4: 999421787
-      Collection of Clouds_2: 300075694
-      Collection of Clouds_0: -714022571
-      Collection of Clouds_1: -1647184236
+      siren-sky_0: 1936142225
+      siren-sky_1: 1985827953
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

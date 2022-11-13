@@ -1,32 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class EffectCreator : MonoBehaviour
 {
     public List<RandomAnimatorController> Effects;
 
+    public bool StartEffectsOnAwake = false;
+    public int ChanceOfEffect = 0;
+
     public void MakeEffect()
     {
         RandomAnimatorController effect = Effects.PickRandom();
-        effect.GetComponent<RandomColour>().SetRandomColour();
+        RandomColour colour = effect.GetComponent<RandomColour>();
+        if (colour != null)
+        {
+            effect.GetComponent<RandomColour>().SetRandomColour();
+        }
         effect.RandomAnimation();
     }
 
-    private Vector2 ScreenSize()
+    void Update()
     {
-        float height = UnityEngine.Camera.main.orthographicSize * 2.0f;
-        float width = height * Screen.width / Screen.height;
-
-        return new Vector2(width, height);
+       
+        if (StartEffectsOnAwake && Random.Range(0, ChanceOfEffect + 1) == ChanceOfEffect) 
+        {
+            MakeEffect();
+        }
     }
-
-
-    IEnumerator DestroyWordAfterTime(GameObject go)
-    {
-        yield return new WaitForSeconds(2);
-        Destroy(go);
-    }
-
-
 }
