@@ -3,12 +3,10 @@ using UnityEngine;
 
 public class SheetMusic
 {
-    public int BeatsPerMinute;
     public List<GameObject> Notes;
 
-    public SheetMusic(int beatsPerMinute, List<GameObject> notes)
+    public SheetMusic(List<GameObject> notes)
     {
-        BeatsPerMinute = beatsPerMinute;
         Notes = notes;
     }
 }

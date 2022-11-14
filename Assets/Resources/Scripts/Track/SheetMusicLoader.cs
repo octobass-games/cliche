@@ -17,7 +17,7 @@ public class SheetMusicLoader : MonoBehaviour
         var noteDescriptions = JsonUtility.FromJson<NoteDescriptions>(textAsset.text);
         var notes = ParseNoteDescriptions(noteDescriptions.Descriptions);
 
-        return new SheetMusic(100, notes);
+        return new SheetMusic(notes);
     }
 
     private List<GameObject> ParseNoteDescriptions(List<NoteDescription> noteDescriptions)
