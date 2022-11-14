@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Toggle pause",
+                    "type": "Button",
+                    "id": "b32f1ba0-ddf5-4785-81e4-847044cb762a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -84,6 +93,45 @@
                     "processors": "",
                     "groups": "",
                     "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be62a0af-8298-46e0-b273-3fd6ffd79bda",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "559b42c1-1eef-44c0-ba1d-059ceb7d0d55",
+            "actions": [
+                {
+                    "name": "Toggle pause",
+                    "type": "Button",
+                    "id": "4dd0f74c-55e4-4d70-b2c9-0ae3cf8e5370",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "51b32920-d478-4f62-bfe6-fe3b4f9a15c1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

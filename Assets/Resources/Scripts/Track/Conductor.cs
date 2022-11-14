@@ -15,7 +15,7 @@ public class Conductor : MonoBehaviour
     private int CurrentPlaybackPosition;
     private int PreviousPlaybackPosition;
 
-    private void Start()
+    void Start()
     {
         MusicEventEmitter = GetComponent<StudioEventEmitter>();
         SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic);
@@ -50,6 +50,16 @@ public class Conductor : MonoBehaviour
                 HitNote(targetStrikeResult);
             }
         }
+    }
+
+    public void Pause()
+    {
+        MusicEventEmitter.EventInstance.setPaused(true);
+    }
+
+    public void Resume()
+    {
+        MusicEventEmitter.EventInstance.setPaused(false);
     }
 
     private void HitNote(TargetStrikeResult targetStrikeResult)
