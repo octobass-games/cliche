@@ -20,7 +20,6 @@ public class Judge : MonoBehaviour
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {
         var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
-        Debug.Log("distanceFromCentre "+ distanceFromCentre);
         var note = targetStrikeResult.Note.GetComponentInChildren<Note>();
 
         if (IsPerfect(distanceFromCentre))

@@ -54,7 +54,6 @@ public class Target : MonoBehaviour
     {
         if (!collider.gameObject.GetComponent<TapNote>().Played)
         {
-            Debug.Log("Missed note");
             Conductor.MissedNote();
         }
     }
@@ -63,7 +62,6 @@ public class Target : MonoBehaviour
     {
         if (!IsHighlighted)
         {
-            Debug.Log("Highlighting indicator");
             Color originalColor = InnerRenderer.color;
 
             InnerRenderer.color = Color.white;
@@ -71,7 +69,6 @@ public class Target : MonoBehaviour
 
             yield return new WaitForSeconds(0.1f);
 
-            Debug.Log("Unhighlighting indicator");
             InnerRenderer.color = originalColor;
             IsHighlighted = false;
         }
