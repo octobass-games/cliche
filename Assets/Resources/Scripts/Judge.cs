@@ -8,13 +8,6 @@ public class Judge : MonoBehaviour
     public int OkayScore = 25;
     public int MissScore = 0;
 
-    public AudioSource ScoreSounder;
-
-    public AudioClip PerfectSound;
-    public AudioClip GoodSound;
-    public AudioClip OkaySound;
-    public AudioClip MissSound;
-
     public Conductor Conductor;
     public Animator Enemy;
 
@@ -32,7 +25,7 @@ public class Judge : MonoBehaviour
 
         if (IsPerfect(distanceFromCentre))
         {
-            Score(PerfectScore, PerfectSound);
+            Score(PerfectScore);
             WordPopup.Perfect();
             note.SetPerfectCollided();
             EffectCreator.MakeEffect();
@@ -40,7 +33,7 @@ public class Judge : MonoBehaviour
         }
         else if (IsGood(distanceFromCentre))
         {
-            Score(GoodScore, GoodSound);
+            Score(GoodScore);
             WordPopup.Good();
             note.SetGoodCollided();
             EffectCreator.MakeEffect();
@@ -48,7 +41,7 @@ public class Judge : MonoBehaviour
         }
         else if (IsOkay(distanceFromCentre))
         {
-            Score(OkayScore, OkaySound);
+            Score(OkayScore);
             WordPopup.Okay();
             note.SetOkayCollided();
             EffectCreator.MakeEffect();
@@ -57,7 +50,7 @@ public class Judge : MonoBehaviour
         return false;
     }
 
-    private void Score(int score, AudioClip clip)
+    private void Score(int score)
     {
         TotalScore += score;
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
