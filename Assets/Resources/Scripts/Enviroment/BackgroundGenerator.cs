@@ -96,6 +96,10 @@ public class BackgroundGenerator : MonoBehaviour
         var x = considerPrevTile ? tile.PrevTileRightX() : getEndPosition();
         tile.transform.position = new Vector2(x, transform.position.y);
     }
+    public void Pause()
+    {
+        tiles.ForEach(tile => tile.Pause());
+    }
 
     private void SetOpacity(SpriteRenderer sprite)
     {

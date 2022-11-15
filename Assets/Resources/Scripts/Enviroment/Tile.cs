@@ -12,6 +12,7 @@ public class Tile : MonoBehaviour
     private float speed;
     private bool start = false;
     public Tile PrevTile;
+    private bool paused = false;
 
     public void Initialise(Action onLeaveScreen, int width, float speed, Tile prevTile) {
         this.onLeaveScreen = onLeaveScreen;
@@ -33,11 +34,16 @@ public class Tile : MonoBehaviour
         start = true;
     }
 
+    public void Pause()
+    {
+        paused = true;
+    }
+
     public float PrevTileRightX() => PrevTile.transform.position.x + (width);
 
     void Update()
     {
-        if (!start)
+        if (!start || paused)
         {
             return;
         }
