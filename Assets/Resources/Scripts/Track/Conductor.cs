@@ -1,5 +1,7 @@
 using UnityEngine;
 using FMODUnity;
+using UnityEngine.Events;
+using System.Collections.Generic;
 
 public class Conductor : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class Conductor : MonoBehaviour
     public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
     public int Combo;
+    public List<TimedEvent> TimedEvents;
 
     private StudioEventEmitter MusicEventEmitter;
     private SheetMusic SheetMusic;
@@ -94,6 +97,15 @@ public class Conductor : MonoBehaviour
     private void MoveTrack()
     {
         MusicEventEmitter.EventInstance.getTimelinePosition(out CurrentPlaybackPosition);
+
+        TimedEvents.ForEach(timedEvent =>
+        {
+            if (!timedEvent.IsComplete && timedEvent.PlaybackPositionInMilliseconds <= CurrentPlaybackPosition)
+            {
+                timedEvent.IsComplete = true;
+                timedEvent.UnityEvent.Invoke();
+            }
+        });
 
         float playbackPositionDeltaInSeconds = (CurrentPlaybackPosition - PreviousPlaybackPosition) / 1000f;
         Vector3 displacement = 100 * Vector3.left * playbackPositionDeltaInSeconds;
