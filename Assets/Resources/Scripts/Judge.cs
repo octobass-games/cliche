@@ -13,7 +13,7 @@ public class Judge : MonoBehaviour
 
     public WordPopup WordPopup;
 
-    private float TotalScore = 0;
+    private int TotalScore = 0;
 
     public EffectCreator EffectCreator;
 
@@ -53,6 +53,7 @@ public class Judge : MonoBehaviour
     {
         TotalScore += score;
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
+        WordPopup.DisplayScore(TotalScore);
         StartCoroutine(EnemyHitAfterTime());
     }
 

@@ -5,6 +5,7 @@ public class WordPopup : MonoBehaviour
 {
     public TextRenderer TextRenderer;
     public GameObject LetterPrefab;
+    public GameObject Score;
 
 
     public void Perfect()
@@ -21,6 +22,18 @@ public class WordPopup : MonoBehaviour
     public void Okay()
     {
         MakeWord("Okay!");
+    }
+
+    public void DisplayScore(int score)
+    {
+        foreach (Transform child in Score.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+
+        GameObject scoreGO = TextRenderer.MakeWord("" + score, null);
+        scoreGO.transform.parent = Score.transform;
+        scoreGO.transform.localPosition = Vector2.zero;
     }
 
     private void MakeWord(string text)

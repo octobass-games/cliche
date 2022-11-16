@@ -111,6 +111,8 @@ public class TextRenderer : MonoBehaviour
             case '9': return alphabet.Nine;
             case '0': return alphabet.Zero;
             case '!': return alphabet.ExclamationMark;
+            case ' ': return alphabet.Space;
+            case ':': return alphabet.Colon;
         }
         return null;
     }
