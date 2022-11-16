@@ -6,6 +6,8 @@ public class WordPopup : MonoBehaviour
     public TextRenderer TextRenderer;
     public GameObject LetterPrefab;
     public GameObject Score;
+    public Animator ComboAnimator;
+    public GameObject ComboDisplay;
 
 
     public void Perfect()
@@ -35,6 +37,35 @@ public class WordPopup : MonoBehaviour
         scoreGO.transform.parent = Score.transform;
         scoreGO.transform.localPosition = Vector2.zero;
     }
+
+
+    public void DisplayCombo(int combo)
+    {
+        Debug.Log("CoMBO!");
+        foreach (Transform child in ComboDisplay.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+
+        ComboAnimator.SetBool("Open", true);
+
+        GameObject scoreGO = TextRenderer.MakeWord("" + combo, null);
+        scoreGO.transform.parent = ComboDisplay.transform;
+        scoreGO.transform.localPosition = Vector2.zero;
+    }
+
+
+    public void StopCombo()
+    {
+        Debug.Log("BREAK!");
+
+        foreach (Transform child in ComboDisplay.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+        ComboAnimator.SetBool("Open", false);
+    }
+
 
     private void MakeWord(string text)
     {

@@ -17,6 +17,7 @@ public class Conductor : MonoBehaviour
 
     private int CurrentPlaybackPosition;
     private int PreviousPlaybackPosition;
+    public WordPopup WordPopup;
 
     void Start()
     {
@@ -71,12 +72,14 @@ public class Conductor : MonoBehaviour
         if (hit)
         {
             Combo += 1;
+            WordPopup.DisplayCombo(Combo);
             Debug.Log("Current combo: " + Combo);
             CharacterAnimatorController.RandomDance();
             RemoveNote();
         }else
         {
-            Combo = 0;
+            WordPopup.StopCombo();
+             Combo = 0;
         }
 
     }
@@ -84,7 +87,7 @@ public class Conductor : MonoBehaviour
     public void MissedNote()
     {
         Combo = 0;
-       /* RemoveNote();*/
+        WordPopup.StopCombo();
     }
 
     private void RemoveNote()
