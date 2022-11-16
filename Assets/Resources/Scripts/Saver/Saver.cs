@@ -6,32 +6,25 @@ public class Saver : MonoBehaviour
 {
     private string SaveFilePath;
 
+    private List<SerializableLevel> InitialSaveData = new()
+    {
+        new SerializableLevel("", 0),
+        new SerializableLevel("", 0),
+        new SerializableLevel("", 0)
+    };
+
     void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
-    public void SaveLevel(string levelId, int highScore)
+    public void InitialiseSaveData() => InitialSaveData.ForEach(SaveLevel);
+
+    public void SaveLevel(string levelId, int highScore, bool force = false)
     {
-        List<SerializableLevel> levels = new();
+        List<SerializableLevel> levels = LoadSaveData();
+        SerializableLevel level = levels.Find(level => level.Id == levelId);
 
-        if (HasSaveData())
+        if (level.HighScore < highScore || force)
         {
-            levels = LoadAllLevels();
-
-            SerializableLevel level = levels.Find(level => level.Id == levelId);
-
-            if (level != null && level.HighScore < highScore)
-            {
-                level.HighScore = highScore;
-            }
-            else
-            {
-                level = new SerializableLevel(levelId, highScore);
-                levels.Add(level);
-            }
-        }
-        else
-        {
-            SerializableLevel level = new SerializableLevel(levelId, highScore);
-            levels.Add(level);
+            level.HighScore = highScore;
         }
 
         var saveData = new SaveData(levels);
@@ -51,7 +44,7 @@ public class Saver : MonoBehaviour
         }
     }
 
-    public List<SerializableLevel> LoadAllLevels()
+    public List<SerializableLevel> LoadSaveData()
     {
         string json;
 
@@ -70,30 +63,5 @@ public class Saver : MonoBehaviour
         return saveData.Levels;
     }
 
-    public void DeleteSaveData()
-    {
-        if (HasSaveData())
-        {
-            if (Application.platform != RuntimePlatform.WebGLPlayer)
-            {
-                File.Delete(Application.persistentDataPath + "/save-data.json");
-            }
-            else
-            {
-                PlayerPrefs.DeleteKey("save-data");
-            }
-        }
-    }
-
-    private static bool HasSaveData()
-    {
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
-        {
-            return File.Exists(Application.persistentDataPath + "/save-data.json");
-        }
-        else
-        {
-            return PlayerPrefs.GetString("save-data") != "";
-        }
-    }
+    private void SaveLevel(SerializableLevel level) => SaveLevel(level.Id, level.HighScore, true);
 }
