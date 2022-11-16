@@ -905,6 +905,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: colon
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 10
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04160f802006b4989ddfc720bab709
+      internalID: 1609687273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 10
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1831e22e62a4d47854aeb5c6d2ae2d
+      internalID: 428344592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -941,12 +983,14 @@ TextureImporter:
       I: -1069994044
       6: 1837591003
       O: -168879023
+      space: 428344592
       T: 1590017865
       5: 1074776768
       A: -625489364
       R: 1688531280
       D: -1977041243
       1: 474819504
+      colon: 1609687273
       7: -1950841112
       V: -1226363571
       Z: -83354498

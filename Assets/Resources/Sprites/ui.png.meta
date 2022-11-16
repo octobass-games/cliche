@@ -746,7 +746,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -754,6 +754,48 @@ TextureImporter:
       bones: []
       spriteID: 6ffbf4bcf29786944b61b0d2a578fd43
       internalID: 426546383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: score
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 178
+        width: 180
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fec4a5ade66dd499b1521e50f32b11
+      internalID: -130676555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combo
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 148
+        width: 166
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cb1822a8277c743b779646410a1a3d
+      internalID: -530301567
       vertices: []
       indices: 
       edges: []
@@ -780,6 +822,7 @@ TextureImporter:
       ui_19: -1530394118
       circle: 426546383
       ui_0: 616734131
+      combo: -530301567
       ui_3: -15631499
       arrow-down-inner: 1538193131
       ui_6: 908414790
@@ -797,6 +840,7 @@ TextureImporter:
       ui_1: 964839340
       outline-up: 383818911
       ui_15: 1324558975
+      score: -130676555
       ui_18: -1863424021
       outline-right: 1017714437
   spritePackingTag: 

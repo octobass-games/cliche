@@ -49,3 +49,5 @@ MonoBehaviour:
   Nine: {fileID: -349853780, guid: a59796674eeb169488182297ca42e8c6, type: 3}
   Zero: {fileID: -135435116, guid: a59796674eeb169488182297ca42e8c6, type: 3}
   ExclamationMark: {fileID: -87249001, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Colon: {fileID: 1609687273, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Space: {fileID: 428344592, guid: a59796674eeb169488182297ca42e8c6, type: 3}

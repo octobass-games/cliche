@@ -40,4 +40,6 @@ public class AlphaNumericContainer : ScriptableObject
     public Sprite Nine;
     public Sprite Zero;
     public Sprite ExclamationMark;
+    public Sprite Colon;
+    public Sprite Space;
 }
