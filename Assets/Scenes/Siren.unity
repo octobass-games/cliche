@@ -6928,7 +6928,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 136.5
+  orthographic size: 126
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8810,6 +8810,11 @@ MonoBehaviour:
   sortingOrder: -1
   Sporadic: 1
   Scale: 3
+--- !u!1 &1284004841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6998268786209541862, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
+  m_PrefabInstance: {fileID: 1726895128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1288310383
 GameObject:
   m_ObjectHideFlags: 0
@@ -10033,6 +10038,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9213395605125552290, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
   m_PrefabInstance: {fileID: 1726895128}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1726895132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284004841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1306314149
+      Data2: 1310153027
+      Data3: 1384315318
+      Data4: 132492270
+    Path: event:/SFX/Magic
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1744942329
 GameObject:
   m_ObjectHideFlags: 0
