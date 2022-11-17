@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{213282f7-c319-4965-9d40-1d4f3bad9cd9}">
+		<property name="assetPath">
+			<value>flus.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.3888888888888893</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b120d27a-6024-4139-aaff-db72233b8db5}</destination>
+		</relationship>
+	</object>
+</objects>
