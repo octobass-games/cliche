@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using FMODUnity;
 
 public class WordPopup : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class WordPopup : MonoBehaviour
     public Animator ComboAnimator;
     public GameObject ComboDisplay;
 
+    FMOD.Studio.EventInstance comboBroke;
+    public string comboBreak;
+
+    private void Start()
+    {
+        comboBroke = FMODUnity.RuntimeManager.CreateInstance(comboBreak);
+    }
 
     public void Perfect()
     {
@@ -58,6 +66,7 @@ public class WordPopup : MonoBehaviour
     public void StopCombo()
     {
         Debug.Log("BREAK!");
+        FMODUnity.RuntimeManager.PlayOneShot(comboBreak);
 
         foreach (Transform child in ComboDisplay.transform)
         {

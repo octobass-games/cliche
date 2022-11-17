@@ -6928,7 +6928,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 126
+  orthographic size: 135
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10053,11 +10053,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1306314149
-      Data2: 1310153027
-      Data3: 1384315318
-      Data4: 132492270
-    Path: event:/SFX/Magic
+      Data1: -959677307
+      Data2: 1268409999
+      Data3: 1656251322
+      Data4: 738115628
+    Path: event:/SFX/MagicDing
   Event: 
   PlayEvent: 1
   StopEvent: 2

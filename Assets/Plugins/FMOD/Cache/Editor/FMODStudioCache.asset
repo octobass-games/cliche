@@ -15,11 +15,65 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638043069530506634
+  lastModified: 638043093952842942
   FileSizes:
   - Name: Desktop
     Value: 1194
   Exists: 1
+--- !u!114 &-7158021588908731537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/MagicDing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/MagicDing
+  Guid:
+    Data1: -959677307
+    Data2: 1268409999
+    Data3: 1656251322
+    Data4: 738115628
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5040
+--- !u!114 &-6941787389160209362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Combo Broken
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Combo Broken
+  Guid:
+    Data1: 324661400
+    Data2: 1274233080
+    Data3: -1922907774
+    Data4: -1061638529
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6352269599283032409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,10 +89,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638043069530511661
+  lastModified: 638043093952853069
   FileSizes:
   - Name: Desktop
-    Value: 1296
+    Value: 1522
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -136,7 +190,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638043069531313075
+  lastModified: 638043093954645435
   FileSizes:
   - Name: Desktop
     Value: 15637504
@@ -169,6 +223,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 176200
+--- !u!114 &-1022364318167309049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Combo UP
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Combo UP
+  Guid:
+    Data1: 1403420019
+    Data2: 1263535607
+    Data3: -1335765838
+    Data4: 223458208
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2072
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,13 +277,18 @@ MonoBehaviour:
   - {fileID: 5451196877053611192}
   - {fileID: 323973352840163970}
   - {fileID: -4203615866059867127}
+  - {fileID: 806411288992692676}
+  - {fileID: 4175573952862844315}
+  - {fileID: -7158021588908731537}
+  - {fileID: -1022364318167309049}
+  - {fileID: -6941787389160209362}
   EditorParameters:
   - {fileID: 5159652581195031266}
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638043069532539915
+  cacheTime: 638043093955507586
   cacheVersion: 131593
 --- !u!114 &323973352840163970
 MonoBehaviour:
@@ -231,6 +317,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2420
+--- !u!114 &806411288992692676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ding
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ding
+  Guid:
+    Data1: -82438054
+    Data2: 1245508806
+    Data3: 1422668932
+    Data4: 272082618
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4640
 --- !u!114 &1003424410829780291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,11 +437,38 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638043069532539915
+  lastModified: 638043093955507586
   FileSizes:
   - Name: Desktop
-    Value: 1471936
+    Value: 1550816
   Exists: 1
+--- !u!114 &4175573952862844315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meow
+  Guid:
+    Data1: -1456022415
+    Data2: 1195890517
+    Data3: -1904697201
+    Data4: 909345675
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3076
 --- !u!114 &5159652581195031266
 MonoBehaviour:
   m_ObjectHideFlags: 0
