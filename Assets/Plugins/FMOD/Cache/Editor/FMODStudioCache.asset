@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638039560005818101
+  lastModified: 638043053808294747
   FileSizes:
   - Name: Desktop
     Value: 1194
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638039560005828089
+  lastModified: 638043053808309768
   FileSizes:
   - Name: Desktop
-    Value: 1020
+    Value: 1222
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -62,7 +62,7 @@ MonoBehaviour:
   - {fileID: 4029448791280017305}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
@@ -109,10 +109,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638039560006785523
+  lastModified: 638043053809229607
   FileSizes:
   - Name: Desktop
-    Value: 11096960
+    Value: 15637504
   Exists: 1
 --- !u!114 &-1667667468706315206
 MonoBehaviour:
@@ -163,13 +163,17 @@ MonoBehaviour:
   - {fileID: -1667667468706315206}
   - {fileID: -4412664947452459255}
   - {fileID: -2835432441905381980}
+  - {fileID: 2371996904738127942}
+  - {fileID: 6058220292037061487}
+  - {fileID: 2454403098366296519}
+  - {fileID: 5451196877053611192}
   EditorParameters:
   - {fileID: 5159652581195031266}
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638039560006785523
+  cacheTime: 638043053809433492
   cacheVersion: 131593
 --- !u!114 &1003424410829780291
 MonoBehaviour:
@@ -195,6 +199,60 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &2371996904738127942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Spooky/Spooky
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Spooky/Spooky
+  Guid:
+    Data1: -1414012942
+    Data2: 1092587662
+    Data3: -450215783
+    Data4: -1347583202
+  Banks:
+  - {fileID: -1872034626936257865}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 188753
+--- !u!114 &2454403098366296519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Click Standard
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Click Standard
+  Guid:
+    Data1: -963546843
+    Data2: 1110740378
+    Data3: -1310775125
+    Data4: -773213438
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1135
 --- !u!114 &4029448791280017305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,10 +268,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638033481820275190
+  lastModified: 638043053809433492
   FileSizes:
   - Name: Desktop
-    Value: 1374720
+    Value: 1379008
   Exists: 1
 --- !u!114 &5159652581195031266
 MonoBehaviour:
@@ -239,3 +297,57 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5451196877053611192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Click Higher
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Click Higher
+  Guid:
+    Data1: 1642152642
+    Data2: 1308490769
+    Data3: 164573851
+    Data4: 633790487
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1135
+--- !u!114 &6058220292037061487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Intro/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Intro/Intro
+  Guid:
+    Data1: -887752729
+    Data2: 1196418015
+    Data3: -2050809206
+    Data4: 1547225809
+  Banks:
+  - {fileID: -1872034626936257865}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 167153

@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{ab0deb57-7ac7-43ca-9984-ee6d14595ea8}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{79d74f06-1e1b-401a-8d3a-39ad083d41d0}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dbcf7e3d-9cc1-46f3-895d-c3884f4067de}">
 		<relationship name="effectChain">
@@ -92,6 +95,13 @@
 		<property name="length">
 			<value>109.37333333333333</value>
 		</property>
+		<property name="pitch">
+			<value>2</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3f5a848f-0e7e-4c59-b2e4-954050e3a6ad}</destination>
+			<destination>{9476898b-83db-4440-90b3-82c4b9fa8392}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{ad8896d1-a748-4ace-8c49-fe295f420c5c}</destination>
 		</relationship>
@@ -110,6 +120,20 @@
 			<destination>{dbcf7e3d-9cc1-46f3-895d-c3884f4067de}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{79d74f06-1e1b-401a-8d3a-39ad083d41d0}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>109.37333333333333</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{dc1628c4-569d-4fef-b788-446517762924}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{af33159b-fddf-4b29-8e98-c8c3ae7e734a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{4df0351f-bdff-4386-a25f-d16a727085ef}">
 		<relationship name="effects">
 			<destination>{a6964c0f-726b-4b64-b8b0-47f6f776ab95}</destination>
@@ -117,6 +141,28 @@
 	</object>
 	<object class="MixerBusPanner" id="{e7570be2-c033-44e9-b4bc-050dc8462fdf}" />
 	<object class="MixerBusFader" id="{f3190ca6-fd99-4ef3-b2cc-fdece574e4db}" />
+	<object class="ADSRModulator" id="{3f5a848f-0e7e-4c59-b2e4-954050e3a6ad}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>416.666687</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{9476898b-83db-4440-90b3-82c4b9fa8392}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{4e1bf28b-0512-468b-b0a9-babc4652339d}">
 		<relationship name="effects">
 			<destination>{d3c18a88-b0b3-42be-9cbe-75c38267cb48}</destination>
