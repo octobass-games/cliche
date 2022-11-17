@@ -8351,6 +8351,7 @@ MonoBehaviour:
   Score: {fileID: 1680485509}
   ComboAnimator: {fileID: 646723457}
   ComboDisplay: {fileID: 938573604}
+  comboBreak: event:/SFX/Combo UP
 --- !u!1 &1091262889
 GameObject:
   m_ObjectHideFlags: 0
