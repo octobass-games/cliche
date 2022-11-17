@@ -139,7 +139,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fca6abb7-2431-4e5b-8997-751c5eb03ada}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>Full Track</value>
@@ -163,6 +163,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{41150a70-9229-4e36-8415-01870763a060}">
+		<property name="volume">
+			<value>-46</value>
+		</property>
 		<property name="name">
 			<value>Lead</value>
 		</property>

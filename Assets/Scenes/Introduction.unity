@@ -7605,6 +7605,7 @@ GameObject:
   - component: {fileID: 1782345972}
   - component: {fileID: 1782345973}
   - component: {fileID: 1782345974}
+  - component: {fileID: 1782345975}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -7726,6 +7727,18 @@ MonoBehaviour:
           m_StringArgument: startle
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1782345975}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Event2:
     m_PersistentCalls:
       m_Calls:
@@ -7744,6 +7757,36 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1782345975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782345970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1306314149
+      Data2: 1310153027
+      Data3: 1384315318
+      Data4: 132492270
+    Path: event:/SFX/Magic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2038124709
 GameObject:
   m_ObjectHideFlags: 0
@@ -7944,6 +7987,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: escape
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1782345975}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   Event3:

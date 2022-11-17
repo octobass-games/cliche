@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638043053808294747
+  lastModified: 638043064849624820
   FileSizes:
   - Name: Desktop
     Value: 1194
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638043053808309768
+  lastModified: 638043064849639931
   FileSizes:
   - Name: Desktop
-    Value: 1222
+    Value: 1258
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638043053809229607
+  lastModified: 638043064850393030
   FileSizes:
   - Name: Desktop
     Value: 15637504
@@ -167,14 +167,42 @@ MonoBehaviour:
   - {fileID: 6058220292037061487}
   - {fileID: 2454403098366296519}
   - {fileID: 5451196877053611192}
+  - {fileID: 323973352840163970}
   EditorParameters:
   - {fileID: 5159652581195031266}
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638043053809433492
+  cacheTime: 638043064850588580
   cacheVersion: 131593
+--- !u!114 &323973352840163970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Magic
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Magic
+  Guid:
+    Data1: -1306314149
+    Data2: 1310153027
+    Data3: 1384315318
+    Data4: 132492270
+  Banks:
+  - {fileID: 4029448791280017305}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2420
 --- !u!114 &1003424410829780291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,10 +296,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638043053809433492
+  lastModified: 638043064850588580
   FileSizes:
   - Name: Desktop
-    Value: 1379008
+    Value: 1399136
   Exists: 1
 --- !u!114 &5159652581195031266
 MonoBehaviour:
