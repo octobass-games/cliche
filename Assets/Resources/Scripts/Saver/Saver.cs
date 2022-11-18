@@ -15,46 +15,28 @@ public class Saver : MonoBehaviour
 
     void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
-    public void InitialiseSaveData() => InitialSaveData.ForEach(SaveLevel);
-
-    public void SaveLevel(string levelId, int highScore, bool force = false)
+    public void InitialiseSaveData()
     {
-        List<SerializableLevel> levels = LoadSaveData();
-        SerializableLevel level = levels.Find(level => level.Id == levelId);
-
-        if (level != null)
-        {
-            if (level.HighScore < highScore || force)
-            {
-                level.HighScore = highScore;
-            }
-        }
-        else
-        {
-            level = new SerializableLevel(levelId, highScore);
-            levels.Add(level);
-        }
-
-        var saveData = new SaveData(levels);
-        var json = JsonUtility.ToJson(saveData);
-
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
-        {
-            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
-            using var streamWriter = new StreamWriter(fileStream);
-
-            streamWriter.Write(json);
-        }
-        else
-        {
-            PlayerPrefs.SetString("save-data", json);
-            PlayerPrefs.Save();
-        }
+        DeleteSaveData();
+        Save(InitialSaveData);
     }
 
-    public List<SerializableLevel> LoadSaveData()
+    public void Save(string levelId, int highScore)
     {
-        if (File.Exists(SaveFilePath))
+        List<SerializableLevel> levels = Load();
+        SerializableLevel level = levels.Find(level => level.Id == levelId);
+
+        if (level.HighScore < highScore)
+        {
+            level.HighScore = highScore;
+        }
+
+        Save(levels);
+    }
+
+    public List<SerializableLevel> Load()
+    {
+        if (HasSaveData())
         {
             string json;
 
@@ -73,8 +55,51 @@ public class Saver : MonoBehaviour
             return saveData.Levels;
         }
 
-        return new();
+        return null;
     }
 
-    private void SaveLevel(SerializableLevel level) => SaveLevel(level.Id, level.HighScore, true);
+    private void Save(List<SerializableLevel> levels)
+    {
+        var saveData = new SaveData(levels);
+        var json = JsonUtility.ToJson(saveData);
+
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
+            using var streamWriter = new StreamWriter(fileStream);
+
+            streamWriter.Write(json);
+        }
+        else
+        {
+            PlayerPrefs.SetString("save-data", json);
+            PlayerPrefs.Save();
+        }
+    }
+
+    private void DeleteSaveData()
+    {
+        if (HasSaveData())
+        {
+            if (Application.platform != RuntimePlatform.WebGLPlayer)
+            {
+                File.Delete(Application.persistentDataPath + "/save-data.json");
+            }
+            else
+            {
+                PlayerPrefs.DeleteKey("save-data");
+            }
+        }
+    }
+    private bool HasSaveData()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            return File.Exists(Application.persistentDataPath + "/save-data.json");
+        }
+        else
+        {
+            return PlayerPrefs.GetString("save-data") != "";
+        }
+    }
 }
