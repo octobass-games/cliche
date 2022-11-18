@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextRenderer : MonoBehaviour
 {
@@ -50,7 +51,45 @@ public class TextRenderer : MonoBehaviour
         }
 
         return parent;
+    }
 
+    public GameObject MakeUIWord(string word, GameObject parent, GameObject prefab)
+    {
+        var sprites = GetSpritesForWord(word);
+
+        if (parent == null)
+        {
+            parent = new GameObject();
+            parent.AddComponent<HorizontalLayoutGroup>();
+
+        }
+        Color color = colours.PickRandom();
+        for (int i = 0; i < sprites.Count; i++)
+        {
+            Sprite sprite = sprites[i];
+            Sprite prevSprite = i == 0 ? null : sprites[i - 1];
+            Image renderer;
+
+            GameObject child;
+            if (prefab == null)
+            {
+                child = new GameObject();
+                renderer = child.AddComponent<Image>();
+            }
+            else
+            {
+                child = Instantiate(prefab);
+                renderer = child.GetComponent<Image>();
+            }
+
+            renderer.sprite = sprite;
+            renderer.preserveAspect = true;
+            renderer.color = color;
+
+            child.transform.parent = parent.transform;
+        }
+
+        return parent;
     }
 
     private List<Sprite> GetSpritesForWord(string word)
@@ -113,6 +152,7 @@ public class TextRenderer : MonoBehaviour
             case '!': return alphabet.ExclamationMark;
             case ' ': return alphabet.Space;
             case ':': return alphabet.Colon;
+            case '%': return alphabet.Percentage;
         }
         return null;
     }

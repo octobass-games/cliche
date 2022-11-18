@@ -42,4 +42,5 @@ public class AlphaNumericContainer : ScriptableObject
     public Sprite ExclamationMark;
     public Sprite Colon;
     public Sprite Space;
+    public Sprite Percentage;
 }

@@ -51,3 +51,4 @@ MonoBehaviour:
   ExclamationMark: {fileID: -87249001, guid: a59796674eeb169488182297ca42e8c6, type: 3}
   Colon: {fileID: 1609687273, guid: a59796674eeb169488182297ca42e8c6, type: 3}
   Space: {fileID: 428344592, guid: a59796674eeb169488182297ca42e8c6, type: 3}
+  Percentage: {fileID: -2027789768, guid: a59796674eeb169488182297ca42e8c6, type: 3}

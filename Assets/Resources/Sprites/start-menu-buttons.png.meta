@@ -639,195 +639,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: level 2 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 119
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75cc22fdcbc3fad30800000000000000
-      internalID: 4444838139133086807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 3 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 108
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2260bdc5d849dd20800000000000000
-      internalID: 3303751884769092138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 4 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79d333699ca366bd0800000000000000
-      internalID: -2637355894296068713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 5 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 84
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cfa6f4119841e220800000000000000
-      internalID: 2513369855008616385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 6 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 73
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d3d4a37feeae2b20800000000000000
-      internalID: 3111616736020190162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 7 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 61
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d395054e56ed068c0800000000000000
-      internalID: -4007959139156207299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 8 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 49
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2527e7b28c5ef9b0800000000000000
-      internalID: -5044492816107494100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 9 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 36
-        width: 158
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09b1b8f79f7408d40800000000000000
-      internalID: 5584542674851666832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: level 10 complete
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 23
-        width: 166
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf66eb7fc618751b0800000000000000
-      internalID: -5667919301009578245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: main menu
       rect:
         serializedVersion: 2
@@ -1172,7 +983,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1180,6 +991,132 @@ TextureImporter:
       bones: []
       spriteID: 2bef1c1436cf59a20800000000000000
       internalID: 3068636224358055602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 115
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae036e216ca93ee49b61e2a626c582ce
+      internalID: -1495381397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: good
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 101
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fff66df48764a48aca4c706efc4b49
+      internalID: 617691028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: okay
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 89
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57de79d7fc618d4f8e8e17213831876
+      internalID: -214156882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: combo
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 78
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d773c1462514f4cabd506ceb9f6bde
+      internalID: 138743866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: score
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 67
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a488546fe7d60c44abfe5330a472f79a
+      internalID: 848578548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc5b229eba16cf4ea2c4341e781d132
+      internalID: -945612814
       vertices: []
       indices: 
       edges: []
@@ -1195,6 +1132,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      heart: -945612814
       circle: -5929314477315672613
       pause-icon: 3068636224358055602
       question mark: -5027849011435197441
@@ -1203,9 +1141,11 @@ TextureImporter:
       adam: -7951029402569522674
       megan: 2389031316650061204
       level 3 complete: 3303751884769092138
+      combo: 138743866
       odette: 3450182602739598057
       skip level: 5401554910025575603
       level 6 complete: 3111616736020190162
+      good: 617691028
       closed-book-icon: 4172484642484797931
       level-select: -2603594978610747406
       skip backwards: -2464937512742598392
@@ -1225,19 +1165,22 @@ TextureImporter:
       quit: -5065639170350743147
       pause: 7052723869441870344
       level 5 complete: 2513369855008616385
-      level 9 complete: 5584542674851666832
-      newgame: 170108340464960886
       open-book-icon: -4558259214167870106
+      newgame: 170108340464960886
+      level 9 complete: 5584542674851666832
       thanks for playing: 3885163344328010641
+      okay: -214156882
       controls: -576222392486240172
-      credits: 7784802573013522063
       music-note: 6267196114321649021
+      credits: 7784802573013522063
+      perfect: -1495381397
       halden: 321870704700071952
-      save: -1001128473645107264
       now playing: -6288917170383791396
+      save: -1001128473645107264
       load: 5988823504805139456
       eye-open: 3054675897875176938
       next level: -8971054447262947728
+      score: 848578548
       level 4 complete: -2637355894296068713
   spritePackingTag: 
   pSDRemoveMatte: 0

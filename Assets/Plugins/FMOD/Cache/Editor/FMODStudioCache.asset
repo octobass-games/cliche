@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638043220023778676
+  lastModified: 638039560005818101
   FileSizes:
   - Name: Desktop
     Value: 1194
@@ -89,10 +89,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638043220023793693
+  lastModified: 638043944114341244
   FileSizes:
   - Name: Desktop
-    Value: 1522
+    Value: 1564
   Exists: 1
 --- !u!114 &-4412664947452459255
 MonoBehaviour:
@@ -190,10 +190,10 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638043220024583409
+  lastModified: 638043944114992494
   FileSizes:
   - Name: Desktop
-    Value: 15637504
+    Value: 18159488
   Exists: 1
 --- !u!114 &-1667667468706315206
 MonoBehaviour:
@@ -282,13 +282,14 @@ MonoBehaviour:
   - {fileID: -7158021588908731537}
   - {fileID: -1022364318167309049}
   - {fileID: -6941787389160209362}
+  - {fileID: 3913259966026754697}
   EditorParameters:
   - {fileID: 5159652581195031266}
   MasterBanks:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638043220024842777
+  cacheTime: 638043944115052335
   cacheVersion: 131593
 --- !u!114 &323973352840163970
 MonoBehaviour:
@@ -422,6 +423,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1135
+--- !u!114 &3913259966026754697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CHill/Chill
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CHill/Chill
+  Guid:
+    Data1: 877318807
+    Data2: 1200817080
+    Data3: -977828975
+    Data4: 1608348022
+  Banks:
+  - {fileID: -1872034626936257865}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 185615
 --- !u!114 &4029448791280017305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +465,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638043220024842777
+  lastModified: 638043944115052335
   FileSizes:
   - Name: Desktop
     Value: 1550976
