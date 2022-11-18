@@ -6,6 +6,14 @@ public class GameManager : MonoBehaviour
 {
     private bool IsPaused;
 
+    public Saver Saver;
+
+    public void NewGame()
+    {
+        Saver.InitialiseSaveData();
+        ChangeScene("Introduction");
+    }
+
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

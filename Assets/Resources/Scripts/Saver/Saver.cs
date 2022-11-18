@@ -22,9 +22,17 @@ public class Saver : MonoBehaviour
         List<SerializableLevel> levels = LoadSaveData();
         SerializableLevel level = levels.Find(level => level.Id == levelId);
 
-        if (level.HighScore < highScore || force)
+        if (level != null)
         {
-            level.HighScore = highScore;
+            if (level.HighScore < highScore || force)
+            {
+                level.HighScore = highScore;
+            }
+        }
+        else
+        {
+            level = new SerializableLevel(levelId, highScore);
+            levels.Add(level);
         }
 
         var saveData = new SaveData(levels);
@@ -46,21 +54,26 @@ public class Saver : MonoBehaviour
 
     public List<SerializableLevel> LoadSaveData()
     {
-        string json;
-
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        if (File.Exists(SaveFilePath))
         {
-            using var streamReader = new StreamReader(SaveFilePath);
-            json = streamReader.ReadToEnd();
-        }
-        else
-        {
-            json = PlayerPrefs.GetString("save-data");
+            string json;
+
+            if (Application.platform != RuntimePlatform.WebGLPlayer)
+            {
+                using var streamReader = new StreamReader(SaveFilePath);
+                json = streamReader.ReadToEnd();
+            }
+            else
+            {
+                json = PlayerPrefs.GetString("save-data");
+            }
+
+            var saveData = JsonUtility.FromJson<SaveData>(json);
+
+            return saveData.Levels;
         }
 
-        var saveData = JsonUtility.FromJson<SaveData>(json);
-
-        return saveData.Levels;
+        return new();
     }
 
     private void SaveLevel(SerializableLevel level) => SaveLevel(level.Id, level.HighScore, true);
