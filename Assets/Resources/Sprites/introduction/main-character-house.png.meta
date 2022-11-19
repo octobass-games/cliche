@@ -510,10 +510,10 @@ TextureImporter:
       name: sofa
       rect:
         serializedVersion: 2
-        x: 365
-        y: 97
-        width: 80
-        height: 38
+        x: 364
+        y: 96
+        width: 82
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,9 +532,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 332
-        y: 96
-        width: 22
-        height: 18
+        y: 95
+        width: 24
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,7 +578,7 @@ TextureImporter:
         width: 42
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
