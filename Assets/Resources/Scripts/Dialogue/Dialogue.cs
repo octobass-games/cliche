@@ -4,6 +4,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Dialogue : ScriptableObject
 {
-    [TextArea]
+    [TextArea(10, 50)]
     public string Text;
 }
