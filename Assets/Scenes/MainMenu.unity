@@ -1534,6 +1534,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4909835897379984822, guid: 397c66e6a75749942ba0a9a97bd037fa, type: 3}
   m_PrefabInstance: {fileID: 1516486971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1562438676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5145183668463089903, guid: fa436bab5da97fd4d8289e4505f6e77d, type: 3}
+  m_PrefabInstance: {fileID: 5145183668799654171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1601793427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1589,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5145183668463089902, guid: fa436bab5da97fd4d8289e4505f6e77d, type: 3}
   m_PrefabInstance: {fileID: 5145183668799654171}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813246455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562438676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -475857237
+      Data2: 1242763179
+      Data3: -86990425
+      Data4: -1203493186
+    Path: event:/SFX/Sleeping
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1880670504
 GameObject:
   m_ObjectHideFlags: 0
