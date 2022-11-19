@@ -21,11 +21,11 @@ public class SummaryPanel : MonoBehaviour
 
     }
 
-    public void RenderSummary(int perfectTimes, int goodTimes, int okayTimes, int bestCombo, int overallScore)
+    public void RenderSummary(int perfectCount, int goodCount, int okayCount, int missCount, int bestCombo, int overallScore)
     {
-        PerfectScore.text = "x "+ perfectTimes;
-        GoodScore.text = "x "+ goodTimes;
-        OkayScore.text = "x "+ okayTimes;
+        PerfectScore.text = "x "+ perfectCount;
+        GoodScore.text = "x "+ goodCount;
+        OkayScore.text = "x "+ okayCount;
         ComboScore.text = ""+ bestCombo;
         OverallScore.text = ""+ overallScore;
         Animator.SetTrigger("open");

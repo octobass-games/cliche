@@ -79,7 +79,7 @@ public class Conductor : MonoBehaviour
         }else
         {
             WordPopup.StopCombo();
-             Combo = 0;
+            Combo = 0;
         }
 
     }
@@ -88,6 +88,7 @@ public class Conductor : MonoBehaviour
     {
         Combo = 0;
         WordPopup.StopCombo();
+        Judge.MissedNote();
     }
 
     private void RemoveNote()

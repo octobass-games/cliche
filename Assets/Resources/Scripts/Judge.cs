@@ -8,6 +8,11 @@ public class Judge : MonoBehaviour
     public int OkayScore = 25;
     public int MissScore = 0;
 
+    public int PerfectCount;
+    public int GoodCount;
+    public int OkayCount;
+    public int MissCount;
+
     public Conductor Conductor;
     public Animator Enemy;
 
@@ -18,7 +23,7 @@ public class Judge : MonoBehaviour
     public EffectCreator EffectCreator;
     
     public void CompleteLevel() {
-        SummaryPanel.RenderSummary(1, 2, 3, 10, TotalScore);
+        SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, 0, TotalScore);
     }
 
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
@@ -32,6 +37,7 @@ public class Judge : MonoBehaviour
             WordPopup.Perfect();
             note.SetPerfectCollided();
             EffectCreator.MakeEffect();
+            PerfectCount += 1;
             return true;
         }
         else if (IsGood(distanceFromCentre))
@@ -40,6 +46,7 @@ public class Judge : MonoBehaviour
             WordPopup.Good();
             note.SetGoodCollided();
             EffectCreator.MakeEffect();
+            GoodCount += 1;
             return true;
         }
         else if (IsOkay(distanceFromCentre))
@@ -48,6 +55,7 @@ public class Judge : MonoBehaviour
             WordPopup.Okay();
             note.SetOkayCollided();
             EffectCreator.MakeEffect();
+            OkayCount += 1;
             return true;
         }
         return false;
@@ -59,6 +67,11 @@ public class Judge : MonoBehaviour
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
         WordPopup.DisplayScore(TotalScore);
         StartCoroutine(EnemyHitAfterTime());
+    }
+
+    public void MissedNote()
+    {
+        MissCount += 1;
     }
 
     private bool IsPerfect(float distanceFromNextNote)
