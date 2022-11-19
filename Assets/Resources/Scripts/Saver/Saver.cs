@@ -6,34 +6,25 @@ public class Saver : MonoBehaviour
 {
     private string SaveFilePath;
 
-    private List<SerializableLevel> InitialSaveData = new()
-    {
-        new SerializableLevel("", 0, false),
-        new SerializableLevel("", 0, false),
-        new SerializableLevel("", 0, false)
-    };
-
     void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
-    public void InitialiseSaveData()
+    public void Save(List<SerializableLevel> levels)
     {
-        DeleteSaveData();
-        Save(InitialSaveData);
-    }
+        var saveData = new SaveData(levels);
+        var json = JsonUtility.ToJson(saveData);
 
-    public void Save(string levelId, int highScore)
-    {
-        List<SerializableLevel> levels = Load();
-        SerializableLevel level = levels.Find(level => level.Id == levelId);
-
-        level.IsComplete = true;
-
-        if (level.HighScore < highScore)
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
         {
-            level.HighScore = highScore;
-        }
+            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
+            using var streamWriter = new StreamWriter(fileStream);
 
-        Save(levels);
+            streamWriter.Write(json);
+        }
+        else
+        {
+            PlayerPrefs.SetString("save-data", json);
+            PlayerPrefs.Save();
+        }
     }
 
     public List<SerializableLevel> Load()
@@ -60,26 +51,7 @@ public class Saver : MonoBehaviour
         return null;
     }
 
-    private void Save(List<SerializableLevel> levels)
-    {
-        var saveData = new SaveData(levels);
-        var json = JsonUtility.ToJson(saveData);
-
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
-        {
-            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
-            using var streamWriter = new StreamWriter(fileStream);
-
-            streamWriter.Write(json);
-        }
-        else
-        {
-            PlayerPrefs.SetString("save-data", json);
-            PlayerPrefs.Save();
-        }
-    }
-
-    private void DeleteSaveData()
+    public void DeleteSaveData()
     {
         if (HasSaveData())
         {

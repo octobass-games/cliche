@@ -6,11 +6,11 @@ public class GameManager : MonoBehaviour
 {
     private bool IsPaused;
 
-    public Saver Saver;
+    public LevelManager LevelManager;
 
     public void NewGame()
     {
-        Saver.InitialiseSaveData();
+        LevelManager.NewGame();
         ChangeScene("Introduction");
     }
 

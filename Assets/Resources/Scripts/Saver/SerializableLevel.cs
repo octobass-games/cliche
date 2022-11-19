@@ -3,12 +3,12 @@ public class SerializableLevel
 {
     public string Id;
     public int HighScore;
-    public bool IsComplete;
+    public bool IsUnlocked;
 
-    public SerializableLevel(string id, int highScore, bool isComplete)
+    public SerializableLevel(string id, int highScore, bool isUnlocked)
     {
         Id = id;
         HighScore = highScore;
-        IsComplete = isComplete;
+        IsUnlocked = isUnlocked;
     }
 }
