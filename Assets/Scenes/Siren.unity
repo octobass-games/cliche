@@ -6734,9 +6734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PathToSheetMusic: MusicCharts/test2
   Track: {fileID: 25177828}
-  CharacterAnimatorController: {fileID: 1625213760}
   Judge: {fileID: 1666133633}
-  Combo: 0
   TimedEvents:
   - PlaybackPositionInMilliseconds: 90000
     UnityEvent:
@@ -6772,7 +6770,6 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     IsComplete: 0
-  WordPopup: {fileID: 1090320394}
 --- !u!4 &510649381
 Transform:
   m_ObjectHideFlags: 0
@@ -9993,10 +9990,16 @@ MonoBehaviour:
   GoodScore: 50
   OkayScore: 25
   MissScore: 0
+  PerfectCount: 0
+  GoodCount: 0
+  OkayCount: 0
+  MissCount: 0
+  Combo: 0
   Conductor: {fileID: 510649380}
   Enemy: {fileID: 496323352}
   WordPopup: {fileID: 1090320394}
   SummaryPanel: {fileID: 134908753}
+  CharacterAnimatorController: {fileID: 1625213760}
   EffectCreator: {fileID: 1201276677}
 --- !u!4 &1666133634
 Transform:

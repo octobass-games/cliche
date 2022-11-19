@@ -7,9 +7,7 @@ public class Conductor : MonoBehaviour
 {
     public string PathToSheetMusic;
     public GameObject Track;
-    public CharacterAnimatorController CharacterAnimatorController;
     public Judge Judge;
-    public int Combo;
     public List<TimedEvent> TimedEvents;
 
     private StudioEventEmitter MusicEventEmitter;
@@ -17,7 +15,6 @@ public class Conductor : MonoBehaviour
 
     private int CurrentPlaybackPosition;
     private int PreviousPlaybackPosition;
-    public WordPopup WordPopup;
 
     void Start()
     {
@@ -34,26 +31,18 @@ public class Conductor : MonoBehaviour
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
     {
-        if (targetStrikeResult.Note == null)
-        {
-            Debug.Log("Uh oh!");
-        }
-        else
-        {
-            ChordNote chordNote = targetStrikeResult.Note.GetComponent<ChordNote>();
+        var hit = Judge.PassJudgement(targetStrikeResult);
 
-            if (chordNote != null)
-            {
-                if (chordNote.IsFinished())
-                {
-                    HitNote(targetStrikeResult);
-                }
-            }
-            else
-            {
-                HitNote(targetStrikeResult);
-            }
+        if (hit)
+        {
+            RemoveNote();
         }
+    }
+
+    public void MissedNote()
+    {
+        Judge.MissedNote();
+        RemoveNote();
     }
 
     public void Pause()
@@ -64,31 +53,6 @@ public class Conductor : MonoBehaviour
     public void Resume()
     {
         MusicEventEmitter.EventInstance.setPaused(false);
-    }
-
-    private void HitNote(TargetStrikeResult targetStrikeResult)
-    {
-        bool hit = Judge.PassJudgement(targetStrikeResult);
-        if (hit)
-        {
-            Combo += 1;
-            WordPopup.DisplayCombo(Combo);
-            Debug.Log("Current combo: " + Combo);
-            CharacterAnimatorController.RandomDance();
-            RemoveNote();
-        }else
-        {
-            WordPopup.StopCombo();
-            Combo = 0;
-        }
-
-    }
-
-    public void MissedNote()
-    {
-        Combo = 0;
-        WordPopup.StopCombo();
-        Judge.MissedNote();
     }
 
     private void RemoveNote()

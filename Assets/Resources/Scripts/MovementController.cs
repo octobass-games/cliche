@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 public class MovementController : MonoBehaviour
 {
     public int Speed;
+    public Animator Animator;
+    public SpriteRenderer SpriteRenderer;
 
     private Rigidbody2D Rigidbody;
     private Vector2 Direction;
@@ -17,6 +19,15 @@ public class MovementController : MonoBehaviour
     void Start()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        var notMoving = Direction == Vector2.zero;
+        var right = Direction == Vector2.right || Direction == Vector2.zero;
+
+        Animator.SetBool("Run", !notMoving);
+        SpriteRenderer.flipX = !right;
     }
 
     void FixedUpdate()
