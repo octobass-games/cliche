@@ -14,6 +14,11 @@ public class GameManager : MonoBehaviour
         ChangeScene("Introduction");
     }
 
+    public void ContinueGame()
+    {
+        ChangeScene("Home");
+    }
+
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
