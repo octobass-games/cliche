@@ -13,11 +13,15 @@ public class Judge : MonoBehaviour
     public int OkayCount;
     public int MissCount;
 
+    public int Combo;
+
     public Conductor Conductor;
     public Animator Enemy;
 
     public WordPopup WordPopup;
     public SummaryPanel SummaryPanel;
+    public CharacterAnimatorController CharacterAnimatorController;
+
     private int TotalScore = 0;
 
     public EffectCreator EffectCreator;
@@ -28,37 +32,83 @@ public class Judge : MonoBehaviour
 
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {
-        var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
-        var note = targetStrikeResult.Note.GetComponentInChildren<Note>();
+        if (targetStrikeResult.Note == null)
+        {
+            Combo = 0;
+            WordPopup.StopCombo();
+            return false;
+        }
+        else
+        {
+            Combo += 1;
+            WordPopup.DisplayCombo(Combo);
+            CharacterAnimatorController.RandomDance();
 
-        if (IsPerfect(distanceFromCentre))
-        {
-            Score(PerfectScore);
-            WordPopup.Perfect();
-            note.SetPerfectCollided();
-            EffectCreator.MakeEffect();
-            PerfectCount += 1;
+            var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
+            var note = targetStrikeResult.Note.GetComponentInChildren<Note>();
+
+            ChordNote chordNote = targetStrikeResult.Note.GetComponent<ChordNote>();
+
+            if (chordNote != null)
+            {
+                if (chordNote.IsFinished())
+                {
+                    if (IsPerfect(distanceFromCentre))
+                    {
+                        Score(PerfectScore);
+                        WordPopup.Perfect();
+                        note.SetPerfectCollided();
+                        EffectCreator.MakeEffect();
+                        PerfectCount += 1;
+                    }
+                    else if (IsGood(distanceFromCentre))
+                    {
+                        Score(GoodScore);
+                        WordPopup.Good();
+                        note.SetGoodCollided();
+                        EffectCreator.MakeEffect();
+                        GoodCount += 1;
+                    }
+                    else if (IsOkay(distanceFromCentre))
+                    {
+                        Score(OkayScore);
+                        WordPopup.Okay();
+                        note.SetOkayCollided();
+                        EffectCreator.MakeEffect();
+                        OkayCount += 1;
+                    }
+                }
+            }
+            else
+            {
+                if (IsPerfect(distanceFromCentre))
+                {
+                    Score(PerfectScore);
+                    WordPopup.Perfect();
+                    note.SetPerfectCollided();
+                    EffectCreator.MakeEffect();
+                    PerfectCount += 1;
+                }
+                else if (IsGood(distanceFromCentre))
+                {
+                    Score(GoodScore);
+                    WordPopup.Good();
+                    note.SetGoodCollided();
+                    EffectCreator.MakeEffect();
+                    GoodCount += 1;
+                }
+                else if (IsOkay(distanceFromCentre))
+                {
+                    Score(OkayScore);
+                    WordPopup.Okay();
+                    note.SetOkayCollided();
+                    EffectCreator.MakeEffect();
+                    OkayCount += 1;
+                }
+            }
+
             return true;
         }
-        else if (IsGood(distanceFromCentre))
-        {
-            Score(GoodScore);
-            WordPopup.Good();
-            note.SetGoodCollided();
-            EffectCreator.MakeEffect();
-            GoodCount += 1;
-            return true;
-        }
-        else if (IsOkay(distanceFromCentre))
-        {
-            Score(OkayScore);
-            WordPopup.Okay();
-            note.SetOkayCollided();
-            EffectCreator.MakeEffect();
-            OkayCount += 1;
-            return true;
-        }
-        return false;
     }
 
     private void Score(int score)
@@ -71,6 +121,8 @@ public class Judge : MonoBehaviour
 
     public void MissedNote()
     {
+        Combo = 0;
+        WordPopup.StopCombo();
         MissCount += 1;
     }
 
