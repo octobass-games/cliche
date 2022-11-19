@@ -23,19 +23,19 @@ public class Judge : MonoBehaviour
     public CharacterAnimatorController CharacterAnimatorController;
 
     private int TotalScore = 0;
+    private int LongestCombo;
 
     public EffectCreator EffectCreator;
     
     public void CompleteLevel() {
-        SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, 0, TotalScore);
+        SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
     }
 
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {
         if (targetStrikeResult.Note == null)
         {
-            Combo = 0;
-            WordPopup.StopCombo();
+            ResetCombo();
             return false;
         }
         else
@@ -121,8 +121,7 @@ public class Judge : MonoBehaviour
 
     public void MissedNote()
     {
-        Combo = 0;
-        WordPopup.StopCombo();
+        ResetCombo();
         MissCount += 1;
     }
 
@@ -139,6 +138,17 @@ public class Judge : MonoBehaviour
     private bool IsOkay(float distanceFromNextNote)
     {
         return distanceFromNextNote <= 10;
+    }
+
+    private void ResetCombo()
+    {
+        if (LongestCombo < Combo)
+        {
+            LongestCombo = Combo;
+        }
+
+        Combo = 0;
+        WordPopup.StopCombo();
     }
 
 
