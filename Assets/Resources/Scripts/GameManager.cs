@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     public void ContinueGame()
     {
+        LevelManager.ContinueGame();
         ChangeScene("Home");
     }
 

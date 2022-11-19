@@ -15,17 +15,17 @@ public class LevelManager : MonoBehaviour
         new SerializableLevel("", 0, false)
     };
 
-    void Start()
-    {
-        Levels = Saver.Load();
-    }
-
     public void NewGame()
     {
         Levels = InitialLevelData;
 
         Saver.DeleteSaveData();
         Saver.Save(Levels);
+    }
+
+    public void ContinueGame()
+    {
+        Levels = Saver.Load();
     }
 
     public void SetHighScore(string levelId, int highScore)
