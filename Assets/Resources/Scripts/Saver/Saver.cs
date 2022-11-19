@@ -65,7 +65,7 @@ public class Saver : MonoBehaviour
             }
         }
     }
-    private bool HasSaveData()
+    public bool HasSaveData()
     {
         if (Application.platform != RuntimePlatform.WebGLPlayer)
         {
