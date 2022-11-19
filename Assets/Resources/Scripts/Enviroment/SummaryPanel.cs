@@ -8,6 +8,7 @@ public class SummaryPanel : MonoBehaviour
     public TMPro.TextMeshProUGUI ComboScore;
     public TMPro.TextMeshProUGUI OverallScore;
     public TextRenderer TextRenderer;
+    public Animator Animator;
 
     // Use this for initialization
     void Start()
@@ -27,5 +28,6 @@ public class SummaryPanel : MonoBehaviour
         OkayScore.text = "x "+ okayTimes;
         ComboScore.text = ""+ bestCombo;
         OverallScore.text = ""+ overallScore;
+        Animator.SetTrigger("open");
     }
 }

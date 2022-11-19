@@ -12,10 +12,14 @@ public class Judge : MonoBehaviour
     public Animator Enemy;
 
     public WordPopup WordPopup;
-
+    public SummaryPanel SummaryPanel;
     private int TotalScore = 0;
 
     public EffectCreator EffectCreator;
+    
+    public void CompleteLevel() {
+        SummaryPanel.RenderSummary(1, 2, 3, 10, TotalScore);
+    }
 
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
     {

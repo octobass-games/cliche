@@ -517,6 +517,7 @@ MonoBehaviour:
   ComboScore: {fileID: 954154693}
   OverallScore: {fileID: 1301994477}
   TextRenderer: {fileID: 134908752}
+  Animator: {fileID: 134908754}
 --- !u!95 &134908754
 Animator:
   serializedVersion: 4
@@ -9902,6 +9903,7 @@ GameObject:
   - component: {fileID: 1174873214}
   - component: {fileID: 1174873216}
   - component: {fileID: 1174873215}
+  - component: {fileID: 1174873217}
   m_Layer: 0
   m_Name: circleHighlight
   m_TagString: Untagged
@@ -9996,6 +9998,39 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1174873217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174873213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f777d09a58a5ad9498bcc1438d06187a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1666133633}
+        m_TargetAssemblyTypeName: Judge, Assembly-CSharp
+        m_MethodName: CompleteLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event2:
+    m_PersistentCalls:
+      m_Calls: []
+  Event3:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1201276676
 GameObject:
   m_ObjectHideFlags: 0
@@ -11469,6 +11504,7 @@ MonoBehaviour:
   Conductor: {fileID: 510649380}
   Enemy: {fileID: 496323352}
   WordPopup: {fileID: 1090320394}
+  SummaryPanel: {fileID: 134908753}
   EffectCreator: {fileID: 1201276677}
 --- !u!4 &1666133634
 Transform:
