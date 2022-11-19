@@ -8,9 +8,9 @@ public class Saver : MonoBehaviour
 
     private List<SerializableLevel> InitialSaveData = new()
     {
-        new SerializableLevel("", 0),
-        new SerializableLevel("", 0),
-        new SerializableLevel("", 0)
+        new SerializableLevel("", 0, false),
+        new SerializableLevel("", 0, false),
+        new SerializableLevel("", 0, false)
     };
 
     void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
@@ -25,6 +25,8 @@ public class Saver : MonoBehaviour
     {
         List<SerializableLevel> levels = Load();
         SerializableLevel level = levels.Find(level => level.Id == levelId);
+
+        level.IsComplete = true;
 
         if (level.HighScore < highScore)
         {
