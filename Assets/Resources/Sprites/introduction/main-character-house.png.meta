@@ -447,7 +447,7 @@ TextureImporter:
       name: main-character-house_51
       rect:
         serializedVersion: 2
-        x: 10
+        x: 7
         y: 102
         width: 10
         height: 10
@@ -468,7 +468,7 @@ TextureImporter:
       name: main-character-house_52
       rect:
         serializedVersion: 2
-        x: 20
+        x: 19
         y: 102
         width: 10
         height: 10
@@ -489,7 +489,7 @@ TextureImporter:
       name: main-character-house_53
       rect:
         serializedVersion: 2
-        x: 30
+        x: 31
         y: 102
         width: 10
         height: 10
@@ -515,7 +515,7 @@ TextureImporter:
         width: 80
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,6 +523,48 @@ TextureImporter:
       bones: []
       spriteID: 24951f1abc6d0e8499b324084476d3e9
       internalID: 1847206960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side-table
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 96
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec6c9c8931ce74b956e7292a689a58
+      internalID: 402858915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 123
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebed939656ec1f438c85cd7907f68e8
+      internalID: 1992737679
       vertices: []
       indices: 
       edges: []
@@ -586,6 +628,7 @@ TextureImporter:
       main-character-house_32: 755367756
       main-character-house_10: -1117547641
       main-character-house_14: -5519781
+      side-table: 402858915
       main-character-house_23: 984167172
       main-character-house_51: 2132931308
       main-character-house_37: -1124225968
@@ -593,6 +636,7 @@ TextureImporter:
       main-character-house_7: 165947437
       main-character-house_1: -257012293
       main-character-house_55: 717399848
+      phone: 1992737679
       main-character-house_40: -120868871
       main-character-house_20: 281761283
       main-character-house_29: -2132380944
