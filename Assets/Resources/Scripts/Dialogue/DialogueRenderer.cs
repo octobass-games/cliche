@@ -13,8 +13,9 @@ public class DialogueRenderer : MonoBehaviour
     public TMPro.TextMeshProUGUI TextArea;
     public Button button;
     public GameObject panel;
+    public Animator Animator;
 
-    public void Run(Dialogue dialogue, UnityEvent eventOnEnd)
+    public void Run(Dialogue dialogue, UnityEvent eventOnEnd, Animator animator)
     {
         Debug.Log("Dialogue.Run:" + dialogue.name);
         Lines = getLines(dialogue);
@@ -24,13 +25,16 @@ public class DialogueRenderer : MonoBehaviour
         Speaker.text = Lines[Index].Speaker;
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(nextDialogue);
+        Animator = animator;
+        runAnimation();
         panel.SetActive(true);
     }
 
     private void Render()
     {
         TextArea.text = Lines[Index].Line;
-        Speaker.text = Lines[Index].Speaker; 
+        Speaker.text = Lines[Index].Speaker;
+        runAnimation();
     }
 
     private void nextDialogue()
@@ -52,13 +56,23 @@ public class DialogueRenderer : MonoBehaviour
         }
     }
 
+    private void runAnimation()
+    {
+        var trigger = Lines[Index].Trigger;
+        if (Animator != null && trigger!= null)
+        {
+            Animator.SetTrigger(trigger);
+        }
+    }
+
     private List<DialougeLine> getLines(Dialogue dialogue)
     {
         var lines = dialogue.Text.Split("\n");
         return lines.ToList().Select((line) =>
         {
             var splitLine = line.Split(":");
-            return new DialougeLine(splitLine[0], splitLine[1]);
+            var trigger = splitLine.Length == 3 ? splitLine[2] : null;
+            return new DialougeLine(splitLine[0], splitLine[1], trigger);
         }).ToList();
     }
 }

@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: Intro-1
   m_EditorClassIdentifier: 
   Text: "Newscaster: Our next story tonight, We\u2019ve had reports of a large amount
-    of random transformations of pets occurring. \r\nNewscaster:  We hand over to
-    our reporter in the field, Cliff, to get all the details.\r\nReporter: Thanks
+    of random transformations of pets occurring.\r:anchor\nNewscaster:  We hand over
+    to our reporter in the field, Cliff, to get all the details.\r\nReporter: Thanks
     Janice. I\u2019m here now with a recent victim of this weird phenomenon. Can
-    you describe what happened to you?\r\nWorried Person: Um.. yes, I was just brushing
-    my sheep\u2019s wool as usual, and all of a sudden a pink fog appeared around
-    him!\r\nWorried Person: And then, my sheep grew three times the size!\r\nReporter:
-    How concerning! What happened next?\r\nWorried Person: More fog appeared this
-    time around me, and when it stopped, one of my eyes had gone!\r\n Worried Person:
-    Luckily I still had one left so I could see, and I saw my sheep scurry off into
-    the distance!\r\nWorried Person: I\u2019m now doing everything I can to find
-    my sheep and hopefully get my other eye back!\r\nReporter: As you heard Janice,
-    very strange happenings! And stories like this are popping up all over the place!\r\nNewscaster:
-    Well Cliff, we have one message to whoever is doing this!\r\nNewscaster: We are
-    Serious News\u2122 and you can\u2019t pull the wool over our eyes!"
+    you describe what happened to you?\r\r:interview\nWorried Person: Um.. yes, I
+    was just brushing my sheep\u2019s wool as usual, and all of a sudden a pink fog
+    appeared around him!\r\r\r:interviewe\nWorried Person: And then, my sheep grew
+    three times the size!\r\nReporter: How concerning! What happened next?\r\r\r:interview\nWorried
+    Person: More fog appeared this time around me, and when it stopped, one of my
+    eyes had gone!\r\r\r:interviewe\n Worried Person: Luckily I still had one left
+    so I could see, and I saw my sheep scurry off into the distance!\r\nWorried Person:
+    I\u2019m now doing everything I can to find my sheep and hopefully get my other
+    eye back!\r\nReporter: As you heard Janice, very strange happenings! And stories
+    like this are popping up all over the place!\r\r\r:interview\nNewscaster: Well
+    Cliff, we have one message to whoever is doing this!\r\r:anchor\nNewscaster:
+    We are Serious News\u2122 and you can\u2019t pull the wool over our eyes!"

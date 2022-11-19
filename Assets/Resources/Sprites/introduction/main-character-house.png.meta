@@ -510,10 +510,10 @@ TextureImporter:
       name: sofa
       rect:
         serializedVersion: 2
-        x: 365
-        y: 97
-        width: 80
-        height: 38
+        x: 364
+        y: 96
+        width: 82
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,11 +532,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 332
-        y: 96
-        width: 22
-        height: 18
+        y: 95
+        width: 24
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,7 +557,7 @@ TextureImporter:
         width: 12
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,6 +565,27 @@ TextureImporter:
       bones: []
       spriteID: 3ebed939656ec1f438c85cd7907f68e8
       internalID: 1992737679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tv
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c80be6964cd8d14db031ceee0d5c7f4
+      internalID: -1667919931
       vertices: []
       indices: 
       edges: []
@@ -624,6 +645,7 @@ TextureImporter:
       main-character-house_24: -1701362926
       main-character-house_47: -1287327979
       main-character-house_12: 107651251
+      tv: -1667919931
       main-character-house_22: 850915022
       main-character-house_32: 755367756
       main-character-house_10: -1117547641
