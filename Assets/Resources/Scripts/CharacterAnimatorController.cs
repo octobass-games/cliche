@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CharacterAnimatorController : MonoBehaviour
 {
+    private bool CanPlayDance = true;
     public Animator Animator;
     // Use this for initialization
     void Start()
@@ -16,18 +17,29 @@ public class CharacterAnimatorController : MonoBehaviour
 
     }
 
-    public void ResetAnimator()
+    public void Run()
     {
         if (Animator != null)
         {
-            Animator.SetInteger("Dance", 0);
+            Animator.SetBool("Run", true);
         }
+    }
+
+    public void ResetAnimator()
+    {
+        CanPlayDance = true;
     }
 
 
     public void RandomDance()
     {
-        int danceN = Random.Range(1, 6);
-        Animator.SetInteger("Dance", danceN);
+        if (!CanPlayDance)
+        {
+            return;
+        }
+        CanPlayDance = false;
+        int maxDance = 5;
+        int danceN = Random.Range(1, maxDance + 1);
+        Animator.SetTrigger(danceN + "");
     }
 }
