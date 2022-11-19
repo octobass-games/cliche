@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638039560005818101
+  lastModified: 638039628452974642
   FileSizes:
   - Name: Desktop
     Value: 1194
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638043944114341244
+  lastModified: 638043943652190859
   FileSizes:
   - Name: Desktop
     Value: 1564
@@ -190,7 +190,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638043944114992494
+  lastModified: 638043943652856415
   FileSizes:
   - Name: Desktop
     Value: 18159488
@@ -289,7 +289,7 @@ MonoBehaviour:
   - {fileID: -8552775021621514318}
   StringsBanks:
   - {fileID: -6352269599283032409}
-  cacheTime: 638043944115052335
+  cacheTime: 638043943652916474
   cacheVersion: 131593
 --- !u!114 &323973352840163970
 MonoBehaviour:
@@ -465,7 +465,7 @@ MonoBehaviour:
   Path: clichemusic/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638043944115052335
+  lastModified: 638043943652916474
   FileSizes:
   - Name: Desktop
     Value: 1550976
