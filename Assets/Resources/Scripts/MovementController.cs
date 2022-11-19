@@ -12,7 +12,6 @@ public class MovementController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         Direction = context.ReadValue<Vector2>();
-        Debug.Log(Direction);
     }
 
     void Start()
@@ -22,7 +21,6 @@ public class MovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(Speed * Time.deltaTime * Direction);
         Rigidbody.position = (new Vector2(transform.position.x, transform.position.y) + Speed * Time.deltaTime * Direction);
     }
 }
