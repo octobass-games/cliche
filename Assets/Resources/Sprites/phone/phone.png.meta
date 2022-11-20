@@ -284,7 +284,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,6 +292,90 @@ TextureImporter:
       bones: []
       spriteID: ab286976023258745a52a387f8fd76df
       internalID: 1197348172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-pin
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 114
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25f36797740bf45a916f71dbd969d3
+      internalID: 1760074522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ab4fed0e5947b48995ecb30a60fa25
+      internalID: -760395808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 146
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d28f2cd91ac0e944bd8fbaae92164a6
+      internalID: -1378419813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi-pin
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e9d27fb0738ba42b22172124a27ba5
+      internalID: 816878800
       vertices: []
       indices: 
       edges: []
@@ -308,12 +392,16 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       siren-marker: -1956426623
+      scifi-pin: 816878800
       map: 1049048897
+      city-pin: 1760074522
       gold-medal: -2146761523
       silver-medal: 1977978445
       phone-background: -909863170
       bronze-medal: 1598390706
+      phone_1: -1378419813
       cat-marker: -54069353
+      phone_0: -760395808
       forest-pin: 1197348172
   spritePackingTag: 
   pSDRemoveMatte: 0
