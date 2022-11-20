@@ -10033,10 +10033,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6947021095125803615, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6947021095213957265, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -10131,14 +10127,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6947021096684145289, guid: e22968c5bd160054d816e24cfed7878b, type: 3}

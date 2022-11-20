@@ -58,7 +58,7 @@ MonoBehaviour:
   LevelSceneName: Forest
   PlayButton: {fileID: 1148357122}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
-  CompletedSprite: {fileID: -1956426623, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 1453826934}
   Id: Forest
 --- !u!1 &515238076
