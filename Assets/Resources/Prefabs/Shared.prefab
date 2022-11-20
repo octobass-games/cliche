@@ -735,7 +735,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 135
+  orthographic size: 100.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1135,6 +1135,7 @@ MonoBehaviour:
   SummaryPanel: {fileID: 7924987244732414007}
   CharacterAnimatorController: {fileID: 0}
   EffectCreator: {fileID: 7924987245949776995}
+  LevelManager: {fileID: 7924987244866990954}
 --- !u!1 &7924987245472669667
 GameObject:
   m_ObjectHideFlags: 0

@@ -7289,13 +7289,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1666133633}
         m_TargetAssemblyTypeName: Judge, Assembly-CSharp
         m_MethodName: CompleteLevel
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Siren
           m_BoolArgument: 0
         m_CallState: 2
   Event2:
@@ -9005,10 +9005,30 @@ PrefabInstance:
       propertyPath: TimedEvents.Array.data[1].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354988100}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7924987244866990951}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Siren
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 496323352}
+    - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: LevelManager
+      value: 
+      objectReference: {fileID: 7924987244866990951}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: CharacterAnimatorController
       value: 
@@ -9063,6 +9083,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+--- !u!114 &7924987244866990951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7924987244866990954, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c3fcca1ac0ae4e8e5bcee62e0f693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8582622171174065908
 PrefabInstance:
   m_ObjectHideFlags: 0

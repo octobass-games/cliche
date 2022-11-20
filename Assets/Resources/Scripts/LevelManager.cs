@@ -50,9 +50,9 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void CompleteLevel()
+    public void CompleteLevel(string levelId)
     {
-        var currentLevel = Levels.Find(level => level.State == LevelState.UNLOCKED);
+        var currentLevel = Levels.Find(level => level.Id == levelId);
 
         if (currentLevel != null)
         {
@@ -60,13 +60,19 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void UnlockNextLevel()
+    public void UnlockNextLevel(string currentLevelId)
     {
-        var nextLevel = Levels.Find(level => level.State == LevelState.LOCKED);
+        var currentLevelIndex = Levels.FindIndex(level => level.Id == currentLevelId);
+        var nextLevelIndex = currentLevelIndex + 1;
 
-        if (nextLevel != null)
+        if (nextLevelIndex < Levels.Count)
         {
-            nextLevel.State = LevelState.UNLOCKED;
+            var nextLevel = Levels[nextLevelIndex];
+
+            if (nextLevel.State != LevelState.COMPLETED)
+            {
+                nextLevel.State = LevelState.UNLOCKED;
+            }
         }
     }
 

@@ -25,10 +25,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void CompleteLevel()
+    public void CompleteLevel(string levelId)
     {
-        LevelManager.CompleteLevel();
-        LevelManager.UnlockNextLevel();
+        Debug.Log("Marking level complete: " + levelId);
+        LevelManager.CompleteLevel(levelId);
+        LevelManager.UnlockNextLevel(levelId);
         LevelManager.Save();
         SceneManager.LoadScene("Home");
     }
