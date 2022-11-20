@@ -51,6 +51,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MedalSlot: {fileID: 1881094962}
+  GoldMedalSprite: {fileID: -2146761523, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  SilverMedalSprite: {fileID: 1977978445, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 515238079}
   LevelSceneName: Forest
   PlayButton: {fileID: 1148357122}
@@ -1758,6 +1761,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MedalSlot: {fileID: 6947021095125803613}
+  GoldMedalSprite: {fileID: -2146761523, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  SilverMedalSprite: {fileID: 1977978445, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 6947021096195450895}
   LevelSceneName: Siren
   PlayButton: {fileID: 6947021096640881999}

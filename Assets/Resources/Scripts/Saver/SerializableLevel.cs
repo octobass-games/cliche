@@ -3,12 +3,18 @@ public class SerializableLevel
 {
     public string Id;
     public int HighScore;
+    public Medal Medal;
     public LevelState State;
+    public int SilverScore;
+    public int GoldScore;
 
-    public SerializableLevel(string id, int highScore, LevelState state)
+    public SerializableLevel(string id, LevelState state, int highScore, int silverScore, int goldScore, Medal medal = Medal.BRONZE)
     {
         Id = id;
-        HighScore = highScore;
         State = state;
+        HighScore = highScore;
+        SilverScore = silverScore;
+        GoldScore = goldScore;
+        Medal = medal;
     }
 }

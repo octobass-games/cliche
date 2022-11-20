@@ -10,9 +10,9 @@ public class LevelManager : MonoBehaviour
 
     private readonly List<SerializableLevel> InitialLevelData = new()
     {
-        new SerializableLevel("Siren", 0, LevelState.UNLOCKED),
-        new SerializableLevel("Forest", 0, LevelState.LOCKED),
-        new SerializableLevel("", 0, LevelState.LOCKED)
+        new SerializableLevel("Siren", LevelState.UNLOCKED, 0, 100, 200),
+        new SerializableLevel("Forest", LevelState.LOCKED, 0, 100, 200),
+        new SerializableLevel("", LevelState.LOCKED, 0, 100, 200)
     };
 
     void Awake()
@@ -46,6 +46,7 @@ public class LevelManager : MonoBehaviour
         if (level != null && level.HighScore < highScore)
         {
             level.HighScore = highScore;
+            level.Medal = GetMedal(level, highScore);
         }
     }
 
@@ -72,5 +73,21 @@ public class LevelManager : MonoBehaviour
     public void Save()
     {
         Saver.Save(Levels);
+    }
+
+    private Medal GetMedal(SerializableLevel level, int score)
+    {
+        if (level.GoldScore <= score)
+        {
+            return Medal.GOLD;
+        }
+        else if (level.SilverScore <= score)
+        {
+            return Medal.SILVER;
+        }
+        else
+        {
+            return Medal.BRONZE;
+        }
     }
 }
