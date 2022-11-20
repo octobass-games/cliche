@@ -122,11 +122,35 @@ MonoBehaviour:
     m_ActionId: 4901605f-b845-4331-b089-6e0ca4682371
     m_ActionName: Player controls/Left[/Keyboard/leftArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7924987244523747715}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: b32f1ba0-ddf5-4785-81e4-847044cb762a
     m_ActionName: Player controls/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7924987244523747715}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 4dd0f74c-55e4-4d70-b2c9-0ae3cf8e5370
     m_ActionName: UI/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
@@ -735,7 +759,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 100.25
+  orthographic size: 135
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
