@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b50961d203e67f648828034addc8932d
+guid: 109d610a4d45e3644860e284336d7729
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,85 +129,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trees_0
+      name: forest-boss_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 13
-        width: 194
-        height: 236
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c00f09739dbcf4eac7f5844df46a22
-      internalID: 458247930
+      spriteID: e1a8306a7322337488d262ce1d70952a
+      internalID: -1397711072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_1
+      name: forest-boss_1
       rect:
         serializedVersion: 2
-        x: 208
-        y: 22
-        width: 158
-        height: 218
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 130
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43a20ded8e741bd4a83d577db7143fc4
-      internalID: -148654299
+      spriteID: 748e31a82e7241a4a8dfbbc7402c8447
+      internalID: -1449522329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_2
+      name: forest-boss_2
       rect:
         serializedVersion: 2
-        x: 431
-        y: 6
-        width: 52
-        height: 228
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 260
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8612bd8b1f3c07458ce26f5c849002f
-      internalID: -382513073
+      spriteID: a7715d11a8c758249bc166d2cb5cf1ff
+      internalID: 1392652369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_3
+      name: forest-boss_3
       rect:
         serializedVersion: 2
-        x: 546
-        y: 3
-        width: 70
-        height: 124
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 390
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b778e798453424c448831426aef4c7ba
-      internalID: -1009044091
+      spriteID: 855b096e0f39e6b449295b6c568d6578
+      internalID: -812272087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-boss_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade10c232f4717c4b879860a801e6de6
+      internalID: 472845671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-boss_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 130
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7262f6d3a93a3be4bad31197ca2f57ea
+      internalID: 1736743458
       vertices: []
       indices: 
       edges: []
@@ -223,10 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      trees_0: 458247930
-      trees_1: -148654299
-      trees_2: -382513073
-      trees_3: -1009044091
+      forest-boss_3: -812272087
+      forest-boss_4: 472845671
+      forest-boss_1: -1449522329
+      forest-boss_2: 1392652369
+      forest-boss_5: 1736743458
+      forest-boss_0: -1397711072
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
