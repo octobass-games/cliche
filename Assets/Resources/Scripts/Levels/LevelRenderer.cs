@@ -8,24 +8,31 @@ public class LevelRenderer: MonoBehaviour
     public Button Pin;
     public string LevelSceneName;
     public Button PlayButton;
+    public Sprite UnlockedSprite;
+    public Sprite CompletedSprite;
+    public Image Face;
     public string Id;
 
     public void Initialise(UnityAction<string> LoadLevel, LevelState levelState)
     {
+        Debug.Log("levelState:" + levelState + Id);
         switch (levelState)
         {
             case LevelState.LOCKED:
                 PlayButton.onClick.RemoveAllListeners();
-                Pin.enabled = false;
+                Pin.gameObject.SetActive(false);
                 break;
             case LevelState.UNLOCKED:
-                Pin.enabled = true;
+                Face.sprite = UnlockedSprite;
+                MedalSlot.SetActive(false);
+                Pin.gameObject.SetActive(true);
                 PlayButton.onClick.RemoveAllListeners();
                 PlayButton.onClick.AddListener(() => LoadLevel(LevelSceneName));
-
                 break;
             case LevelState.COMPLETED:
-                Pin.enabled = true;
+                MedalSlot.SetActive(true);
+                Face.sprite = CompletedSprite;
+                Pin.gameObject.SetActive(true);
                 PlayButton.onClick.RemoveAllListeners();
                 PlayButton.onClick.AddListener(() => LoadLevel(LevelSceneName));
 

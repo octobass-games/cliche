@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 7924987244523747712}
   - component: {fileID: 7924987244523747715}
   - component: {fileID: 7924987244523747714}
+  - component: {fileID: 7924987244866990954}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -412,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Saver: {fileID: 7924987244523747714}
+  LevelManager: {fileID: 7924987244866990954}
 --- !u!114 &7924987244523747714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,6 +426,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc41d7bf67e93b14ebf274f1702c3883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7924987244866990954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924987244523747717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307c3fcca1ac0ae4e8e5bcee62e0f693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Saver: {fileID: 7924987244523747714}
 --- !u!1 &7924987244605934658
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +735,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 101.25
+  orthographic size: 135
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1754,9 +1768,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4017663204320095952, guid: 31bf0b56ff544794aadc28eec70c89cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017663204320095952, guid: 31bf0b56ff544794aadc28eec70c89cd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7924987244523747715}
+    - target: {fileID: 4017663204320095952, guid: 31bf0b56ff544794aadc28eec70c89cd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CompleteLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 4017663204370303594, guid: 31bf0b56ff544794aadc28eec70c89cd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

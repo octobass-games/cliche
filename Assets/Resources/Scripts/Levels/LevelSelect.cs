@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelSelect : MonoBehaviour
 {
     public List<LevelRenderer> Levels;
+    public LevelManager LevelManager;
 
     public GameObject Phone;
     public Animator PhoneAnimator;
@@ -22,7 +23,13 @@ public class LevelSelect : MonoBehaviour
 
     void Awake()
     {
-        Levels.ForEach(l => l.Initialise((levelSceneName) => StartCoroutine(LoadLevel(levelSceneName)), LevelState.UNLOCKED));
+        Levels.ForEach(LoadLevelPin);
+    }
+
+    private void LoadLevelPin(LevelRenderer renderer)
+    {
+        var level = LevelManager.Levels.Find(l => l.Id == renderer.Id);
+        renderer.Initialise((levelSceneName) => StartCoroutine(LoadLevel(levelSceneName)), level.State);
     }
 
     IEnumerator LoadLevel(string levelSceneName)

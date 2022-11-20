@@ -25,6 +25,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void CompleteLevel()
+    {
+        LevelManager.CompleteLevel();
+        LevelManager.UnlockNextLevel();
+        LevelManager.Save();
+        SceneManager.LoadScene("Home");
+    }
+
     public void TogglePause(InputAction.CallbackContext context)
     {
         if (context.started)

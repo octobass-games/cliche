@@ -6,14 +6,25 @@ public class LevelManager : MonoBehaviour
 {
     public Saver Saver;
 
-    private List<SerializableLevel> Levels;
+    public List<SerializableLevel> Levels { get; private set; }
 
     private readonly List<SerializableLevel> InitialLevelData = new()
     {
-        new SerializableLevel("", 0, false),
-        new SerializableLevel("", 0, false),
-        new SerializableLevel("", 0, false)
+        new SerializableLevel("Siren", 0, LevelState.UNLOCKED),
+        new SerializableLevel("Forest", 0, LevelState.LOCKED),
+        new SerializableLevel("", 0, LevelState.LOCKED)
     };
+
+    void Awake()
+    {
+        // load levels by default or initialise to empty
+        Levels = Saver.Load();
+
+        if (Levels == null || Levels.Count == 0)
+        {
+            NewGame();
+        }
+    }
 
     public void NewGame()
     {
@@ -38,13 +49,23 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void CompleteLevel()
+    {
+        var currentLevel = Levels.Find(level => level.State == LevelState.UNLOCKED);
+
+        if (currentLevel != null)
+        {
+            currentLevel.State = LevelState.COMPLETED;
+        }
+    }
+
     public void UnlockNextLevel()
     {
-        var nextLevel = Levels.Find(level => !level.IsUnlocked);
+        var nextLevel = Levels.Find(level => level.State == LevelState.LOCKED);
 
         if (nextLevel != null)
         {
-            nextLevel.IsUnlocked = true;
+            nextLevel.State = LevelState.UNLOCKED;
         }
     }
 

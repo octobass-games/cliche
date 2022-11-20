@@ -10121,24 +10121,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSelect
       objectReference: {fileID: 0}
-    - target: {fileID: 6947021096030518447, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
-      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6947021096684145289, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
