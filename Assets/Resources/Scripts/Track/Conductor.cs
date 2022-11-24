@@ -41,17 +41,18 @@ public class Conductor : MonoBehaviour
 
     public void MissedNote(GameObject note)
     {
-        Judge.MissedNote();
 
         if (note.GetComponent<ChordNote>())
         {
             if (SheetMusic.Notes.Count > 0 && SheetMusic.Notes[0] == note)
             {
+                Judge.MissedNote();
                 RemoveNote();
             }
         }
         else
         {
+            Judge.MissedNote();
             RemoveNote();
         }
     }

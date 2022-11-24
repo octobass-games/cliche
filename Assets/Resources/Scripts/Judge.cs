@@ -43,7 +43,6 @@ public class Judge : MonoBehaviour
         }
         else
         {
-            Combo += 1;
             WordPopup.DisplayCombo(Combo);
             CharacterAnimatorController.RandomDance();
 
@@ -56,6 +55,7 @@ public class Judge : MonoBehaviour
             {
                 if (chordNote.IsFinished())
                 {
+                    Combo += 1;
                     if (IsPerfect(distanceFromCentre))
                     {
                         Score(PerfectScore);
@@ -81,9 +81,15 @@ public class Judge : MonoBehaviour
                         OkayCount += 1;
                     }
                 }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
+                Combo += 1;
+
                 if (IsPerfect(distanceFromCentre))
                 {
                     Score(PerfectScore);
