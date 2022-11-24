@@ -181,6 +181,7 @@ MonoBehaviour:
   sortingOrder: -3
   Sporadic: 1
   Scale: 0.5
+  MaxYRange: 0
 --- !u!4 &62530877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1776277982661536874, guid: 036cf4b11fe432043a7f6907d0efbfce, type: 3}
@@ -698,6 +699,7 @@ MonoBehaviour:
   sortingOrder: 0
   Sporadic: 0
   Scale: 1
+  MaxYRange: 0
 --- !u!1 &325418917
 GameObject:
   m_ObjectHideFlags: 0
@@ -6398,6 +6400,7 @@ MonoBehaviour:
   sortingOrder: -3
   Sporadic: 1
   Scale: 1
+  MaxYRange: 0
 --- !u!1001 &570404557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7045,6 +7048,7 @@ MonoBehaviour:
   sortingOrder: -4
   Sporadic: 0
   Scale: 1
+  MaxYRange: 0
 --- !u!1 &1100685991
 GameObject:
   m_ObjectHideFlags: 0
@@ -7362,6 +7366,7 @@ MonoBehaviour:
   sortingOrder: -1
   Sporadic: 1
   Scale: 3
+  MaxYRange: 0
 --- !u!1 &1284004841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6998268786209541862, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
@@ -7513,6 +7518,7 @@ MonoBehaviour:
   sortingOrder: 0
   Sporadic: 1
   Scale: 1
+  MaxYRange: 0
 --- !u!1001 &1301841222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8505,6 +8511,7 @@ MonoBehaviour:
   sortingOrder: 0
   Sporadic: 0
   Scale: 1
+  MaxYRange: 0
 --- !u!1 &1769725824
 GameObject:
   m_ObjectHideFlags: 0
@@ -9008,6 +9015,10 @@ PrefabInstance:
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: orthographic size
       value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: PathToSheetMusic
+      value: MusicCharts/siren-song
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: TimedEvents.Array.data[0].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
