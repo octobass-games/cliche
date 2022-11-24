@@ -1,6 +1,5 @@
 using UnityEngine;
 using FMODUnity;
-using UnityEngine.Events;
 using System.Collections.Generic;
 
 public class Conductor : MonoBehaviour
@@ -9,6 +8,7 @@ public class Conductor : MonoBehaviour
     public GameObject Track;
     public Judge Judge;
     public List<TimedEvent> TimedEvents;
+    public bool StandardDifficulty;
 
     private StudioEventEmitter MusicEventEmitter;
     private SheetMusic SheetMusic;
@@ -20,7 +20,23 @@ public class Conductor : MonoBehaviour
     {
         MusicEventEmitter = GetComponent<StudioEventEmitter>();
         SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic);
-        SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
+
+        if (StandardDifficulty)
+        {
+            List<GameObject> newNotes = new();
+
+            for (int i = 0; i < SheetMusic.Notes.Count; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    newNotes.Add(SheetMusic.Notes[i]);
+                }
+            }
+
+            SheetMusic.Notes = newNotes;
+            SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
+        }
+
         MusicEventEmitter.Play();
     }
 
