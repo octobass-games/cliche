@@ -338,6 +338,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: over the
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 301
+        width: 74
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476b68fb411a5d4d8f9226d0740b3ae
+      internalID: 1077794784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 289
+        width: 44
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895e7598ddcb2694ab6f34a52640a818
+      internalID: -544710723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -353,6 +395,8 @@ TextureImporter:
       dont be a: 586918848
       scaredy cat: 1813916311
       break: -1542666079
+      moon: -544710723
+      over the: 1077794784
       up-the-wrong-tree: 1308235322
       all that: 968119359
       jazz: 1701450800
