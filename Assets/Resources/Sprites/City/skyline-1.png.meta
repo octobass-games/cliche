@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4d98f92fe4fda84b8cd3e2c9e68e0fa
+guid: 8cc8b11efa50f9b4ebe77fb7caf1e0c7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,91 +127,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: spooky-bg_0
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 5
-        width: 92
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb010ed62b3e16140926b715951cb78e
-      internalID: 1155106151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spooky-bg_1
-      rect:
-        serializedVersion: 2
-        x: 409
-        y: 19
-        width: 31
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cabeff3e06a0c04980d1ae265156c8f
-      internalID: 1549334079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spooky-bg_2
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 145
-        width: 31
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07c738cdf46c0974a86ec1995a2290a5
-      internalID: 798185600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spooky-bg_3
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 5
-        width: 27
-        height: 120
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87ccfc6e3726d6f4bac892868b45d137
-      internalID: -1403945268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -222,11 +138,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      spooky-bg_1: 1549334079
-      spooky-bg_0: 1155106151
-      spooky-bg_2: 798185600
-      spooky-bg_3: -1403945268
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
