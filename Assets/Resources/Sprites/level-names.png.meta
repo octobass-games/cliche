@@ -212,6 +212,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dont be a
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 389
+        width: 80
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a793a2b2af0b34c945e851e5909bcb
+      internalID: 586918848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredy cat
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 377
+        width: 98
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dc201fd60455c48a72ec69d3047bc7
+      internalID: 1813916311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -223,6 +265,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      dont be a: 586918848
+      scaredy cat: 1813916311
       break: -1542666079
       up-the-wrong-tree: 1308235322
       barking: -1628108569
