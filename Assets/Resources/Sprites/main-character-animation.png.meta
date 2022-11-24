@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -947,6 +947,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: main-character-animation_39
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 0
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c5febe29da7c44ab7e13e14b9ab918
+      internalID: 153489259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -959,6 +980,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       main-character-animation_21: -973646761
+      main-character-animation_30: 2079554538
       main-character-animation_20: -1022675910
       main-character-animation_24: -791213786
       main-character-animation_10: 1259160210
@@ -995,7 +1017,7 @@ TextureImporter:
       main-character-animation_4: -1064523303
       main-character-animation_29: -1919148107
       main-character-animation_38: 1225794794
-      main-character-animation_30: 2079554538
+      main-character-animation_39: 153489259
       main-character-animation_27: 296529190
   spritePackingTag: 
   pSDRemoveMatte: 0

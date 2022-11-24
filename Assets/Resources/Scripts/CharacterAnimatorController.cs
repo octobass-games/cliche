@@ -25,6 +25,14 @@ public class CharacterAnimatorController : MonoBehaviour
         }
     }
 
+    public void Sleep()
+    {
+        if (Animator != null)
+        {
+            Animator.SetBool("Sleep", true);
+        }
+    }
+
     public void ResetAnimator()
     {
         CanPlayDance = true;
@@ -33,7 +41,7 @@ public class CharacterAnimatorController : MonoBehaviour
 
     public void RandomDance()
     {
-        if (!CanPlayDance)
+        if (!CanPlayDance || Animator.GetBool("Sleep"))
         {
             return;
         }
