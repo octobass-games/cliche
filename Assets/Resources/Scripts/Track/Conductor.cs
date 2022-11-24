@@ -34,9 +34,9 @@ public class Conductor : MonoBehaviour
             }
 
             SheetMusic.Notes = newNotes;
-            SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
         }
 
+        SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
         MusicEventEmitter.Play();
     }
 
