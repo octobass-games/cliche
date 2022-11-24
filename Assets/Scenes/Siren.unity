@@ -9526,6 +9526,14 @@ PrefabInstance:
       value: MusicCharts/siren-song
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TimedEvents.Array.data[0].PlaybackPositionInMilliseconds
+      value: 94000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TimedEvents.Array.data[1].PlaybackPositionInMilliseconds
+      value: 174000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: TimedEvents.Array.data[0].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354988100}
