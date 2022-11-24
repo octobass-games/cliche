@@ -267,7 +267,7 @@ Transform:
   - {fileID: 1656586513}
   - {fileID: 1514298738}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &202858921
 SpriteRenderer:
@@ -434,6 +434,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1081129200}
   - {fileID: 680022945}
   - {fileID: 428811991}
   - {fileID: 1404412233}
@@ -566,7 +567,7 @@ Transform:
   m_Children:
   - {fileID: 1120250000}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &396553421
 GameObject:
@@ -578,6 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 396553422}
   - component: {fileID: 396553423}
+  - component: {fileID: 396553424}
   m_Layer: 0
   m_Name: skyline-1
   m_TagString: Untagged
@@ -607,7 +609,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396553421}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -652,6 +654,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &396553424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396553421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3adc4e5667824eb5471499ac9ea28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 8cc8b11efa50f9b4ebe77fb7caf1e0c7, type: 3}
+  Speed: 10
+  Layer: Background
+  Colours:
+  - {r: 0.13333334, g: 0.09019608, b: 0.12156863, a: 1}
+  RandomOpacity: 0
+  sortingOrder: -10
+  Sporadic: 0
+  Scale: 1
+  MaxYRange: 0
 --- !u!1 &416800881
 GameObject:
   m_ObjectHideFlags: 0
@@ -7781,7 +7806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5664699206807195178, guid: b0c923e71f2ea474cbada1a555fbb7f0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5664699206807195178, guid: b0c923e71f2ea474cbada1a555fbb7f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8011,7 +8036,7 @@ Transform:
   m_Children:
   - {fileID: 1826739275}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &513289219
 Animator:
@@ -8065,7 +8090,7 @@ Transform:
   - {fileID: 869916723}
   - {fileID: 416800882}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &680022946
 Grid:
@@ -11050,6 +11075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029664493}
   - component: {fileID: 1029664494}
+  - component: {fileID: 1029664495}
   m_Layer: 0
   m_Name: skyline-1 (1)
   m_TagString: Untagged
@@ -11079,7 +11105,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029664492}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11124,6 +11150,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1029664495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029664492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3adc4e5667824eb5471499ac9ea28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: b7641542477d40148aff3ce691eb281b, type: 3}
+  Speed: 15
+  Layer: Background
+  Colours:
+  - {r: 0.5647059, g: 0.5647059, b: 0.5647059, a: 1}
+  RandomOpacity: 0
+  sortingOrder: -8
+  Sporadic: 0
+  Scale: 1
+  MaxYRange: 0
 --- !u!114 &1072063081 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2894109327126200225, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
@@ -11135,6 +11184,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1081129199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081129200}
+  m_Layer: 0
+  m_Name: mountain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1081129200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081129199}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1869771022}
+  m_Father: {fileID: 354988099}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120249999
 GameObject:
   m_ObjectHideFlags: 0
@@ -16137,7 +16218,7 @@ Transform:
   - {fileID: 300440433}
   - {fileID: 2069048815}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1404412234
 Animator:
@@ -16202,6 +16283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514298738}
   - component: {fileID: 1514298739}
+  - component: {fileID: 1514298740}
   m_Layer: 0
   m_Name: skyline-1 (3)
   m_TagString: Untagged
@@ -16231,7 +16313,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514298737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16276,6 +16358,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1514298740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514298737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3adc4e5667824eb5471499ac9ea28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 8cc8b11efa50f9b4ebe77fb7caf1e0c7, type: 3}
+  Speed: 15
+  Layer: Background
+  Colours:
+  - {r: 0.18823531, g: 0.1254902, b: 0.17254902, a: 1}
+  RandomOpacity: 0
+  sortingOrder: -11
+  Sporadic: 0
+  Scale: 1
+  MaxYRange: 0
 --- !u!1001 &1561413208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16358,7 +16463,7 @@ GameObject:
   - component: {fileID: 1656586513}
   - component: {fileID: 1656586514}
   m_Layer: 0
-  m_Name: skyline-1 (2)
+  m_Name: bg ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16543,7 +16648,7 @@ Transform:
   - {fileID: 2035448521}
   - {fileID: 364382290}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1726895128
 PrefabInstance:
@@ -16562,7 +16667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9213395605125552290, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9213395605125552290, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16898,6 +17003,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!1 &1869771021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869771022}
+  - component: {fileID: 1869771023}
+  m_Layer: 0
+  m_Name: Mountains-Behind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1869771022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869771021}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1081129200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1869771023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869771021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3adc4e5667824eb5471499ac9ea28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: -1716890266, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
+  - {fileID: 762126911, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
+  - {fileID: -186267678, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
+  - {fileID: -379870887, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
+  Speed: 10
+  Layer: Background
+  Colours:
+  - {r: 0.019607844, g: 0.043137256, b: 0.1137255, a: 1}
+  RandomOpacity: 1
+  sortingOrder: -29
+  Sporadic: 0
+  Scale: 1
+  MaxYRange: 0
 --- !u!4 &2035448521 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6086081134736205135, guid: 624d59c9f9efe3d42808925253e97c3d, type: 3}
@@ -18060,7 +18223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8582622171286937036, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8582622171286937036, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
       propertyPath: m_LocalPosition.x
