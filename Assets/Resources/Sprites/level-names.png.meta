@@ -133,7 +133,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 445
+        y: 235
         width: 66
         height: 10
       alignment: 0
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 430
+        y: 220
         width: 166
         height: 14
       alignment: 5
@@ -217,7 +217,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 389
+        y: 179
         width: 80
         height: 10
       alignment: 0
@@ -238,7 +238,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 377
+        y: 167
         width: 98
         height: 10
       alignment: 5
@@ -259,7 +259,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 360
+        y: 150
         width: 74
         height: 10
       alignment: 0
@@ -280,7 +280,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 348
+        y: 138
         width: 36
         height: 10
       alignment: 5
@@ -300,8 +300,8 @@ TextureImporter:
       name: a sirens
       rect:
         serializedVersion: 2
-        x: 2
-        y: 331
+        x: 1
+        y: 121
         width: 74
         height: 10
       alignment: 0
@@ -322,7 +322,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 44
-        y: 319
+        y: 109
         width: 34
         height: 10
       alignment: 5
@@ -343,7 +343,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 301
+        y: 91
         width: 74
         height: 10
       alignment: 0
@@ -364,7 +364,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 289
+        y: 79
         width: 44
         height: 10
       alignment: 5
@@ -376,6 +376,132 @@ TextureImporter:
       bones: []
       spriteID: 895e7598ddcb2694ab6f34a52640a818
       internalID: -544710723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gimme
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 71
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34f49f18ad96242891f2c2574afec3
+      internalID: 923922520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brea
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5de0d4103cc3bf4eb7aa7394f7ccfc3
+      internalID: -685941061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bite the
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 65
+        width: 68
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8048bb9011e989c4e997f4d8a0a6f917
+      internalID: -1571710603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 53
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c215e77213bfea14387b55cc0826d22b
+      internalID: 756303394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 52
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993239eab0afc0747b28eef40e956fc4
+      internalID: 1034205485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animal
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 61
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f491fee528d2d4c43986d079d4e66005
+      internalID: 697056203
       vertices: []
       indices: 
       edges: []
@@ -393,16 +519,22 @@ TextureImporter:
     nameFileIdTable:
       call: -1295150126
       dont be a: 586918848
+      gimme: -592828620
+      brea: -685941061
       scaredy cat: 1813916311
       break: -1542666079
       moon: -544710723
       over the: 1077794784
+      party: 1034205485
+      bite the: -1571710603
+      bullet: 756303394
       up-the-wrong-tree: 1308235322
       all that: 968119359
       jazz: 1701450800
       barking: -1628108569
       a sirens: 2145922114
       gimme a: -740492465
+      animal: 697056203
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
