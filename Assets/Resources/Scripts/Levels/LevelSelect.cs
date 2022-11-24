@@ -10,8 +10,9 @@ public class LevelSelect : MonoBehaviour
 
     public GameObject Phone;
     public Animator PhoneAnimator;
+    public Animator Fade;
 
-  public   void Open()
+    public void Open()
     {
         Phone.SetActive(true);
     }
@@ -34,7 +35,8 @@ public class LevelSelect : MonoBehaviour
 
     IEnumerator LoadLevel(string levelSceneName)
     {
-        Close();
+        PhoneAnimator.SetTrigger("closeAndFade");
+        Fade.SetTrigger("out");
         yield return new WaitForSeconds(0.75f);
         SceneManager.LoadScene(levelSceneName);
     }
