@@ -165,6 +165,5 @@ public class Judge : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         Enemy.SetTrigger("hit");
-
     }
 }

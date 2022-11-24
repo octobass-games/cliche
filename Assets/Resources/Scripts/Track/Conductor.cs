@@ -37,12 +37,16 @@ public class Conductor : MonoBehaviour
         }
 
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
+
         MusicEventEmitter.Play();
     }
 
     void Update()
     {
-        MoveTrack();
+        if (MusicEventEmitter != null && MusicEventEmitter.IsPlaying())
+        {
+            MoveTrack();
+        }
     }
 
     public void PlayedNote(TargetStrikeResult targetStrikeResult)
@@ -105,7 +109,20 @@ public class Conductor : MonoBehaviour
 
         float playbackPositionDeltaInSeconds = (CurrentPlaybackPosition - PreviousPlaybackPosition) / 1000f;
         Vector3 displacement = 100 * Vector3.left * playbackPositionDeltaInSeconds;
-        Track.transform.position = Track.transform.position + displacement;
+
+        Debug.Log("Current playback position in seconds: " + CurrentPlaybackPosition / 1000f);
+        Debug.Log("Current note position before moving: " + SheetMusic.Notes[0].transform.position.x);
+
+        for (int i = 0; i < SheetMusic.Notes.Count; i++)
+        {
+            SheetMusic.Notes[i].transform.position = SheetMusic.Notes[i].transform.position + displacement;
+            /*Rigidbody2D noteRigidbody = SheetMusic.Notes[i].GetComponentInChildren<Rigidbody2D>();
+            noteRigidbody.position = noteRigidbody.position + new Vector2(displacement.x, displacement.y);*/
+        }
+
+        //Track.transform.position = Track.transform.position + displacement;
+
+        Debug.Log("Current note position after moving: " + SheetMusic.Notes[0].transform.position.x);
 
         PreviousPlaybackPosition = CurrentPlaybackPosition;
     }
