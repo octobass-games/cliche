@@ -2059,7 +2059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220515713760, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: StandardDifficulty
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220515713760, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: TimedEvents.Array.size
