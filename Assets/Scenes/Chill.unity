@@ -730,6 +730,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &262258787 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4806126323167391251, guid: 1148b7f1461152346852917911b11e89, type: 3}
+  m_PrefabInstance: {fileID: 93209591}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79396d3a64274a4ca1d7bda28d9847d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &298256962
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,7 +815,7 @@ SpriteRenderer:
   m_SortingLayer: 7
   m_SortingOrder: 1
   m_Sprite: {fileID: -89275995, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -52031,7 +52042,7 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 262258787}
         m_TargetAssemblyTypeName: Conductor, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
@@ -52647,7 +52658,7 @@ SpriteRenderer:
   m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bd4a425387e0a4a479d7e0d4f19352f8, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.7294118}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
