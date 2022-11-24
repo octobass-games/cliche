@@ -54,7 +54,7 @@ public class Target : MonoBehaviour
     {
         if (!collider.gameObject.GetComponent<TapNote>().Played)
         {
-            Conductor.MissedNote();
+            Conductor.MissedNote(collider.gameObject.transform.parent.gameObject);
         }
     }
 
