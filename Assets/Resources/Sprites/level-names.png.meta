@@ -157,8 +157,8 @@ TextureImporter:
         y: 430
         width: 166
         height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,8 +199,8 @@ TextureImporter:
         y: 405
         width: 48
         height: 10
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,7 +221,7 @@ TextureImporter:
         width: 80
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,8 +241,8 @@ TextureImporter:
         y: 377
         width: 98
         height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,6 +250,90 @@ TextureImporter:
       bones: []
       spriteID: b8dc201fd60455c48a72ec69d3047bc7
       internalID: 1813916311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all that
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 360
+        width: 74
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1219e7efbddfde44489238c2d823e2fc
+      internalID: 968119359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jazz
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 348
+        width: 36
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0878078628df304fac22209ccc4f498
+      internalID: 1701450800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a sirens
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 331
+        width: 74
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fdd2e5b8c04b24daa52c25f1c5b473
+      internalID: 2145922114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: call
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 319
+        width: 34
+        height: 10
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c0e54582d05be45a5710ce5779df4e
+      internalID: -1295150126
       vertices: []
       indices: 
       edges: []
@@ -265,11 +349,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      call: -1295150126
       dont be a: 586918848
       scaredy cat: 1813916311
       break: -1542666079
       up-the-wrong-tree: 1308235322
+      all that: 968119359
+      jazz: 1701450800
       barking: -1628108569
+      a sirens: 2145922114
       gimme a: -740492465
   spritePackingTag: 
   pSDRemoveMatte: 0
