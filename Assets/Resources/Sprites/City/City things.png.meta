@@ -132,8 +132,8 @@ TextureImporter:
       name: post
       rect:
         serializedVersion: 2
-        x: 11
-        y: 257
+        x: 10
+        y: 274
         width: 44
         height: 42
       alignment: 7
@@ -174,8 +174,8 @@ TextureImporter:
       name: bin
       rect:
         serializedVersion: 2
-        x: 13
-        y: 199
+        x: 15
+        y: 222
         width: 34
         height: 42
       alignment: 7
@@ -254,6 +254,279 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: box-1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 362
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edfd508e4afda7449f910da6bf4ddb2
+      internalID: -650924287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: box-2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 336
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6117f3f59a60641a50dfd9f1d3a800
+      internalID: -1903687869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coffee
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 337
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11893a5451dfadb439ebaf8b18d3bbb8
+      internalID: 48655102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drink
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 336
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9cb5966481bc4439978dc0751026f4
+      internalID: -1621307249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rubbish
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 312
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa9e2474f29da4888a44a34caeda31
+      internalID: -1156511986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rubbish2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 296
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b9a28aeaaa87428479a5eb476e518
+      internalID: -1998568251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bi
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 263
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdc133a4ae135c4fa4cd2b0b94578b7
+      internalID: 1366302526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hydrant
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05b8db72e03bee4c82b32a5a042895c
+      internalID: -1868210649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone-box
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 211
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15738f7674efed9418eac9df9135f5b8
+      internalID: -2113348882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: garbage-bin
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 195
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0112757d9f5af5f408a7f6733b5f3f40
+      internalID: 328053794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bench
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 335
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4851aceee11615544aeeb0b1101b734d
+      internalID: -239545521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: police car
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 18
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f18b8a2995be48a11aef537169304
+      internalID: -525216506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: motorbike
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62143f496a2945498b5a196c646fb03
+      internalID: 740634915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -265,12 +538,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      rubbish2: -1998568251
+      motorbike: 740634915
+      phone-box: -2113348882
       bin: -299274638
+      garbage-bin: 328053794
+      rubbish: -1156511986
+      hydrant: -1868210649
+      bi: 1366302526
       cone: -83195061
+      drink: -1621307249
       car: -676435382
+      bench: -239545521
+      box-2: -1903687869
+      box-1: -650924287
+      police car: -525216506
       post: 1276563481
       stop-sign: 250301733
       light: -824160760
+      coffee: 48655102
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
