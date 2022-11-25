@@ -5,5 +5,4 @@ public struct TimedEvent
 {
     public int PlaybackPositionInMilliseconds;
     public UnityEvent UnityEvent;
-    public bool IsComplete;
 }

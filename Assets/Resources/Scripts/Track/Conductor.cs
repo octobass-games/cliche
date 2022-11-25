@@ -8,6 +8,7 @@ public class Conductor : MonoBehaviour
     public GameObject Track;
     public Judge Judge;
     public List<TimedEvent> TimedEvents;
+    private List<bool> TimedEventsComplete;
     public bool StandardDifficulty;
 
     private StudioEventEmitter MusicEventEmitter;
@@ -15,6 +16,15 @@ public class Conductor : MonoBehaviour
 
     private int CurrentPlaybackPosition;
     private int PreviousPlaybackPosition;
+
+    void Awake()
+    {
+        TimedEventsComplete = new List<bool>();
+        for (var i = 0; i < TimedEvents.Count; i++)
+        {
+            TimedEventsComplete.Add(false);
+        }
+    }
 
     public void Play()
     {
@@ -98,14 +108,17 @@ public class Conductor : MonoBehaviour
     {
         MusicEventEmitter.EventInstance.getTimelinePosition(out CurrentPlaybackPosition);
 
-        TimedEvents.ForEach(timedEvent =>
+        for (var i = 0; i < TimedEvents.Count; i++)
         {
-            if (!timedEvent.IsComplete && timedEvent.PlaybackPositionInMilliseconds <= CurrentPlaybackPosition)
+            var timedEvent = TimedEvents[i];
+            var timedEventComplete = TimedEventsComplete[i];
+
+            if (!timedEventComplete && timedEvent.PlaybackPositionInMilliseconds <= CurrentPlaybackPosition)
             {
-                timedEvent.IsComplete = true;
+                TimedEventsComplete[i] = true;
                 timedEvent.UnityEvent.Invoke();
             }
-        });
+        }
 
         float playbackPositionDeltaInSeconds = (CurrentPlaybackPosition - PreviousPlaybackPosition) / 1000f;
         Vector3 displacement = 100 * Vector3.left * playbackPositionDeltaInSeconds;

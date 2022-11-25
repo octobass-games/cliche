@@ -33,6 +33,16 @@ public class CharacterAnimatorController : MonoBehaviour
         }
     }
 
+
+    public void WakeUp()
+    {
+        if (Animator != null)
+        {
+            Animator.SetBool("Sleep", false);
+        }
+    }
+
+
     public void ResetAnimator()
     {
         CanPlayDance = true;
