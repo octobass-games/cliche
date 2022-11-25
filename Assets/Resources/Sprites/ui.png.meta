@@ -809,7 +809,7 @@ TextureImporter:
         width: 54
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -817,6 +817,27 @@ TextureImporter:
       bones: []
       spriteID: 92ab7c3ef4bf9784ab8a2328fc5b43e1
       internalID: -1505483449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle-outline
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b57b0a4d8f88a46867d54243ccfcfc
+      internalID: 267219753
       vertices: []
       indices: 
       edges: []
@@ -848,6 +869,7 @@ TextureImporter:
       arrow-down-inner: 1538193131
       ui_6: 908414790
       ui_8: -88805040
+      circle-outline: 267219753
       arrow-right-inner: 211760925
       ui_7: 146940794
       ui_2: -1741618918
