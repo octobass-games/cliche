@@ -374,7 +374,8 @@ MonoBehaviour:
   RandomOpacity: 0
   sortingOrder: 0
   Sporadic: 0
-  Scale: 1
+  MinScale: 1
+  MaxScale: 1
   MaxYRange: 0
 --- !u!1 &202858919
 GameObject:
@@ -690,7 +691,7 @@ SpriteRenderer:
   m_SortingLayerID: 1722073741
   m_SortingLayer: 7
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1813916311, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
+  m_Sprite: {fileID: -1542666079, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -967,7 +968,7 @@ SpriteRenderer:
   m_SortingLayerID: 1722073741
   m_SortingLayer: 7
   m_SortingOrder: 1
-  m_Sprite: {fileID: 586918848, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
+  m_Sprite: {fileID: -740492465, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -1647,6 +1648,14 @@ PrefabInstance:
     - target: {fileID: 5528435075517452015, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076163650298, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -206
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076163650298, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 5528435076879808627, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: m_GridSnapping
