@@ -10,7 +10,7 @@ public class Target : MonoBehaviour
     public SpriteRenderer InnerRenderer;
 
     private BoxCollider2D Collider;
-    private Collider2D[] OverlappingColliders = new Collider2D[1];
+    private Collider2D[] OverlappingColliders = new Collider2D[10];
     private ContactFilter2D ContactFilter = new ContactFilter2D().NoFilter();
     private bool IsHighlighted = false;
 
@@ -27,12 +27,23 @@ public class Target : MonoBehaviour
 
         if (overlappingColliderCount > 0)
         {
-            Collider2D noteCollider = OverlappingColliders[0];
+            Collider2D furthestLeftCollider = OverlappingColliders[0];
 
-            float distanceFromCentre = Mathf.Abs((noteCollider.bounds.center - Collider.bounds.center).x);
-            noteCollider.GetComponent<Note>().Play();
+            for (int i = 0; i < overlappingColliderCount; i++)
+            {
+                Collider2D noteCollider = OverlappingColliders[i];
+
+                if (i == 0 || noteCollider.transform.position.x < furthestLeftCollider.transform.position.x)
+                {
+                    furthestLeftCollider = noteCollider;
+                }
+
+            }
+
+            float distanceFromCentre = Mathf.Abs((furthestLeftCollider.bounds.center - Collider.bounds.center).x);
+            furthestLeftCollider.GetComponent<Note>().Play();
            
-            return new TargetStrikeResult(distanceFromCentre, noteCollider.gameObject.transform.parent.gameObject);
+            return new TargetStrikeResult(distanceFromCentre, furthestLeftCollider.gameObject.transform.parent.gameObject);
         }
 
         return new TargetStrikeResult(0f, null);
