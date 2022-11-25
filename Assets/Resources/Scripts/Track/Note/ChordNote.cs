@@ -4,7 +4,7 @@ public class ChordNote : MonoBehaviour
 {
     public bool IsFinished()
     {
-        TapNote[] tapNotes = GetTapNotes();
+        ChordComponent[] tapNotes = GetTapNotes();
 
         bool IsFinished = false;
 
@@ -19,5 +19,5 @@ public class ChordNote : MonoBehaviour
         return true;
     }
 
-    public TapNote[] GetTapNotes() =>  GetComponentsInChildren<TapNote>();
+    public ChordComponent[] GetTapNotes() =>  GetComponentsInChildren<ChordComponent>();
 }
