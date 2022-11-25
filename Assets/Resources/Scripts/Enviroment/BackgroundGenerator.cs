@@ -13,7 +13,8 @@ public class BackgroundGenerator : MonoBehaviour
     public bool RandomOpacity = false;
     public int sortingOrder = 0;
     public bool Sporadic = false;
-    public float Scale = 1;
+    public float MinScale = 1;
+    public float MaxScale = 1;
     public int MaxYRange = 0;
 
     private List<Tile> tiles = new List<Tile>();
@@ -82,7 +83,8 @@ public class BackgroundGenerator : MonoBehaviour
         sprite.sortingOrder = sortingOrder;
         tileGO.transform.position = new Vector2(position, YPos());
         tileGO.transform.SetParent(transform);
-        tileGO.transform.localScale = new Vector2(Scale, Scale);
+        float scale = Random.Range(MinScale, MaxScale);
+        tileGO.transform.localScale = new Vector2(scale, scale);
         Tile tile = tileGO.AddComponent<Tile>();
         tile.Initialise(() => ResetTile(tile, considerPrevTile), tileWidth, Speed, prevTile);
         return tile;
@@ -100,6 +102,8 @@ public class BackgroundGenerator : MonoBehaviour
         var renderer = tile.GetComponent<SpriteRenderer>();
         renderer.sprite = Sprites.PickRandom();
         SetOpacity(renderer);
+        float scale = Random.Range(MinScale, MaxScale);
+        renderer.transform.localScale = new Vector2(scale, scale);
         var x = considerPrevTile ? tile.PrevTileRightX() : getEndPosition();
         tile.transform.position = new Vector2(x, YPos());
     }
