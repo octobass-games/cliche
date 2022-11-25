@@ -30,7 +30,7 @@ public class Target : MonoBehaviour
             Collider2D noteCollider = OverlappingColliders[0];
 
             float distanceFromCentre = Mathf.Abs((noteCollider.bounds.center - Collider.bounds.center).x);
-            noteCollider.GetComponent<ChordComponent>().Play();
+            noteCollider.GetComponent<Note>().Play();
            
             return new TargetStrikeResult(distanceFromCentre, noteCollider.gameObject.transform.parent.gameObject);
         }
@@ -52,7 +52,7 @@ public class Target : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (!collider.gameObject.GetComponent<ChordComponent>().Played)
+        if (!collider.gameObject.GetComponent<Note>().Played)
         {
             Conductor.MissedNote(collider.gameObject.transform.parent.gameObject);
         }

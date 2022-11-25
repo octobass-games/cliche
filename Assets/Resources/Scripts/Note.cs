@@ -2,10 +2,16 @@
 
 public class Note : MonoBehaviour
 {
+    public bool Played = false;
     public NoteType NoteType;
     public Animator animator;
     public SpriteRenderer sprite;
     public float InitialX;
+
+    public void Play()
+    {
+        Played = true;
+    }
 
     public void SetPerfectCollided()
     {

@@ -34,7 +34,6 @@ public class NoteFactory : MonoBehaviour
         GameObject notePrefab = GetPrefabByNoteName(noteDescription.Name);
         GameObject note = Instantiate(notePrefab);
         note.transform.SetParent(tapNote.transform);
-        note.AddComponent<ChordComponent>();
         SetNotePosition(noteDescription.Name, note, noteDescription.Time);
 
         return tapNote;
@@ -49,7 +48,6 @@ public class NoteFactory : MonoBehaviour
             GameObject prefab = GetPrefabByNoteName(name);
             GameObject chordNote = Instantiate(prefab);
             chordNote.transform.SetParent(chord.transform);
-            chordNote.AddComponent<ChordComponent>();
             SetNotePosition(name, chordNote, noteDescription.Time);
         });
 
