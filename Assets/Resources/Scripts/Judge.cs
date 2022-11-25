@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Judge : MonoBehaviour
@@ -27,8 +29,14 @@ public class Judge : MonoBehaviour
 
     public EffectCreator EffectCreator;
     public LevelManager LevelManager;
-    
-    public void CompleteLevel(string levelId) {
+
+    public Animator TargetCircleUpAnimator;
+    public Animator TargetCircleDownAnimator;
+    public Animator TargetCircleLeftAnimator;
+    public Animator TargetCircleRightAnimator;
+
+    public void CompleteLevel(string levelId)
+    {
         Debug.Log("Setting high score and rendering panel");
         LevelManager.SetHighScore(levelId, TotalScore);
         SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
@@ -43,11 +51,10 @@ public class Judge : MonoBehaviour
         }
         else
         {
-            WordPopup.DisplayCombo(Combo);
             CharacterAnimatorController.RandomDance();
 
             var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
-            var note = targetStrikeResult.Note.GetComponentInChildren<Note>();
+            var notes = targetStrikeResult.Note.GetComponentsInChildren<Note>().ToList();
 
             ChordNote chordNote = targetStrikeResult.Note.GetComponent<ChordNote>();
 
@@ -55,30 +62,30 @@ public class Judge : MonoBehaviour
             {
                 if (chordNote.IsFinished())
                 {
-                    Combo += 1;
                     if (IsPerfect(distanceFromCentre))
                     {
-                        Score(PerfectScore);
+                        Score(PerfectScore, notes);
                         WordPopup.Perfect();
-                        note.SetPerfectCollided();
-                        EffectCreator.MakeEffect();
+                        notes.ForEach(n => n.SetPerfectCollided());
                         PerfectCount += 1;
                     }
                     else if (IsGood(distanceFromCentre))
                     {
-                        Score(GoodScore);
+                        Score(GoodScore, notes);
                         WordPopup.Good();
-                        note.SetGoodCollided();
-                        EffectCreator.MakeEffect();
+                        notes.ForEach(n => n.SetGoodCollided());
                         GoodCount += 1;
                     }
                     else if (IsOkay(distanceFromCentre))
                     {
-                        Score(OkayScore);
+                        Score(OkayScore, notes);
                         WordPopup.Okay();
-                        note.SetOkayCollided();
-                        EffectCreator.MakeEffect();
+                        notes.ForEach(n => n.SetOkayCollided());
                         OkayCount += 1;
+                    }
+                    else
+                    {
+                        return false;
                     }
                 }
                 else
@@ -88,50 +95,75 @@ public class Judge : MonoBehaviour
             }
             else
             {
-                Combo += 1;
+                var note = notes[0];
 
                 if (IsPerfect(distanceFromCentre))
                 {
-                    Score(PerfectScore);
+                    Score(PerfectScore, notes);
                     WordPopup.Perfect();
                     note.SetPerfectCollided();
-                    EffectCreator.MakeEffect();
                     PerfectCount += 1;
                 }
                 else if (IsGood(distanceFromCentre))
                 {
-                    Score(GoodScore);
+                    Score(GoodScore, notes);
                     WordPopup.Good();
                     note.SetGoodCollided();
-                    EffectCreator.MakeEffect();
                     GoodCount += 1;
                 }
                 else if (IsOkay(distanceFromCentre))
                 {
-                    Score(OkayScore);
+                    Score(OkayScore, notes);
                     WordPopup.Okay();
                     note.SetOkayCollided();
-                    EffectCreator.MakeEffect();
                     OkayCount += 1;
                 }
+                else
+                {
+                    return false;
+                }
             }
-
             return true;
+
         }
     }
 
-    private void Score(int score)
+    private void Score(int score, List<Note> notes)
     {
+        Combo += 1;
+        WordPopup.DisplayCombo(Combo);
         TotalScore += score;
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
         WordPopup.DisplayScore(TotalScore);
         StartCoroutine(EnemyHitAfterTime());
+        EffectCreator.MakeEffect();
+        notes.ForEach(OnHitAnimation);
     }
 
     public void MissedNote()
     {
         ResetCombo();
         MissCount += 1;
+    }
+
+
+    private void OnHitAnimation(Note note)
+    {
+        switch (note.NoteType)
+        {
+            case NoteType.UP:
+                TargetCircleUpAnimator.SetTrigger("Hit");
+                break;
+            case NoteType.DOWN:
+                TargetCircleDownAnimator.SetTrigger("Hit");
+                break;
+            case NoteType.LEFT:
+                TargetCircleLeftAnimator.SetTrigger("Hit");
+                break;
+            case NoteType.RIGHT:
+                TargetCircleRightAnimator.SetTrigger("Hit");
+                break;
+        }
     }
 
     private bool IsPerfect(float distanceFromNextNote)

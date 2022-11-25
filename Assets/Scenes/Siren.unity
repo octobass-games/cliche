@@ -355,6 +355,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &185753157 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2965219740658802185, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &202987260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6132,6 +6137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653bbb0d1b775e24ab4a6d6b4b4c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &398514484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6756930429335083792, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &399116069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6346,6 +6356,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &553419656 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7130085069825582357, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &568983845
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,6 +6902,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &850204302 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7600708371062459087, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &853957565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7149,6 +7169,11 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1047526346 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6756930428031604006, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1091262889
 GameObject:
   m_ObjectHideFlags: 0
@@ -7364,7 +7389,7 @@ SpriteRenderer:
   m_SortingLayerID: 1722073741
   m_SortingLayer: 7
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1295150126, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
+  m_Sprite: {fileID: 1701450800, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -8863,6 +8888,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CustomSpeed: 0
+--- !u!4 &1897761235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6756930427684858180, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1913824443 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3473036729546949153, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919219024
 GameObject:
   m_ObjectHideFlags: 0
@@ -8896,6 +8931,11 @@ Transform:
   m_Father: {fileID: 354988099}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1919937481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6756930429034103287, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1924997485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9305,7 +9345,7 @@ SpriteRenderer:
   m_SortingLayerID: 1722073741
   m_SortingLayer: 7
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2145922114, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
+  m_Sprite: {fileID: 968119359, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -9513,14 +9553,34 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7924987244841819523, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -94.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987244866990928, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: orthographic size
-      value: 135
+      value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 7924987245032085313, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: UpTarget
+      value: 
+      objectReference: {fileID: 1897761235}
+    - target: {fileID: 7924987245032085313, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: DownTarget
+      value: 
+      objectReference: {fileID: 1919937481}
+    - target: {fileID: 7924987245032085313, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: LeftTarget
+      value: 
+      objectReference: {fileID: 398514484}
+    - target: {fileID: 7924987245032085313, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: RightTarget
+      value: 
+      objectReference: {fileID: 1047526346}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: PathToSheetMusic
       value: MusicCharts/siren-song
@@ -9557,6 +9617,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Siren
       objectReference: {fileID: 0}
+    - target: {fileID: 7924987245248409966, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -94.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: Enemy
       value: 
@@ -9565,6 +9629,22 @@ PrefabInstance:
       propertyPath: LevelManager
       value: 
       objectReference: {fileID: 7924987244866990951}
+    - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TargetCircleUpAnimator
+      value: 
+      objectReference: {fileID: 553419656}
+    - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TargetCircleDownAnimator
+      value: 
+      objectReference: {fileID: 850204302}
+    - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TargetCircleLeftAnimator
+      value: 
+      objectReference: {fileID: 185753157}
+    - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: TargetCircleRightAnimator
+      value: 
+      objectReference: {fileID: 1913824443}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: CharacterAnimatorController
       value: 

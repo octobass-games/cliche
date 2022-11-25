@@ -11,33 +11,31 @@ public class NoteFactory : MonoBehaviour
     public GameObject RightNotePrefab;
     public GameObject DownNotePrefab;
     public GameObject LeftNotePrefab;
+    public Transform UpTarget;
+    public Transform RightTarget;
+    public Transform DownTarget;
+    public Transform LeftTarget;
 
     public GameObject CreateNote(NoteDescription noteDescription)
     {
-        GameObject note;
-
         if (noteDescription.Type == "tap")
         {
-            note = CreateTapNote(noteDescription);
+            return CreateTapNote(noteDescription);
         }
         else
         {
-            note = CreateChordNote(noteDescription);
+            return CreateChordNote(noteDescription);
         }
-        
-        note.transform.position = new Vector3(noteDescription.Time * 100 + 66, note.transform.position.y, note.transform.position.z);
-
-        return note;
     }
 
     private GameObject CreateTapNote(NoteDescription noteDescription)
     {
-        GameObject tapNote = Instantiate(TapNotePrefab);
-
+        GameObject tapNote = new GameObject();
         GameObject notePrefab = GetPrefabByNoteName(noteDescription.Name);
         GameObject note = Instantiate(notePrefab);
         note.transform.SetParent(tapNote.transform);
         note.AddComponent<TapNote>();
+        SetNotePosition(noteDescription.Name, note, noteDescription.Time);
 
         return tapNote;
     }
@@ -46,20 +44,39 @@ public class NoteFactory : MonoBehaviour
     {
         GameObject chord = Instantiate(ChordNotePrefab);
 
-        List<GameObject> chordNotes = noteDescription.Names.ConvertAll(name =>
+        noteDescription.Names.ForEach(name =>
         {
-            GameObject namePrefab = GetPrefabByNoteName(name);
-
-            return Instantiate(namePrefab);
-        });
-
-        chordNotes.ForEach(chordNote =>
-        {
+            GameObject chordNote = GetPrefabByNoteName(name);
+            Instantiate(chordNote);
             chordNote.transform.SetParent(chord.transform);
             chordNote.AddComponent<TapNote>();
+            SetNotePosition(name, chordNote, noteDescription.Time);
         });
 
         return chord;
+    }
+
+    private void SetNotePosition(string name, GameObject note, float time)
+    {
+        var pos = GetTargetPositionByNoteName(name);
+        note.transform.position = new Vector3(time * 100 + pos.x, pos.y, note.transform.position.z);
+    }
+
+    private Vector2 GetTargetPositionByNoteName(string name)
+    {
+        switch (name)
+        {
+            case "up":
+                return UpTarget.position;
+            case "right":
+                return RightTarget.position;
+            case "down":
+                return DownTarget.position;
+            case "left":
+                return LeftTarget.position;
+            default:
+                throw new System.Exception("Illegal note type: " + name);
+        }
     }
 
     private GameObject GetPrefabByNoteName(string noteName)

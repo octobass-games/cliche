@@ -767,7 +767,7 @@ TextureImporter:
         width: 180
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -788,7 +788,7 @@ TextureImporter:
         width: 166
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -796,6 +796,27 @@ TextureImporter:
       bones: []
       spriteID: 82cb1822a8277c743b779646410a1a3d
       internalID: -530301567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: note-bar
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 69
+        width: 54
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ab7c3ef4bf9784ab8a2328fc5b43e1
+      internalID: -1505483449
       vertices: []
       indices: 
       edges: []
@@ -837,6 +858,7 @@ TextureImporter:
       ui_17: 1864380601
       ui_10: -1232682107
       arrow-up-inner: -80684752
+      note-bar: -1505483449
       ui_1: 964839340
       outline-up: 383818911
       ui_15: 1324558975
