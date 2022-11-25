@@ -168,17 +168,17 @@ public class Judge : MonoBehaviour
 
     private bool IsPerfect(float distanceFromNextNote)
     {
-        return distanceFromNextNote < 3;
+        return distanceFromNextNote < 6;
     }
 
     private bool IsGood(float distanceFromNextNote)
     {
-        return distanceFromNextNote < 5;
+        return distanceFromNextNote < 10;
     }
 
     private bool IsOkay(float distanceFromNextNote)
     {
-        return distanceFromNextNote <= 10;
+        return distanceFromNextNote <= 20;
     }
 
     private void ResetCombo()

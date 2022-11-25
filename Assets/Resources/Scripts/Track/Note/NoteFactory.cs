@@ -46,8 +46,8 @@ public class NoteFactory : MonoBehaviour
 
         noteDescription.Names.ForEach(name =>
         {
-            GameObject chordNote = GetPrefabByNoteName(name);
-            Instantiate(chordNote);
+            GameObject prefab = GetPrefabByNoteName(name);
+            GameObject chordNote = Instantiate(prefab);
             chordNote.transform.SetParent(chord.transform);
             chordNote.AddComponent<TapNote>();
             SetNotePosition(name, chordNote, noteDescription.Time);
@@ -59,7 +59,8 @@ public class NoteFactory : MonoBehaviour
     private void SetNotePosition(string name, GameObject note, float time)
     {
         var pos = GetTargetPositionByNoteName(name);
-        note.transform.position = new Vector3(time * 100 + pos.x, pos.y, note.transform.position.z);
+        var halfWidthOfTarget = 10;
+        note.transform.position = new Vector3(time * 100 + pos.x + halfWidthOfTarget, pos.y, note.transform.position.z);
     }
 
     private Vector2 GetTargetPositionByNoteName(string name)
