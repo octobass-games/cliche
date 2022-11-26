@@ -195,7 +195,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1172026375
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: bd4a425387e0a4a479d7e0d4f19352f8, type: 3}
   m_Color: {r: 0.0716447, g: 0.088174626, b: 0.09433961, a: 1}
   m_FlipX: 0
@@ -1173,7 +1173,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1172026375
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4be9aa4a98b0d974786bcd1ecbe587fd, type: 3}
   m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_FlipX: 0
@@ -1387,6 +1387,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1187744360 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1357637064, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
+  m_PrefabInstance: {fileID: 8582622171174065908}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e18f652a5d011c4b9a98a99acbe6595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1200009626
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,7 +6461,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1172026375
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4be9aa4a98b0d974786bcd1ecbe587fd, type: 3}
   m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_FlipX: 0
@@ -6517,6 +6528,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5528435075995168371, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: Enemy
+      value: 
+      objectReference: {fileID: 122889300}
+    - target: {fileID: 5528435075995168371, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: CharacterAnimatorController
+      value: 
+      objectReference: {fileID: 1187744360}
     - target: {fileID: 5528435076163650298, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -206
