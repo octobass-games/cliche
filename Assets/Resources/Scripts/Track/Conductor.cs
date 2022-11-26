@@ -9,7 +9,7 @@ public class Conductor : MonoBehaviour
     public Judge Judge;
     public List<TimedEvent> TimedEvents;
     private List<bool> TimedEventsComplete;
-    public bool StandardDifficulty;
+    public Difficulty Difficulty;
 
     private StudioEventEmitter MusicEventEmitter;
     private SheetMusic SheetMusic;
@@ -29,7 +29,7 @@ public class Conductor : MonoBehaviour
     public void Play()
     {
         MusicEventEmitter = GetComponent<StudioEventEmitter>();
-        SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, StandardDifficulty);
+        SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, Difficulty);
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
         MusicEventEmitter.Play();
     }

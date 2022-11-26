@@ -5,17 +5,21 @@ public class SheetMusicLoader : MonoBehaviour
 {
     public NoteFactory NoteFactory;
 
-    public SheetMusic Read(string pathToSheetMusic, bool standardDifficulty) => ParseSheetMusic(pathToSheetMusic, standardDifficulty);
+    public SheetMusic Read(string pathToSheetMusic, Difficulty difficulty) => ParseSheetMusic(pathToSheetMusic, difficulty);
 
-    private SheetMusic ParseSheetMusic(string PathToSheetMusic, bool standardDifficulty)
+    private SheetMusic ParseSheetMusic(string PathToSheetMusic, Difficulty difficulty)
     {
         TextAsset textAsset = Resources.Load<TextAsset>(PathToSheetMusic);
 
         var noteDescriptions = JsonUtility.FromJson<NoteDescriptions>(textAsset.text);
 
-        if (standardDifficulty)
+        if (difficulty == Difficulty.EASY)
         {
             MakeEasyDifficulty(noteDescriptions);
+        }
+        else if (difficulty == Difficulty.NORMAL)
+        {
+            MakeNormalDifficulty(noteDescriptions);
         }
 
         var notes = ParseNoteDescriptions(noteDescriptions.Descriptions);
@@ -41,7 +45,6 @@ public class SheetMusicLoader : MonoBehaviour
 
     private void MakeEasyDifficulty(NoteDescriptions noteDescriptions)
     {
-        var directions = new List<string>() { "up", "right", "down", "left" };
         List<NoteDescription> descriptions = noteDescriptions.Descriptions;
 
         for (int i = 0; i < descriptions.Count; i++)
@@ -54,11 +57,11 @@ public class SheetMusicLoader : MonoBehaviour
                 description.Names = null;
             }
 
-            description.Name = directions[(((int)(description.Time / 5))) % 4];
+            description.Name = GetDirectionForTime(description.Time);
         }
     }
 
-    private void MakeStandardDifficulty(NoteDescriptions noteDescriptions)
+    private void MakeNormalDifficulty(NoteDescriptions noteDescriptions)
     {
         List<NoteDescription> descriptions = noteDescriptions.Descriptions;
 
@@ -74,4 +77,6 @@ public class SheetMusicLoader : MonoBehaviour
             }
         }
     }
+
+    private string GetDirectionForTime(float time) => NoteFactory.NoteNames[((int) (time / 5)) % NoteFactory.NoteNames.Count];
 }
