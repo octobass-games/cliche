@@ -15,7 +15,7 @@ public class SheetMusicLoader : MonoBehaviour
 
         if (standardDifficulty)
         {
-            MakeStandardDifficulty(noteDescriptions);
+            MakeEasyDifficulty(noteDescriptions);
         }
 
         var notes = ParseNoteDescriptions(noteDescriptions.Descriptions);
@@ -37,6 +37,25 @@ public class SheetMusicLoader : MonoBehaviour
         }
 
         return notes;
+    }
+
+    private void MakeEasyDifficulty(NoteDescriptions noteDescriptions)
+    {
+        var directions = new List<string>() { "up", "right", "down", "left" };
+        List<NoteDescription> descriptions = noteDescriptions.Descriptions;
+
+        for (int i = 0; i < descriptions.Count; i++)
+        {
+            NoteDescription description = descriptions[i];
+
+            if (description.Type == "chord")
+            {
+                description.Type = "tap";
+                description.Names = null;
+            }
+
+            description.Name = directions[(((int)(description.Time / 5))) % 4];
+        }
     }
 
     private void MakeStandardDifficulty(NoteDescriptions noteDescriptions)
