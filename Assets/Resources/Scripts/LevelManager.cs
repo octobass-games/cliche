@@ -10,12 +10,12 @@ public class LevelManager : MonoBehaviour
 
     private readonly List<SerializableLevel> InitialLevelData = new()
     {
-        new SerializableLevel("Siren", LevelState.UNLOCKED, 0, 100, 200),
-        new SerializableLevel("Forest", LevelState.LOCKED, 0, 100, 200),
-        new SerializableLevel("Spooky", LevelState.LOCKED, 0, 100, 200),
-        new SerializableLevel("City", LevelState.LOCKED, 0, 100, 200),
-        new SerializableLevel("Chill", LevelState.LOCKED, 0, 100, 200),
-        new SerializableLevel("Scifi", LevelState.LOCKED, 0, 100, 200)
+        new SerializableLevel("Siren", LevelState.UNLOCKED, 0, 0, 0, 100, 200),
+        new SerializableLevel("Forest", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new SerializableLevel("Spooky", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new SerializableLevel("City", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new SerializableLevel("Chill", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new SerializableLevel("Scifi", LevelState.LOCKED, 0, 0, 0, 100, 200)
     };
 
     void Awake()
@@ -42,14 +42,27 @@ public class LevelManager : MonoBehaviour
         Levels = Saver.Load();
     }
 
-    public void SetHighScore(string levelId, int highScore)
+    public void SetHighScore(string levelId, int highScore, Difficulty difficulty)
     {
         var level = Levels.Find(level => level.Id == levelId);
 
-        if (level != null && level.HighScore < highScore)
+        if (level != null)
         {
-            level.HighScore = highScore;
-            level.Medal = GetMedal(level, highScore);
+            if (difficulty == Difficulty.EASY && level.EasyHighScore < highScore)
+            {
+                level.EasyHighScore = highScore;
+                level.EasyMedal = GetMedal(level, highScore);
+            }
+            else if (difficulty == Difficulty.NORMAL && level.NormalHighScore < highScore)
+            {
+                level.NormalHighScore = highScore;
+                level.NormalMedal = GetMedal(level, highScore);
+            }
+            else if (level.HardHighScore < highScore)
+            {
+                level.HardHighScore = highScore;
+                level.NormalMedal = GetMedal(level, highScore);
+            }
         }
     }
 
