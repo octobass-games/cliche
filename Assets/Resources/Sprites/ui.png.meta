@@ -867,9 +867,9 @@ TextureImporter:
       name: easy
       rect:
         serializedVersion: 2
-        x: 216
+        x: 193
         y: 69
-        width: 54
+        width: 70
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -888,9 +888,9 @@ TextureImporter:
       name: normal
       rect:
         serializedVersion: 2
-        x: 207
+        x: 216
         y: 50
-        width: 88
+        width: 70
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -909,9 +909,9 @@ TextureImporter:
       name: hard
       rect:
         serializedVersion: 2
-        x: 217
+        x: 224
         y: 31
-        width: 58
+        width: 70
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -935,7 +935,7 @@ TextureImporter:
         width: 112
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
