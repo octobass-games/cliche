@@ -5,16 +5,19 @@ public class SheetMusicLoader : MonoBehaviour
 {
     public NoteFactory NoteFactory;
 
-    public SheetMusic Read(string pathToSheetMusic)
-    {
-        return ParseSheetMusic(pathToSheetMusic);
-    }
+    public SheetMusic Read(string pathToSheetMusic, bool standardDifficulty) => ParseSheetMusic(pathToSheetMusic, standardDifficulty);
 
-    private SheetMusic ParseSheetMusic(string PathToSheetMusic)
+    private SheetMusic ParseSheetMusic(string PathToSheetMusic, bool standardDifficulty)
     {
         TextAsset textAsset = Resources.Load<TextAsset>(PathToSheetMusic);
 
         var noteDescriptions = JsonUtility.FromJson<NoteDescriptions>(textAsset.text);
+
+        if (standardDifficulty)
+        {
+            MakeStandardDifficulty(noteDescriptions);
+        }
+
         var notes = ParseNoteDescriptions(noteDescriptions.Descriptions);
 
         return new SheetMusic(notes);
@@ -34,5 +37,22 @@ public class SheetMusicLoader : MonoBehaviour
         }
 
         return notes;
+    }
+
+    private void MakeStandardDifficulty(NoteDescriptions noteDescriptions)
+    {
+        List<NoteDescription> descriptions = noteDescriptions.Descriptions;
+
+        for (int i = 0; i <descriptions.Count; i++)
+        {
+            NoteDescription description = descriptions[i];
+
+            if (description.Type == "chord")
+            {
+                description.Type = "tap";
+                description.Name = description.Names[0];
+                description.Names = null;
+            }
+        }
     }
 }

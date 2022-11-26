@@ -19,25 +19,8 @@ public class Conductor : MonoBehaviour
     public void Play()
     {
         MusicEventEmitter = GetComponent<StudioEventEmitter>();
-        SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic);
-
-        if (StandardDifficulty)
-        {
-            List<GameObject> newNotes = new();
-
-            for (int i = 0; i < SheetMusic.Notes.Count; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    newNotes.Add(SheetMusic.Notes[i]);
-                }
-            }
-
-            SheetMusic.Notes = newNotes;
-        }
-
+        SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, StandardDifficulty);
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
-
         MusicEventEmitter.Play();
     }
 
