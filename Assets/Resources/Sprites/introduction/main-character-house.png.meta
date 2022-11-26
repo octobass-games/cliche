@@ -1145,7 +1145,7 @@ TextureImporter:
         width: 10
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1153,6 +1153,48 @@ TextureImporter:
       bones: []
       spriteID: 939ca885fac36f34e822de48ea8bfd28
       internalID: 124602345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-character-house_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 6
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54760ee76d1eaf047ae60df8e52dfc22
+      internalID: -1439038218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-front
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 22
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5730a7db06a027f4a86234877225e9b8
+      internalID: -779468468
       vertices: []
       indices: 
       edges: []
@@ -1202,7 +1244,6 @@ TextureImporter:
       main-character-house_33: 1911517351
       main-character-house_53: -930039879
       main-character-house_9: 633460226
-      main-character-house_43: 1248850842
       main-character-house_39: 1264187749
       main-character-house_30: 927740646
       main-character-house_13: 1253654033
@@ -1228,6 +1269,7 @@ TextureImporter:
       main-character-house_55: 717399848
       phone: 1992737679
       main-character-house_40: -120868871
+      tank-front: 1248850842
       main-character-house_20: 281761283
       main-character-house_29: -2132380944
       main-character-house_38: -724838166
