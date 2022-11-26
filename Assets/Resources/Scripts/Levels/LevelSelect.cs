@@ -34,6 +34,9 @@ public class LevelSelect : MonoBehaviour
     public Sprite PartyTitle;
 
     public Button PlayButton;
+    public TMPro.TextMeshProUGUI Score;
+
+    private SerializableLevel SelectedLevel;
 
     public void Open()
     {
@@ -53,11 +56,12 @@ public class LevelSelect : MonoBehaviour
     private void LoadLevelPin(LevelRenderer renderer)
     {
         var level = LevelManager.Levels.Find(l => l.Id == renderer.Id);
-        renderer.Initialise((levelSceneName) => StartCoroutine(LoadLevel(levelSceneName)), level.State, level.EasyMedal);
+        renderer.Initialise(level.State, level.EasyMedal);
     }
 
     IEnumerator LoadLevel(string levelSceneName)
     {
+        CloseLevelSummary();
         PhoneAnimator.SetTrigger("closeAndFade");
         Fade.SetTrigger("out");
         yield return new WaitForSeconds(0.75f);
@@ -67,16 +71,21 @@ public class LevelSelect : MonoBehaviour
     public void SelectEasy()
     {
         SetSelectedSprite(easy: true);
+        Score.text = SelectedLevel.EasyHighScore + "";
     }
 
     public void SelectNormal()
     {
         SetSelectedSprite(normal: true);
+        Score.text = SelectedLevel.NormalHighScore + "";
+
     }
 
     public void SelectHard()
     {
         SetSelectedSprite(hard: true);
+        Score.text = SelectedLevel.HardHighScore + "";
+
     }
 
     private void SetSelectedSprite(bool easy = false, bool normal = false, bool hard = false)
@@ -89,13 +98,18 @@ public class LevelSelect : MonoBehaviour
     public void OpenLevelSummary(string levelName)
     {
         Title.sprite = TitleSprite(levelName);
-        LevelSummary.SetActive(true);
         PlayButton.onClick.RemoveAllListeners();
-        PlayButton.onClick.AddListener(() => LoadLevel(levelName));
+        PlayButton.onClick.AddListener(() => StartCoroutine(LoadLevel(levelName)));
+        SelectedLevel = LevelManager.Levels.Find(l => l.Id == levelName);
+        Score.text = "0";
+
+        LevelSummary.SetActive(true);
     }
 
     public void CloseLevelSummary()
     {
+        Debug.Log("CloseLevelSummary");
+
         LevelSummary.SetActive(false);
     }
 

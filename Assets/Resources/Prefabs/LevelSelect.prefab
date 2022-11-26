@@ -132,7 +132,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 515238079}
   LevelSceneName: Forest
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 1453826934}
@@ -885,7 +884,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 831493934}
   LevelSceneName: Battle
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 458113005}
@@ -947,7 +945,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 1952766559}
   LevelSceneName: Party
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 1140544519}
@@ -1468,7 +1465,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 6235021995139013155}
   LevelSceneName: City
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 1104451326963447665}
@@ -1507,10 +1503,10 @@ RectTransform:
   m_Father: {fileID: 2967605794813134605}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17.36295, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1715723737106203078
 CanvasRenderer:
@@ -1715,10 +1711,10 @@ RectTransform:
   m_Father: {fileID: 6292967250757128745}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60.484997, y: -9.9425}
-  m_SizeDelta: {x: 120.96999, y: 19.885}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6296270538109403481
 CanvasRenderer:
@@ -2046,7 +2042,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 4484823668258225274}
   LevelSceneName: Scifi
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 4080679208230858577}
@@ -2085,10 +2080,10 @@ RectTransform:
   m_Father: {fileID: 7083300444878916702}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17.36295, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5549208240302647262
 CanvasRenderer:
@@ -2378,6 +2373,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 606710619}
         m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
+        m_MethodName: CloseLevelSummary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 606710619}
+        m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
         m_MethodName: Close
         m_Mode: 1
         m_Arguments:
@@ -2578,10 +2585,10 @@ RectTransform:
   m_Father: {fileID: 7083300444878916702}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.36295, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8330162427364137414
 CanvasRenderer:
@@ -3070,7 +3077,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 5832837692700180876}
   LevelSceneName: Chill
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 1572678832539008212}
@@ -3265,10 +3271,10 @@ RectTransform:
   m_Father: {fileID: 7083300444878916702}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 89.362946, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5071206434727966993
 CanvasRenderer:
@@ -3462,10 +3468,10 @@ RectTransform:
   m_Father: {fileID: 2967605794813134605}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 53.36295, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7510834751535351440
 CanvasRenderer:
@@ -3810,7 +3816,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1916222990501496899}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606710619}
+        m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
+        m_MethodName: CloseLevelSummary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6722490799344586383
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,7 +3885,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 3894020042404786878}
   LevelSceneName: Spooky
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: 1197348172, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 6520334693586146416}
@@ -4071,6 +4088,8 @@ MonoBehaviour:
   - {fileID: 8558150693812622895}
   - {fileID: 7511843494606563140}
   - {fileID: 2820592547099243540}
+  - {fileID: 1503133790}
+  - {fileID: 1603137616}
   LevelManager: {fileID: 5390262702631628860}
   Phone: {fileID: 6947021096030518447}
   PhoneAnimator: {fileID: 626648052}
@@ -4092,6 +4111,7 @@ MonoBehaviour:
   BattleTitle: {fileID: -1878712751, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   PartyTitle: {fileID: 1329072055, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   PlayButton: {fileID: 6460048080806332363}
+  Score: {fileID: 6111650924415824994}
 --- !u!114 &5390262702631628860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4885,10 +4905,10 @@ RectTransform:
   m_Father: {fileID: 6292967250757128745}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 175.45999, y: -9.9425}
-  m_SizeDelta: {x: 108.979996, y: 19.885}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &812629062217717507
 CanvasRenderer:
@@ -5021,10 +5041,10 @@ RectTransform:
   m_Father: {fileID: 2967605794813134605}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 89.362946, y: -5}
-  m_SizeDelta: {x: 56, y: 10}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7215186970992390637
 CanvasRenderer:
@@ -5176,7 +5196,6 @@ MonoBehaviour:
   BronzeMedalSprite: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Pin: {fileID: 6947021096195450895}
   LevelSceneName: Siren
-  PlayButton: {fileID: 0}
   UnlockedSprite: {fileID: -54069353, guid: 85194d2946150be49ac199a78f603903, type: 3}
   CompletedSprite: {fileID: -1956426623, guid: 85194d2946150be49ac199a78f603903, type: 3}
   Face: {fileID: 6947021095683026120}

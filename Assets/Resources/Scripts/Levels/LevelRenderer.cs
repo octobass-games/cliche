@@ -14,24 +14,37 @@ public class LevelRenderer: MonoBehaviour
     public Sprite CompletedSprite;
     public Image Face;
     public string Id;
+    public GameObject Extra;
 
-    public void Initialise(UnityAction<string> LoadLevel, LevelState levelState, Medal levelMedal)
+    public void Initialise(LevelState levelState, Medal levelMedal)
     {
         Debug.Log("levelState:" + levelState + Id);
         switch (levelState)
         {
             case LevelState.LOCKED:
                 Pin.gameObject.SetActive(false);
+                if (Extra != null)
+                {
+                    Extra.gameObject.SetActive(false);
+                }
                 break;
             case LevelState.UNLOCKED:
                 Face.sprite = UnlockedSprite;
                 MedalSlot.SetActive(false);
                 Pin.gameObject.SetActive(true);
+                if (Extra != null)
+                {
+                    Extra.gameObject.SetActive(true);
+                }
                 break;
             case LevelState.COMPLETED:
                 MedalSlot.SetActive(true);
                 Face.sprite = CompletedSprite;
                 Pin.gameObject.SetActive(true);
+                if (Extra != null)
+                {
+                    Extra.gameObject.SetActive(true);
+                }
                 MedalSlot.GetComponent<Image>().sprite = GetMedalSprite(levelMedal);
 
                 break;
