@@ -8757,17 +8757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653bbb0d1b775e24ab4a6d6b4b4c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1979526725 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7924987244523747715, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
-  m_PrefabInstance: {fileID: 7924987244866990950}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2007369700
 GameObject:
   m_ObjectHideFlags: 0
@@ -9323,7 +9312,7 @@ PrefabInstance:
     - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1979526725}
+      objectReference: {fileID: 7924987244866990951}
     - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameManager, Assembly-CSharp
@@ -9386,6 +9375,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+--- !u!114 &7924987244866990951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7924987244523747715, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8582622171174065908
 PrefabInstance:
   m_ObjectHideFlags: 0

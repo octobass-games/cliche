@@ -16,6 +16,8 @@ public class NoteFactory : MonoBehaviour
     public Transform DownTarget;
     public Transform LeftTarget;
 
+    public static readonly List<string> NoteNames = new() { "up", "right", "down", "left" };
+
     public GameObject CreateNote(NoteDescription noteDescription)
     {
         if (noteDescription.Type == "tap")
