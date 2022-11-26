@@ -1298,6 +1298,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &526310744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6820421219954241028, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
+  m_PrefabInstance: {fileID: 1899114291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &526310749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526310744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -339478880
+      Data2: 1119759007
+      Data3: 1714326150
+      Data4: 1662579185
+    Path: event:/Music/Menu Music/Menu Loop
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &800441052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,7 +2576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220525821627, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: orthographic size
-      value: 135
+      value: 125.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
