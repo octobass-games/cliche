@@ -24,7 +24,7 @@ public class DialogueRenderer : MonoBehaviour
         TextArea.text = Lines[Index].Line;
         Speaker.text = Lines[Index].Speaker;
         button.onClick.RemoveAllListeners();
-        button.onClick.AddListener(nextDialogue);
+        button.onClick.AddListener(NextDialogue);
         Animator = animator;
         runAnimation();
         panel.SetActive(true);
@@ -32,12 +32,13 @@ public class DialogueRenderer : MonoBehaviour
 
     private void Render()
     {
+        Debug.Log("Lines[Index].Line "+ Lines[Index].Line);
         TextArea.text = Lines[Index].Line;
         Speaker.text = Lines[Index].Speaker;
         runAnimation();
     }
 
-    private void nextDialogue()
+    private void NextDialogue()
     {
         if (Index == Lines.Count - 1)
         {
