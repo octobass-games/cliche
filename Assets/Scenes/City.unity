@@ -675,7 +675,8 @@ MonoBehaviour:
   RandomOpacity: 0
   sortingOrder: -10
   Sporadic: 0
-  Scale: 1
+  MinScale: 1
+  MaxScale: 1
   MaxYRange: 0
 --- !u!1 &416800881
 GameObject:
@@ -16521,7 +16522,8 @@ MonoBehaviour:
   RandomOpacity: 0
   sortingOrder: -8
   Sporadic: 0
-  Scale: 1
+  MinScale: 1
+  MaxScale: 1
   MaxYRange: 0
 --- !u!114 &1072063081 stripped
 MonoBehaviour:
@@ -21729,7 +21731,8 @@ MonoBehaviour:
   RandomOpacity: 0
   sortingOrder: -11
   Sporadic: 0
-  Scale: 1
+  MinScale: 1
+  MaxScale: 1
   MaxYRange: 0
 --- !u!1001 &1561413208
 PrefabInstance:
@@ -22421,7 +22424,8 @@ MonoBehaviour:
   RandomOpacity: 1
   sortingOrder: -29
   Sporadic: 0
-  Scale: 1
+  MinScale: 1
+  MaxScale: 1
   MaxYRange: 0
 --- !u!4 &2035448521 stripped
 Transform:

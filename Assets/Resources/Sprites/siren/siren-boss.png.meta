@@ -401,6 +401,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: siren-boss_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b62b322f5bc3b4483490e18847cd54
+      internalID: 2017519317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-boss_14
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c6ac8d2320f245b7dc3c1169b97d6
+      internalID: 1930241964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-boss_15
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa830ea958d2bd444aafcafec0dff393
+      internalID: -1411430770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -413,6 +476,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       siren-boss_1: 904647930
+      siren-boss_13: 2017519317
       siren-boss_8: -1196731882
       siren-boss_9: -509092563
       siren-boss_7: -2050231388
@@ -421,10 +485,12 @@ TextureImporter:
       siren-boss_0: 464771848
       siren-boss_12: 318774597
       siren-boss_11: -2100929787
+      siren-boss_15: -1411430770
       siren-boss_5: 715632533
       siren-boss_6: -1254711439
       siren-boss_3: 927733675
       siren-boss_10: -861496354
+      siren-boss_14: 1930241964
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
