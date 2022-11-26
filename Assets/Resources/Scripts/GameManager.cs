@@ -7,6 +7,12 @@ public class GameManager : MonoBehaviour
     private bool IsPaused;
 
     public LevelManager LevelManager;
+    public Difficulty Difficulty;
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     public void NewGame()
     {
@@ -23,6 +29,12 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadLevel(string levelName, Difficulty difficulty)
+    {
+        ChangeScene(levelName);
+        Difficulty = difficulty;
     }
 
     public void CompleteLevel(string levelId)

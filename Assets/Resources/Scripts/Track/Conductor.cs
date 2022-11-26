@@ -24,6 +24,7 @@ public class Conductor : MonoBehaviour
         {
             TimedEventsComplete.Add(false);
         }
+        Difficulty = FindObjectOfType<GameManager>().Difficulty;
     }
 
     public void Play()

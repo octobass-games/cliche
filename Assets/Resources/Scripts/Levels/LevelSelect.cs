@@ -37,6 +37,7 @@ public class LevelSelect : MonoBehaviour
     public TMPro.TextMeshProUGUI Score;
 
     private SerializableLevel SelectedLevel;
+    private Difficulty Difficulty;
 
     public void Open()
     {
@@ -65,27 +66,28 @@ public class LevelSelect : MonoBehaviour
         PhoneAnimator.SetTrigger("closeAndFade");
         Fade.SetTrigger("out");
         yield return new WaitForSeconds(0.75f);
-        SceneManager.LoadScene(levelSceneName);
+        FindObjectOfType<GameManager>().LoadLevel(levelSceneName, Difficulty);
     }
 
     public void SelectEasy()
     {
         SetSelectedSprite(easy: true);
         Score.text = SelectedLevel.EasyHighScore + "";
+        Difficulty = Difficulty.EASY;
     }
 
     public void SelectNormal()
     {
         SetSelectedSprite(normal: true);
         Score.text = SelectedLevel.NormalHighScore + "";
-
+        Difficulty = Difficulty.NORMAL;
     }
 
     public void SelectHard()
     {
         SetSelectedSprite(hard: true);
         Score.text = SelectedLevel.HardHighScore + "";
-
+        Difficulty = Difficulty.HARD;
     }
 
     private void SetSelectedSprite(bool easy = false, bool normal = false, bool hard = false)
