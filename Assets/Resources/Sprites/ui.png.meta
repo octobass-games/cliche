@@ -830,7 +830,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -838,6 +838,111 @@ TextureImporter:
       bones: []
       spriteID: 30b57b0a4d8f88a46867d54243ccfcfc
       internalID: 267219753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 35
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e75b2ba256c7c4d83501f25db03689
+      internalID: 528498454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easy
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 69
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5624e90ca19851e41b168234b6ecb237
+      internalID: -1279842403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 50
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d9c14d1d733b438ce27a645b6950f
+      internalID: -1655910609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 31
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d05b2dbec4a6c468a4637e6649dc74
+      internalID: -38633360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lets go
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 14
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8fb26c995324f42bddea446b848da1
+      internalID: 631923841
       vertices: []
       indices: 
       edges: []
@@ -855,6 +960,7 @@ TextureImporter:
     nameFileIdTable:
       ui_11: -1590960704
       ui_14: -1150031941
+      easy: -1279842403
       ui_13: 403829138
       ui_9: 1330326410
       outline-left: -1054378829
@@ -862,13 +968,16 @@ TextureImporter:
       ui_4: 793025996
       ui_12: -1549584465
       ui_19: -1530394118
+      lets go: 631923841
       circle: 426546383
       ui_0: 616734131
       combo: -530301567
+      normal: -1655910609
       ui_3: -15631499
       arrow-down-inner: 1538193131
       ui_6: 908414790
       ui_8: -88805040
+      party: 528498454
       circle-outline: 267219753
       arrow-right-inner: 211760925
       ui_7: 146940794
@@ -882,6 +991,7 @@ TextureImporter:
       arrow-up-inner: -80684752
       note-bar: -1505483449
       ui_1: 964839340
+      hard: -38633360
       outline-up: 383818911
       ui_15: 1324558975
       score: -130676555

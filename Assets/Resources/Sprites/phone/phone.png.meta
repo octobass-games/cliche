@@ -174,7 +174,7 @@ TextureImporter:
       name: cat-marker
       rect:
         serializedVersion: 2
-        x: 14
+        x: 2
         y: 221
         width: 30
         height: 30
@@ -195,7 +195,7 @@ TextureImporter:
       name: siren-marker
       rect:
         serializedVersion: 2
-        x: 14
+        x: 2
         y: 188
         width: 30
         height: 30
@@ -216,8 +216,8 @@ TextureImporter:
       name: gold-medal
       rect:
         serializedVersion: 2
-        x: 52
-        y: 229
+        x: 126
+        y: 3
         width: 13
         height: 21
       alignment: 0
@@ -237,8 +237,8 @@ TextureImporter:
       name: silver-medal
       rect:
         serializedVersion: 2
-        x: 53
-        y: 205
+        x: 161
+        y: 4
         width: 13
         height: 21
       alignment: 0
@@ -258,8 +258,8 @@ TextureImporter:
       name: bronze-medal
       rect:
         serializedVersion: 2
-        x: 53
-        y: 182
+        x: 195
+        y: 5
         width: 13
         height: 21
       alignment: 0
@@ -279,8 +279,8 @@ TextureImporter:
       name: forest-pin
       rect:
         serializedVersion: 2
-        x: 13
-        y: 155
+        x: 2
+        y: 154
         width: 30
         height: 30
       alignment: 0
@@ -300,12 +300,12 @@ TextureImporter:
       name: city-pin
       rect:
         serializedVersion: 2
-        x: 12
+        x: 2
         y: 114
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,15 +318,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phone_0
+      name: chill-pin
       rect:
         serializedVersion: 2
-        x: 11
+        x: 2
         y: 80
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,15 +339,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phone_1
+      name: spooky-pin
       rect:
         serializedVersion: 2
-        x: 49
-        y: 146
+        x: 88
+        y: 230
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,8 +363,29 @@ TextureImporter:
       name: scifi-pin
       rect:
         serializedVersion: 2
-        x: 49
-        y: 114
+        x: 153
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e9d27fb0738ba42b22172124a27ba5
+      internalID: 816878800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle-pin
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 230
         width: 30
         height: 30
       alignment: 0
@@ -374,8 +395,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4e9d27fb0738ba42b22172124a27ba5
-      internalID: 816878800
+      spriteID: f40dc8536f58e9d4ca15822764ccedc1
+      internalID: 809052159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pin
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b983e799099f47a44978b22f6a85b001
+      internalID: 817862541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phone-popup
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 57
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cfb59fafe064a4e87158a44f23dd59
+      internalID: 1728209798
       vertices: []
       indices: 
       edges: []
@@ -394,15 +457,18 @@ TextureImporter:
       siren-marker: -1956426623
       scifi-pin: 816878800
       map: 1049048897
+      phone-popup: 1728209798
       city-pin: 1760074522
       gold-medal: -2146761523
+      chill-pin: -760395808
       silver-medal: 1977978445
+      battle-pin: 809052159
       phone-background: -909863170
+      spooky-pin: -1378419813
       bronze-medal: 1598390706
-      phone_1: -1378419813
       cat-marker: -54069353
-      phone_0: -760395808
       forest-pin: 1197348172
+      party-pin: 817862541
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -506,6 +506,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: visit siren sea
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 197
+        width: 120
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462e42bcdbd1348428ff853228690feb
+      internalID: 1693602217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit forest
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 183
+        width: 98
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f6aa8e001078d4284aa2461f05a427
+      internalID: 1323750947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit carnival
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 168
+        width: 116
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6baa9360d5e4845ae18794fc62e17f
+      internalID: -969906087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit city
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 153
+        width: 78
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f65e922f4c43ae4cbee896e120ac861
+      internalID: 36814060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit space
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 138
+        width: 89
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b1fdf16984f6c4db9521baececcf20
+      internalID: -1878712751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit home
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 125
+        width: 88
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ab598c9c7b1fb49b4b625cca84b2f8
+      internalID: 1329072055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit mountains
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 109
+        width: 138
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14ceb9380bbe654da7ec63f758157f5
+      internalID: -2033895545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: visit party
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 93
+        width: 96
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61597f275f901954e920008fb7a23d3d
+      internalID: -1680274490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -519,10 +687,15 @@ TextureImporter:
     nameFileIdTable:
       call: -1295150126
       dont be a: 586918848
+      visit forest: 1323750947
+      visit home: 1329072055
       gimme: -592828620
       brea: -685941061
       scaredy cat: 1813916311
       break: -1542666079
+      visit siren sea: 1693602217
+      visit party: -1680274490
+      visit mountains: -2033895545
       moon: -544710723
       over the: 1077794784
       party: 1034205485
@@ -531,8 +704,11 @@ TextureImporter:
       up-the-wrong-tree: 1308235322
       all that: 968119359
       jazz: 1701450800
+      visit carnival: -969906087
       barking: -1628108569
       a sirens: 2145922114
+      visit city: 36814060
+      visit space: -1878712751
       gimme a: -740492465
       animal: 697056203
   spritePackingTag: 

@@ -8757,6 +8757,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 653bbb0d1b775e24ab4a6d6b4b4c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1979526725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7924987244523747715, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 7924987244866990950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2007369700
 GameObject:
   m_ObjectHideFlags: 0
@@ -9299,7 +9310,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: orthographic size
-      value: 102
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: TimedEvents.Array.data[0].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9309,6 +9320,14 @@ PrefabInstance:
       propertyPath: TimedEvents.Array.data[1].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354988100}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1979526725}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: Enemy
       value: 

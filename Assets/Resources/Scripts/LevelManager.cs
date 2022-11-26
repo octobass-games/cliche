@@ -15,7 +15,9 @@ public class LevelManager : MonoBehaviour
         new SerializableLevel("Spooky", LevelState.LOCKED, 0, 100, 200),
         new SerializableLevel("City", LevelState.LOCKED, 0, 100, 200),
         new SerializableLevel("Chill", LevelState.LOCKED, 0, 100, 200),
-        new SerializableLevel("Scifi", LevelState.LOCKED, 0, 100, 200)
+        new SerializableLevel("Scifi", LevelState.LOCKED, 0, 100, 200),
+        new SerializableLevel("Battle", LevelState.LOCKED, 0, 100, 200),
+        new SerializableLevel("Party", LevelState.LOCKED, 0, 100, 200)
     };
 
     void Awake()

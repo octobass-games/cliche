@@ -1109,7 +1109,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1117,6 +1117,90 @@ TextureImporter:
       bones: []
       spriteID: 4fc5b229eba16cf4ea2c4341e781d132
       internalID: -945612814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-score
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 51
+        width: 92
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fdd3a9ecc8a0a49ae64a2b35be5db2
+      internalID: -389421003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easy
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 114
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c3a108542629e43891e55ae204bded
+      internalID: -707675944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 102
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe25b41306f19b439f51f246274c6b7
+      internalID: -151454992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 90
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a27cf4d59c2720459b2925fdf1af541
+      internalID: -191716989
       vertices: []
       indices: 
       edges: []
@@ -1133,6 +1217,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       heart: -945612814
+      easy: -707675944
       circle: -5929314477315672613
       pause-icon: 3068636224358055602
       question mark: -5027849011435197441
@@ -1145,6 +1230,7 @@ TextureImporter:
       odette: 3450182602739598057
       skip level: 5401554910025575603
       level 6 complete: 3111616736020190162
+      normal: -151454992
       good: 617691028
       closed-book-icon: 4172484642484797931
       level-select: -2603594978610747406
@@ -1178,6 +1264,8 @@ TextureImporter:
       now playing: -6288917170383791396
       save: -1001128473645107264
       load: 5988823504805139456
+      high-score: -389421003
+      hard: -191716989
       eye-open: 3054675897875176938
       next level: -8971054447262947728
       score: 848578548

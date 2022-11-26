@@ -2375,6 +2375,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -92
       objectReference: {fileID: 0}
+    - target: {fileID: 6820421220303648508, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1899114293}
+    - target: {fileID: 6820421220303648508, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6820421220429781061, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: Enemy
       value: 
@@ -2533,7 +2541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220525821627, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: orthographic size
-      value: 102
+      value: 135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
@@ -2546,6 +2554,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0a4e2e701cccbb4abae5e1c52677a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1899114293 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6820421221022530593, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
+  m_PrefabInstance: {fileID: 1899114291}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2035448521 stripped
