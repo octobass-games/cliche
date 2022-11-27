@@ -6,6 +6,8 @@ public class LevelManager : MonoBehaviour
 {
     public Saver Saver;
 
+    public static LevelManager Instance;
+
     public List<SerializableLevel> Levels { get; private set; }
 
     private readonly List<SerializableLevel> InitialLevelData = new()
@@ -23,12 +25,22 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-        // load levels by default or initialise to empty
-        Levels = Saver.Load();
-
-        if (Levels == null || Levels.Count == 0)
+        if (Instance != null && Instance != this)
         {
-            NewGame();
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+            
+            // load levels by default or initialise to empty
+            Levels = Saver.Load();
+
+            if (Levels == null || Levels.Count == 0)
+            {
+                NewGame();
+            }
         }
     }
 
