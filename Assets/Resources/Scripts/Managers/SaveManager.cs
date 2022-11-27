@@ -2,11 +2,26 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class Saver : MonoBehaviour
+public class SaveManager : MonoBehaviour
 {
+    public static SaveManager Instance;
+
     private string SaveFilePath;
 
-    void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+
+            SaveFilePath = Application.persistentDataPath + "/save-data.json";
+        }
+    }
 
     public void Save(List<SerializableLevel> levels)
     {

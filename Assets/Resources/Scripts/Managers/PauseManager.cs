@@ -71,7 +71,12 @@ public class PauseManager : MonoBehaviour
     private void Pause()
     {
         Time.timeScale = 0f;
-        Conductor.Pause();
+        
+        if (Conductor != null)
+        {
+            Conductor.Pause();
+        }
+
         PlayerInput.SwitchCurrentActionMap("UI");
         IsPaused = true;
         PauseMenu.SetActive(true);
@@ -79,7 +84,12 @@ public class PauseManager : MonoBehaviour
     private void Unpause()
     {
         Time.timeScale = 1f;
-        Conductor.Resume();
+
+        if (Conductor != null)
+        {
+            Conductor.Resume();
+        }
+
         PlayerInput.SwitchCurrentActionMap("Player controls");
         IsPaused = false;
         PauseMenu.SetActive(false);

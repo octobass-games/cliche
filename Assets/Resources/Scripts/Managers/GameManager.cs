@@ -67,10 +67,20 @@ public class GameManager : MonoBehaviour
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Conductor conductor = FindObjectOfType<Conductor>();
-        PlayerInput playerInput = FindObjectOfType<PlayerInput>();
+        if (scene.name != "MainMenu" && PauseManager.Instance != null)
+        {
+            PlayerInput playerInput = FindObjectOfType<PlayerInput>();
+            PauseManager.Instance.PlayerInput = playerInput;
 
-        PauseManager.Instance.Conductor = conductor;
-        PauseManager.Instance.PlayerInput = playerInput;
+            if (scene.name != "Home")
+            {
+                Conductor conductor = FindObjectOfType<Conductor>();
+                PauseManager.Instance.Conductor = conductor;
+            }
+            else
+            {
+                PauseManager.Instance.Conductor = null;
+            }
+        }
     }
 }

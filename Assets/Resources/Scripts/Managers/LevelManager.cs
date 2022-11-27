@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public Saver Saver;
+    public SaveManager Saver;
 
     public static LevelManager Instance;
 

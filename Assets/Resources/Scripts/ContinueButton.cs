@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ContinueButton : MonoBehaviour
 {
-    public Saver Saver;
+    public SaveManager Saver;
 
     void Start()
     {
