@@ -464,6 +464,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: siren-boss_16
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3cb569c1ec529499743d4fc3107055
+      internalID: 424510175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-boss_17
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad2c01b34bc884eb5b3aea9261e535
+      internalID: 1310794258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-boss_18
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3702b7afb0b856344807280f74c57e88
+      internalID: 946051407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-boss_19
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4e54fab7036a24d82f78b8f74adc7a
+      internalID: -1922184207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -479,17 +563,21 @@ TextureImporter:
       siren-boss_13: 2017519317
       siren-boss_8: -1196731882
       siren-boss_9: -509092563
+      siren-boss_18: 946051407
       siren-boss_7: -2050231388
       siren-boss_2: 1546272917
       siren-boss_4: -703245700
+      siren-boss_17: 1310794258
       siren-boss_0: 464771848
       siren-boss_12: 318774597
       siren-boss_11: -2100929787
+      siren-boss_16: 424510175
       siren-boss_15: -1411430770
       siren-boss_5: 715632533
       siren-boss_6: -1254711439
       siren-boss_3: 927733675
       siren-boss_10: -861496354
+      siren-boss_19: -1922184207
       siren-boss_14: 1930241964
   spritePackingTag: 
   pSDRemoveMatte: 0

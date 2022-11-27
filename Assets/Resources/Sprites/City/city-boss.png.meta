@@ -359,6 +359,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: city-boss_11
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b874ad511205394fb1c99fdf6fd2ee9
+      internalID: 807541512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-boss_12
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80910604e78b824ebe92da3281b843c
+      internalID: -586034324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-boss_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 0
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8046b95df9bbb4aa009114efc00c7c
+      internalID: 1647205291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -376,10 +439,13 @@ TextureImporter:
       city-boss_5: 676744168
       city-boss_3: 1699480686
       city-boss_2: -1335752997
+      city-boss_12: -586034324
       city-boss_6: -644475826
+      city-boss_13: 1647205291
       city-boss_1: -1890046228
       city-boss_4: -2095101522
       city-boss_9: -1127822662
+      city-boss_11: 807541512
       city-boss_7: 868866457
   spritePackingTag: 
   pSDRemoveMatte: 0
