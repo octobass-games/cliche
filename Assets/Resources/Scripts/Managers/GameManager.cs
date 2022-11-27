@@ -62,7 +62,10 @@ public class GameManager : MonoBehaviour
 
     public void TogglePause(InputAction.CallbackContext context)
     {
-        PauseManager.Instance.TogglePause(context);
+        if (SceneManager.GetActiveScene().name != "MainMenu")
+        {
+            PauseManager.Instance.TogglePause(context);
+        }
     }
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
