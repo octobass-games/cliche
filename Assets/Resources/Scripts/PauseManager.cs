@@ -6,8 +6,8 @@ public class PauseManager : MonoBehaviour
     public GameObject PauseMenu;
     public GameObject ControlsSubmenu;
 
-    private Conductor Conductor { get; set; }
-    private PlayerInput PlayerInput { get; set; }
+    public Conductor Conductor;
+    public PlayerInput PlayerInput;
 
     private bool IsPaused;
 
@@ -24,12 +24,6 @@ public class PauseManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(Instance);
         }
-    }
-
-    void Start()
-    {
-        Conductor = FindObjectOfType<Conductor>();
-        PlayerInput = FindObjectOfType<PlayerInput>();
     }
 
     public void OnVisitHome()

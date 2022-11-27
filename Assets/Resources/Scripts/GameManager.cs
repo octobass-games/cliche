@@ -67,6 +67,10 @@ public class GameManager : MonoBehaviour
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        Conductor conductor = FindObjectOfType<Conductor>();
+        PlayerInput playerInput = FindObjectOfType<PlayerInput>();
 
+        PauseManager.Instance.Conductor = conductor;
+        PauseManager.Instance.PlayerInput = playerInput;
     }
 }
