@@ -115,4 +115,6 @@ public class LevelManager : MonoBehaviour
             return Medal.BRONZE;
         }
     }
+
+    public SerializableLevel FindLevel(string id) => Levels.Find(l => l.Id == id);
 }

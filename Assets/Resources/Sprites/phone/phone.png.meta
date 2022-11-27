@@ -213,13 +213,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold-medal
+      name: gold-easy-medal
       rect:
         serializedVersion: 2
-        x: 126
-        y: 3
-        width: 13
-        height: 21
+        x: 52
+        y: 5
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,13 +234,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silver-medal
+      name: silver-hard-medal
       rect:
         serializedVersion: 2
-        x: 161
-        y: 4
-        width: 13
-        height: 21
+        x: 147
+        y: 5
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,13 +255,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bronze-medal
+      name: bronze-normal-medal
       rect:
         serializedVersion: 2
-        x: 195
+        x: 193
         y: 5
-        width: 13
-        height: 21
+        width: 16
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,7 +389,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,7 +410,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,7 +431,7 @@ TextureImporter:
         width: 160
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,6 +439,132 @@ TextureImporter:
       bones: []
       spriteID: 67cfb59fafe064a4e87158a44f23dd59
       internalID: 1728209798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold-hard-medal
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96a52510566f9f4a98efa32c618939a
+      internalID: -1513343380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold-normal-medal
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c036adc4822244ab3af186374535a7
+      internalID: -606829518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver-easy-medal
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0980481e537b3469efa4d4a6c69ab2
+      internalID: 314485254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver-normal-medal
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7894194ccc8566d4d9baac9dcebdcaed
+      internalID: 1109336786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronze-easy-medal
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207bea36f29255a4f86c24bc8f7f125d
+      internalID: -1825799586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronze-hard-medal
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6dbaf17640244f9beb699e1ec0bcb
+      internalID: -42844652
       vertices: []
       indices: 
       edges: []
@@ -455,19 +581,25 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       siren-marker: -1956426623
+      bronze-hard-medal: -42844652
       scifi-pin: 816878800
+      gold-easy-medal: -2146761523
       map: 1049048897
       phone-popup: 1728209798
       city-pin: 1760074522
-      gold-medal: -2146761523
       chill-pin: -760395808
-      silver-medal: 1977978445
+      silver-easy-medal: 314485254
+      silver-normal-medal: 1109336786
       battle-pin: 809052159
       phone-background: -909863170
       spooky-pin: -1378419813
-      bronze-medal: 1598390706
+      bronze-normal-medal: 1598390706
       cat-marker: -54069353
+      gold-normal-medal: -606829518
       forest-pin: 1197348172
+      gold-hard-medal: -1513343380
+      bronze-easy-medal: -1825799586
+      silver-hard-medal: 1977978445
       party-pin: 817862541
   spritePackingTag: 
   pSDRemoveMatte: 0

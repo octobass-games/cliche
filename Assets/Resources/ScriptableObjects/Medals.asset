@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d567f0920511c684b93bc4cbabe4568a, type: 3}
+  m_Name: Medals
+  m_EditorClassIdentifier: 
+  miniBronzeEasyMedal: {fileID: -551651201, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniSilverEasyMedal: {fileID: 1080834449, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniGoldEasyMedal: {fileID: 86580220, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniBronzeNormalMedal: {fileID: -1518824499, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniSilverNormalMedal: {fileID: -1593982003, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniGoldNormalMedal: {fileID: -261695189, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniBronzeHardMedal: {fileID: 1691496788, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniSilverHardMedal: {fileID: 1951694228, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniGoldHardMedal: {fileID: 702730635, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  BronzeEasyMedal: {fileID: -1825799586, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  SilverEasyMedal: {fileID: 314485254, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  GoldEasyMedal: {fileID: -2146761523, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  BronzeNormalMedal: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  SilverNormalMedal: {fileID: 1109336786, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  GoldNormalMedal: {fileID: -606829518, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  BronzeHardMedal: {fileID: -42844652, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  SilverHardMedal: {fileID: 1977978445, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  GoldHardMedal: {fileID: -1513343380, guid: 85194d2946150be49ac199a78f603903, type: 3}

@@ -56,7 +56,7 @@ public class LevelSelect : MonoBehaviour
 
     private void LoadLevelPin(LevelRenderer renderer)
     {
-        var level = LevelManager.Levels.Find(l => l.Id == renderer.Id);
+        var level = LevelManager.FindLevel(renderer.Id);
         renderer.Initialise(level.State, level.EasyMedal);
     }
 
