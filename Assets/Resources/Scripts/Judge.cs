@@ -196,6 +196,9 @@ public class Judge : MonoBehaviour
     IEnumerator EnemyHitAfterTime()
     {
         yield return new WaitForSeconds(0.5f);
-        Enemy.SetTrigger("hit");
+        if (Enemy != null)
+        {
+            Enemy.SetTrigger("hit");
+        }
     }
 }
