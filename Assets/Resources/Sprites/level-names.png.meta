@@ -409,8 +409,8 @@ TextureImporter:
         y: 195
         width: 48
         height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -423,12 +423,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bite the
+      name: face the
       rect:
         serializedVersion: 2
         x: 4
-        y: 65
-        width: 68
+        y: 64
+        width: 70
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -444,15 +444,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bullet
+      name: music
       rect:
         serializedVersion: 2
         x: 4
         y: 53
-        width: 55
+        width: 48
         height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,7 +515,7 @@ TextureImporter:
         width: 120
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -536,7 +536,7 @@ TextureImporter:
         width: 98
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,7 +557,7 @@ TextureImporter:
         width: 116
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -578,7 +578,7 @@ TextureImporter:
         width: 78
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,7 +599,7 @@ TextureImporter:
         width: 89
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,7 +620,7 @@ TextureImporter:
         width: 88
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,7 +641,7 @@ TextureImporter:
         width: 138
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,7 +662,7 @@ TextureImporter:
         width: 96
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,13 +698,13 @@ TextureImporter:
       visit mountains: -2033895545
       moon: -544710723
       over the: 1077794784
+      music: 756303394
       party: 1034205485
-      bite the: -1571710603
-      bullet: 756303394
       up-the-wrong-tree: 1308235322
       all that: 968119359
       jazz: 1701450800
       visit carnival: -969906087
+      face the: -1571710603
       barking: -1628108569
       a sirens: 2145922114
       visit city: 36814060
