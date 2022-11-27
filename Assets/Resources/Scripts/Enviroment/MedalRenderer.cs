@@ -14,7 +14,7 @@ public class MedalRenderer : MonoBehaviour
 
     public bool Large = false;
 
-    public void Render(SerializableLevel level)
+    public void Render(Level level)
     {
         var small = !Large;
         if (level.State == LevelState.COMPLETED)

@@ -23,7 +23,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    public void Save(List<SerializableLevel> levels)
+    public void Save(List<Level> levels)
     {
         var saveData = new SaveData(levels);
         var json = JsonUtility.ToJson(saveData);
@@ -42,7 +42,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
-    public List<SerializableLevel> Load()
+    public List<Level> Load()
     {
         if (HasSaveData())
         {

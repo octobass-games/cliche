@@ -8,19 +8,19 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager Instance;
 
-    public List<SerializableLevel> Levels { get; private set; }
+    public List<Level> Levels { get; private set; }
 
-    private readonly List<SerializableLevel> InitialLevelData = new()
+    private readonly List<Level> InitialLevelData = new()
     {
 
-        new SerializableLevel("Siren", LevelState.UNLOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Forest", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Spooky", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("City", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Chill", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Scifi", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Battle", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new SerializableLevel("Party", LevelState.LOCKED, 0, 0, 0, 100, 200)
+        new Level("Siren", LevelState.UNLOCKED, 0, 0, 0, 100, 200),
+        new Level("Forest", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("Spooky", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("City", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("Chill", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("Scifi", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("Battle", LevelState.LOCKED, 0, 0, 0, 100, 200),
+        new Level("Party", LevelState.LOCKED, 0, 0, 0, 100, 200)
     };
 
     void Awake()
@@ -112,7 +112,7 @@ public class LevelManager : MonoBehaviour
         Saver.Save(Levels);
     }
 
-    private Medal GetMedal(SerializableLevel level, int score)
+    private Medal GetMedal(Level level, int score)
     {
         if (level.GoldScore <= score)
         {
@@ -128,5 +128,5 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public SerializableLevel FindLevel(string id) => Levels.Find(l => l.Id == id);
+    public Level FindLevel(string id) => Levels.Find(l => l.Id == id);
 }

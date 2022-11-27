@@ -3,9 +3,9 @@ using System.Collections.Generic;
 [System.Serializable]
 public class SaveData
 {
-    public List<SerializableLevel> Levels;
+    public List<Level> Levels;
 
-    public SaveData(List<SerializableLevel> levels)
+    public SaveData(List<Level> levels)
     {
         Levels = levels;
     }

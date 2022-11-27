@@ -1,5 +1,5 @@
 [System.Serializable]
-public class SerializableLevel
+public class Level
 {
     public string Id;
     public int EasyHighScore;
@@ -12,7 +12,7 @@ public class SerializableLevel
     public int SilverScore;
     public int GoldScore;
 
-    public SerializableLevel(
+    public Level(
         string id,
         LevelState state,
         int easyHighScore,

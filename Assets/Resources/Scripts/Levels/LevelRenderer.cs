@@ -11,7 +11,7 @@ public class LevelRenderer: MonoBehaviour
     public string Id;
     public GameObject Extra;
 
-    public void Initialise(SerializableLevel level)
+    public void Initialise(Level level)
     {
         MedalSlot.Render(level);
         switch (level.State)

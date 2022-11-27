@@ -33,7 +33,7 @@ public class LevelSelect : MonoBehaviour
     public Button PlayButton;
     public TMPro.TextMeshProUGUI Score;
 
-    private SerializableLevel SelectedLevel;
+    private Level SelectedLevel;
     private Difficulty Difficulty;
 
     public void Open()
