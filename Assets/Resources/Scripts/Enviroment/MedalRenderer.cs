@@ -12,13 +12,16 @@ public class MedalRenderer : MonoBehaviour
     public Image NormalImage;
     public Image HardImage;
 
+    public bool Large = false;
+
     public void Render(SerializableLevel level)
     {
+        var small = !Large;
         if (level.State == LevelState.COMPLETED)
         {
-            SetMedal(Easy, EasyImage, level.EasyMedal, Medals.miniGoldEasyMedal, Medals.miniSilverEasyMedal, Medals.miniBronzeEasyMedal);
-            SetMedal(Normal, NormalImage, level.NormalMedal, Medals.miniGoldNormalMedal, Medals.miniSilverNormalMedal, Medals.miniBronzeNormalMedal);
-            SetMedal(Hard, HardImage, level.HardMedal, Medals.miniGoldHardMedal, Medals.miniSilverHardMedal, Medals.miniBronzeHardMedal);
+            SetMedal(Easy, EasyImage, level.EasyMedal, Medals.EasyGold(small), Medals.EasySilver(small), Medals.EasyBronze(small));
+            SetMedal(Normal, NormalImage, level.NormalMedal, Medals.NormalGold(small), Medals.NormalSilver(small), Medals.NormalBronze(small));
+            SetMedal(Hard, HardImage, level.HardMedal, Medals.HardGold(small), Medals.HardSilver(small), Medals.HardBronze(small));
         }
         else
         {
@@ -42,12 +45,15 @@ public class MedalRenderer : MonoBehaviour
                     break;
                 case Medal.GOLD:
                     renderer.sprite = gold;
+                    renderer.gameObject.SetActive(true);
                     break;
                 case Medal.SILVER:
                     renderer.sprite = silver;
+                    renderer.gameObject.SetActive(true);
                     break;
                 case Medal.BRONZE:
                     renderer.sprite = bronze;
+                    renderer.gameObject.SetActive(true);
                     break;
             }
         }
@@ -61,12 +67,15 @@ public class MedalRenderer : MonoBehaviour
                     break;
                 case Medal.GOLD:
                     image.sprite = gold;
+                    image.gameObject.SetActive(true);
                     break;
                 case Medal.SILVER:
                     image.sprite = silver;
+                    image.gameObject.SetActive(true);
                     break;
                 case Medal.BRONZE:
                     image.sprite = bronze;
+                    image.gameObject.SetActive(true);
                     break;
             }
         }

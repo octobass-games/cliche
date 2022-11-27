@@ -19,10 +19,7 @@ public class LevelSelect : MonoBehaviour
 
     public Image Title;
     public GameObject LevelSummary;
-
-    public Sprite BronzeMedal;
-    public Sprite SilverMedal;
-    public Sprite GoldMedal;
+    public MedalRenderer MedalRenderer;
 
     public Sprite SirenTitle;
     public Sprite ForestTitle;
@@ -104,6 +101,7 @@ public class LevelSelect : MonoBehaviour
         PlayButton.onClick.AddListener(() => StartCoroutine(LoadLevel(levelName)));
         SelectedLevel = LevelManager.Levels.Find(l => l.Id == levelName);
         Score.text = "0";
+        MedalRenderer.Render(SelectedLevel);
 
         LevelSummary.SetActive(true);
     }

@@ -26,4 +26,16 @@ public class Medals : ScriptableObject
     public Sprite BronzeHardMedal;
     public Sprite SilverHardMedal;
     public Sprite GoldHardMedal;
+
+    public Sprite EasyBronze(bool small) => small ? miniBronzeEasyMedal : BronzeEasyMedal;
+    public Sprite EasySilver(bool small) => small ? miniSilverEasyMedal : SilverEasyMedal;
+    public Sprite EasyGold(bool small) => small ? miniGoldEasyMedal : GoldEasyMedal;
+
+    public Sprite NormalBronze(bool small) => small ? miniBronzeNormalMedal : BronzeNormalMedal;
+    public Sprite NormalSilver(bool small) => small ? miniSilverNormalMedal : SilverNormalMedal;
+    public Sprite NormalGold(bool small) => small ? miniGoldNormalMedal : GoldNormalMedal;
+
+    public Sprite HardBronze(bool small) => small ? miniBronzeHardMedal : BronzeHardMedal;
+    public Sprite HardSilver(bool small) => small ? miniSilverHardMedal : SilverHardMedal;
+    public Sprite HardGold(bool small) => small ? miniGoldHardMedal : GoldHardMedal;
 }
