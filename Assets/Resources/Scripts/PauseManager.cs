@@ -89,5 +89,6 @@ public class PauseManager : MonoBehaviour
         PlayerInput.SwitchCurrentActionMap("Player controls");
         IsPaused = false;
         PauseMenu.SetActive(false);
+        ControlsSubmenu.SetActive(false);
     }
 }
