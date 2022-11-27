@@ -62,7 +62,7 @@ public class LevelSelect : MonoBehaviour
         PhoneAnimator.SetTrigger("closeAndFade");
         Fade.SetTrigger("out");
         yield return new WaitForSeconds(0.75f);
-        FindObjectOfType<GameManager>().LoadLevel(levelSceneName, Difficulty);
+        GameManager.Instance.LoadLevel(levelSceneName, Difficulty);
     }
 
     public void SelectEasy()
