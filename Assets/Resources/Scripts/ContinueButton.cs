@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class ContinueButton : MonoBehaviour
 {
-    public SaveManager Saver;
-
     void Start()
     {
-        if (!Saver.HasSaveData())
+        if (!SaveManager.Instance.HasSaveData())
         {
             gameObject.SetActive(false);
         }

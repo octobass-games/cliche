@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public SaveManager Saver;
-
     public static LevelManager Instance;
 
     public List<Level> Levels { get; private set; }
@@ -109,7 +107,7 @@ public class LevelManager : MonoBehaviour
 
     public void Save()
     {
-        Saver.Save(Levels);
+        SaveManager.Instance.Save(Levels);
     }
 
     private Medal GetMedal(Level level, int score)
