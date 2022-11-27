@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0b91059f-dc0c-444f-9368-19e6dd9e127a}">
+		<property name="assetPath">
+			<value>Face the music.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>147.40000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b120d27a-6024-4139-aaff-db72233b8db5}</destination>
+		</relationship>
+	</object>
+</objects>
