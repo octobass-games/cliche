@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public LevelManager LevelManager;
     public Difficulty Difficulty;
+    public GameObject PauseMenu;
 
     void Awake()
     {
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<Conductor>().Pause();
         FindObjectOfType<PlayerInput>().SwitchCurrentActionMap("UI");
         IsPaused = true;
+        PauseMenu.SetActive(true);
     }
 
     private void Unpause()
@@ -75,5 +77,6 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<Conductor>().Resume();
         FindObjectOfType<PlayerInput>().SwitchCurrentActionMap("Player controls");
         IsPaused = false;
+        PauseMenu.SetActive(false);
     }
 }

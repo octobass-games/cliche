@@ -19,10 +19,7 @@ public class LevelSelect : MonoBehaviour
 
     public Image Title;
     public GameObject LevelSummary;
-
-    public Sprite BronzeMedal;
-    public Sprite SilverMedal;
-    public Sprite GoldMedal;
+    public MedalRenderer MedalRenderer;
 
     public Sprite SirenTitle;
     public Sprite ForestTitle;
@@ -56,8 +53,8 @@ public class LevelSelect : MonoBehaviour
 
     private void LoadLevelPin(LevelRenderer renderer)
     {
-        var level = LevelManager.Levels.Find(l => l.Id == renderer.Id);
-        renderer.Initialise(level.State, level.EasyMedal);
+        var level = LevelManager.FindLevel(renderer.Id);
+        renderer.Initialise(level);
     }
 
     IEnumerator LoadLevel(string levelSceneName)
@@ -104,6 +101,7 @@ public class LevelSelect : MonoBehaviour
         PlayButton.onClick.AddListener(() => StartCoroutine(LoadLevel(levelName)));
         SelectedLevel = LevelManager.Levels.Find(l => l.Id == levelName);
         Score.text = "0";
+        MedalRenderer.Render(SelectedLevel);
 
         LevelSummary.SetActive(true);
     }

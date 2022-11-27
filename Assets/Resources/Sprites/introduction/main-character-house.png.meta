@@ -1166,7 +1166,7 @@ TextureImporter:
         width: 96
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1187,7 +1187,7 @@ TextureImporter:
         width: 108
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1195,6 +1195,384 @@ TextureImporter:
       bones: []
       spriteID: 5730a7db06a027f4a86234877225e9b8
       internalID: -779468468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siren-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 121
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7318362b4cbe2844a5a8a2bfe8ba409
+      internalID: 179331046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 107
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d34a1d3a6a8f41bc4a4a7e4d5de70
+      internalID: 1404919398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 93
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfab0501107f9544b95c7927020e490
+      internalID: -1209178208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spooky-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 79
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c05350e4e33646ad39b6a7b415b46
+      internalID: -2111320567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scifi-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ee7d5edf77afa4aa97a461651a1609
+      internalID: 1059335497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party-pic
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 51
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b1e9d96c3c59740a2a852ed681700e
+      internalID: -2098249708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chill-pic
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 121
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369a10b2a2769949982b495795ba17d
+      internalID: 1644932919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: battle-pic
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 107
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b7387d60a19a44fb6c484dfa33016d
+      internalID: -797401756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold-medal-mini-normal
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280aae71ade3cfc4c90e12e87027cf89
+      internalID: -261695189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronze-mini-medal-normal
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ab510a488ecd84f873fa44965ad75f
+      internalID: -1518824499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver-mini-medal-normal
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e1c4da157cd74da904f9c04b83002
+      internalID: -1593982003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pic-frame
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 55
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cc89e36387f4b4fbdfa152f34558a6
+      internalID: 660466123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold-medal-mini-easy
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 78
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2cb6c231e529a46adcfbd8320bfe67
+      internalID: 86580220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronze-medal-mini-easy
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 78
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c293506d92b624daa98a8274634094
+      internalID: -551651201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: siver-medal-mini-easy
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 78
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077cc52eaae7fc4689ab7c54daed9dc
+      internalID: 1080834449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold-medal-mini-hard
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 45
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ff92872204266478786cbd5ab9c093
+      internalID: 702730635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bronze-medal-mini-hard
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 45
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e018c9dd9096aa4296fbd9641acc00e
+      internalID: 1691496788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silver-medal-mini-hard
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 45
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f4908f1d0e79b4bbf48183dc2a0da7
+      internalID: 1951694228
       vertices: []
       indices: 
       edges: []
@@ -1221,13 +1599,17 @@ TextureImporter:
       main-character-house_44: -1011247889
       main-character-house_17: 1623576216
       main-character-house_0: -1900488700
+      silver-medal-mini-hard: 1951694228
       main-character-house_27: -770911619
       main-character-house_36: 1460530115
       main-character-house_54: -1654128350
+      city-pic: -1209178208
+      bronze-medal-mini-hard: 1691496788
       main-character-house_45: -1182333038
       main-character-house_58: 199111384
       main-character-house_4: 2042486323
       main-character-house_31: 2042831359
+      bronze-mini-medal-normal: -1518824499
       main-character-house_15: -45718550
       main-character-house_41: 124602345
       main-character-house_18: 1358842902
@@ -1239,13 +1621,21 @@ TextureImporter:
       main-character-house_56: -79048272
       main-character-house_57: 1550074618
       main-character-house_49: 1650423864
+      pic-frame: 660466123
       main-character-house_50: -1728928236
+      party-pic: -2098249708
       main-character-house_48: 858446541
       main-character-house_33: 1911517351
       main-character-house_53: -930039879
+      battle-pic: -797401756
+      gold-medal-mini-normal: -261695189
       main-character-house_9: 633460226
       main-character-house_39: 1264187749
+      bronze-medal-mini-easy: -551651201
       main-character-house_30: 927740646
+      scifi-pic: 1059335497
+      siver-medal-mini-easy: 1080834449
+      chill-pic: 1644932919
       main-character-house_13: 1253654033
       main-character-house_52: -2109648918
       main-character-house_34: -675669842
@@ -1257,6 +1647,7 @@ TextureImporter:
       tv: -1667919931
       main-character-house_22: 850915022
       main-character-house_32: 755367756
+      siren-pic: 179331046
       main-character-house_10: -1117547641
       main-character-house_14: -5519781
       side-table: 402858915
@@ -1268,11 +1659,16 @@ TextureImporter:
       main-character-house_1: -257012293
       main-character-house_55: 717399848
       phone: 1992737679
+      silver-mini-medal-normal: -1593982003
       main-character-house_40: -120868871
+      forest-pic: 1404919398
       tank-front: 1248850842
       main-character-house_20: 281761283
       main-character-house_29: -2132380944
+      spooky-pic: -2111320567
       main-character-house_38: -724838166
+      gold-medal-mini-easy: 86580220
+      gold-medal-mini-hard: 702730635
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

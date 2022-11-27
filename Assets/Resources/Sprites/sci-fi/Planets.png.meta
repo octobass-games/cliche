@@ -129,34 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Planets_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 81
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 886c893e34c68dd47a32d1ed95a3d1f1
-      internalID: 35330737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Planets_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 81
-        width: 30
-        height: 30
+        x: 44
+        y: 147
+        width: 15
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +153,10 @@ TextureImporter:
       name: Planets_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 80
-        width: 54
-        height: 30
+        x: 67
+        y: 143
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +174,10 @@ TextureImporter:
       name: Planets_3
       rect:
         serializedVersion: 2
-        x: 78
-        y: 35
-        width: 30
-        height: 30
+        x: 111
+        y: 122
+        width: 76
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,32 +192,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alienship
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 69
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40bff2fd6e19ad144a6ff41b8c642320
-      internalID: -648491394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Planets_4
       rect:
         serializedVersion: 2
-        x: 69
-        y: 161
+        x: 6
+        y: 107
         width: 30
         height: 30
       alignment: 0
@@ -254,6 +212,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Planets_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 106
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7936c4d502fa0e545aca56511e057f1e
+      internalID: -896919997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planets_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 71
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b916363870ed7294d9923aceaffb62e1
+      internalID: 871272155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planets_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 72
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19064990ab40583498e17a31c53a5b16
+      internalID: 460084694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planets_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632d99718499b40428c6ee2223156646
+      internalID: 302157566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planets_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 36
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754a1c4602b15944c9c4595c713eb119
+      internalID: -1636979552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Planets_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a6f2bcaa973e847a5bc4a0a1b7b4e8
+      internalID: 1445362114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -265,11 +349,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      alienship: -648491394
+      Planets_8: 302157566
       Planets_2: 1533189343
+      Planets_10: 1445362114
+      Planets_7: 460084694
+      Planets_9: -1636979552
+      Planets_6: 871272155
       Planets_1: -1936831085
       Planets_0: 35330737
       Planets_3: 633250705
+      Planets_5: -896919997
       Planets_4: 1883920652
   spritePackingTag: 
   pSDRemoveMatte: 0

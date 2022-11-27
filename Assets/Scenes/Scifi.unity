@@ -2585,12 +2585,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 35330737, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
-  - {fileID: -1936831085, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
-  - {fileID: 1533189343, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
-  - {fileID: 633250705, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
-  - {fileID: 633250705, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
   - {fileID: 1883920652, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: -896919997, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: 871272155, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: 460084694, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: 302157566, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: -1636979552, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
+  - {fileID: 1445362114, guid: e28558ab80b58bd45a45be7a14b6900c, type: 3}
   Speed: 10
   Layer: Background
   Colours:
