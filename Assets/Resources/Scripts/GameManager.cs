@@ -6,8 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    private bool IsPaused;
-
     public LevelManager LevelManager;
     public Difficulty Difficulty;
     public GameObject PauseMenu;
@@ -21,6 +19,7 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(this);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
     }
 
@@ -66,4 +65,8 @@ public class GameManager : MonoBehaviour
         PauseManager.Instance.TogglePause(context);
     }
 
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+
+    }
 }
