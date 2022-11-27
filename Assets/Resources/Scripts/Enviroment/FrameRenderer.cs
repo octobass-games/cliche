@@ -10,7 +10,7 @@ public class FrameRenderer : MonoBehaviour
 
     void Start()
     {
-        var level = LevelManager.FindLevel(LevelId);
+        var level = LevelManager.Instance.FindLevel(LevelId);
         MedalRenderer.Render(level);
 
         if (level.State == LevelState.LOCKED)

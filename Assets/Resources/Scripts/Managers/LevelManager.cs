@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
             DontDestroyOnLoad(this);
             
             // load levels by default or initialise to empty
-            Levels = Saver.Load();
+            Levels = SaveManager.Instance.Load();
 
             if (Levels == null || Levels.Count == 0)
             {
@@ -48,13 +48,13 @@ public class LevelManager : MonoBehaviour
     {
         Levels = InitialLevelData;
 
-        Saver.DeleteSaveData();
-        Saver.Save(Levels);
+        SaveManager.Instance.DeleteSaveData();
+        SaveManager.Instance.Save(Levels);
     }
 
     public void ContinueGame()
     {
-        Levels = Saver.Load();
+        Levels = SaveManager.Instance.Load();
     }
 
     public void SetHighScore(string levelId, int highScore, Difficulty difficulty)
