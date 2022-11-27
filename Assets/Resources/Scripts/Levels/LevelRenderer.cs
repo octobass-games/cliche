@@ -1,25 +1,20 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class LevelRenderer: MonoBehaviour
 {
-    public GameObject MedalSlot;
-    public Sprite GoldMedalSprite;
-    public Sprite SilverMedalSprite;
-    public Sprite BronzeMedalSprite;
+    public MedalRenderer MedalSlot;
     public Button Pin;
-    public string LevelSceneName;
     public Sprite UnlockedSprite;
     public Sprite CompletedSprite;
     public Image Face;
     public string Id;
     public GameObject Extra;
 
-    public void Initialise(LevelState levelState, Medal levelMedal)
+    public void Initialise(SerializableLevel level)
     {
-        Debug.Log("levelState:" + levelState + Id);
-        switch (levelState)
+        MedalSlot.Render(level);
+        switch (level.State)
         {
             case LevelState.LOCKED:
                 Pin.gameObject.SetActive(false);
@@ -30,7 +25,6 @@ public class LevelRenderer: MonoBehaviour
                 break;
             case LevelState.UNLOCKED:
                 Face.sprite = UnlockedSprite;
-                MedalSlot.SetActive(false);
                 Pin.gameObject.SetActive(true);
                 if (Extra != null)
                 {
@@ -38,32 +32,15 @@ public class LevelRenderer: MonoBehaviour
                 }
                 break;
             case LevelState.COMPLETED:
-                MedalSlot.SetActive(true);
                 Face.sprite = CompletedSprite;
                 Pin.gameObject.SetActive(true);
                 if (Extra != null)
                 {
                     Extra.gameObject.SetActive(true);
                 }
-                MedalSlot.GetComponent<Image>().sprite = GetMedalSprite(levelMedal);
 
                 break;
         }
     }
 
-    private Sprite GetMedalSprite(Medal levelMedal)
-    {
-        if (levelMedal == Medal.GOLD)
-        {
-            return GoldMedalSprite;
-        }
-        else if (levelMedal == Medal.SILVER)
-        {
-            return SilverMedalSprite;
-        }
-        else
-        {
-            return BronzeMedalSprite;
-        }
-    }
 }
