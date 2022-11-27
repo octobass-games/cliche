@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public LevelManager LevelManager;
     public Difficulty Difficulty;
     public GameObject PauseMenu;
 
@@ -25,13 +24,13 @@ public class GameManager : MonoBehaviour
 
     public void NewGame()
     {
-        LevelManager.NewGame();
+        LevelManager.Instance.NewGame();
         ChangeScene("Introduction");
     }
 
     public void ContinueGame()
     {
-        LevelManager.ContinueGame();
+        LevelManager.Instance.ContinueGame();
         ChangeScene("Home");
     }
 
@@ -54,9 +53,9 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel(string levelId)
     {
         Debug.Log("Marking level complete: " + levelId);
-        LevelManager.CompleteLevel(levelId);
-        LevelManager.UnlockNextLevel(levelId);
-        LevelManager.Save();
+        LevelManager.Instance.CompleteLevel(levelId);
+        LevelManager.Instance.UnlockNextLevel(levelId);
+        LevelManager.Instance.Save();
         SceneManager.LoadScene("Home");
     }
 

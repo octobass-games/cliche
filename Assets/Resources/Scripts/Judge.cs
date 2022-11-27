@@ -28,7 +28,6 @@ public class Judge : MonoBehaviour
     private int LongestCombo;
 
     public EffectCreator EffectCreator;
-    public LevelManager LevelManager;
 
     public Animator TargetCircleUpAnimator;
     public Animator TargetCircleDownAnimator;
@@ -38,7 +37,7 @@ public class Judge : MonoBehaviour
     public void CompleteLevel(string levelId)
     {
         Debug.Log("Setting high score and rendering panel");
-        LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
+        LevelManager.Instance.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
         SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
     }
 

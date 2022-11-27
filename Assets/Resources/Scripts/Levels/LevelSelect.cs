@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class LevelSelect : MonoBehaviour
 {
     public List<LevelRenderer> Levels;
-    public LevelManager LevelManager;
 
     public GameObject Phone;
     public Animator PhoneAnimator;
@@ -53,7 +52,7 @@ public class LevelSelect : MonoBehaviour
 
     private void LoadLevelPin(LevelRenderer renderer)
     {
-        var level = LevelManager.FindLevel(renderer.Id);
+        var level = LevelManager.Instance.FindLevel(renderer.Id);
         renderer.Initialise(level);
     }
 
@@ -99,7 +98,7 @@ public class LevelSelect : MonoBehaviour
         Title.sprite = TitleSprite(levelName);
         PlayButton.onClick.RemoveAllListeners();
         PlayButton.onClick.AddListener(() => StartCoroutine(LoadLevel(levelName)));
-        SelectedLevel = LevelManager.Levels.Find(l => l.Id == levelName);
+        SelectedLevel = LevelManager.Instance.Levels.Find(l => l.Id == levelName);
         Score.text = "0";
         MedalRenderer.Render(SelectedLevel);
 

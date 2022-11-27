@@ -4,7 +4,6 @@ using UnityEngine;
 public class FrameRenderer : MonoBehaviour
 {
     public string LevelId;
-    public LevelManager LevelManager;
     public MedalRenderer MedalRenderer;
     public SpriteRenderer Pic;
 
