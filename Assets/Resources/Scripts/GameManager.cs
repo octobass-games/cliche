@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+
     private bool IsPaused;
 
     public LevelManager LevelManager;
@@ -12,7 +14,14 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this);
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        } else
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+        }
     }
 
     public void NewGame()
@@ -38,6 +47,11 @@ public class GameManager : MonoBehaviour
         Difficulty = difficulty;
     }
 
+    public void SkipLevel()
+    {
+
+    }
+
     public void CompleteLevel(string levelId)
     {
         Debug.Log("Marking level complete: " + levelId);
@@ -49,34 +63,7 @@ public class GameManager : MonoBehaviour
 
     public void TogglePause(InputAction.CallbackContext context)
     {
-        if (context.started)
-        {
-            if (IsPaused)
-            {
-                Unpause();
-            }
-            else
-            {
-                Pause();
-            }
-        }
+        PauseManager.Instance.TogglePause(context);
     }
 
-    private void Pause()
-    {
-        Time.timeScale = 0f;
-        FindObjectOfType<Conductor>().Pause();
-        FindObjectOfType<PlayerInput>().SwitchCurrentActionMap("UI");
-        IsPaused = true;
-        PauseMenu.SetActive(true);
-    }
-
-    private void Unpause()
-    {
-        Time.timeScale = 1f;
-        FindObjectOfType<Conductor>().Resume();
-        FindObjectOfType<PlayerInput>().SwitchCurrentActionMap("Player controls");
-        IsPaused = false;
-        PauseMenu.SetActive(false);
-    }
 }
