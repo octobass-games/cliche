@@ -1095,6 +1095,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Event4:
+    m_PersistentCalls:
+      m_Calls: []
+  Event5:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &355759849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7466,6 +7472,12 @@ MonoBehaviour:
   Event3:
     m_PersistentCalls:
       m_Calls: []
+  Event4:
+    m_PersistentCalls:
+      m_Calls: []
+  Event5:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1091262889
 GameObject:
   m_ObjectHideFlags: 0
@@ -9856,6 +9868,10 @@ PrefabInstance:
     - target: {fileID: 7875334844582465700, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -211
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987244354487526, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7924987244523747715, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: PauseMenu
