@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2001061746240347575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543918920554943857}
+  - component: {fileID: 797787132581430277}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &543918920554943857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001061746240347575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7924987245810171259}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &797787132581430277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001061746240347575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc94a3d58ebf23b459135704a1d9a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7924987244152788993
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 7924987244866990954}
+  Difficulty: 0
+  PauseMenu: {fileID: 0}
 --- !u!114 &7924987244523747714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307c3fcca1ac0ae4e8e5bcee62e0f693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Saver: {fileID: 7924987244523747714}
 --- !u!1 &7924987244605934658
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +1001,6 @@ MonoBehaviour:
             m_StringArgument: stage-2
             m_BoolArgument: 0
           m_CallState: 2
-    IsComplete: 0
   - PlaybackPositionInMilliseconds: 174000
     UnityEvent:
       m_PersistentCalls:
@@ -974,8 +1017,7 @@ MonoBehaviour:
             m_StringArgument: end
             m_BoolArgument: 0
           m_CallState: 2
-    IsComplete: 0
-  StandardDifficulty: 0
+  Difficulty: 0
 --- !u!114 &7924987245032085312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,7 +1210,6 @@ MonoBehaviour:
   SummaryPanel: {fileID: 7924987244732414007}
   CharacterAnimatorController: {fileID: 0}
   EffectCreator: {fileID: 7924987245949776995}
-  LevelManager: {fileID: 7924987244866990954}
   TargetCircleUpAnimator: {fileID: 7130085069825582357}
   TargetCircleDownAnimator: {fileID: 7600708371062459087}
   TargetCircleLeftAnimator: {fileID: 2965219740658802185}
@@ -1330,6 +1371,7 @@ Transform:
   - {fileID: 7924987244152789007}
   - {fileID: 7924987245348740580}
   - {fileID: 7924987245032085315}
+  - {fileID: 543918920554943857}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
