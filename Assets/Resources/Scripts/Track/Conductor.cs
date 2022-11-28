@@ -107,9 +107,6 @@ public class Conductor : MonoBehaviour
         float playbackPositionDeltaInSeconds = (CurrentPlaybackPosition - PreviousPlaybackPosition) / 1000f;
         Vector3 displacement = 100 * Vector3.left * playbackPositionDeltaInSeconds;
 
-        Debug.Log("Current playback position in seconds: " + CurrentPlaybackPosition / 1000f);
-        Debug.Log("Current note position before moving: " + SheetMusic.Notes[0].transform.position.x);
-
         for (int i = 0; i < SheetMusic.Notes.Count; i++)
         {
             SheetMusic.Notes[i].transform.position = SheetMusic.Notes[i].transform.position + displacement;
