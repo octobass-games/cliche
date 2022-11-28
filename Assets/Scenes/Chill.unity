@@ -282,6 +282,10 @@ PrefabInstance:
       value: 1608348022
       objectReference: {fileID: 0}
     - target: {fileID: 4806126323167391251, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: PathToSheetMusic
+      value: MusicCharts/chill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323167391251, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: TimedEvents.Array.size
       value: 7
       objectReference: {fileID: 0}

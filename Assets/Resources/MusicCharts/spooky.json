@@ -1,0 +1,3505 @@
+{
+  "Descriptions": [
+    {
+      "Type": "tap",
+      "Time": 2.4000000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 2.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 2.8000000000000003,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 3,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 3.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 3.4000000000000004,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 3.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 4.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 4.800000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 5.6000000000000005,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 6.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 6.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 6.6000000000000005,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 6.800000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 7.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 8.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 9.200000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 9.600000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 10,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 10.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 10.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 11.600000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12.200000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12.600000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 12.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 13,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 13.200000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 13.600000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 14,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 14.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 14.8,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 15.600000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 16.400000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 16.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.400000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 17.6,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 18,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 18.400000000000002,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 18.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 19,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 19.200000000000003,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 20,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 20.400000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 21.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 22.400000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 22.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23.200000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 23.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 24,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 24.400000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 24.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 25.200000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 25.400000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 25.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 26,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 26.400000000000002,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 26.8,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 27.200000000000003,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 27.6,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 28,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 28.400000000000002,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 28.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 29,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 29.200000000000003,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 29.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 30,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 31.200000000000003,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 32,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.5,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 32.800000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 34.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 34.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 35,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 35.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 35.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 35.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 36,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 36.800000000000004,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 37,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 37.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 37.6,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 37.800000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 38,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 38.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 38.400000000000006,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 38.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 38.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 39,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 39.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 39.6,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 40.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 41.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 41.800000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.1,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.400000000000006,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 42.800000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 43.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 44,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 44.400000000000006,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 44.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 44.800000000000004,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 45.2,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 45.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 46.400000000000006,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 46.6,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 46.800000000000004,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 47.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 47.400000000000006,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 47.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 47.800000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 48,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 48.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 48.400000000000006,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 48.6,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 48.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 49.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 50.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 51.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 52,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 52.400000000000006,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 52.800000000000004,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 54,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 54.800000000000004,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 55.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 56,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 56.400000000000006,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 56.800000000000004,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 57.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 57.6,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 58.400000000000006,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 58.800000000000004,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 59.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 60,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 60.800000000000004,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 61.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 62,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 62.400000000000006,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 63.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 63.6,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 64.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 64.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 65.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 66,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 68.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 69.60000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 70.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 70.8,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 71.60000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 72,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 73.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 74,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 74.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 76,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 76.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 76.80000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 77.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.80000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 79.2,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 79.60000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 80,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 80.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 80.80000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 81.60000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 82.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 82.80000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 84,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 84.4,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 84.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 85.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 86,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 86.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 87.60000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 87.80000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 88,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 88.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 88.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 88.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 88.80000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 89.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 89.60000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 90,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 90.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 90.80000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 91.2,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 91.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 91.60000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 91.80000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 92.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 92.80000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 93.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 93.60000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 94.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 94.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 95.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 95.60000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 96,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 96.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.60000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 97.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 98,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 98.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 98.4,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 98.80000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 99.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 99.60000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 100,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 100.80000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 101.60000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 102,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 102.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 102.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 102.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 102.80000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 103.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 103.60000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 104,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 104.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 104.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 105.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 105.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 106.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.80000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 108,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 108.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 108.80000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 109.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.80000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110.2,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 110.80000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 111.2,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 111.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 111.80000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.2,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 112.80000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 113.60000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 114,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 114.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 114.4,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 114.60000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 114.80000000000001,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 115.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 115.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 116,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 116.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 116.80000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 117.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 117.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 117.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 118.80000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 119,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 119.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 119.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 119.60000000000001,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 120,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 121.2,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 121.60000000000001,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 122,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 122.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 122.60000000000001,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 122.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 123,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 123.2,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 123.60000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 124,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 124.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 124.80000000000001,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 125.2,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 125.60000000000001,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 126,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 126.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 126.80000000000001,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 127.2,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 127.60000000000001,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 128,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 128.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 128.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 129.20000000000002,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 129.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 130,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 130.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 130.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 133.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 133.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 134,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 134.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 134.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 135.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 135.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 136,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 136.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 136.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 137.20000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 137.6,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 138,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 138.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 138.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 138.6,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 138.8,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 139,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 140,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 140.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 140.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 140.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 140.8,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 141,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 141.20000000000002,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 141.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 142,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 142.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 142.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 142.8,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 143,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 143.20000000000002,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 143.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 143.6,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 143.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.6,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 145,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 145.20000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 145.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 145.6,
+      "Name": null,
+      "Names": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 145.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 146,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 146.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.6,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.6,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 148,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 148.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 148.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 149.20000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 149.6,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 150,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.6,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 152,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 152.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 152.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 153.20000000000002,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 153.60000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 154.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.60000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 156.8,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 157.60000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 158,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 158.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 158.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 159.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 159.60000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 160,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 160.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 160.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 161.20000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 161.60000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 162,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 162.4,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 162.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 163.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 163.60000000000002,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 164,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 165.60000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.60000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 166.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 167.60000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 168,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 168.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 169.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.4,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.60000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 170,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 170.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 171.20000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 171.60000000000002,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 172.4,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 172.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 173.20000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 173.60000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 174,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 174.8,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 175.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 175.4,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 175.60000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 175.8,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 176,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 176.20000000000002,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 176.4,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 176.8,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 177.20000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 177.60000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 178,
+      "Name": null,
+      "Names": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 178.8,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 179.60000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 180,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 180.20000000000002,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 180.4,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 180.60000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 180.8,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 181.20000000000002,
+      "Name": null,
+      "Names": [
+        "left",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 181.60000000000002,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 182,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 182.20000000000002,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 182.4,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 183.20000000000002,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 183.60000000000002,
+      "Name": "up",
+      "Names": []
+    }
+  ]
+}

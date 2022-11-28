@@ -11450,6 +11450,10 @@ PrefabInstance:
       value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 5528435076886471894, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: PathToSheetMusic
+      value: MusicCharts/spooky
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076886471894, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: TimedEvents.Array.size
       value: 2
       objectReference: {fileID: 0}
