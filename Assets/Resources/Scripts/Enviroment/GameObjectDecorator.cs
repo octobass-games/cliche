@@ -6,10 +6,6 @@ public class GameObjectDecorator : MonoBehaviour
 {
     public GameObject Obj;
     public UnityEvent OnAwakeEvent;
-    public void Toggle()
-    {
-        Obj.SetActive(!Obj.activeSelf);
-    }
 
     void Awake()
     {
@@ -17,5 +13,15 @@ public class GameObjectDecorator : MonoBehaviour
         {
             OnAwakeEvent.Invoke();
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(Obj);
+    }
+
+    public void Toggle()
+    {
+        Obj.SetActive(!Obj.activeSelf);
     }
 }
