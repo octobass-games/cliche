@@ -368,7 +368,7 @@ TextureImporter:
         width: 52
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,6 +376,27 @@ TextureImporter:
       bones: []
       spriteID: 8164ab645dcf9d842b6e68109fd1ea38
       internalID: 419512966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: party items_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e258cc8692bf647a5855235c7c42c2
+      internalID: -1897863604
       vertices: []
       indices: 
       edges: []

@@ -25,6 +25,14 @@ public class CharacterAnimatorController : MonoBehaviour
         }
     }
 
+    public void StandStill()
+    {
+        if (Animator != null)
+        {
+            Animator.SetBool("Run", false);
+        }
+    }
+
     public void Sleep()
     {
         if (Animator != null)
