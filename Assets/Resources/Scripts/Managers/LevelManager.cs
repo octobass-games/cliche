@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    public string LevelId;
+
     public List<Level> Levels { get; private set; }
 
     private readonly List<Level> InitialLevelData = new()

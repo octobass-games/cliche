@@ -50,6 +50,12 @@ public class GameManager : MonoBehaviour
         Difficulty = difficulty;
     }
 
+    public void RestartLevel()
+    {
+        string levelId = LevelManager.LevelId;
+        LoadLevel(levelId, Difficulty);
+    }
+
     public void SkipLevel()
     {
 

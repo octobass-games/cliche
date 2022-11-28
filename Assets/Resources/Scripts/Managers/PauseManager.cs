@@ -14,6 +14,12 @@ public class PauseManager : MonoBehaviour
     private bool IsPaused;
     private readonly List<string> UnpausableScenes = new() { "MainMenu", "Introduction" };
 
+    public void OnRestart()
+    {
+        Time.timeScale = 1f;
+        GameManager.Instance.RestartLevel();
+    }
+
     public void OnVisitHome()
     {
         Time.timeScale = 1f;
@@ -60,7 +66,7 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-    public bool ShowVisitHomeAndSkipLevel() => SceneManager.GetActiveScene().name != "Home";
+    public bool ShowOptionalButtons() => SceneManager.GetActiveScene().name != "Home";
 
     private void Pause()
     {
