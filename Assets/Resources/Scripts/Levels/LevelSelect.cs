@@ -101,6 +101,7 @@ public class LevelSelect : MonoBehaviour
         SelectedLevel = GameManager.Instance.LevelManager.Levels.Find(l => l.Id == levelName);
         Score.text = "0";
         MedalRenderer.Render(SelectedLevel);
+        SelectNormal();
 
         LevelSummary.SetActive(true);
     }
