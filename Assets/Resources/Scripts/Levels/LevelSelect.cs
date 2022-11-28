@@ -45,14 +45,14 @@ public class LevelSelect : MonoBehaviour
         PhoneAnimator.SetTrigger("close");
     }
 
-    void Awake()
+    void Start()
     {
         Levels.ForEach(LoadLevelPin);
     }
 
     private void LoadLevelPin(LevelRenderer renderer)
     {
-        var level = LevelManager.Instance.FindLevel(renderer.Id);
+        var level = GameManager.Instance.LevelManager.FindLevel(renderer.Id);
         renderer.Initialise(level);
     }
 
@@ -98,7 +98,7 @@ public class LevelSelect : MonoBehaviour
         Title.sprite = TitleSprite(levelName);
         PlayButton.onClick.RemoveAllListeners();
         PlayButton.onClick.AddListener(() => StartCoroutine(LoadLevel(levelName)));
-        SelectedLevel = LevelManager.Instance.Levels.Find(l => l.Id == levelName);
+        SelectedLevel = GameManager.Instance.LevelManager.Levels.Find(l => l.Id == levelName);
         Score.text = "0";
         MedalRenderer.Render(SelectedLevel);
 

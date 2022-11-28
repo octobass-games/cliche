@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -6,8 +7,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    public LevelManager LevelManager;
     public Difficulty Difficulty;
     public GameObject PauseMenu;
+
+    private SaveManager SaveManager;
+    private PauseManager PauseManager;
 
     void Awake()
     {
@@ -24,13 +29,13 @@ public class GameManager : MonoBehaviour
 
     public void NewGame()
     {
-        LevelManager.Instance.NewGame();
+        LevelManager.NewGame();
         ChangeScene("Introduction");
     }
 
     public void ContinueGame()
     {
-        LevelManager.Instance.ContinueGame();
+        LevelManager.ContinueGame();
         ChangeScene("Home");
     }
 
@@ -52,10 +57,9 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel(string levelId)
     {
-        Debug.Log("Marking level complete: " + levelId);
-        LevelManager.Instance.CompleteLevel(levelId);
-        LevelManager.Instance.UnlockNextLevel(levelId);
-        LevelManager.Instance.Save();
+        LevelManager.CompleteLevel(levelId);
+        LevelManager.UnlockNextLevel(levelId);
+        LevelManager.Save();
         SceneManager.LoadScene("Home");
     }
 
@@ -63,26 +67,33 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "MainMenu")
         {
-            PauseManager.Instance.TogglePause(context);
+            PauseManager.TogglePause(context);
         }
     }
 
-    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    public void Save(List<Level> levels) => SaveManager.Save(levels);
+
+    public List<Level> Load() => SaveManager.Load();
+
+    public bool HasSaveData() => SaveManager.HasSaveData();
+
+    public void DeleteSaveData() => SaveManager.DeleteSaveData();
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode) => ConfigureManagers();
+
+    private void ConfigureManagers()
     {
-        if (scene.name != "MainMenu" && PauseManager.Instance != null)
+        SaveManager = FindObjectOfType<SaveManager>();
+        LevelManager = FindObjectOfType<LevelManager>();
+        PauseManager = FindObjectOfType<PauseManager>();
+
+        if (PauseManager != null)
         {
             PlayerInput playerInput = FindObjectOfType<PlayerInput>();
-            PauseManager.Instance.PlayerInput = playerInput;
+            Conductor conductor = FindObjectOfType<Conductor>();
 
-            if (scene.name != "Home")
-            {
-                Conductor conductor = FindObjectOfType<Conductor>();
-                PauseManager.Instance.Conductor = conductor;
-            }
-            else
-            {
-                PauseManager.Instance.Conductor = null;
-            }
+            PauseManager.PlayerInput = playerInput;
+            PauseManager.Conductor = conductor;
         }
     }
 }

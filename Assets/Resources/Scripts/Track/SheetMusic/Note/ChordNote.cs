@@ -6,8 +6,6 @@ public class ChordNote : MonoBehaviour
     {
         Note[] tapNotes = GetTapNotes();
 
-        bool IsFinished = false;
-
         for (int i = 0; i < tapNotes.Length; i++)
         {
             if (!tapNotes[i].Played)

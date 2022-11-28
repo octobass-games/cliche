@@ -4,7 +4,7 @@ public class ContinueButton : MonoBehaviour
 {
     void Start()
     {
-        if (!SaveManager.Instance.HasSaveData())
+        if (!GameManager.Instance.HasSaveData())
         {
             gameObject.SetActive(false);
         }

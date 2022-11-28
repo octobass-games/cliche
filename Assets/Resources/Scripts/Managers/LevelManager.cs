@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public static LevelManager Instance;
-
     public List<Level> Levels { get; private set; }
 
     private readonly List<Level> InitialLevelData = new()
@@ -22,22 +20,12 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(this);
-            
-            // load levels by default or initialise to empty
-            Levels = SaveManager.Instance.Load();
+        // load levels by default or initialise to empty
+        Levels = GameManager.Instance.Load();
 
-            if (Levels == null || Levels.Count == 0)
-            {
-                NewGame();
-            }
+        if (Levels == null || Levels.Count == 0)
+        {
+            NewGame();
         }
     }
 
@@ -45,13 +33,13 @@ public class LevelManager : MonoBehaviour
     {
         Levels = InitialLevelData;
 
-        SaveManager.Instance.DeleteSaveData();
-        SaveManager.Instance.Save(Levels);
+        GameManager.Instance.DeleteSaveData();
+        GameManager.Instance.Save(Levels);
     }
 
     public void ContinueGame()
     {
-        Levels = SaveManager.Instance.Load();
+        Levels = GameManager.Instance.Load();
     }
 
     public void SetHighScore(string levelId, int highScore, Difficulty difficulty)
@@ -106,7 +94,7 @@ public class LevelManager : MonoBehaviour
 
     public void Save()
     {
-        SaveManager.Instance.Save(Levels);
+        GameManager.Instance.Save(Levels);
     }
 
     private Medal GetMedal(Level level, int score)
@@ -125,5 +113,8 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public Level FindLevel(string id) => Levels.Find(l => l.Id == id);
+    public Level FindLevel(string id) {
+        Debug.Log(Levels);
+        return Levels.Find(l => l.Id == id);
+        }
 }

@@ -4,24 +4,9 @@ using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
-    public static SaveManager Instance;
-
     private string SaveFilePath;
 
-    void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(this);
-
-            SaveFilePath = Application.persistentDataPath + "/save-data.json";
-        }
-    }
+    void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
     public void Save(List<Level> levels)
     {

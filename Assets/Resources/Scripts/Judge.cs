@@ -37,7 +37,7 @@ public class Judge : MonoBehaviour
     public void CompleteLevel(string levelId)
     {
         Debug.Log("Setting high score and rendering panel");
-        LevelManager.Instance.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
+        GameManager.Instance.LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
         SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
     }
 

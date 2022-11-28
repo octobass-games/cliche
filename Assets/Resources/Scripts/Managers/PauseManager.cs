@@ -11,21 +11,6 @@ public class PauseManager : MonoBehaviour
 
     private bool IsPaused;
 
-    public static PauseManager Instance { get; private set; }
-
-    void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(Instance);
-        }
-    }
-
     public void OnVisitHome()
     {
         GameManager.Instance.ChangeScene("Home");
