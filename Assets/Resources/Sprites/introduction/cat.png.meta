@@ -674,6 +674,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cat_26
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 81
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262390be58079b545aedc095033c8bea
+      internalID: -1316193426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_27
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 0
+        width: 81
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11aff9ff3d38a234c9f4f40fe208e75c
+      internalID: -2109778036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_28
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 81
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402807635d1a18943a65d5d0e9932505
+      internalID: 1636930152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -694,6 +757,7 @@ TextureImporter:
       cat_4: -1716908395
       cat_21: 296242340
       cat_7: -797173919
+      cat_26: -1316193426
       cat_16: 1443515051
       cat_24: -1600848263
       cat_8: 1193680039
@@ -705,9 +769,11 @@ TextureImporter:
       cat_2: 1641536000
       cat_15: 1026052690
       cat_6: -1721621827
+      cat_27: -2109778036
       cat_23: 27287573
       cat_20: 1233177948
       cat_3: 926056671
+      cat_28: 1636930152
       cat_1: 512091940
       cat_17: 216513224
       cat_12: 1010071771
