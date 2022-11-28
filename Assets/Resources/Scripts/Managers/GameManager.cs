@@ -67,7 +67,11 @@ public class GameManager : MonoBehaviour
 
     public void SkipLevel()
     {
-
+        string levelId = LevelManager.LevelId;
+        LevelManager.CompleteLevel(levelId);
+        LevelManager.UnlockNextLevel(levelId);
+        LevelManager.Save();
+        ChangeScene("Home");
     }
 
     public void CompleteLevel(string levelId)

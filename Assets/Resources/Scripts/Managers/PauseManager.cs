@@ -40,6 +40,7 @@ public class PauseManager : MonoBehaviour
 
     public void OnSkipLevel()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.SkipLevel();
     }
 
