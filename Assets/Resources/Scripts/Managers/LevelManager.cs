@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public string LevelId;
+    private string LevelId;
 
     public List<Level> Levels { get; private set; }
 
@@ -22,6 +23,7 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
+        LevelId = SceneManager.GetActiveScene().name;
         // load levels by default or initialise to empty
         Levels = GameManager.Instance.Load();
 
