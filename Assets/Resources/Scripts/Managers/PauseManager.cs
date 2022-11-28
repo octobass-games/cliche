@@ -16,6 +16,7 @@ public class PauseManager : MonoBehaviour
 
     public void OnVisitHome()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.ChangeScene("Home");
     }
 
@@ -58,6 +59,8 @@ public class PauseManager : MonoBehaviour
             }
         }
     }
+
+    public bool ShowVisitHomeAndSkipLevel() => SceneManager.GetActiveScene().name != "Home";
 
     private void Pause()
     {

@@ -19683,6 +19683,67 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!1001 &384152489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 434498308725751726, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: PlayerInput
+      value: 
+      objectReference: {fileID: 527573163}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 174.21057
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 137.4545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.6396194
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690564564819873547, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: m_Name
+      value: PauseMenu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
 --- !u!1 &408625370
 GameObject:
   m_ObjectHideFlags: 0
@@ -19886,7 +19947,7 @@ GameObject:
   - component: {fileID: 527573164}
   - component: {fileID: 527573163}
   m_Layer: 0
-  m_Name: MouseManger
+  m_Name: MouseManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19934,7 +19995,19 @@ MonoBehaviour:
     m_ActionId: 4901605f-b845-4331-b089-6e0ca4682371
     m_ActionName: Player controls/Left[/Keyboard/leftArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1363672232}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: b32f1ba0-ddf5-4785-81e4-847044cb762a
     m_ActionName: Player controls/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
@@ -19942,7 +20015,19 @@ MonoBehaviour:
     m_ActionId: d205c777-c1b6-4f4c-a7a8-fa949bc0f6de
     m_ActionName: Player controls/Click[/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1363672232}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 4dd0f74c-55e4-4d70-b2c9-0ae3cf8e5370
     m_ActionName: UI/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
@@ -19962,7 +20047,19 @@ MonoBehaviour:
     m_ActionId: 082f323e-8c55-44b7-a8d0-e6f7d12588ad
     m_ActionName: Home/Click[/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1363672232}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: TogglePause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: a1e1d02f-0226-40b2-8528-f896680c96f3
     m_ActionName: Home/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
@@ -23554,6 +23651,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363672232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 434498308725751726, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+  m_PrefabInstance: {fileID: 384152489}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc36f4877f074749a6b96c1c73d810a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1380873880
 PrefabInstance:
   m_ObjectHideFlags: 0
