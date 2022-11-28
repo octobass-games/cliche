@@ -119,8 +119,6 @@ public class Conductor : MonoBehaviour
 
         //Track.transform.position = Track.transform.position + displacement;
 
-        Debug.Log("Current note position after moving: " + SheetMusic.Notes[0].transform.position.x);
-
         PreviousPlaybackPosition = CurrentPlaybackPosition;
     }
 }
