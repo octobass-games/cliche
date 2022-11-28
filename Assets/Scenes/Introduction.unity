@@ -6752,6 +6752,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39774fbfe893d94da8548395afd8fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1231911581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8582622170785873412, guid: 4be6d94a7065d34499c8c2936575c9ab, type: 3}
+  m_PrefabInstance: {fileID: 1380873880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1231911585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231911581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f777d09a58a5ad9498bcc1438d06187a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231911586}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event2:
+    m_PersistentCalls:
+      m_Calls: []
+  Event3:
+    m_PersistentCalls:
+      m_Calls: []
+  Event4:
+    m_PersistentCalls:
+      m_Calls: []
+  Event5:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1231911586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231911581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1846351814
+      Data2: 1094002068
+      Data3: -1515210068
+      Data4: 1943906977
+    Path: event:/SFX/Magic2
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1380873880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7220,6 +7294,7 @@ GameObject:
   - component: {fileID: 1782345973}
   - component: {fileID: 1782345974}
   - component: {fileID: 1782345975}
+  - component: {fileID: 1782345976}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -7341,18 +7416,6 @@ MonoBehaviour:
           m_StringArgument: startle
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1782345975}
-        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   Event2:
     m_PersistentCalls:
       m_Calls:
@@ -7369,6 +7432,36 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Event3:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782345975}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event4:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782345976}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event5:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1782345975
@@ -7391,6 +7484,36 @@ MonoBehaviour:
       Data3: 1384315318
       Data4: 132492270
     Path: event:/SFX/Magic
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1782345976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782345970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -963546843
+      Data2: 1110740378
+      Data3: -1310775125
+      Data4: -773213438
+    Path: event:/SFX/Bounce
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -7470,6 +7593,8 @@ GameObject:
   - component: {fileID: 2038124711}
   - component: {fileID: 2038124712}
   - component: {fileID: 2038124713}
+  - component: {fileID: 2038124715}
+  - component: {fileID: 2038124714}
   m_Layer: 0
   m_Name: IntroAnimator
   m_TagString: Untagged
@@ -7675,7 +7800,97 @@ MonoBehaviour:
         m_CallState: 2
   Event3:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2038124715}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event4:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2038124714}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Event5:
+    m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2038124714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038124709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -248282608
+      Data2: 1107044836
+      Data3: 947672230
+      Data4: 572413738
+    Path: event:/SFX/shocked
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &2038124715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038124709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -82438054
+      Data2: 1245508806
+      Data3: 1422668932
+      Data4: 272082618
+    Path: event:/SFX/Ding
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1733121425462923003
 PrefabInstance:
   m_ObjectHideFlags: 0

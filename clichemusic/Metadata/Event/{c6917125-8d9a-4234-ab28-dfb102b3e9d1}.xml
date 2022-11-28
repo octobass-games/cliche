@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{c6917125-8d9a-4234-ab28-dfb102b3e9d1}">
 		<property name="name">
-			<value>Click Standard</value>
+			<value>Bounce</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -92,8 +92,11 @@
 		<property name="length">
 			<value>1.1350113378684807</value>
 		</property>
+		<property name="pitch">
+			<value>4.5</value>
+		</property>
 		<relationship name="modulators">
-			<destination>{9c93516e-daf9-4b14-bd39-fbfacb88c7a9}</destination>
+			<destination>{e2061220-b8fa-4eac-9537-e8ce5c0aca5f}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{fb9d95b5-73fb-4f96-96ea-18bb6d99ee4a}</destination>
@@ -120,12 +123,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{5644f67b-cdf4-47ea-9b13-d7c8e348a623}" />
 	<object class="MixerBusFader" id="{cb253eb6-2a7f-49cc-bfc2-e50eee6a6510}" />
-	<object class="RandomizerModulator" id="{9c93516e-daf9-4b14-bd39-fbfacb88c7a9}">
+	<object class="ADSRModulator" id="{e2061220-b8fa-4eac-9537-e8ce5c0aca5f}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
-		<property name="amount">
-			<value>6.5</value>
+		<property name="initialValue">
+			<value>-71.1111145</value>
+		</property>
+		<property name="attackTime">
+			<value>192.307816</value>
+		</property>
+		<property name="attackShape">
+			<value>0.0708072484</value>
+		</property>
+		<property name="peakValue">
+			<value>37.7777863</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{eb2ce4b9-5394-4617-b02a-dbde51cb03b2}">
