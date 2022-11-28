@@ -1734,8 +1734,6 @@ GameObject:
   - component: {fileID: 6947021095213957279}
   - component: {fileID: 6947021095213957276}
   - component: {fileID: 606710619}
-  - component: {fileID: 5390262702631628860}
-  - component: {fileID: 8963782432547501239}
   - component: {fileID: 6947021096203397500}
   m_Layer: 5
   m_Name: LevelSelect
@@ -1847,7 +1845,6 @@ MonoBehaviour:
   - {fileID: 5108771838114887122}
   - {fileID: 5977501593109516134}
   - {fileID: 5906753808945761678}
-  LevelManager: {fileID: 5390262702631628860}
   Phone: {fileID: 6947021096030518447}
   PhoneAnimator: {fileID: 626648052}
   Fade: {fileID: 0}
@@ -1867,31 +1864,6 @@ MonoBehaviour:
   PartyTitle: {fileID: 1329072055, guid: ee8c4eccf254f6d41b5a5e31f22d8bad, type: 3}
   PlayButton: {fileID: 6460048080806332363}
   Score: {fileID: 6111650924415824994}
---- !u!114 &5390262702631628860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6947021095213957277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307c3fcca1ac0ae4e8e5bcee62e0f693, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Saver: {fileID: 8963782432547501239}
---- !u!114 &8963782432547501239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6947021095213957277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc41d7bf67e93b14ebf274f1702c3883, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6947021096203397500
 MonoBehaviour:
   m_ObjectHideFlags: 0
