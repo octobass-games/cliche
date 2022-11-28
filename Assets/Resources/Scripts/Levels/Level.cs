@@ -20,9 +20,9 @@ public class Level
         int hardHighScore,
         int silverScore,
         int goldScore,
-        Medal easyMedal = Medal.BRONZE,
-        Medal normalMedal = Medal.BRONZE,
-        Medal hardMedal = Medal.BRONZE
+        Medal easyMedal = Medal.NONE,
+        Medal normalMedal = Medal.NONE,
+        Medal hardMedal = Medal.NONE
         )
     {
         Id = id;

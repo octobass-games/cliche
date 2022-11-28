@@ -117,8 +117,6 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public Level FindLevel(string id) {
-        Debug.Log(Levels);
-        return Levels.Find(l => l.Id == id);
-        }
+    public Level FindLevel(string id) => Levels.Find(l => l.Id == id);
+
 }
