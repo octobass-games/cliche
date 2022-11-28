@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
+  m_Name: BattleEnd
+  m_EditorClassIdentifier: 
+  Text: "Player: Cat you\u2019re ok!\r\nPlayer: My tongue is back too!\r\nPlayer:
+    Looks like everything has been solved in a nice neat ending!\r\nPlayer: Hopefully
+    there's no twist, where there's actually another big boss, and this is just the
+    first part of the battle\u2026\r\nCat: Meow\r\nPlayer: Haha I\u2019m just kidding,
+    it's not that kind of game.\r\nPlayer: The only thing left to do I guess is celebrate!\r"
