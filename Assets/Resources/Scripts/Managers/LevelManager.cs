@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
         new Level("Party", LevelState.LOCKED, 0, 0, 0, 100, 200)
     };
 
-    void Awake()
+    void Start()
     {
         // load levels by default or initialise to empty
         Levels = GameManager.Instance.Load();

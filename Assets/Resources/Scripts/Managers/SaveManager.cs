@@ -6,7 +6,7 @@ public class SaveManager : MonoBehaviour
 {
     private string SaveFilePath;
 
-    void Awake() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
+    void Start() => SaveFilePath = Application.persistentDataPath + "/save-data.json";
 
     public void Save(List<Level> levels)
     {
