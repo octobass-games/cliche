@@ -64,7 +64,7 @@ public class LevelManager : MonoBehaviour
             else if (level.HardHighScore < highScore)
             {
                 level.HardHighScore = highScore;
-                level.NormalMedal = GetMedal(level, highScore);
+                level.HardMedal = GetMedal(level, highScore);
             }
         }
     }
