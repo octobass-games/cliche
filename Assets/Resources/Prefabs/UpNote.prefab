@@ -96,9 +96,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Played: 0
   NoteType: 0
-  animator: {fileID: 7567762597009558498}
+  animator: {fileID: 0}
   sprite: {fileID: 7567762597009558499}
   InitialX: 0
+  SuccessPrefab: {fileID: 7567762595777165622, guid: 6f854e1768a9bdb47a2a01998c978129, type: 3}
 --- !u!1 &7567762597009558500
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +110,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7567762597009558501}
   - component: {fileID: 7567762597009558499}
-  - component: {fileID: 7567762597009558498}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -184,23 +184,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7567762597009558498
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7567762597009558500}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7fdf3c648c4929c499671d9bc5d84ce7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

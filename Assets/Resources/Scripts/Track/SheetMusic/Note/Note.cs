@@ -7,28 +7,22 @@ public class Note : MonoBehaviour
     public Animator animator;
     public SpriteRenderer sprite;
     public float InitialX;
+    public GameObject SuccessPrefab;
 
-    public void Play()
+    public void Play() => Played = true;
+
+    public void SetPerfectCollided() => SpawnSuccessNote(new Color(0.24f, 0.76f, 0.25f));
+
+    public void SetGoodCollided() => SpawnSuccessNote(new Color(0.8f, 1, 0.2f));
+
+    public void SetOkayCollided() => SpawnSuccessNote(new Color(1, 0.8f, 0));
+
+    public void SpawnSuccessNote(Color color)
     {
-        Played = true;
-    }
+        GameObject success = Instantiate(SuccessPrefab);
 
-    public void SetPerfectCollided()
-    {
-        sprite.color = new Color(0.24f, 0.76f, 0.25f);
-        animator.SetTrigger("connect");
-    }
-
-    public void SetGoodCollided()
-    {
-        sprite.color = new Color(0.8f, 1, 0.2f);
-        animator.SetTrigger("connect");
-
-    }
-
-    public void SetOkayCollided()
-    {
-        sprite.color = new Color(1, 0.8f, 0);
-        animator.SetTrigger("connect");
+        success.transform.position = transform.position;
+        success.GetComponentInChildren<SpriteRenderer>().color = color;
+        success.GetComponentInChildren<Animator>().SetTrigger("connect");
     }
 }
