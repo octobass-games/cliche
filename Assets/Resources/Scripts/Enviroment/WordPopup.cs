@@ -57,9 +57,9 @@ public class WordPopup : MonoBehaviour
 
         ComboAnimator.SetBool("Open", true);
 
-        GameObject scoreGO = TextRenderer.MakeWord("" + combo, null);
+        GameObject scoreGO = TextRenderer.MakeWord("" + combo, null, -2);
         scoreGO.transform.parent = ComboDisplay.transform;
-        scoreGO.transform.localPosition = Vector2.zero;
+        scoreGO.transform.localPosition = new Vector2(0, -2);
     }
 
 
