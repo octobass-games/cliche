@@ -20111,6 +20111,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &594520962 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 626648052, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+  m_PrefabInstance: {fileID: 1268583697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &625374392
 GameObject:
   m_ObjectHideFlags: 0
@@ -23363,6 +23368,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 606710619, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: Fade
+      value: 
+      objectReference: {fileID: 594520962}
+    - target: {fileID: 739156850, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: RenderDefaults
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 739156850, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: UnachievedMedalColour.a
+      value: 0.4117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 739156850, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: UnachievedMedalColour.b
+      value: 0.509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 739156850, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: UnachievedMedalColour.g
+      value: 0.509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 739156850, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: UnachievedMedalColour.r
+      value: 0.509434
+      objectReference: {fileID: 0}
     - target: {fileID: 6947021095213957265, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -23450,6 +23479,14 @@ PrefabInstance:
     - target: {fileID: 6947021095213957277, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
       propertyPath: m_Name
       value: LevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947021096680501374, guid: e22968c5bd160054d816e24cfed7878b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e22968c5bd160054d816e24cfed7878b, type: 3}

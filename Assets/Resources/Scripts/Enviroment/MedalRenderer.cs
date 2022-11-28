@@ -12,7 +12,10 @@ public class MedalRenderer : MonoBehaviour
     public Image NormalImage;
     public Image HardImage;
 
+    public Color UnachievedMedalColour;
+
     public bool Large = false;
+    public bool RenderDefaults = false;
 
     public void Render(Level level)
     {
@@ -34,6 +37,7 @@ public class MedalRenderer : MonoBehaviour
         }
     }
 
+
     private void SetMedal(SpriteRenderer renderer, Image image, Medal medal, Sprite gold, Sprite silver, Sprite bronze)
     {
         if (renderer != null)
@@ -41,19 +45,31 @@ public class MedalRenderer : MonoBehaviour
             switch (medal)
             {
                 case Medal.NONE:
-                    renderer.gameObject.SetActive(false);
+                    if (RenderDefaults)
+                    {
+                        renderer.sprite = bronze;
+                        renderer.gameObject.SetActive(true);
+                        renderer.color = UnachievedMedalColour;
+                    }
+                    else
+                    {
+                        renderer.gameObject.SetActive(false);
+                    }
                     break;
                 case Medal.GOLD:
                     renderer.sprite = gold;
                     renderer.gameObject.SetActive(true);
+                    renderer.color = Color.white;
                     break;
                 case Medal.SILVER:
                     renderer.sprite = silver;
                     renderer.gameObject.SetActive(true);
+                    renderer.color = Color.white;
                     break;
                 case Medal.BRONZE:
                     renderer.sprite = bronze;
                     renderer.gameObject.SetActive(true);
+                    renderer.color = Color.white;
                     break;
             }
         }
@@ -63,19 +79,31 @@ public class MedalRenderer : MonoBehaviour
             switch (medal)
             {
                 case Medal.NONE:
-                    image.gameObject.SetActive(false);
+                    if (RenderDefaults)
+                    {
+                        image.color = UnachievedMedalColour;
+                        image.sprite = bronze;
+                        image.gameObject.SetActive(true);
+                    }
+                    else
+                    {
+                        image.gameObject.SetActive(false);
+                    }
                     break;
                 case Medal.GOLD:
                     image.sprite = gold;
                     image.gameObject.SetActive(true);
+                    image.color = Color.white;
                     break;
                 case Medal.SILVER:
                     image.sprite = silver;
                     image.gameObject.SetActive(true);
+                    image.color = Color.white;
                     break;
                 case Medal.BRONZE:
                     image.sprite = bronze;
                     image.gameObject.SetActive(true);
+                    image.color = Color.white;
                     break;
             }
         }
