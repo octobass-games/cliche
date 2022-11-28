@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94107b52027aa9148890fc1c1cdb5bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Played: 0
   NoteType: 0
   animator: {fileID: 7567762597009558498}
   sprite: {fileID: 7567762597009558499}
@@ -169,9 +170,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1132920521
-  m_SortingLayer: 5
-  m_SortingOrder: 0
+  m_SortingLayerID: -680704599
+  m_SortingLayer: 6
+  m_SortingOrder: 5
   m_Sprite: {fileID: -1150031941, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
