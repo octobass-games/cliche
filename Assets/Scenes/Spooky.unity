@@ -11471,14 +11471,6 @@ PrefabInstance:
       propertyPath: CharacterAnimatorController
       value: 
       objectReference: {fileID: 1187744360}
-    - target: {fileID: 5528435076129128650, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5528435076129128650, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 5528435076163650298, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -206

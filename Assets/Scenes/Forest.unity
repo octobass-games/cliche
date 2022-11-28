@@ -2467,18 +2467,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -92
       objectReference: {fileID: 0}
-    - target: {fileID: 6820421220303648508, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6820421220303648508, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6820421220303648508, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Forest
-      objectReference: {fileID: 0}
     - target: {fileID: 6820421220429781061, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: Enemy
       value: 

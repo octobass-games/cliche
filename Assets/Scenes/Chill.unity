@@ -253,14 +253,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -225
       objectReference: {fileID: 0}
-    - target: {fileID: 4806126322861984271, guid: 1148b7f1461152346852917911b11e89, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 93209594}
-    - target: {fileID: 4806126322861984271, guid: 1148b7f1461152346852917911b11e89, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 4806126323167391249, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: EventReference.Path
       value: event:/Music/CHill/Chill
@@ -645,6 +637,18 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 680409577}
+    - target: {fileID: 7330252654917472902, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778177570404827311, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726434437383224441, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1148b7f1461152346852917911b11e89, type: 3}
 --- !u!4 &93209592 stripped
@@ -661,17 +665,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0a4e2e701cccbb4abae5e1c52677a9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &93209594 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4806126323686605010, guid: 1148b7f1461152346852917911b11e89, type: 3}
-  m_PrefabInstance: {fileID: 93209591}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &102690543

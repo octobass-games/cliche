@@ -7,9 +7,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: orthographic size
+      value: 129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245025151974, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4504740617860059420}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CompleteLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987245810171258, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_Name
-      value: Shared
+      value: SharedParty
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245810171259, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_RootOrder
@@ -57,3 +81,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+--- !u!114 &4504740617860059420 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 797787132581430277, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+  m_PrefabInstance: {fileID: 3861346925873091865}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc94a3d58ebf23b459135704a1d9a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

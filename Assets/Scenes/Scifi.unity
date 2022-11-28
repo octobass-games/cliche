@@ -3581,18 +3581,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -77
       objectReference: {fileID: 0}
-    - target: {fileID: 5723131505282427437, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5723131505282427437, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5723131505282427437, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Scifi
-      objectReference: {fileID: 0}
     - target: {fileID: 5723131505426318484, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
       propertyPath: Enemy
       value: 

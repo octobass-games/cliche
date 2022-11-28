@@ -21806,10 +21806,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2894109325328669629, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: City
-      objectReference: {fileID: 0}
     - target: {fileID: 2894109325367417229, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -239

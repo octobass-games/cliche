@@ -74,8 +74,9 @@ public class GameManager : MonoBehaviour
         ChangeScene("Home");
     }
 
-    public void CompleteLevel(string levelId)
+    public void CompleteLevel()
     {
+        string levelId = LevelManager.LevelId;
         LevelManager.CompleteLevel(levelId);
         LevelManager.UnlockNextLevel(levelId);
         LevelManager.Save();

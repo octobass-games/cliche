@@ -9921,18 +9921,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7924987244866990951}
-    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CompleteLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924987245214282590, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneController, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: Enemy
       value: 
@@ -9995,17 +9983,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
---- !u!114 &7924987244866990951 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 797787132581430277, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
-  m_PrefabInstance: {fileID: 7924987244866990950}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc94a3d58ebf23b459135704a1d9a3dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7924987244866990952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7924987245594618790, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}

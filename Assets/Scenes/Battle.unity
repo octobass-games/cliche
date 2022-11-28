@@ -424,22 +424,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7740785651298508458, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1009483342}
-    - target: {fileID: 7740785651298508458, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CompleteLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 7740785651298508458, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7740785651298508458, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Battle
-      objectReference: {fileID: 0}
     - target: {fileID: 7740785651446607891, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: Enemy
       value: 
@@ -495,6 +479,10 @@ PrefabInstance:
     - target: {fileID: 7740785651773935759, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740785652594173677, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: orthographic size
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 7740785652602157748, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: EventReference.Path
@@ -964,6 +952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1733121427390644576, guid: 1c9da5248e7b81b40b8268e33a09d78d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.333252
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c9da5248e7b81b40b8268e33a09d78d, type: 3}
 --- !u!224 &580045890 stripped
@@ -1204,17 +1196,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1009483342 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 974379831276726769, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
-  m_PrefabInstance: {fileID: 363701377}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc94a3d58ebf23b459135704a1d9a3dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1058349067
 GameObject:
   m_ObjectHideFlags: 0
