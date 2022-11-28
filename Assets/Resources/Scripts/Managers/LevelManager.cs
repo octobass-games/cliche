@@ -10,7 +10,6 @@ public class LevelManager : MonoBehaviour
 
     private readonly List<Level> InitialLevelData = new()
     {
-
         new Level("Siren", LevelState.UNLOCKED, 0, 0, 0, 100, 200),
         new Level("Forest", LevelState.LOCKED, 0, 0, 0, 100, 200),
         new Level("Spooky", LevelState.LOCKED, 0, 0, 0, 100, 200),

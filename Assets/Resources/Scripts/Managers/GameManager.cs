@@ -56,6 +56,15 @@ public class GameManager : MonoBehaviour
         LoadLevel(levelId, Difficulty);
     }
 
+    public void ReplayLevel(Difficulty difficulty)
+    {
+        string levelId = LevelManager.LevelId;
+        LevelManager.CompleteLevel(levelId);
+        LevelManager.UnlockNextLevel(levelId);
+        LevelManager.Save();
+        LoadLevel(levelId, difficulty);
+    }
+
     public void SkipLevel()
     {
 
