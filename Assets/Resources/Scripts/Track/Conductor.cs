@@ -25,11 +25,11 @@ public class Conductor : MonoBehaviour
             TimedEventsComplete.Add(false);
         }
         Difficulty = GameManager.Instance.Difficulty;
+        MusicEventEmitter = GetComponent<StudioEventEmitter>();
     }
 
     public void Play()
     {
-        MusicEventEmitter = GetComponent<StudioEventEmitter>();
         SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, Difficulty);
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
         MusicEventEmitter.Play();

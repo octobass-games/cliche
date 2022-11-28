@@ -80,14 +80,5 @@ public class GameManager : MonoBehaviour
         SaveManager = FindObjectOfType<SaveManager>();
         LevelManager = FindObjectOfType<LevelManager>();
         PauseManager = FindObjectOfType<PauseManager>();
-
-        if (PauseManager != null)
-        {
-            PlayerInput playerInput = FindObjectOfType<PlayerInput>();
-            Conductor conductor = FindObjectOfType<Conductor>();
-
-            PauseManager.PlayerInput = playerInput;
-            PauseManager.Conductor = conductor;
-        }
     }
 }

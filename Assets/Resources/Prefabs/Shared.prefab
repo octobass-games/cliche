@@ -90,8 +90,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseMenu: {fileID: 7924987245143751832}
   ControlsSubmenu: {fileID: 9201197249379688789}
-  Conductor: {fileID: 0}
-  PlayerInput: {fileID: 0}
+  Conductor: {fileID: 7924987245032085314}
+  PlayerInput: {fileID: 7924987244152789006}
 --- !u!1 &2001061746240347575
 GameObject:
   m_ObjectHideFlags: 0
