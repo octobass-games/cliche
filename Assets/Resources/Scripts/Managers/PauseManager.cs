@@ -46,6 +46,7 @@ public class PauseManager : MonoBehaviour
 
     public void OnQuit()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.ChangeScene("MainMenu");
     }
 
