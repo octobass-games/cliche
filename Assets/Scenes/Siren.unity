@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 354988099}
   - component: {fileID: 354988100}
   - component: {fileID: 354988101}
+  - component: {fileID: 354988102}
   m_Layer: 0
   m_Name: SirenBackground
   m_TagString: Untagged
@@ -1097,10 +1098,52 @@ MonoBehaviour:
         m_CallState: 2
   Event4:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 354988102}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   Event5:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &354988102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354988098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 716356773
+      Data2: 1311118394
+      Data3: -384688755
+      Data4: -1300733088
+    Path: event:/SFX/Transform
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &355759849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8771,7 +8814,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4846314490811449985, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4a9f2f0159270274ca6e80844a9989ca, type: 3}
 --- !u!4 &1726895129 stripped
 Transform:
@@ -9879,7 +9923,7 @@ PrefabInstance:
       objectReference: {fileID: 1708522712}
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: orthographic size
-      value: 135
+      value: 128.5
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: TimedEvents.Array.data[0].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10107,9 +10151,37 @@ PrefabInstance:
     m_TransformParent: {fileID: 1740160579}
     m_Modifications:
     - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1666133633}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioEventEmitter, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8999579828899128761, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
+      propertyPath: Event2.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8999579829023134174, guid: 1b9ba18b8f9c2204dbcfb423dfdc56fa, type: 3}
       propertyPath: m_Name
       value: circle
