@@ -74,6 +74,7 @@ public class Conductor : MonoBehaviour
     void OnDestroy()
     {
         MusicEventEmitter.EventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        MusicEventEmitter.EventInstance.release();
     }
 
     public void Pause()
