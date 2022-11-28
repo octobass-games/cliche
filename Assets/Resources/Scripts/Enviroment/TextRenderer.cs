@@ -9,7 +9,7 @@ public class TextRenderer : MonoBehaviour
     public AlphaNumericContainer alphabet;
     public string Layer = "Text";
 
-    public GameObject MakeWord(string word, GameObject prefab)
+    public GameObject MakeWord(string word, GameObject prefab, int sortingOrder = 0)
     {
         var sprites = GetSpritesForWord(word);
 
@@ -36,6 +36,7 @@ public class TextRenderer : MonoBehaviour
             renderer.sprite = sprite;
             renderer.color = color;
             renderer.sortingLayerName = Layer;
+            renderer.sortingOrder = sortingOrder;
             child.transform.SetParent(parent.transform);
 
             child.transform.localPosition = new Vector2(0, 0);
