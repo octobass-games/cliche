@@ -95,6 +95,9 @@
 		<property name="volume">
 			<value>8</value>
 		</property>
+		<property name="pitch">
+			<value>-3.60000014</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{139b2755-5760-4585-a76f-1d58b96cb34e}</destination>
 		</relationship>
