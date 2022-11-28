@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    private string LevelId;
+    public string LevelId;
 
     public List<Level> Levels { get; private set; }
 
