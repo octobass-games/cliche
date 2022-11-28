@@ -8,10 +8,10 @@ public class Target : MonoBehaviour
 {
     public Conductor Conductor;
     public SpriteRenderer InnerRenderer;
+    public ContactFilter2D ContactFilter;
 
     private BoxCollider2D Collider;
     private Collider2D[] OverlappingColliders = new Collider2D[10];
-    private ContactFilter2D ContactFilter = new ContactFilter2D().NoFilter();
     private bool IsHighlighted = false;
 
     private void Awake()
