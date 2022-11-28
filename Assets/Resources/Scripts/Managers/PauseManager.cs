@@ -40,15 +40,18 @@ public class PauseManager : MonoBehaviour
 
     public void TogglePause(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (GameManager.Instance.IsMainMenu())
         {
-            if (IsPaused)
+            if (context.started)
             {
-                Unpause();
-            }
-            else
-            {
-                Pause();
+                if (IsPaused)
+                {
+                    Unpause();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
     }

@@ -63,13 +63,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Home");
     }
 
-    public void TogglePause(InputAction.CallbackContext context)
-    {
-        if (SceneManager.GetActiveScene().name != "MainMenu")
-        {
-            PauseManager.TogglePause(context);
-        }
-    }
+    public bool IsMainMenu() => SceneManager.GetActiveScene().name != "MainMenu";
 
     public void Save(List<Level> levels) => SaveManager.Save(levels);
 
