@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class PauseManager : MonoBehaviour
     public PlayerInput PlayerInput;
 
     private bool IsPaused;
+    private readonly List<string> UnpausableScenes = new() { "MainMenu", "Introduction" };
 
     public void OnVisitHome()
     {
@@ -40,7 +43,7 @@ public class PauseManager : MonoBehaviour
 
     public void TogglePause(InputAction.CallbackContext context)
     {
-        if (GameManager.Instance.IsMainMenu())
+        if (IsPausableScene())
         {
             if (context.started)
             {
@@ -83,4 +86,6 @@ public class PauseManager : MonoBehaviour
         PauseMenu.SetActive(false);
         ControlsSubmenu.SetActive(false);
     }
+
+    public bool IsPausableScene() => !UnpausableScenes.Contains(SceneManager.GetActiveScene().name);
 }
