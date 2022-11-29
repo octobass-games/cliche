@@ -92,7 +92,16 @@ public class PauseManager : MonoBehaviour
             Conductor.Resume();
         }
 
-        PlayerInput.SwitchCurrentActionMap("Player controls");
+        bool isHomeScene = !ShowOptionalButtons();
+        if (isHomeScene)
+        {
+            PlayerInput.SwitchCurrentActionMap("Home");
+        }
+        else
+        {
+            PlayerInput.SwitchCurrentActionMap("Player controls");
+        }
+
         IsPaused = false;
         PauseMenu.SetActive(false);
         ControlsSubmenu.SetActive(false);
