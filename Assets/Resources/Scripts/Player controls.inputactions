@@ -162,6 +162,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0c775130-bb7b-4528-8f59-30de6732c451",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "5f315d64-338c-45c5-96fc-f63a327f8dd5",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
@@ -192,6 +203,17 @@
                     "name": "",
                     "id": "51b32920-d478-4f62-bfe6-fe3b4f9a15c1",
                     "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0d03f41-ad70-4d5b-ae5e-57b438ace4a6",
+                    "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -249,6 +271,17 @@
                     "name": "",
                     "id": "1449d7e1-4006-4df4-ae56-44d2f621d907",
                     "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a0eafb2-498f-4c50-9012-6351d105f50a",
+                    "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
