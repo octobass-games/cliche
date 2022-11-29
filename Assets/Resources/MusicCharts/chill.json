@@ -2,145 +2,127 @@
   "Descriptions": [
     {
       "Type": "tap",
-      "Time": 7.384600000000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 7.950944973958334,
+      "Time": 7.384615999999999,
       "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 8.874019973958333,
+      "Time": 7.950962201041666,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 8.874039201041665,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 9.797116201041666,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 10.720193201041665,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 9.797094973958334,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 10.720169973958335,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 11.076900000000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 11.999975000000001,
+      "Time": 11.076923999999998,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 13.846125,
+      "Time": 12.000001,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 14.769200000000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 16.258619973958336,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 18.104769973958334,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 18.4615,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 19.384575,
+      "Time": 13.846155,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 20.307650000000002,
+      "Time": 14.769231999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 16.258655201041666,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 18.104809201041665,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 22.153800000000004,
+      "Time": 18.46154,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 22.720144973958334,
-      "Name": "up",
+      "Time": 19.384617,
+      "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 23.076875,
+      "Time": 20.307693999999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 22.153847999999996,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 22.720194201041664,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 23.307643750000004,
+      "Time": 23.076925,
       "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 23.538412500000003,
-      "Name": "down",
+      "Time": 23.307694249999997,
+      "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 23.999950000000002,
-      "Name": "up",
+      "Time": 23.5384635,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 24.000002,
+      "Name": "left",
       "Names": []
     },
     {
       "Type": "chord",
-      "Time": 25.846100000000003,
-      "Name": null,
-      "Names": [
-        "down",
-        "up"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 26.769175000000004,
-      "Name": null,
-      "Names": [
-        "right",
-        "up"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 27.69225,
+      "Time": 25.846155999999997,
       "Name": null,
       "Names": [
         "up",
@@ -149,70 +131,16 @@
     },
     {
       "Type": "chord",
-      "Time": 29.538400000000003,
-      "Name": null,
-      "Names": [
-        "up",
-        "down"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 29.769168750000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 29.9999375,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 30.461475000000004,
-      "Name": null,
-      "Names": [
-        "left",
-        "up"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 31.384550000000004,
+      "Time": 26.769232999999996,
       "Name": null,
       "Names": [
         "right",
-        "down"
+        "left"
       ]
     },
     {
-      "Type": "tap",
-      "Time": 33.230700000000006,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 33.79704497395834,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 34.153775,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 36.923,
-      "Name": "left",
-      "Names": []
-    },
-    {
       "Type": "chord",
-      "Time": 37.48934497395834,
+      "Time": 27.69231,
       "Name": null,
       "Names": [
         "left",
@@ -221,172 +149,7 @@
     },
     {
       "Type": "chord",
-      "Time": 38.033574609375,
-      "Name": null,
-      "Names": [
-        "up",
-        "down"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 38.64991947916667,
-      "Name": null,
-      "Names": [
-        "down",
-        "right"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 40.25856997395834,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 40.615300000000005,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 41.538375,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 43.384525000000004,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 44.30760000000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 45.79701997395834,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 47.643169973958344,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 47.999900000000004,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 48.56624497395834,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 48.92297500000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 49.846050000000005,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 50.15278013020834,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 50.45951026041667,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 50.769125,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 51.69220000000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 52.258544973958344,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 52.615275000000004,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 52.84604375000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 53.0768125,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 53.53835000000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 55.3845,
-      "Name": null,
-      "Names": [
-        "up",
-        "right"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 56.30757500000001,
-      "Name": null,
-      "Names": [
-        "right",
-        "down"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 57.230650000000004,
-      "Name": null,
-      "Names": [
-        "down",
-        "right"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 59.076800000000006,
+      "Time": 29.538463999999998,
       "Name": null,
       "Names": [
         "down",
@@ -395,28 +158,19 @@
     },
     {
       "Type": "tap",
-      "Time": 59.30756875000001,
+      "Time": 29.76923325,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 59.538337500000004,
-      "Name": "down",
+      "Time": 30.000002499999997,
+      "Name": "right",
       "Names": []
     },
     {
       "Type": "chord",
-      "Time": 59.999875,
-      "Name": null,
-      "Names": [
-        "right",
-        "down"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 60.92295000000001,
+      "Time": 30.461540999999997,
       "Name": null,
       "Names": [
         "up",
@@ -424,32 +178,50 @@
       ]
     },
     {
+      "Type": "chord",
+      "Time": 31.384617999999996,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
       "Type": "tap",
-      "Time": 62.76910000000001,
+      "Time": 33.230771999999995,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 33.79711820104167,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 63.33544497395834,
-      "Name": "up",
+      "Time": 34.153848999999994,
+      "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 63.692175000000006,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 65.538325,
-      "Name": "up",
+      "Time": 36.92308,
+      "Name": "left",
       "Names": []
     },
     {
       "Type": "chord",
-      "Time": 66.46140000000001,
+      "Time": 37.48942620104167,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 38.033657015624996,
       "Name": null,
       "Names": [
         "up",
@@ -457,152 +229,8 @@
       ]
     },
     {
-      "Type": "tap",
-      "Time": 66.80226430520834,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 67.11043640625002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 67.38447400000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 67.72533830520834,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 68.03351040625002,
-      "Name": "left",
-      "Names": []
-    },
-    {
       "Type": "chord",
-      "Time": 68.30754800000001,
-      "Name": null,
-      "Names": [
-        "up",
-        "right"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 68.64841230520834,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 68.95658440625002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 69.23062200000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 69.57148630520834,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 69.87965840625002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 70.15369600000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 70.61523300000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 71.53830700000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 71.99984400000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 72.46138100000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 73.38445500000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 73.84599200000001,
-      "Name": null,
-      "Names": [
-        "right",
-        "up"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 74.18685630520835,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 74.49502840625001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 74.76906600000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 75.10993030520835,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 75.41810240625001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 75.69214000000001,
+      "Time": 38.65000322083333,
       "Name": null,
       "Names": [
         "up",
@@ -611,898 +239,127 @@
     },
     {
       "Type": "tap",
-      "Time": 76.03300430520835,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 76.34117640625001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 76.61521400000001,
+      "Time": 40.258657201041665,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 76.95607830520835,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 77.26425040625001,
+      "Time": 40.615387999999996,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 77.53828800000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 77.65367225000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 77.7690565,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 77.99982500000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 78.46136200000001,
+      "Time": 41.538464999999995,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 79.38443600000001,
+      "Time": 43.384618999999994,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 79.84597300000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 81.23058400000001,
-      "Name": null,
-      "Names": [
-        "right",
-        "down"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 81.57144830520835,
+      "Time": 44.30769599999999,
       "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 81.87962040625001,
+      "Time": 45.79711920104167,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 47.643273201041666,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 82.15365800000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 82.49452230520835,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 82.80269440625001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 83.07673200000002,
-      "Name": null,
-      "Names": [
-        "left",
-        "down"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 83.41759630520835,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 83.72576840625001,
+      "Time": 48.000004,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 83.999806,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 84.34067030520835,
+      "Time": 48.566350201041665,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 84.64884240625001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 84.92288000000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 85.38441700000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 86.30749100000001,
+      "Time": 48.923080999999996,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 86.76902800000002,
-      "Name": "up",
+      "Time": 49.846157999999996,
+      "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 87.23056500000001,
+      "Time": 50.152888794791664,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 88.15363900000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 88.61517600000002,
-      "Name": null,
-      "Names": [
-        "left",
-        "right"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 88.95604030520835,
-      "Name": "down",
+      "Time": 50.459619589583326,
+      "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 89.26421240625001,
+      "Time": 50.769234999999995,
       "Name": "right",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 89.53825,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 89.87911430520835,
+      "Time": 51.692311999999994,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 90.18728640625001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 90.46132400000002,
-      "Name": null,
-      "Names": [
-        "up",
-        "right"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 90.80218830520835,
+      "Time": 52.25865820104166,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 91.11036040625001,
+      "Time": 52.61538899999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 52.846158249999995,
       "Name": "left",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 91.38439800000002,
+      "Time": 53.0769275,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 91.72526230520835,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 92.03343440625001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 92.30747200000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 92.42285625000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 92.53824050000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 92.76900900000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 93.23054600000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 94.15362000000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 94.61515700000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 95.99976800000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 98.39976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 99.19976800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 99.79060133333336,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 100.32476800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 100.79976800000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 102.39976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 102.99060133333334,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 103.52476800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 103.69060133333335,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 103.99976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 104.79976800000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 105.59976800000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 107.19976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 107.99976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 108.79976800000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 109.39060133333335,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 109.92476800000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 110.39976800000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 111.99976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 112.26560133333335,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 112.53143466666668,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 112.79976800000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 113.39060133333335,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 113.92476800000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 114.39976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 115.19976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 115.46560133333335,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 115.73143466666669,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 115.99976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 116.26560133333335,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 116.53143466666668,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 116.79976800000001,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 117.06560133333335,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 117.33143466666668,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 117.59976800000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 118.39976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 121.59976800000001,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 123.99976800000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 124.79976800000001,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 125.39060133333335,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 125.92476800000001,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 126.39976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 127.99976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 128.59060133333335,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 129.12476800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 129.599768,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 131.199768,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 132.79976800000003,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 133.599768,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 134.39976800000002,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 134.99060133333336,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 135.52476800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 135.99976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 137.599768,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 137.86560133333336,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 138.13143466666668,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 138.39976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 138.99060133333336,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 139.52476800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 139.99976800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 140.79976800000003,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 141.06560133333335,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 141.3314346666667,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 141.599768,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 141.86560133333336,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 142.13143466666668,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 142.39976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 142.66560133333337,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 142.9314346666667,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 143.199768,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 143.99976800000002,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 147.199768,
+      "Time": 53.53846599999999,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "chord",
-      "Time": 147.69060133333335,
-      "Name": null,
-      "Names": [
-        "right",
-        "up"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 148.162268,
-      "Name": null,
-      "Names": [
-        "up",
-        "down"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 148.69643466666668,
-      "Name": null,
-      "Names": [
-        "left",
-        "down"
-      ]
-    },
-    {
-      "Type": "tap",
-      "Time": 150.09060133333335,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 150.39976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 151.199768,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 152.79976800000003,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 153.599768,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 154.89060133333334,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 156.49060133333336,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 156.79976800000003,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 157.29060133333334,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 157.599768,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 158.39976800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 158.66560133333334,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 158.9314346666667,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 159.199768,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 159.99976800000002,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 160.49060133333336,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 160.79976800000003,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 160.99976800000002,
-      "Name": "down",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 161.199768,
-      "Name": "right",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 161.59976800000004,
-      "Name": "up",
-      "Names": []
-    },
-    {
-      "Type": "chord",
-      "Time": 163.199768,
+      "Time": 55.38462,
       "Name": null,
       "Names": [
         "left",
@@ -1511,7 +368,46 @@
     },
     {
       "Type": "chord",
-      "Time": 163.99976800000002,
+      "Time": 56.307697,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 57.230774,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 59.076927999999995,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 59.30769725,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 59.5384665,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 60.000004999999994,
       "Name": null,
       "Names": [
         "up",
@@ -1520,7 +416,154 @@
     },
     {
       "Type": "chord",
-      "Time": 164.79976800000003,
+      "Time": 60.923081999999994,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 62.76923599999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 63.33558220104166,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 63.69231299999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 65.538467,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 66.46154399999999,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 66.80240904374999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 67.11058181249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 67.38461999999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 67.72548504374998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.0336578125,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 68.30769599999999,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 68.64856104375,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 68.95673381249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.23077199999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.57163704374999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 69.87980981249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 70.15384799999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 70.61538599999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 71.53846199999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 71.99999999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 72.46153799999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 73.38461399999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 73.84615199999999,
       "Name": null,
       "Names": [
         "right",
@@ -1528,38 +571,38 @@
       ]
     },
     {
-      "Type": "chord",
-      "Time": 166.39976800000002,
-      "Name": null,
-      "Names": [
-        "left",
-        "down"
-      ]
+      "Type": "tap",
+      "Time": 74.18701704374999,
+      "Name": "right",
+      "Names": []
     },
     {
       "Type": "tap",
-      "Time": 166.59976800000004,
+      "Time": 74.49518981249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 74.76922799999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 75.11009304374998,
       "Name": "down",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 166.79976800000003,
-      "Name": "left",
+      "Time": 75.41826581249998,
+      "Name": "right",
       "Names": []
     },
     {
       "Type": "chord",
-      "Time": 167.199768,
-      "Name": null,
-      "Names": [
-        "up",
-        "left"
-      ]
-    },
-    {
-      "Type": "chord",
-      "Time": 167.99976800000002,
+      "Time": 75.692304,
       "Name": null,
       "Names": [
         "down",
@@ -1568,19 +611,973 @@
     },
     {
       "Type": "tap",
-      "Time": 169.59976800000004,
-      "Name": "left",
-      "Names": []
-    },
-    {
-      "Type": "tap",
-      "Time": 170.09060133333335,
+      "Time": 76.03316904375,
       "Name": "up",
       "Names": []
     },
     {
       "Type": "tap",
-      "Time": 170.39976800000002,
+      "Time": 76.34134181249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 76.61537999999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 76.95624504374999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.26441781249999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.53845599999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.65384049999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.76922499999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 77.99999399999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 78.46153199999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.38460799999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 79.84614599999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 81.23075999999999,
+      "Name": null,
+      "Names": [
+        "right",
+        "down"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 81.57162504374999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 81.87979781249999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.15383599999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.49470104374998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 82.8028738125,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 83.076912,
+      "Name": null,
+      "Names": [
+        "right",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 83.41777704375,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.72594981249999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 83.99998799999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.34085304374999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.64902581249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 84.92306399999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 85.38460199999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.30767799999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 86.76921599999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 87.23075399999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 88.15382999999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 88.61536799999999,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 88.95623304374999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 89.26440581249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 89.53844399999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 89.87930904374998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 90.18748181249998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 90.46151999999998,
+      "Name": null,
+      "Names": [
+        "down",
+        "right"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 90.80238504375,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 91.11055781249999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 91.38459599999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 91.72546104374999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.03363381249999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.30767199999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.42305649999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.53844099999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 92.76920999999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 93.23074799999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 94.15382399999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 94.61536199999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 95.99997599999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 98.769207,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 99.69228399999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 100.37401482604166,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 100.99036103124999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 101.53843799999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 103.38459199999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 104.06632282604166,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 104.68266903124999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 105.22978446145832,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 105.23074599999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 107.08459230833333,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 108.923054,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 109.84613099999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 110.76920799999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 111.45093882604165,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.06728503124998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 112.61536199999999,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 114.46151599999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 114.76824679479165,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 115.07497758958331,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 115.384593,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 116.06632382604165,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 116.68267003124998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 117.23074699999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.15382399999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.46055479479165,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 118.76728558958332,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 119.07690099999999,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 119.38363179479165,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 119.69036258958332,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 119.99997799999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.30670879479166,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.61343958958332,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 120.92305499999999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 121.84613199999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 125.53843999999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 128.30767099999997,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 129.23074799999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 129.91247882604165,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 130.52882503125,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 131.076902,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 132.92305599999997,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 133.60478682604165,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 134.22113303125,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 134.76921,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 136.615364,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 138.46151799999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 139.384595,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 140.30767199999997,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 140.98940282604167,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 141.60574903124999,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 142.15382599999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 143.99998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.30671079479166,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.61344158958332,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 144.92305699999997,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 145.60478782604167,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.22113403125,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 146.76921099999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.692288,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 147.99901879479165,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 148.30574958958331,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 148.615365,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 148.92209579479166,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 149.22882658958332,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 149.53844199999997,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 149.84517279479167,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.15190358958333,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 150.46151899999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 151.384596,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 155.07690399999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 155.64325020104164,
+      "Name": null,
+      "Names": [
+        "down",
+        "left"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 156.187481015625,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 156.8038272208333,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 158.41248120104166,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 158.76921199999998,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 159.692289,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 161.53844299999997,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 162.46151999999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 163.95094320104164,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 165.79709720104165,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.15382799999998,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 166.72017420104163,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 167.07690499999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 167.999982,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.30671279479165,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.6134435895833,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 168.92305899999997,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 169.846136,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 170.41248220104166,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 170.76921299999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 170.99998225,
+      "Name": "down",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 171.2307515,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 171.69228999999999,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 173.53844399999997,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 174.46152099999998,
+      "Name": null,
+      "Names": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 175.38459799999998,
+      "Name": null,
+      "Names": [
+        "up",
+        "right"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 177.230752,
+      "Name": null,
+      "Names": [
+        "up",
+        "left"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 177.46152124999998,
+      "Name": "left",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 177.69229049999998,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "chord",
+      "Time": 178.15382899999997,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "chord",
+      "Time": 179.07690599999998,
+      "Name": null,
+      "Names": [
+        "right",
+        "up"
+      ]
+    },
+    {
+      "Type": "tap",
+      "Time": 180.92305999999996,
+      "Name": "right",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 181.48940620104165,
+      "Name": "up",
+      "Names": []
+    },
+    {
+      "Type": "tap",
+      "Time": 181.846137,
       "Name": "right",
       "Names": []
     }
