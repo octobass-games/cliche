@@ -22219,6 +22219,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SharedCity
       objectReference: {fileID: 0}
+    - target: {fileID: 2894109326011753359, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
+      propertyPath: GoodSprite
+      value: 
+      objectReference: {fileID: -1577120187, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 2894109326011753359, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
+      propertyPath: OkaySprite
+      value: 
+      objectReference: {fileID: -1683667551, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 2894109326011753359, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
+      propertyPath: WordPrefab
+      value: 
+      objectReference: {fileID: 359949091917470930, guid: b916d74edac830248a81a6b2c9bfdd6e, type: 3}
+    - target: {fileID: 2894109326011753359, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
+      propertyPath: PerfectSprite
+      value: 
+      objectReference: {fileID: -1867556322, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
     - target: {fileID: 2894109326453222405, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: m_SortingOrder
       value: -3

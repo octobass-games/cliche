@@ -5,10 +5,13 @@ using FMODUnity;
 public class WordPopup : MonoBehaviour
 {
     public TextRenderer TextRenderer;
-    public GameObject LetterPrefab;
+    public GameObject WordPrefab;
     public GameObject Score;
     public Animator ComboAnimator;
     public GameObject ComboDisplay;
+    public Sprite PerfectSprite;
+    public Sprite GoodSprite;
+    public Sprite OkaySprite;
 
     FMOD.Studio.EventInstance comboBroke;
     public string comboBreak;
@@ -20,18 +23,18 @@ public class WordPopup : MonoBehaviour
 
     public void Perfect()
     {
-        MakeWord("Perfect!");
+        MakeWord(PerfectSprite);
     }
 
     public void Good()
     {
-        MakeWord("Good!");
+        MakeWord(GoodSprite);
 
     }
 
     public void Okay()
     {
-        MakeWord("Okay!");
+        MakeWord(OkaySprite);
     }
 
     public void DisplayScore(int score)
@@ -76,11 +79,13 @@ public class WordPopup : MonoBehaviour
     }
 
 
-    private void MakeWord(string text)
+    private void MakeWord(Sprite word)
     {
-        GameObject gm =TextRenderer.MakeWord(text, LetterPrefab);
+        GameObject gm = Instantiate(WordPrefab);
+        SpriteRenderer renderer = gm.GetComponent<SpriteRenderer>();
+        renderer.sprite = word;
         var screenSize = ScreenSize();
-        gm.transform.position = new Vector2(Random.Range(0, screenSize.x - 20), Random.Range(0, screenSize.y-20));
+        gm.transform.position = new Vector2(Random.Range(word.bounds.size.x, screenSize.x - word.bounds.size.x), Random.Range(30, screenSize.y-20));
         StartCoroutine(DestroyWordAfterTime(gm));
     }
 

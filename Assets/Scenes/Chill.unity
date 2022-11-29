@@ -192,6 +192,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4806126322136445501, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: GoodSprite
+      value: 
+      objectReference: {fileID: -1577120187, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 4806126322136445501, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: OkaySprite
+      value: 
+      objectReference: {fileID: -1683667551, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 4806126322136445501, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: WordPrefab
+      value: 
+      objectReference: {fileID: 359949091917470930, guid: b916d74edac830248a81a6b2c9bfdd6e, type: 3}
+    - target: {fileID: 4806126322136445501, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: PerfectSprite
+      value: 
+      objectReference: {fileID: -1867556322, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
     - target: {fileID: 4806126322389369898, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -50187,8 +50203,8 @@ Transform:
   - {fileID: 1880347345}
   - {fileID: 2031089068}
   - {fileID: 1567345531}
-  - {fileID: 1814592919}
   - {fileID: 1514890434}
+  - {fileID: 1814592919}
   - {fileID: 2008281814}
   - {fileID: 325914333}
   - {fileID: 195858871}
@@ -50196,10 +50212,10 @@ Transform:
   - {fileID: 1688821858}
   - {fileID: 202858920}
   - {fileID: 2048482954}
-  - {fileID: 1726895129}
   - {fileID: 680409577}
-  - {fileID: 1991421442}
+  - {fileID: 1726895129}
   - {fileID: 376768096}
+  - {fileID: 1991421442}
   - {fileID: 1586727057}
   - {fileID: 102690544}
   m_Father: {fileID: 0}
@@ -50357,7 +50373,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 354988099}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &376768097
 PolygonCollider2D:
@@ -56327,7 +56343,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 354988099}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &680409578
 SpriteRenderer:
@@ -61953,7 +61969,7 @@ Transform:
   - {fileID: 687929046}
   - {fileID: 298256963}
   m_Father: {fileID: 354988099}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1514890435
 Animator:

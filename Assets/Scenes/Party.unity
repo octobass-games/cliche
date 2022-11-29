@@ -962,6 +962,12 @@ MonoBehaviour:
           m_StringArgument: Party
           m_BoolArgument: 0
         m_CallState: 2
+  Event4:
+    m_PersistentCalls:
+      m_Calls: []
+  Event5:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &370132762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1552,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Event3:
+    m_PersistentCalls:
+      m_Calls: []
+  Event4:
+    m_PersistentCalls:
+      m_Calls: []
+  Event5:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &536963445
@@ -27982,6 +27994,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -63.238632
       objectReference: {fileID: 0}
+    - target: {fileID: 6371880419910409845, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
+      propertyPath: GoodSprite
+      value: 
+      objectReference: {fileID: -1577120187, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 6371880419910409845, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
+      propertyPath: OkaySprite
+      value: 
+      objectReference: {fileID: -1683667551, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 6371880419910409845, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
+      propertyPath: WordPrefab
+      value: 
+      objectReference: {fileID: 359949091917470930, guid: b916d74edac830248a81a6b2c9bfdd6e, type: 3}
+    - target: {fileID: 6371880419910409845, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
+      propertyPath: PerfectSprite
+      value: 
+      objectReference: {fileID: -1867556322, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
     - target: {fileID: 6371880419960795781, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
