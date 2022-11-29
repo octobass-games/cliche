@@ -20,4 +20,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: c4f4a4ed4e99b754c8629dbb87087aa2
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: 1e7e0eff127f5cf4b8e146f89d6a4531
+  - enabled: 1
+    path: Assets/Scenes/Chill.unity
+    guid: 26f74556fb3216f499c55f7230083acc
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 48b6f167299b1e747a881aedacf0d9d4
+  - enabled: 1
+    path: Assets/Scenes/Party.unity
+    guid: a39b4008ef0063e4181b9bf495a7ac08
+  - enabled: 1
+    path: Assets/Scenes/Scifi.unity
+    guid: c4ea0e9c9aefba14496c0475179da146
+  - enabled: 1
+    path: Assets/Scenes/Spooky.unity
+    guid: 4209a91507b7af844aa60284e9e4765c
   m_configObjects: {}
