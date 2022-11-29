@@ -486,6 +486,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7740785652024321688, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: GoodSprite
+      value: 
+      objectReference: {fileID: -1577120187, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 7740785652024321688, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: OkaySprite
+      value: 
+      objectReference: {fileID: -1683667551, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 7740785652024321688, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: WordPrefab
+      value: 
+      objectReference: {fileID: 359949091917470930, guid: b916d74edac830248a81a6b2c9bfdd6e, type: 3}
+    - target: {fileID: 7740785652024321688, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: PerfectSprite
+      value: 
+      objectReference: {fileID: -1867556322, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
     - target: {fileID: 7740785652457367826, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: m_SortingOrder
       value: -3

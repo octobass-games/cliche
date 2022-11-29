@@ -11701,6 +11701,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5528435075503601912, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: GoodSprite
+      value: 
+      objectReference: {fileID: -1577120187, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 5528435075503601912, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: OkaySprite
+      value: 
+      objectReference: {fileID: -1683667551, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
+    - target: {fileID: 5528435075503601912, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: WordPrefab
+      value: 
+      objectReference: {fileID: 359949091917470930, guid: b916d74edac830248a81a6b2c9bfdd6e, type: 3}
+    - target: {fileID: 5528435075503601912, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: PerfectSprite
+      value: 
+      objectReference: {fileID: -1867556322, guid: b1e1c5ffd1036bd4796bc13bfd539d92, type: 3}
     - target: {fileID: 5528435075517452014, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: m_Name
       value: SharedSpooky

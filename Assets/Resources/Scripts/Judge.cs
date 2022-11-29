@@ -37,14 +37,14 @@ public class Judge : MonoBehaviour
     public void CompleteLevel(string levelId)
     {
         Debug.Log("Setting high score and rendering panel");
-        GameManager.Instance.LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
-        
+        Medal medal = GameManager.Instance.LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
+
         if (Combo > LongestCombo)
         {
             LongestCombo = Combo;
         }
 
-        SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
+        SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore, medal, Conductor.Difficulty);
     }
 
     public bool PassJudgement(TargetStrikeResult targetStrikeResult)
