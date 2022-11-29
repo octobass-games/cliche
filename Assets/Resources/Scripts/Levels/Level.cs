@@ -9,17 +9,13 @@ public class Level
     public Medal NormalMedal;
     public Medal HardMedal;
     public LevelState State;
-    public int SilverScore;
-    public int GoldScore;
 
     public Level(
         string id,
         LevelState state,
-        int easyHighScore,
-        int normalHighScore,
-        int hardHighScore,
-        int silverScore,
-        int goldScore,
+        int easyHighScore = 0,
+        int normalHighScore = 0,
+        int hardHighScore = 0,
         Medal easyMedal = Medal.NONE,
         Medal normalMedal = Medal.NONE,
         Medal hardMedal = Medal.NONE
@@ -30,8 +26,6 @@ public class Level
         EasyHighScore = easyHighScore;
         NormalHighScore = normalHighScore;
         HardHighScore = hardHighScore;
-        SilverScore = silverScore;
-        GoldScore = goldScore;
         EasyMedal = easyMedal;
         NormalMedal = normalMedal;
         HardMedal = hardMedal;

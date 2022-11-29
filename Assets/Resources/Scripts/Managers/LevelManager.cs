@@ -11,14 +11,14 @@ public class LevelManager : MonoBehaviour
 
     private readonly List<Level> InitialLevelData = new()
     {
-        new Level("Siren", LevelState.UNLOCKED, 0, 0, 0, 100, 200),
-        new Level("Forest", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("Spooky", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("City", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("Chill", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("Scifi", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("Battle", LevelState.LOCKED, 0, 0, 0, 100, 200),
-        new Level("Party", LevelState.LOCKED, 0, 0, 0, 100, 200)
+        new Level("Siren", LevelState.UNLOCKED),
+        new Level("Forest", LevelState.LOCKED),
+        new Level("Spooky", LevelState.LOCKED),
+        new Level("City", LevelState.LOCKED),
+        new Level("Chill", LevelState.LOCKED),
+        new Level("Scifi", LevelState.LOCKED),
+        new Level("Battle", LevelState.LOCKED),
+        new Level("Party", LevelState.LOCKED)
     };
 
     void Start()
