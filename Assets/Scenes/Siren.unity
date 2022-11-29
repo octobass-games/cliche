@@ -10165,6 +10165,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7924987245248409966, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -224
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245248409966, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -92
+      objectReference: {fileID: 0}
     - target: {fileID: 7924987245348740583, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: Enemy
       value: 
