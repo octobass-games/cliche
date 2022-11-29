@@ -1598,6 +1598,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: plat-medal-mini-easy
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 78
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17183b74514f01f4881b21d0ac35913f
+      internalID: 402580042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plat-medal-mini-normal
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71e090a5a7e00408d53e613bb4b3eb
+      internalID: -2119592164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plat-medal-mini-hard
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 45
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a697e315407bd9a498ab6dd3250df3ea
+      internalID: 1806694569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1613,6 +1676,7 @@ TextureImporter:
       main-character-house_6: 672530972
       sofa: -1784584429
       main-character-house_11: -672433915
+      plat-medal-mini-easy: 402580042
       main-character-house_42: -1439038218
       main-character-house_26: -562335058
       main-character-house_28: -478804267
@@ -1652,6 +1716,7 @@ TextureImporter:
       battle-pic: -797401756
       gold-medal-mini-normal: -261695189
       main-character-house_9: 633460226
+      plat-medal-mini-hard: 1806694569
       main-character-house_39: 1264187749
       bronze-medal-mini-easy: -551651201
       main-character-house_30: 927740646
@@ -1662,6 +1727,7 @@ TextureImporter:
       main-character-house_52: -2109648918
       main-character-house_34: -675669842
       main-character-house_2: 1855478992
+      plat-medal-mini-normal: -2119592164
       main-character-house_3: -1515207298
       main-character-house_24: -1701362926
       main-character-house_47: -1287327979

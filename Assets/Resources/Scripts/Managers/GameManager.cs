@@ -19,7 +19,8 @@ public class GameManager : MonoBehaviour
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
-        } else
+        }
+        else
         {
             Instance = this;
             DontDestroyOnLoad(this);
@@ -77,10 +78,20 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         string levelId = LevelManager.LevelId;
+        var level = LevelManager.FindLevel(levelId);
+        bool showCredits = (levelId == "Party" && level.State != LevelState.COMPLETED);
         LevelManager.CompleteLevel(levelId);
         LevelManager.UnlockNextLevel(levelId);
         LevelManager.Save();
-        SceneManager.LoadScene("Home");
+
+        if (showCredits)
+        {
+            SceneManager.LoadScene("Credits");
+        }
+        else
+        {
+            SceneManager.LoadScene("Home");
+        }
     }
 
     public void Save(List<Level> levels) => SaveManager.Save(levels);

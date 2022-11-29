@@ -569,6 +569,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: plat-easy-medal
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff71620cd20de346bef91befdcfaa68
+      internalID: 1410454740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plat-normal-medal
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 30
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800a3e57c2ec22841af7c8f931a0726e
+      internalID: -311083966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plat-hard-medal
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 30
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ee7939810c78b419ce09247ac33271
+      internalID: 752041455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -583,6 +646,7 @@ TextureImporter:
       siren-marker: -1956426623
       bronze-hard-medal: -42844652
       scifi-pin: 816878800
+      plat-hard-medal: 752041455
       gold-easy-medal: -2146761523
       map: 1049048897
       phone-popup: 1728209798
@@ -591,6 +655,8 @@ TextureImporter:
       silver-easy-medal: 314485254
       silver-normal-medal: 1109336786
       battle-pin: 809052159
+      plat-easy-medal: 1410454740
+      plat-normal-medal: -311083966
       phone-background: -909863170
       spooky-pin: -1378419813
       bronze-normal-medal: 1598390706
