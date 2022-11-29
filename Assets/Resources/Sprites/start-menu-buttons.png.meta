@@ -1151,7 +1151,7 @@ TextureImporter:
         width: 40
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1172,7 +1172,7 @@ TextureImporter:
         width: 64
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1193,7 +1193,7 @@ TextureImporter:
         width: 42
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1201,6 +1201,27 @@ TextureImporter:
       bones: []
       spriteID: 2a27cf4d59c2720459b2925fdf1af541
       internalID: -191716989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restar
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 76
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd17e96fd337f084c83c86c7384e8785
+      internalID: 402293693
       vertices: []
       indices: 
       edges: []
@@ -1247,6 +1268,7 @@ TextureImporter:
       main menu: -9132747494025815686
       level 2 complete: 4444838139133086807
       close: 827987394261879107
+      restar: 402293693
       restart: 1088764880085191362
       quit: -5065639170350743147
       pause: 7052723869441870344

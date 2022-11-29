@@ -430,6 +430,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6799567416041558227, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 1639056138}
+    - target: {fileID: 6799567416041558227, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: PlayerInput
+      value: 
+      objectReference: {fileID: 363701379}
     - target: {fileID: 7740785651446607891, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: Enemy
       value: 
@@ -581,6 +589,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0a4e2e701cccbb4abae5e1c52677a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &363701379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7740785652393031162, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+  m_PrefabInstance: {fileID: 363701377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &364382289

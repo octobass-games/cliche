@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
+    public GameObject Container;
     public GameObject PauseMenu;
     public GameObject ControlsSubmenu;
 
@@ -28,12 +29,14 @@ public class PauseManager : MonoBehaviour
 
     public void OnControlsOpen()
     {
+        Container.SetActive(true);
         PauseMenu.SetActive(false);
         ControlsSubmenu.SetActive(true);
     }
 
     public void OnControlsClose()
     {
+        Container.SetActive(true);
         PauseMenu.SetActive(true);
         ControlsSubmenu.SetActive(false);
     }
@@ -81,7 +84,9 @@ public class PauseManager : MonoBehaviour
 
         PlayerInput.SwitchCurrentActionMap("UI");
         IsPaused = true;
+        Container.SetActive(true);
         PauseMenu.SetActive(true);
+        ControlsSubmenu.SetActive(false);
     }
     private void Unpause()
     {
@@ -103,6 +108,7 @@ public class PauseManager : MonoBehaviour
         }
 
         IsPaused = false;
+        Container.SetActive(false);
         PauseMenu.SetActive(false);
         ControlsSubmenu.SetActive(false);
     }

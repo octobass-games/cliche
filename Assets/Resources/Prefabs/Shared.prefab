@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7924987245810171259}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3973213272239467312
 MonoBehaviour:
@@ -91,54 +91,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc41d7bf67e93b14ebf274f1702c3883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1604681767630280244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4951809831474067966}
-  - component: {fileID: 5176394765406373072}
-  m_Layer: 0
-  m_Name: PauseManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4951809831474067966
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604681767630280244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7924987245810171259}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5176394765406373072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604681767630280244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fc36f4877f074749a6b96c1c73d810a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseMenu: {fileID: 7924987245143751832}
-  ControlsSubmenu: {fileID: 9201197249379688789}
-  Conductor: {fileID: 7924987245032085314}
-  PlayerInput: {fileID: 7924987244152789006}
 --- !u!1 &2001061746240347575
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +258,7 @@ MonoBehaviour:
     m_ActionName: Player controls/Left[/Keyboard/leftArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5176394765406373072}
+      - m_Target: {fileID: 6398230694607420711}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: TogglePause
         m_Mode: 0
@@ -322,7 +274,7 @@ MonoBehaviour:
     m_ActionName: Player controls/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5176394765406373072}
+      - m_Target: {fileID: 6398230694607420711}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: TogglePause
         m_Mode: 0
@@ -874,7 +826,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 129
+  orthographic size: 135
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1441,7 +1393,6 @@ Transform:
   - {fileID: 543918920554943857}
   - {fileID: 6220450091524556072}
   - {fileID: 5400861003343735767}
-  - {fileID: 4951809831474067966}
   - {fileID: 6432726058201778625}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1513,10 +1464,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextRenderer: {fileID: 7924987245930515310}
-  LetterPrefab: {fileID: 359949091917470930, guid: 9e09f849468a22a409aa6d2aa57529be, type: 3}
+  WordPrefab: {fileID: 0}
   Score: {fileID: 7924987245472669667}
   ComboAnimator: {fileID: 7924987244354487527}
   ComboDisplay: {fileID: 7924987244605934658}
+  PerfectSprite: {fileID: 0}
+  GoodSprite: {fileID: 0}
+  OkaySprite: {fileID: 0}
   comboBreak: event:/SFX/Combo UP
 --- !u!1 &7924987245949776994
 GameObject:
@@ -2335,6 +2289,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7924987245810171259}
     m_Modifications:
+    - target: {fileID: 434498308725751726, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: Conductor
+      value: 
+      objectReference: {fileID: 7924987245032085314}
+    - target: {fileID: 434498308725751726, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+      propertyPath: PlayerInput
+      value: 
+      objectReference: {fileID: 7924987244152789006}
     - target: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2385,19 +2347,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+--- !u!114 &6398230694607420711 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 434498308725751726, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
+  m_PrefabInstance: {fileID: 6831029357969425033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc36f4877f074749a6b96c1c73d810a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7924987244915707267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3690564564819873546, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
-  m_PrefabInstance: {fileID: 6831029357969425033}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7924987245143751832 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3690564564509998609, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
-  m_PrefabInstance: {fileID: 6831029357969425033}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &9201197249379688789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2413235779319604188, guid: d0a062f1d0f857441a73b5bf6a63a636, type: 3}
   m_PrefabInstance: {fileID: 6831029357969425033}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7924987244344109380
