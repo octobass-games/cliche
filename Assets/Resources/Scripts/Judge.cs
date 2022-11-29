@@ -38,6 +38,12 @@ public class Judge : MonoBehaviour
     {
         Debug.Log("Setting high score and rendering panel");
         GameManager.Instance.LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
+        
+        if (Combo > LongestCombo)
+        {
+            LongestCombo = Combo;
+        }
+
         SummaryPanel.RenderSummary(PerfectCount, GoodCount, OkayCount, MissCount, LongestCombo, TotalScore);
     }
 
@@ -182,6 +188,7 @@ public class Judge : MonoBehaviour
 
     private void ResetCombo()
     {
+        Debug.Log("Resetting combo: " + Combo);
         if (LongestCombo < Combo)
         {
             LongestCombo = Combo;
