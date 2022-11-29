@@ -24,4 +24,11 @@ public class GameObjectDecorator : MonoBehaviour
     {
         Obj.SetActive(!Obj.activeSelf);
     }
+
+    public void UpdateParent(GameObject newParent)
+    {
+        Vector2 oldPosition = new Vector2(Obj.transform.position.x, Obj.transform.position.y);
+        Obj.transform.SetParent(newParent.transform);
+        Obj.transform.position = oldPosition;
+    }
 }
