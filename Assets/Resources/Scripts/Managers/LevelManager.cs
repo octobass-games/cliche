@@ -46,7 +46,7 @@ public class LevelManager : MonoBehaviour
         Levels = GameManager.Instance.Load();
     }
 
-    public void SetHighScore(string levelId, int highScore, Difficulty difficulty)
+    public Medal SetHighScore(string levelId, int highScore, Difficulty difficulty)
     {
         var level = Levels.Find(level => level.Id == levelId);
 
@@ -56,18 +56,22 @@ public class LevelManager : MonoBehaviour
             {
                 level.EasyHighScore = highScore;
                 level.EasyMedal = GetMedal(highScore);
+                return level.EasyMedal;
             }
             else if (difficulty == Difficulty.NORMAL && level.NormalHighScore < highScore)
             {
                 level.NormalHighScore = highScore;
                 level.NormalMedal = GetMedal(highScore);
+                return level.NormalMedal;
             }
             else if (level.HardHighScore < highScore)
             {
                 level.HardHighScore = highScore;
                 level.HardMedal = GetMedal(highScore);
+                return level.HardMedal;
             }
         }
+        return Medal.NONE;
     }
 
     public void CompleteLevel(string levelId)

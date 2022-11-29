@@ -1035,6 +1035,8 @@ MonoBehaviour:
   OverallScore: {fileID: 4017663204955075845}
   TextRenderer: {fileID: 4017663203823674808}
   Animator: {fileID: 4017663203823674810}
+  Medals: {fileID: 11400000, guid: 62a8584111cb5e645adfff3ee7b0df1b, type: 2}
+  Medal: {fileID: 4017663203502345975}
 --- !u!114 &4017663203823674808
 MonoBehaviour:
   m_ObjectHideFlags: 0
