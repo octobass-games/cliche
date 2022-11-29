@@ -73,7 +73,7 @@ public class DialogueRenderer : MonoBehaviour
         {
             var splitLine = line.Split(":");
             var trigger = splitLine.Length == 3 ? splitLine[2] : null;
-            return new DialougeLine(splitLine[0], splitLine[1], trigger);
+            return new DialougeLine(splitLine[0], splitLine[1].Trim(), trigger);
         }).ToList();
     }
 }

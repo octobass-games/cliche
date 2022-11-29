@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
+  m_Name: Siren-End
+  m_EditorClassIdentifier: 
+  Text: "Player: (An Octopus!)\r\nOctopus: Blub\u2026\r\nPlayer: (It looks a bit
+    lost and confused)\r\nPlayer: (Well you can come live with me till you find your
+    family!)\r\nPlayer: (I can\u2019t see Cat around here anywhere\u2026)\r\nPlayer:
+    (Well I guess back to the GPS tracker!)\r"
