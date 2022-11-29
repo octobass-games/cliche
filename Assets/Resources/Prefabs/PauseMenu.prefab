@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 6163367486030385425}
   - component: {fileID: 667477881442752888}
   - component: {fileID: 5925478230263202881}
+  - component: {fileID: 7021350855944588556}
   m_Layer: 0
   m_Name: ControlsButton
   m_TagString: Untagged
@@ -209,6 +210,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7021350855944588556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047896509994787211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2413235779319604188
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +335,7 @@ GameObject:
   - component: {fileID: 7304804625209397240}
   - component: {fileID: 2866542963548044877}
   - component: {fileID: 6440235512264411016}
+  - component: {fileID: 6761208451681512215}
   m_Layer: 0
   m_Name: GoBackHomeButton
   m_TagString: Untagged
@@ -443,6 +457,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6761208451681512215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726035697965044618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3690564564509998609
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +849,7 @@ GameObject:
   - component: {fileID: 7192746923061762572}
   - component: {fileID: 1996825278018284655}
   - component: {fileID: 6005971200572845985}
+  - component: {fileID: 381493087928979413}
   m_Layer: 0
   m_Name: RestartButton
   m_TagString: Untagged
@@ -944,6 +971,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &381493087928979413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746657239111959597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6728664578373229362
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +995,7 @@ GameObject:
   - component: {fileID: 5858176316407743554}
   - component: {fileID: 7481702825828235004}
   - component: {fileID: 2493857584045736775}
+  - component: {fileID: 8223497305963902049}
   m_Layer: 0
   m_Name: BackButton
   m_TagString: Untagged
@@ -1077,6 +1117,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8223497305963902049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728664578373229362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6787614727055533543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1141,7 @@ GameObject:
   - component: {fileID: 1703881000372784240}
   - component: {fileID: 8642577744432546592}
   - component: {fileID: 3185530493338627233}
+  - component: {fileID: 2972877558019162439}
   m_Layer: 0
   m_Name: QuitButton
   m_TagString: Untagged
@@ -1210,6 +1263,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2972877558019162439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787614727055533543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8647228379401515492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1407,7 @@ GameObject:
   - component: {fileID: 6352915599073928949}
   - component: {fileID: 4569872353136328645}
   - component: {fileID: 7857539815785313486}
+  - component: {fileID: 8573352200143475238}
   m_Layer: 0
   m_Name: SkipLevelButton
   m_TagString: Untagged
@@ -1463,3 +1529,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8573352200143475238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8748410605704289464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
