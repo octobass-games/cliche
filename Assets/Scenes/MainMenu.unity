@@ -242,8 +242,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1314709369}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 431009976}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
         m_Arguments:
@@ -391,6 +391,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4909835897379984822, guid: 397c66e6a75749942ba0a9a97bd037fa, type: 3}
   m_PrefabInstance: {fileID: 337230117}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &431009975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431009977}
+  - component: {fileID: 431009976}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &431009976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431009975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc94a3d58ebf23b459135704a1d9a3dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &431009977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431009975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.528554, y: -31.93452, z: -5.3750916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444231728
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,8 +615,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1314709369}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 431009976}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
@@ -1718,17 +1762,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4909835897379984822, guid: 397c66e6a75749942ba0a9a97bd037fa, type: 3}
   m_PrefabInstance: {fileID: 1287253473}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1314709369 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5055704004561740314, guid: 0bd902eeac9f2284796c63d655ea691d, type: 3}
-  m_PrefabInstance: {fileID: 2013113528}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a1d87132f1b1d842a08d09e767afa30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1505384436
 GameObject:
   m_ObjectHideFlags: 0
