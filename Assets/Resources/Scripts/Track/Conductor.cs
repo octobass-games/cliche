@@ -33,7 +33,7 @@ public class Conductor : MonoBehaviour
     {
         SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, Difficulty);
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
-        LevelManager.MaxScore = SheetMusic.Notes.Count * 100;
+        LevelManager.MaxScore = (50 * 100 + (SheetMusic.Notes.Count - 50) * 200);
         MusicEventEmitter.Play();
     }
 

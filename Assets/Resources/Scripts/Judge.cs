@@ -26,6 +26,7 @@ public class Judge : MonoBehaviour
 
     private int TotalScore = 0;
     private int LongestCombo;
+    private int Multiplier = 1;
 
     public EffectCreator EffectCreator;
 
@@ -137,7 +138,13 @@ public class Judge : MonoBehaviour
     {
         Combo += 1;
         WordPopup.DisplayCombo(Combo);
-        TotalScore += score;
+        TotalScore += score * Multiplier;
+
+        if (Combo == 50)
+        {
+            Multiplier = 2;
+        }
+
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
         WordPopup.DisplayScore(TotalScore);
         StartCoroutine(EnemyHitAfterTime());
@@ -194,6 +201,7 @@ public class Judge : MonoBehaviour
             LongestCombo = Combo;
         }
 
+        Multiplier = 1;
         Combo = 0;
         WordPopup.StopCombo();
     }
