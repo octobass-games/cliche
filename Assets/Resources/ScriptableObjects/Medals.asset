@@ -15,18 +15,24 @@ MonoBehaviour:
   miniBronzeEasyMedal: {fileID: -551651201, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniSilverEasyMedal: {fileID: 1080834449, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniGoldEasyMedal: {fileID: 86580220, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniPlatEasyMedal: {fileID: 402580042, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniBronzeNormalMedal: {fileID: -1518824499, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniSilverNormalMedal: {fileID: -1593982003, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniGoldNormalMedal: {fileID: -261695189, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniPlatNormalMedal: {fileID: -2119592164, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniBronzeHardMedal: {fileID: 1691496788, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniSilverHardMedal: {fileID: 1951694228, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   miniGoldHardMedal: {fileID: 702730635, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
+  miniPlatHardMedal: {fileID: 1806694569, guid: 94582d62d04f68340a248b2b6fe6eca4, type: 3}
   BronzeEasyMedal: {fileID: -1825799586, guid: 85194d2946150be49ac199a78f603903, type: 3}
   SilverEasyMedal: {fileID: 314485254, guid: 85194d2946150be49ac199a78f603903, type: 3}
   GoldEasyMedal: {fileID: -2146761523, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  PlatEasyMedal: {fileID: 1410454740, guid: 85194d2946150be49ac199a78f603903, type: 3}
   BronzeNormalMedal: {fileID: 1598390706, guid: 85194d2946150be49ac199a78f603903, type: 3}
   SilverNormalMedal: {fileID: 1109336786, guid: 85194d2946150be49ac199a78f603903, type: 3}
   GoldNormalMedal: {fileID: -606829518, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  PlatNormalMedal: {fileID: -311083966, guid: 85194d2946150be49ac199a78f603903, type: 3}
   BronzeHardMedal: {fileID: -42844652, guid: 85194d2946150be49ac199a78f603903, type: 3}
   SilverHardMedal: {fileID: 1977978445, guid: 85194d2946150be49ac199a78f603903, type: 3}
   GoldHardMedal: {fileID: -1513343380, guid: 85194d2946150be49ac199a78f603903, type: 3}
+  PlatHardMedal: {fileID: 752041455, guid: 85194d2946150be49ac199a78f603903, type: 3}

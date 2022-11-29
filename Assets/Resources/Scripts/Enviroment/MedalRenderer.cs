@@ -22,9 +22,9 @@ public class MedalRenderer : MonoBehaviour
         var small = !Large;
         if (level.State == LevelState.COMPLETED)
         {
-            SetMedal(Easy, EasyImage, level.EasyMedal, Medals.EasyGold(small), Medals.EasySilver(small), Medals.EasyBronze(small));
-            SetMedal(Normal, NormalImage, level.NormalMedal, Medals.NormalGold(small), Medals.NormalSilver(small), Medals.NormalBronze(small));
-            SetMedal(Hard, HardImage, level.HardMedal, Medals.HardGold(small), Medals.HardSilver(small), Medals.HardBronze(small));
+            SetMedal(Easy, EasyImage, level.EasyMedal, Medals.EasyPlat(small), Medals.EasyGold(small), Medals.EasySilver(small), Medals.EasyBronze(small));
+            SetMedal(Normal, NormalImage, level.NormalMedal, Medals.NormalPlat(small), Medals.NormalGold(small), Medals.NormalSilver(small), Medals.NormalBronze(small));
+            SetMedal(Hard, HardImage, level.HardMedal, Medals.HardPlat(small), Medals.HardGold(small), Medals.HardSilver(small), Medals.HardBronze(small));
         }
         else
         {
@@ -38,7 +38,7 @@ public class MedalRenderer : MonoBehaviour
     }
 
 
-    private void SetMedal(SpriteRenderer renderer, Image image, Medal medal, Sprite gold, Sprite silver, Sprite bronze)
+    private void SetMedal(SpriteRenderer renderer, Image image, Medal medal, Sprite plat, Sprite gold, Sprite silver, Sprite bronze)
     {
         if (renderer != null)
         {
@@ -55,6 +55,12 @@ public class MedalRenderer : MonoBehaviour
                     {
                         renderer.gameObject.SetActive(false);
                     }
+                    break;
+
+                case Medal.PLATINUM:
+                    renderer.sprite = plat;
+                    renderer.gameObject.SetActive(true);
+                    renderer.color = Color.white;
                     break;
                 case Medal.GOLD:
                     renderer.sprite = gold;
@@ -89,6 +95,11 @@ public class MedalRenderer : MonoBehaviour
                     {
                         image.gameObject.SetActive(false);
                     }
+                    break;
+                case Medal.PLATINUM:
+                    image.sprite = plat;
+                    image.gameObject.SetActive(true);
+                    image.color = Color.white;
                     break;
                 case Medal.GOLD:
                     image.sprite = gold;

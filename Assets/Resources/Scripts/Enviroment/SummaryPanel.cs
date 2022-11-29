@@ -43,6 +43,9 @@ public class SummaryPanel : MonoBehaviour
             case global::Medal.NONE:
                 Medal.gameObject.SetActive(false);
                 break;
+            case global::Medal.PLATINUM:
+                PlatMedal(difficulty);
+                break;
             case global::Medal.GOLD:
                 GoldMedal(difficulty);
                 break;
@@ -71,6 +74,22 @@ public class SummaryPanel : MonoBehaviour
         }
     }
 
+
+    private void PlatMedal(Difficulty difficulty)
+    {
+        switch (difficulty)
+        {
+            case Difficulty.EASY:
+                Medal.sprite = Medals.PlatEasyMedal;
+                break;
+            case Difficulty.NORMAL:
+                Medal.sprite = Medals.PlatNormalMedal;
+                break;
+            case Difficulty.HARD:
+                Medal.sprite = Medals.PlatHardMedal;
+                break;
+        }
+    }
 
     private void SilverMedal(Difficulty difficulty)
     {
