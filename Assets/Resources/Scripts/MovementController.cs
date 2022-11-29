@@ -7,6 +7,8 @@ public class MovementController : MonoBehaviour
     public int Speed;
     public Animator Animator;
     public SpriteRenderer SpriteRenderer;
+    public Transform LeftBound;
+    public Transform RightBound;
 
     private Rigidbody2D Rigidbody;
     private Vector2 Direction;
@@ -32,6 +34,17 @@ public class MovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Rigidbody.position = (new Vector2(transform.position.x, transform.position.y) + Speed * Time.deltaTime * Direction);
+        Vector2 newPosition = new Vector2(transform.position.x, transform.position.y) + Speed * Time.deltaTime * Direction;
+
+        if (newPosition.x < LeftBound.position.x)
+        {
+            newPosition.x = LeftBound.position.x;
+        }
+        else if (newPosition.x > RightBound.position.x)
+        {
+            newPosition.x = RightBound.position.x;
+        }
+
+        Rigidbody.position = newPosition;
     }
 }
