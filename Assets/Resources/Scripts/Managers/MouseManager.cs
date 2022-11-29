@@ -26,12 +26,10 @@ public class MouseManager : MonoBehaviour
 
         if (clickableBeneathMouse != null)
         {
-            Debug.Log(clickableBeneathMouse.gameObject.name);
             SetClickableCursor();
         }
         else
         {
-            Debug.Log("setting neutral cursor");
             SetNeutralCursor();
         }
     }
