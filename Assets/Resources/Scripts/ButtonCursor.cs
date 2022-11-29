@@ -35,5 +35,4 @@ public class ButtonCursor : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         MouseManager.SetNeutralCursor();
         IsInButton = false;
     }
-
 }

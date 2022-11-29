@@ -1149,6 +1149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 307c3fcca1ac0ae4e8e5bcee62e0f693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelId: 
+  MaxScore: 0
 --- !u!4 &997380653
 Transform:
   m_ObjectHideFlags: 0
@@ -1559,6 +1561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da7e02b79a4890a49a2692e9a14f4c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EventSystem: {fileID: 698733191}
+  NeutralCursorTexture: {fileID: 2800000, guid: 073026376327e1d4f9f30a53fbe31a96, type: 3}
+  ClickableCursorTexture: {fileID: 2800000, guid: e6b2593496fc4764f8309863364786d0, type: 3}
 --- !u!4 &1210667757
 Transform:
   m_ObjectHideFlags: 0
