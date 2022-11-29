@@ -10,6 +10,7 @@ public class Conductor : MonoBehaviour
     public List<TimedEvent> TimedEvents;
     private List<bool> TimedEventsComplete;
     public Difficulty Difficulty;
+    public LevelManager LevelManager;
 
     private StudioEventEmitter MusicEventEmitter;
     private SheetMusic SheetMusic;
@@ -32,6 +33,7 @@ public class Conductor : MonoBehaviour
     {
         SheetMusic = GetComponent<SheetMusicLoader>().Read(PathToSheetMusic, Difficulty);
         SheetMusic.Notes.ForEach(note => note.transform.SetParent(Track.transform));
+        LevelManager.MaxScore = SheetMusic.Notes.Count * 100;
         MusicEventEmitter.Play();
     }
 

@@ -1037,7 +1037,8 @@ MonoBehaviour:
             m_StringArgument: end
             m_BoolArgument: 0
           m_CallState: 2
-  Difficulty: 0
+  Difficulty: 1
+  LevelManager: {fileID: 4892122125851456609}
 --- !u!114 &7924987245032085312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1571,6 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelId: 
+  MaxScore: 0
 --- !u!1001 &6501700930945654158
 PrefabInstance:
   m_ObjectHideFlags: 0

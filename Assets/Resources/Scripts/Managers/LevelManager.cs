@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
     public string LevelId;
 
     public List<Level> Levels { get; private set; }
+    public float MaxScore;
 
     private readonly List<Level> InitialLevelData = new()
     {
@@ -54,17 +55,17 @@ public class LevelManager : MonoBehaviour
             if (difficulty == Difficulty.EASY && level.EasyHighScore < highScore)
             {
                 level.EasyHighScore = highScore;
-                level.EasyMedal = GetMedal(level, highScore);
+                level.EasyMedal = GetMedal(highScore);
             }
             else if (difficulty == Difficulty.NORMAL && level.NormalHighScore < highScore)
             {
                 level.NormalHighScore = highScore;
-                level.NormalMedal = GetMedal(level, highScore);
+                level.NormalMedal = GetMedal(highScore);
             }
             else if (level.HardHighScore < highScore)
             {
                 level.HardHighScore = highScore;
-                level.HardMedal = GetMedal(level, highScore);
+                level.HardMedal = GetMedal(highScore);
             }
         }
     }
@@ -100,13 +101,16 @@ public class LevelManager : MonoBehaviour
         GameManager.Instance.Save(Levels);
     }
 
-    private Medal GetMedal(Level level, int score)
+    private Medal GetMedal(int score)
     {
-        if (level.GoldScore <= score)
+        int goldScore = Mathf.FloorToInt((MaxScore * 70) / 100);
+        int silverScore = Mathf.FloorToInt((MaxScore * 55) / 100);
+
+        if (goldScore <= score)
         {
             return Medal.GOLD;
         }
-        else if (level.SilverScore <= score)
+        else if (silverScore <= score)
         {
             return Medal.SILVER;
         }
