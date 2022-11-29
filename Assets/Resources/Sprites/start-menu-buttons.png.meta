@@ -1214,7 +1214,7 @@ TextureImporter:
         width: 70
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1222,6 +1222,111 @@ TextureImporter:
       bones: []
       spriteID: bd17e96fd337f084c83c86c7384e8785
       internalID: 402293693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: art
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 127
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f1588b71a1b449a81771422a67ddd
+      internalID: 1653162508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: music and sound
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 115
+        width: 144
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266905fed163680408e68dfc27991ee8
+      internalID: -1524223603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: programming
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 102
+        width: 124
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630a14b1b430d1469c15b30f6b26e01
+      internalID: -1355707541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: and
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 115
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462f103271d54b44da59938da76914cb
+      internalID: -1650830600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comma
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 93
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11611d892fdc7e846bed16e704281083
+      internalID: -1705242095
       vertices: []
       indices: 
       edges: []
@@ -1238,6 +1343,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       heart: -945612814
+      programming: -1355707541
       easy: -707675944
       circle: -5929314477315672613
       pause-icon: 3068636224358055602
@@ -1246,6 +1352,7 @@ TextureImporter:
       glow-blob: -8406697653168190875
       adam: -7951029402569522674
       megan: 2389031316650061204
+      music and sound: -1524223603
       level 3 complete: 3303751884769092138
       combo: 138743866
       odette: 3450182602739598057
@@ -1254,6 +1361,7 @@ TextureImporter:
       normal: -151454992
       good: 617691028
       closed-book-icon: 4172484642484797931
+      and: -1650830600
       level-select: -2603594978610747406
       skip backwards: -2464937512742598392
       play: -6514249923156813770
@@ -1263,6 +1371,7 @@ TextureImporter:
       skip forwards: 4353483672394946721
       eye-close: -3071011896359221762
       level 1 complete: -2061158193071668484
+      comma: -1705242095
       level 7 complete: -4007959139156207299
       continue: -782422530839434325
       main menu: -9132747494025815686
@@ -1274,13 +1383,14 @@ TextureImporter:
       pause: 7052723869441870344
       level 5 complete: 2513369855008616385
       open-book-icon: -4558259214167870106
-      newgame: 170108340464960886
       level 9 complete: 5584542674851666832
+      newgame: 170108340464960886
       thanks for playing: 3885163344328010641
       okay: -214156882
       controls: -576222392486240172
       music-note: 6267196114321649021
       credits: 7784802573013522063
+      art: 1653162508
       perfect: -1495381397
       halden: 321870704700071952
       now playing: -6288917170383791396
