@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Siren-End
   m_EditorClassIdentifier: 
-  Text: "Player: Octopus are you ok?\r\nOctopus: Blub\u2026\r\nPlayer: You don\u2019t
-    know where you are, and not sure how to get back home?\r\nPlayer: Well you can
-    come live with me till you find your family! \r\nOctopus: Blub Blub!\r\nPlayer:
-    You didn\u2019t happen to see a cat around here did you?\r\nOctopus: Blub.\r\nPlayer:
-    You did but they left 5 minutes ago\u2026\r\nPlayer: Well I guess back to the
-    GPS tracker!\r"
+  Text: "Player: (An Octopus!)\r\nOctopus: Blub\u2026\r\nPlayer: (It looks a bit
+    lost and confused)\r\nPlayer: (Well you can come live with me till you find your
+    family!)\r\nPlayer: (I can\u2019t see cat around here anywhere\u2026)\r\nPlayer:
+    (Well I guess back to the GPS tracker!)\r"
