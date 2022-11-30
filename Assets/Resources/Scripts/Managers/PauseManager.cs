@@ -71,6 +71,21 @@ public class PauseManager : MonoBehaviour
         }
     }
 
+    public void TogglePause()
+    {
+        if (IsPausableScene())
+        {
+            if (IsPaused)
+            {
+                Unpause();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
     public bool ShowOptionalButtons() => SceneManager.GetActiveScene().name != "Home";
 
     private void Pause()

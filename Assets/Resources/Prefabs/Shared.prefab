@@ -289,7 +289,19 @@ MonoBehaviour:
     m_ActionId: 4dd0f74c-55e4-4d70-b2c9-0ae3cf8e5370
     m_ActionName: UI/Toggle pause[/Keyboard/escape]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3973213272239467312}
+        m_TargetAssemblyTypeName: MouseManager, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: d205c777-c1b6-4f4c-a7a8-fa949bc0f6de
     m_ActionName: Player controls/Click[/Mouse/leftButton]
   - m_PersistentCalls:
@@ -796,6 +808,7 @@ Transform:
   - {fileID: 7924987245930515311}
   - {fileID: 7924987245248409966}
   - {fileID: 7924987244841819523}
+  - {fileID: 3993269484485262849}
   m_Father: {fileID: 7924987245810171259}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -818,10 +831,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: 0.0171875
+    y: 0.057407405
+    width: 0.25
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -1575,6 +1588,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelId: 
   MaxScore: 0
+--- !u!1001 &4185050022850948506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7924987245025151974}
+    m_Modifications:
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527438251052555746, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6398230694607420711}
+    - target: {fileID: 8535227183073798489, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+      propertyPath: m_Name
+      value: Pause
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+--- !u!4 &3993269484485262849 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 972418678490649499, guid: f1ef69f63fef39d4491110a80d6bb806, type: 3}
+  m_PrefabInstance: {fileID: 4185050022850948506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6501700930945654158
 PrefabInstance:
   m_ObjectHideFlags: 0
