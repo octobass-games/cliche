@@ -27,10 +27,10 @@ public class LevelManager : MonoBehaviour
         // load levels by default or initialise to empty
         Levels = GameManager.Instance.Load();
 
-        if (Levels == null || Levels.Count == 0)
+/*        if (Levels == null || Levels.Count == 0)
         {
             NewGame();
-        }
+        }*/
     }
 
     public void NewGame()
