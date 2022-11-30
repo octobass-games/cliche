@@ -1361,7 +1361,7 @@ TextureImporter:
         width: 10
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1369,6 +1369,48 @@ TextureImporter:
       bones: []
       spriteID: 8d3f99d6cae3eeb4ea0991ed8248e2cc
       internalID: 143893450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: continue-outlined
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 72
+        width: 86
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4d4b4845990b44ea8986a05e1cd9db
+      internalID: -866967093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: replay-outlined
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 57
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9289ac63e20a944b3f06cdda170627
+      internalID: 1402015930
       vertices: []
       indices: 
       edges: []
@@ -1426,11 +1468,13 @@ TextureImporter:
       quit: -5065639170350743147
       pause: 7052723869441870344
       level 5 complete: 2513369855008616385
+      continue-outlined: -866967093
       open-book-icon: -4558259214167870106
       level 9 complete: 5584542674851666832
       newgame: 170108340464960886
       thanks for playing: 3885163344328010641
       okay: -214156882
+      replay-outlined: 1402015930
       controls: -576222392486240172
       music-note: 6267196114321649021
       credits: 7784802573013522063
