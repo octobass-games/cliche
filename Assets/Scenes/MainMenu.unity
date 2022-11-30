@@ -207,7 +207,7 @@ MonoBehaviour:
       Data4: -773213438
     Path: event:/SFX/Click
   Event: 
-  PlayEvent: 15
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -922,7 +922,7 @@ MonoBehaviour:
       Data4: -773213438
     Path: event:/SFX/Click
   Event: 
-  PlayEvent: 15
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -2492,7 +2492,7 @@ MonoBehaviour:
       Data4: -773213438
     Path: event:/SFX/Click
   Event: 
-  PlayEvent: 15
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
