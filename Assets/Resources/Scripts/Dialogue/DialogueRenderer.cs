@@ -17,7 +17,6 @@ public class DialogueRenderer : MonoBehaviour
 
     public void Run(Dialogue dialogue, UnityEvent eventOnEnd, Animator animator)
     {
-        Debug.Log("Dialogue.Run:" + dialogue.name);
         Lines = getLines(dialogue);
         Index = 0;
         EventOnEnd = eventOnEnd;
@@ -32,7 +31,6 @@ public class DialogueRenderer : MonoBehaviour
 
     private void Render()
     {
-        Debug.Log("Lines[Index].Line "+ Lines[Index].Line);
         TextArea.text = Lines[Index].Line;
         Speaker.text = Lines[Index].Speaker;
         runAnimation();
@@ -42,7 +40,6 @@ public class DialogueRenderer : MonoBehaviour
     {
         if (Index == Lines.Count - 1)
         {
-            Debug.Log("Dialogue Complete, next Event: "+ EventOnEnd);
             panel.SetActive(false);
 
             if (EventOnEnd != null)

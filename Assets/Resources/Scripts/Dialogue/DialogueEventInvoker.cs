@@ -11,7 +11,6 @@ public class DialogueEventInvoker : MonoBehaviour
 
     public void InvokeDialogue(int index)
     {
-        Debug.Log("InvokeDialogue with index: " + index);
         DialogueRenderer.Run(Dialogues[index], endEvents[index], Animator);
     }
 }

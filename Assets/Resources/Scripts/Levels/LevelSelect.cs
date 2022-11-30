@@ -108,8 +108,6 @@ public class LevelSelect : MonoBehaviour
 
     public void CloseLevelSummary()
     {
-        Debug.Log("CloseLevelSummary");
-
         LevelSummary.SetActive(false);
     }
 
