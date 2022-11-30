@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Intro-4
   m_EditorClassIdentifier: 
-  Text: "Player: \u2026\r\nPlayer: (I can\u2019t speak!)\r\nPlayer: (My tongue is
-    gone!)\r"
+  Text: "Viola: \u2026\r\nViola: (I can\u2019t speak!)\r\nViola: (My tongue is gone!)\r"

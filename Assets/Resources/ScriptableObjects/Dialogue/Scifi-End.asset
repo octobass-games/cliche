@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Scifi-End
   m_EditorClassIdentifier: 
-  Text: "Frog: Ribbit!\r\nPlayer: \u2026\r\nPlayer: (I wonder if I\u2019ll have enough
-    room for all these pets.)\r\nPlayer: (I probably should\u2019ve got my landlord's
-    permission too\u2026)\r\nPlayer: (I\u2019m sure Cat must be in the next place
+  Text: "Frog: Ribbit!\r\nViola: \u2026\r\nViola: (I wonder if I\u2019ll have enough
+    room for all these pets.)\r\nViola: (I probably should\u2019ve got my landlord's
+    permission too\u2026)\r\nViola: (I\u2019m sure Cat must be in the next place
     I go too.)\r"

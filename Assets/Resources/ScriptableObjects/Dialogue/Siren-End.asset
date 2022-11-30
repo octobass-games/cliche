@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Siren-End
   m_EditorClassIdentifier: 
-  Text: "Player: (An Octopus!)\r\nOctopus: Blub\u2026\r\nPlayer: (It looks a bit
-    lost and confused)\r\nPlayer: (Well you can come live with me till you find your
-    family!)\r\nPlayer: (I can\u2019t see Cat around here anywhere\u2026)\r\nPlayer:
-    (Well I guess back to the GPS tracker!)\r"
+  Text: "Viola: (An Octopus!)\r\nOctopus: Blub\u2026\r\nViola: (It looks a bit lost
+    and confused)\r\nViola: (Well you can come live with me till you find your family!)\r\nViola:
+    (I can\u2019t see Cat around here anywhere\u2026)\r\nViola: (Well I guess back
+    to the GPS tracker!)\r"

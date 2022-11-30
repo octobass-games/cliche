@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Forest-End
   m_EditorClassIdentifier: 
-  Text: "Player: (A puppy!)\r\nPuppy: Bark! Bark! Bark!\r\nPlayer: (A noisy puppy!)\r\nPlayer:
-    (I guess this ones coming home too\u2026)\r\nPlayer: (Still no sign of cat, back
+  Text: "Viola: (A puppy!)\r\nPuppy: Bark! Bark! Bark!\r\nViola: (A noisy puppy!)\r\nViola:
+    (I guess this ones coming home too\u2026)\r\nViola: (Still no sign of cat, back
     to searching!)\r"
