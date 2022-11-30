@@ -57,8 +57,6 @@ public class Judge : MonoBehaviour
         }
         else
         {
-            CharacterAnimatorController.RandomDance();
-
             var distanceFromCentre = targetStrikeResult.DistanceFromCentre;
             var notes = targetStrikeResult.Note.GetComponentsInChildren<Note>().ToList();
 
@@ -144,6 +142,8 @@ public class Judge : MonoBehaviour
         {
             Multiplier = 2;
         }
+
+        CharacterAnimatorController.RandomDance();
 
         Debug.Log("Score: " + score + ", Total score: " + TotalScore);
         WordPopup.DisplayScore(TotalScore);
