@@ -80,16 +80,12 @@ public class Judge : MonoBehaviour
                         notes.ForEach(n => n.SetGoodCollided());
                         GoodCount += 1;
                     }
-                    else if (IsOkay(distanceFromCentre))
+                    else
                     {
                         Score(OkayScore, notes);
                         WordPopup.Okay();
                         notes.ForEach(n => n.SetOkayCollided());
                         OkayCount += 1;
-                    }
-                    else
-                    {
-                        return false;
                     }
                 }
                 else
@@ -115,16 +111,13 @@ public class Judge : MonoBehaviour
                     note.SetGoodCollided();
                     GoodCount += 1;
                 }
-                else if (IsOkay(distanceFromCentre))
+                else
                 {
                     Score(OkayScore, notes);
                     WordPopup.Okay();
                     note.SetOkayCollided();
                     OkayCount += 1;
-                }
-                else
-                {
-                    return false;
+                    return true;
                 }
             }
             return true;
@@ -186,11 +179,6 @@ public class Judge : MonoBehaviour
     private bool IsGood(float distanceFromNextNote)
     {
         return distanceFromNextNote < 10;
-    }
-
-    private bool IsOkay(float distanceFromNextNote)
-    {
-        return distanceFromNextNote <= 20;
     }
 
     private void ResetCombo()

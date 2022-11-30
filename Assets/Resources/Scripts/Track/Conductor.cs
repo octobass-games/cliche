@@ -58,7 +58,7 @@ public class Conductor : MonoBehaviour
     public void MissedNote(GameObject note)
     {
 
-        if (note.GetComponent<ChordNote>())
+        if (note.GetComponent<ChordNote>() != null)
         {
             if (SheetMusic.Notes.Count > 0 && SheetMusic.Notes[0] == note)
             {
