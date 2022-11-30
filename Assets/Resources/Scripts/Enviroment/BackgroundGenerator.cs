@@ -28,7 +28,7 @@ public class BackgroundGenerator : MonoBehaviour
         float height = UnityEngine.Camera.main.orthographicSize * 2.0f;
         float width = height * Screen.width / Screen.height;
 
-        return new Vector2(width, height);
+        return new Vector2(width + 300, height);
     }
 
     void Start()
