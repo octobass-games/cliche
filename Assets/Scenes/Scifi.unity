@@ -3808,11 +3808,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5723131505258227741, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -228
+      value: -210
       objectReference: {fileID: 0}
     - target: {fileID: 5723131505258227741, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -77
+      value: -108
       objectReference: {fileID: 0}
     - target: {fileID: 5723131505426318484, guid: 51518fc280f70854ca3c2b8e5b5f1434, type: 3}
       propertyPath: Enemy
