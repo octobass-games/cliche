@@ -1010,6 +1010,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: loading
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 232
+        width: 78
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d958907282a2e4382a7ce0d06dea0c
+      internalID: -1222265452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1021,48 +1042,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui_11: -1590960704
-      ui_14: -1150031941
       easy: -1279842403
       ui_13: 403829138
       ui_9: 1330326410
-      outline-left: -1054378829
+      circle: 426546383
       arrow-left-inner: 1932232025
       ui_4: 793025996
       ui_12: -1549584465
       ui_19: -1530394118
       lets go: 631923841
-      circle: 426546383
-      ui_0: 616734131
       combo: -530301567
       normal: -1655910609
-      ui_3: -15631499
       arrow-down-inner: 1538193131
-      ui_6: 908414790
-      ui_8: -88805040
       party: 528498454
       good: -1577120187
       circle-outline: 267219753
-      okay: -1683667551
-      perfect: -1867556322
       arrow-right-inner: 211760925
       ui_7: 146940794
+      ui_16: -1628620956
+      outline-down: -553299347
+      ui_1: 964839340
+      outline-right: 1017714437
+      ui_11: -1590960704
+      ui_14: -1150031941
+      outline-left: -1054378829
+      ui_0: 616734131
+      ui_3: -15631499
+      ui_6: 908414790
+      ui_8: -88805040
+      okay: -1683667551
+      perfect: -1867556322
+      loading: -1222265452
       ui_2: -1741618918
       ui_5: 1269807817
-      ui_16: -1628620956
       ui_20: -89275995
-      outline-down: -553299347
       ui_17: 1864380601
       ui_10: -1232682107
       arrow-up-inner: -80684752
       note-bar: -1505483449
-      ui_1: 964839340
       hard: -38633360
       outline-up: 383818911
       ui_15: 1324558975
       score: -130676555
       ui_18: -1863424021
-      outline-right: 1017714437
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
