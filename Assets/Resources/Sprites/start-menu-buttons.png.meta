@@ -1319,7 +1319,7 @@ TextureImporter:
         width: 4
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1327,6 +1327,48 @@ TextureImporter:
       bones: []
       spriteID: 11611d892fdc7e846bed16e704281083
       internalID: -1705242095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pointer
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d653fcff79702b5428620f843febb4da
+      internalID: -1182397881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pla
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f99d6cae3eeb4ea0991ed8248e2cc
+      internalID: 143893450
       vertices: []
       indices: 
       edges: []
@@ -1367,6 +1409,8 @@ TextureImporter:
       play: -6514249923156813770
       level 10 complete: -5667919301009578245
       collectables: 7778691313258942968
+      pointer: -1182397881
+      pla: 143893450
       level 8 complete: -5044492816107494100
       skip forwards: 4353483672394946721
       eye-close: -3071011896359221762

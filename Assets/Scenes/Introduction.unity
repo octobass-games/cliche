@@ -8033,10 +8033,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1733121427390644576, guid: 1c9da5248e7b81b40b8268e33a09d78d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -3.333252
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c9da5248e7b81b40b8268e33a09d78d, type: 3}
 --- !u!1001 &8061808496403406765
