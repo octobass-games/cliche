@@ -21,8 +21,6 @@ public class Target : MonoBehaviour
 
     public TargetStrikeResult GetTargetStrikeResult()
     {
-        Array.Clear(OverlappingColliders, 0, 1);
-
         int overlappingColliderCount = Collider.OverlapCollider(ContactFilter, OverlappingColliders);
 
         if (overlappingColliderCount > 0)
@@ -43,6 +41,8 @@ public class Target : MonoBehaviour
             float distanceFromCentre = Mathf.Abs((furthestLeftCollider.bounds.center - Collider.bounds.center).x);
             furthestLeftCollider.GetComponent<Note>().Play();
            
+            Array.Clear(OverlappingColliders, 0, overlappingColliderCount - 1);
+
             return new TargetStrikeResult(distanceFromCentre, furthestLeftCollider.gameObject.transform.parent.gameObject);
         }
 

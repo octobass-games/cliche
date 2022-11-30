@@ -37,7 +37,6 @@ public class Judge : MonoBehaviour
 
     public void CompleteLevel(string levelId)
     {
-        Debug.Log("Setting high score and rendering panel");
         Medal medal = GameManager.Instance.LevelManager.SetHighScore(levelId, TotalScore, Conductor.Difficulty);
 
         if (Combo > LongestCombo)
@@ -117,11 +116,10 @@ public class Judge : MonoBehaviour
                     WordPopup.Okay();
                     note.SetOkayCollided();
                     OkayCount += 1;
-                    return true;
                 }
             }
-            return true;
 
+            return true;
         }
     }
 
@@ -138,7 +136,6 @@ public class Judge : MonoBehaviour
 
         CharacterAnimatorController.RandomDance();
 
-        Debug.Log("Score: " + score + ", Total score: " + TotalScore);
         WordPopup.DisplayScore(TotalScore);
         StartCoroutine(EnemyHitAfterTime());
         EffectCreator.MakeEffect();
@@ -183,7 +180,6 @@ public class Judge : MonoBehaviour
 
     private void ResetCombo()
     {
-        Debug.Log("Resetting combo: " + Combo);
         if (LongestCombo < Combo)
         {
             LongestCombo = Combo;
