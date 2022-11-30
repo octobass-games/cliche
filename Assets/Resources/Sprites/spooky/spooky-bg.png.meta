@@ -212,6 +212,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: spooky-bg_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6
+        width: 102
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78273d36723012a4ca3a3d65f5fe09e8
+      internalID: -1433529025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spooky-bg_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 33
+        width: 102
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75355a8f724e84e41a71cec3ce8d06a8
+      internalID: -377438539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-overlay
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 114
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9383cb3fe00cb41b84a11d2c3b4a0e
+      internalID: -1952047109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -223,7 +286,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      spooky-bg_4: -1433529025
       spooky-bg_1: 1549334079
+      transparent-overlay: -1952047109
+      spooky-bg_5: -377438539
       spooky-bg_0: 1155106151
       spooky-bg_2: 798185600
       spooky-bg_3: -1403945268
