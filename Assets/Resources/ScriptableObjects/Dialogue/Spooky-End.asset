@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e76bd30d5caad242b26922cc81c9a2b, type: 3}
   m_Name: Spooky-End
   m_EditorClassIdentifier: 
-  Text: "Bunny: \u2026\r\nPlayer: (Another lost animal)\r\nPlayer: (I\u2019m starting
-    to see a pattern haha)\r\nPlayer: (Maybe cat will be in the next place I look\u2026)\r"
+  Text: "Bunny: \u2026\r\nViola: (Another lost animal)\r\nViola: (I\u2019m starting
+    to see a pattern haha)\r\nViola: (Maybe cat will be in the next place I look\u2026)\r"
