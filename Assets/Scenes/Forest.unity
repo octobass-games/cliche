@@ -1827,7 +1827,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5055704004561740314, guid: 0bd902eeac9f2284796c63d655ea691d, type: 3}
       propertyPath: Difficulty
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8554434941178019491, guid: 0bd902eeac9f2284796c63d655ea691d, type: 3}
       propertyPath: m_RootOrder

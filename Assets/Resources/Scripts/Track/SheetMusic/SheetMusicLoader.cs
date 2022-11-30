@@ -78,5 +78,5 @@ public class SheetMusicLoader : MonoBehaviour
         }
     }
 
-    private string GetDirectionForTime(float time) => NoteFactory.NoteNames[((int) (time / 5)) % NoteFactory.NoteNames.Count];
+    private string GetDirectionForTime(float time) => NoteFactory.NoteNames[((int) (time / 3)) % NoteFactory.NoteNames.Count];
 }
