@@ -1726,6 +1726,7 @@ GameObject:
   - component: {fileID: 4017663204320095954}
   - component: {fileID: 4017663204320095952}
   - component: {fileID: 8280517018838717792}
+  - component: {fileID: 8483409054418912788}
   m_Layer: 0
   m_Name: next
   m_TagString: Untagged
@@ -1847,6 +1848,18 @@ MonoBehaviour:
           m_StringArgument: Home
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8483409054418912788}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8280517018838717792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,6 +1872,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8483409054418912788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017663204320095966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1642152642
+      Data2: 1308490769
+      Data3: 164573851
+      Data4: 633790487
+    Path: event:/SFX/Click Higher
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &4017663204370303593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2458,6 +2501,7 @@ GameObject:
   - component: {fileID: 4289664865524822973}
   - component: {fileID: 2409120560403524777}
   - component: {fileID: 6360978617969826370}
+  - component: {fileID: 8159200401896173557}
   m_Layer: 0
   m_Name: replay
   m_TagString: Untagged
@@ -2579,6 +2623,18 @@ MonoBehaviour:
           m_StringArgument: Home
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 8159200401896173557}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &6360978617969826370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,6 +2647,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdc4f6413d1e9d64c861fb9f2f3f6df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8159200401896173557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5743345710792565170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1642152642
+      Data2: 1308490769
+      Data3: 164573851
+      Data4: 633790487
+    Path: event:/SFX/Click Higher
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &6644118356109579135
 GameObject:
   m_ObjectHideFlags: 0
