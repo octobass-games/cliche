@@ -2,10 +2,6 @@ using UnityEngine;
 
 public class ContinueButton : MonoBehaviour
 {
-    void Awake()
-    {
-    }
-
     void Start()
     {
         if (!GameManager.Instance.HasSaveData())
