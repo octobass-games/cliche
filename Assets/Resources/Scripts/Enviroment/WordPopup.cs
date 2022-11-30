@@ -52,7 +52,6 @@ public class WordPopup : MonoBehaviour
 
     public void DisplayCombo(int combo)
     {
-        Debug.Log("CoMBO!");
         foreach (Transform child in ComboDisplay.transform)
         {
             GameObject.Destroy(child.gameObject);
@@ -68,7 +67,6 @@ public class WordPopup : MonoBehaviour
 
     public void StopCombo()
     {
-        Debug.Log("BREAK!");
         // FMODUnity.RuntimeManager.PlayOneShot(comboBreak);
 
         foreach (Transform child in ComboDisplay.transform)
