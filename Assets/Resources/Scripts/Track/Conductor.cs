@@ -51,25 +51,21 @@ public class Conductor : MonoBehaviour
 
         if (hit)
         {
-            RemoveNote();
+            RemoveNote(targetStrikeResult.Note);
         }
     }
 
     public void MissedNote(GameObject note)
     {
-
         if (note.GetComponent<ChordNote>() != null)
         {
-            if (SheetMusic.Notes.Count > 0 && SheetMusic.Notes[0] == note)
-            {
-                Judge.MissedNote();
-                RemoveNote();
-            }
+            Judge.MissedNote();
+            RemoveNote(note);
         }
         else
         {
             Judge.MissedNote();
-            RemoveNote();
+            RemoveNote(note);
         }
     }
 
@@ -89,11 +85,15 @@ public class Conductor : MonoBehaviour
         MusicEventEmitter.EventInstance.setPaused(false);
     }
 
-    private void RemoveNote()
+    private void RemoveNote(GameObject noteToRemove)
     {
-        GameObject note = SheetMusic.Notes[0].gameObject;
-        SheetMusic.Notes.RemoveAt(0);
-        Destroy(note);
+        var noteIndex = SheetMusic.Notes.FindIndex(n => noteToRemove == n);
+        if (noteIndex == -1)
+        {
+            return;
+        }
+        SheetMusic.Notes.RemoveAt(noteIndex);
+        Destroy(noteToRemove);
     }
 
     private void MoveTrack()
