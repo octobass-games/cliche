@@ -107,10 +107,15 @@ public class LevelManager : MonoBehaviour
 
     private Medal GetMedal(int score)
     {
+        int platinumScore = Mathf.FloorToInt((MaxScore * 90) / 100);
         int goldScore = Mathf.FloorToInt((MaxScore * 70) / 100);
         int silverScore = Mathf.FloorToInt((MaxScore * 55) / 100);
 
-        if (goldScore <= score)
+        if (platinumScore <= score)
+        {
+            return Medal.PLATINUM;
+        }
+        else if (goldScore <= score)
         {
             return Medal.GOLD;
         }
