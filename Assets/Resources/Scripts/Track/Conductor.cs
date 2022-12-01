@@ -117,7 +117,6 @@ public class Conductor : MonoBehaviour
 
         for (int i = 0; i < SheetMusic.Notes.Count; i++)
         {
-            // SheetMusic.Notes[i].transform.position = SheetMusic.Notes[i].transform.position + displacement;
             Rigidbody2D noteRigidbody = SheetMusic.Notes[i].GetComponentInChildren<Rigidbody2D>();
             noteRigidbody.MovePosition(noteRigidbody.position + new Vector2(displacement.x, displacement.y));
         }
