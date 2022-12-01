@@ -275,6 +275,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dragon
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053fbb7171abb54ba747f287840a638
+      internalID: -981731035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 54
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffe6dc485943d04b840f050dc06211a
+      internalID: 147424971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -288,12 +330,13 @@ TextureImporter:
     nameFileIdTable:
       Battle_1: -175208115
       arrow-2: 1221327473
-      Battle_0: -1846852591
       Battle_2: 743820145
       arrow-1: 2047165401
+      dragon: -1846852591
       Bow: -241412415
       Battle_3: 1976381371
       Battle_4: 869538878
+      Battle_5: 147424971
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

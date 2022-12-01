@@ -829,7 +829,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1172026375
   m_SortingLayer: 1
-  m_SortingOrder: -3
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: bd4a425387e0a4a479d7e0d4f19352f8, type: 3}
   m_Color: {r: 0.8301887, g: 0.3485226, b: 0.3485226, a: 1}
   m_FlipX: 0
@@ -1783,6 +1783,7 @@ Transform:
   - {fileID: 481051640}
   - {fileID: 759563341}
   - {fileID: 1498103900}
+  - {fileID: 1788977381}
   m_Father: {fileID: 354988099}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1945,6 +1946,7 @@ MonoBehaviour:
   - {fileID: 743820145, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
   - {fileID: 1976381371, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
   - {fileID: 869538878, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
+  - {fileID: 147424971, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
   Speed: 15
   Layer: Background
   Colours:
@@ -2204,6 +2206,64 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!1 &1788977380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788977381}
+  - component: {fileID: 1788977382}
+  m_Layer: 0
+  m_Name: flyingItems
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788977381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788977380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 205, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1447123854}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1788977382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788977380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb3adc4e5667824eb5471499ac9ea28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: -379870887, guid: 486733f29c402594fbe853e905e83cfe, type: 3}
+  - {fileID: -981731035, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
+  - {fileID: 2047165401, guid: 5ff6946424561a740b3e43fe5fcd8c63, type: 3}
+  Speed: 70
+  Layer: Background
+  Colours:
+  - {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.7019608}
+  RandomOpacity: 1
+  sortingOrder: -3
+  Sporadic: 1
+  MinScale: 0.5
+  MaxScale: 1
+  MaxYRange: 5
 --- !u!1 &1818780400
 GameObject:
   m_ObjectHideFlags: 0

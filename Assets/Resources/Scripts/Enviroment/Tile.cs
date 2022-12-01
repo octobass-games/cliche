@@ -47,7 +47,7 @@ public class Tile : MonoBehaviour
         {
             return;
         }
-        if (transform.position == TargetPosition)
+        if (transform.position.x <= TargetPosition.x)
         {
             onLeaveScreen();
             Reset();
