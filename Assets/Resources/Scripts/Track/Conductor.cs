@@ -37,7 +37,7 @@ public class Conductor : MonoBehaviour
         MusicEventEmitter.Play();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (MusicEventEmitter != null && MusicEventEmitter.IsPlaying())
         {
