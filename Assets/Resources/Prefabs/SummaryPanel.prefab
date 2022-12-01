@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 4017663203130720144}
   - component: {fileID: 4017663203130720159}
   m_Layer: 0
-  m_Name: perfect
+  m_Name: combo-label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -29.350159, y: -19.2872}
+  m_AnchoredPosition: {x: -29.350159, y: -19.287231}
   m_SizeDelta: {x: 130, y: 130}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &4017663203502345928
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 4017663203866670429}
   - component: {fileID: 4017663203866670428}
   m_Layer: 0
-  m_Name: perfect
+  m_Name: okay-label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 4017663204029504890}
   - component: {fileID: 4017663204029504889}
   m_Layer: 0
-  m_Name: perfect
+  m_Name: score-label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1603,7 +1603,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -50}
+  m_SizeDelta: {x: 0, y: -141.66666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4017663204174640684
 CanvasRenderer:
@@ -1751,7 +1751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152.94409, y: -101.4754}
+  m_AnchoredPosition: {x: 430.58182, y: -101.4754}
   m_SizeDelta: {x: 305.88818, y: 101.4754}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4017663204320095955
@@ -1983,7 +1983,7 @@ GameObject:
   - component: {fileID: 4017663204489363255}
   - component: {fileID: 4017663204489363254}
   m_Layer: 0
-  m_Name: good
+  m_Name: good-label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2059,7 +2059,7 @@ GameObject:
   - component: {fileID: 4017663204726831636}
   - component: {fileID: 4017663204726831635}
   m_Layer: 0
-  m_Name: perfect
+  m_Name: perfect-label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2526,7 +2526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 469.70703, y: -101.4754}
+  m_AnchoredPosition: {x: 113.81886, y: -101.4754}
   m_SizeDelta: {x: 227.63773, y: 101.4754}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &511123862875443536
