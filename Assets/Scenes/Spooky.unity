@@ -11789,6 +11789,26 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 135
       objectReference: {fileID: 0}
+    - target: {fileID: 5528435076879808653, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076879808653, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.08461539
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076879808653, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076879808653, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 0.83076924
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528435076886471892, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5528435076886471894, guid: a5ea90e7e1ff3854f8b65c3309a2dba0, type: 3}
       propertyPath: PathToSheetMusic
       value: MusicCharts/spooky

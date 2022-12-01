@@ -365,6 +365,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4806126323167391249, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323167391249, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: EventReference.Path
       value: event:/Music/CHill/Chill
       objectReference: {fileID: 0}
@@ -735,6 +739,22 @@ PrefabInstance:
     - target: {fileID: 4806126323176157768, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: orthographic size
       value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323176157768, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323176157768, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.08461539
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323176157768, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806126323176157768, guid: 1148b7f1461152346852917911b11e89, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 0.83076924
       objectReference: {fileID: 0}
     - target: {fileID: 4806126323176157879, guid: 1148b7f1461152346852917911b11e89, type: 3}
       propertyPath: m_LocalPosition.x

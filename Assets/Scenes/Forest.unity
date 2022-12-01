@@ -3061,6 +3061,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220515713762, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820421220515713762, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: EventReference.Path
       value: event:/Music/Forest/Forest
       objectReference: {fileID: 0}
@@ -3090,7 +3094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220525821627, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.08461539
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220525821627, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -3098,7 +3102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220525821627, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.83076924
       objectReference: {fileID: 0}
     - target: {fileID: 6820421220624676168, guid: f63b5a128577aaf419f78bb9078085d6, type: 3}
       propertyPath: m_AnchorMax.x

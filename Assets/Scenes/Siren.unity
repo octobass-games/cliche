@@ -9023,7 +9023,7 @@ MonoBehaviour:
   StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 0
+  Preload: 1
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
@@ -10114,7 +10114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.08461539
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -10122,6 +10122,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245025151769, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
+      value: 0.83076924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924987245032085312, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}
+      propertyPath: Preload
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7924987245032085314, guid: bcb5355585ed1464ebc3e734ca703840, type: 3}

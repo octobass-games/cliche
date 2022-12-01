@@ -23401,7 +23401,7 @@ MonoBehaviour:
   StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 0
+  Preload: 1
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0
@@ -25009,7 +25009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500034716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.05142, y: 71.553085, z: -10}
+  m_LocalPosition: {x: 8.035511, y: 71.553085, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26842,7 +26842,7 @@ MonoBehaviour:
   StopEvent: 11
   AllowFadeout: 1
   TriggerOnce: 0
-  Preload: 0
+  Preload: 1
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 0

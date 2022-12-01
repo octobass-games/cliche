@@ -27755,23 +27755,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469184, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: -0.052727275
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469184, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.2782101
+      value: 0.08461539
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469184, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.43636364
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469184, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.5252918
+      value: 0.83076924
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469439, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 240
+      value: 240.11578
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418669469439, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27780,6 +27780,10 @@ PrefabInstance:
     - target: {fileID: 6371880418669469439, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: m_LocalPosition.z
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371880418678260313, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
+      propertyPath: Preload
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6371880418678260313, guid: aa6851b3c849f8f40b271fb507ab36cd, type: 3}
       propertyPath: EventReference.Path

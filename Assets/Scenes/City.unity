@@ -28797,7 +28797,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2894109327119492090, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.08461539
       objectReference: {fileID: 0}
     - target: {fileID: 2894109327119492090, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -28805,7 +28805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2894109327119492090, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.83076924
       objectReference: {fileID: 0}
     - target: {fileID: 2894109327126200225, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: PathToSheetMusic
@@ -28834,6 +28834,10 @@ PrefabInstance:
     - target: {fileID: 2894109327126200225, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: TimedEvents.Array.data[0].UnityEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 2894109327126200227, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
+      propertyPath: Preload
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2894109327126200227, guid: f7ad6d5a73e164a4b809f63a92aadd4c, type: 3}
       propertyPath: EventReference.Path

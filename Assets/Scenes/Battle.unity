@@ -518,6 +518,26 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 135
       objectReference: {fileID: 0}
+    - target: {fileID: 7740785652594173677, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740785652594173677, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.08461539
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740785652594173677, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740785652594173677, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 0.83076924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7740785652602157748, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
+      propertyPath: Preload
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7740785652602157748, guid: 9798e9acdd2d4154ca87765bbf6bc140, type: 3}
       propertyPath: EventReference.Path
       value: event:/Music/Face the Music/Face the Music
